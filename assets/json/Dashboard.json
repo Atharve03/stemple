@@ -1,0 +1,550 @@
+{
+  "DashboardJson": [
+    {
+      "View": "Sliders",
+      "SliderData": {
+        "SliderIndicatorSelectedColor": "#ffffff",
+        "SliderIndicatorUnSelectedColor": "#bcbcbc",
+        "SliderViewPortFraction": 0.8,
+        "SliderAutoPlay": true,
+        "SliderPadding": 5.0,
+        "SliderViewType": "Enlarge",
+        "SliderItems": [
+          {
+            "SliderType": "Image",
+            "SliderText": "Slider with Image",
+            "SliderLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "SliderButtonText": "My Button",
+            "SliderButtonColor": "#000000",
+            "SliderBackgroundColor": "#808080",
+            "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
+            "SliderBannerUID": 1,
+            "SliderButtonClicked": ""
+          },
+          {
+            "SliderType": "ImageWithText",
+            "SliderText": "Slider with Text",
+            "SliderLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "SliderButtonText": "My Button",
+            "SliderButtonColor": "#000000",
+            "SliderBackgroundColor": "#808080",
+            "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
+            "SliderBannerUID": 2,
+            "SliderButtonClicked": ""
+          },
+          {
+            "SliderType": "ImageWithButtonText",
+            "SliderText": "Slider with Button",
+            "SliderLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "SliderButtonText": "My Button",
+            "SliderButtonColor": "#000000",
+            "SliderBackgroundColor": "#808080",
+            "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
+            "SliderBannerUID": 1234,
+            "SliderButtonClicked": ""
+          }
+        ]
+      }
+    },
+    {
+      "View": "DetailButtonView",
+      "ButtonViewData": {
+        "ButtonViewViewType": "Bottom",
+        "BackgroundImageViewSrc": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "WholeViewRadius": 19.0,
+        "ContainerColor": "#c1c1c1",
+        "BackgroundImageViewColor": "#EAEAEA",
+        "Margin": 8.0,
+        "Padding": 8.0,
+        "TitleFontSize": 18.0,
+        "DescriptionFontSize": 14.0,
+        "FontColor": "#000000",
+        "Title": "My New Title",
+        "Description": "My TextView Description",
+        "NumberOfLines": 4,
+          
+        "ButtonView": {
+          "ButtonRadius": 15.0,
+          "ButtonRadiusColor":"ffffff",
+          "ButtonFontColor": "#000000",
+          "ButtonFontWeight": "normal",
+          "ButtonBackgroundColor": "#EAEAEA",
+          "ButtonMargin": 8.0,
+          "ButtonPadding": 8.0,
+          "ButtonText": "My Button"
+        }
+      }
+    },
+    {
+      "View": "BlogView",
+      "BlogViewData": {
+        "BlogViewAutoPlay": false,
+        "BlogViewAspectRatio": 1.142857142857143,
+        "BlogViewEnableInfiniteScroll": true,
+        "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
+        "BlogViewViewportFraction": 1.0,
+        "BlogViewViewType": "View2",
+        "BlogViewActiveColor": "#ffbf00",
+        "BlogViewColorDots": "#0000FF",
+        "BlogViewItems": [
+          {
+            "BlogViewTitle": "title1",
+            "BlogViewDescription": "cvbxcvbnfdsfbgfdsdfgbfdfbvvcv",
+            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
+            "BlogViewTextTitleColor": "#000000",
+            "BlogViewTextDescriptionColor": "#000000",
+            "BlogViewTextBackgroundColor": "#c1c1c1",
+            "BlogViewBackgroundColor": "#EAEAEA",
+            "BlogViewRadius": 19.0
+          },
+          {
+            "BlogViewTitle": "title2",
+            "BlogViewDescription": "dfxcvxxvbbnbvfdsadfghjgfdsfghjgfdsdfghjjhgfdsaszdxfcgvhbjnhgfdsazdxfcgvhgfdsdzxfcgvcxcvfcbvfbvgb",
+            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
+            "BlogViewTextTitleColor": "#000000",
+            "BlogViewTextDescriptionColor": "#000000",
+            "BlogViewTextBackgroundColor": "#c1c1c1",
+            "BlogViewBackgroundColor": "#EAEAEA",
+            "BlogViewRadius": 19.0
+          },
+          {
+            "BlogViewTitle": "title3",
+            "BlogViewDescription": "cxgvnbfcgvbccvbnvcgvbvvvfdsfvxbcxjndbjsmndfbsnvdbv jhxfnfgdbd ncvbvbcc",
+            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
+            "BlogViewTextTitleColor": "#000000",
+            "BlogViewTextDescriptionColor": "#000000",
+            "BlogViewTextBackgroundColor": "#c1c1c1",
+            "BlogViewBackgroundColor": "#EAEAEA",
+            "BlogViewRadius": 19.0
+          }
+        ]
+      }
+    },
+    {
+      "View": "DetailButtonView",
+      "ButtonViewData": {
+        "ButtonViewViewType": "Top",
+        "BackgroundImageViewSrc": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "WholeViewRadius": 19.0,
+        "ContainerColor": "#c1c1c1",
+        "BackgroundImageViewColor": "#EAEAEA",
+        "Margin": 8.0,
+        "Padding": 8.0,
+        "TitleFontSize": 18.0,
+        "DescriptionFontSize": 14.0,
+        "FontColor": "#000000",
+        "Title": "My New Title",
+        "Description": "My TextView Description",
+        "NumberOfLines": 4,
+          
+        "ButtonView": {
+          "ButtonRadius": 15.0,
+          "ButtonRadiusColor":"ffffff",
+          "ButtonFontColor": "#000000",
+          "ButtonFontWeight": "normal",
+          "ButtonBackgroundColor": "#EAEAEA",
+          "ButtonMargin": 8.0,
+          "ButtonPadding": 8.0,
+          "ButtonText": "My Button"
+        }
+      }
+    },
+    {
+      "View": "VideoView",
+      "VideoViewData": {
+        "VideoViewSrc": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+        "VideoViewContainerColor": "#808080",
+        "VideoViewBackgroundColor": "#EAEAEA",
+        "VideoViewMargin": 8.0,
+        "VideoViewPadding": 8.0,
+        "VideoViewRadius": 19.0,
+        "VideoViewTextView": {
+          "VideoViewDescriptionFontSize": 16.0,
+          "VideoViewFontColor": "#000000",
+          "VideoViewFontWeight": "normal",
+          "VideoViewNumberOfLines": 4,
+          "VideoViewBackgroundColor2": "#EAEAEA",
+          "VideoViewMargin": 8.0,
+          "VideoViewPadding": 8.0,
+          "VideoViewDescription": "My TextView Description"
+        }
+      }
+    },
+    {
+      "View": "BlogView",
+      "BlogViewData": {
+        "BlogViewAutoPlay": false,
+        "BlogViewAspectRatio": 1.142857142857143,
+        "BlogViewEnableInfiniteScroll": true,
+        "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
+        "BlogViewViewportFraction": 1.0,
+        "BlogViewViewType": "View3",
+        "BlogViewActiveColor": "#ffbf00",
+        "BlogViewColorDots": "#0000FF",
+        "BlogViewItems": [
+          {
+            "BlogViewTitle": "title1",
+            "BlogViewDescription": "cvbxcvbnfdsfbgfdsdfgbfdfbvvcv",
+            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
+            "BlogViewTextTitleColor": "#000000",
+            "BlogViewTextDescriptionColor": "#000000",
+            "BlogViewTextBackgroundColor": "#c1c1c1",
+            "BlogViewBackgroundColor": "#EAEAEA",
+            "BlogViewRadius": 19.0
+          },
+          {
+            "BlogViewTitle": "title2",
+            "BlogViewDescription": "dfxcvxxvbbnbvfdsadfghjgfdsfghjgfdsdfghjjhgfdsaszdxfcgvhbjnhgfdsazdxfcgvhgfdsdzxfcgvcxcvfcbvfbvgb",
+            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
+            "BlogViewTextTitleColor": "#000000",
+            "BlogViewTextDescriptionColor": "#000000",
+            "BlogViewTextBackgroundColor": "#c1c1c1",
+            "BlogViewBackgroundColor": "#EAEAEA",
+            "BlogViewRadius": 19.0
+          },
+          {
+            "BlogViewTitle": "title3",
+            "BlogViewDescription": "cxgvnbfcgvbccvbnvcgvbvvvfdsfvxbcxjndbjsmndfbsnvdbv jhxfnfgdbd ncvbvbcc",
+            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
+            "BlogViewTextTitleColor": "#000000",
+            "BlogViewTextDescriptionColor": "#000000",
+            "BlogViewTextBackgroundColor": "#c1c1c1",
+            "BlogViewBackgroundColor": "#EAEAEA",
+            "BlogViewRadius": 19.0
+          }
+        ]
+      }
+    },
+    {
+      "View": "Category",
+      "CategoryData": {
+        "CategoryImageBackgroundColor": "#d17171",
+        "CategoryTextColor": "#000000",
+        "CategoryFontSize": 20.0,
+        "CategoryImageRadius": 10.0,
+        "CategoryViewBackgroundColor": "#bcbcbc",
+        "CategoryContainerBackgroundColor": "#EAEAEA",
+        "CategoryAllVisible": true,
+        "CategoryLinkType": "Category",
+        "CategoryItems": [
+          {
+            "CategoryImageLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "CategoryLinkHandle": "Image",
+            "CategoryLinkId": 1,
+            "CategoryTitleText": "Category 1"
+          },
+          {
+            "CategoryImageLink": "https://images.unsplash.com/photo-1624670760266-0ddc7639b3a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-a&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "CategoryLinkHandle": "Image",
+            "CategoryLinkId": 2,
+            "CategoryTitleText": "Category 2"
+          },
+          {
+            "CategoryImageLink": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "CategoryLinkHandle": "Image",
+            "CategoryLinkId": 3,
+            "CategoryTitleText": "Category 3"
+          },
+          {
+            "CategoryImageLink": "https://images.unsplash.com/photo-1585801442122-96dd773c76fa?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "CategoryLinkHandle": "Image",
+            "CategoryLinkId": 4,
+            "CategoryTitleText": "Category 4"
+          },
+          {
+            "CategoryImageLink": "https://images.unsplash.com/photo-1591779051696-1c3fa1469a79?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "CategoryLinkHandle": "Image",
+            "CategoryLinkId": 5,
+            "CategoryTitleText": "Category 5"
+          }
+        ]
+      }
+    },
+    {
+      "View": "Product",
+      "ProductData": {
+        "ProductImageBackgroundColor": "#d17171",
+        "ProductTextColor": "#000000",
+        "ProductFontSize": 20.0,
+        "ProductImageRadius": 10.0,
+        "ProductViewBackgroundColor": "#bcbcbc",
+        "ProductContainerBackgroundColor": "#EAEAEA",
+        "ProductAllVisible": true,
+        "ProductLinkType": "Product",
+        "ProductItems": [
+          {
+            "ProductImageLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ProductLinkHandle": "Image",
+            "ProductLinkId": 1,
+            "ProductPrice": 99.0,
+            "ProductTitleText": "T-Shirt"
+          },
+          {
+            "ProductImageLink": "https://images.unsplash.com/photo-1624670760266-0ddc7639b3a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-a&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ProductLinkHandle": "Image",
+            "ProductLinkId": 2,
+            "ProductPrice": 299.0,
+            "ProductTitleText": "Shirt"
+          },
+          {
+            "ProductImageLink": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ProductLinkHandle": "Image",
+            "ProductLinkId": 3,
+            "ProductPrice": 399.0,
+            "ProductTitleText": "Hoodie"
+          },
+          {
+            "ProductImageLink": "https://images.unsplash.com/photo-1585801442122-96dd773c76fa?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ProductLinkHandle": "Image",
+            "ProductLinkId": 4,
+            "ProductPrice": 699.0,
+            "ProductTitleText": "Jeans"
+          }
+        ]
+      }
+    },
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "TextViewText": "My Button",
+        "TextViewFontSize": 20.0,
+        "TextAlignment" : "left",
+        "TextViewDescription": "My Text Description",
+        "TextViewDescriptionFontSize": 16.0,
+        "TextViewFontColor": "#000000",
+        "TextViewFontWeight": "normal",
+        "TextViewFontType": "",
+        "TextViewNumberOfLines": 4,
+        "TextViewBackgroundColor": "#EAEAEA",
+        "TextViewMargin": 8.0,
+        "TextViewPadding": 8.0,
+        "BackgroundImageSrc" : "",
+        "WholeViewRadius" : 19.0
+      }
+    },
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "TextViewText": "My Button",
+        "TextViewFontSize": 20.0,
+        "TextAlignment" : "left",
+        "TextViewDescription": "My Text Description",
+        "TextViewDescriptionFontSize": 16.0,
+        "TextViewFontColor": "#000000",
+        "TextViewFontWeight": "normal",
+        "TextViewFontType": "",
+        "TextViewNumberOfLines": 4,
+        "TextViewBackgroundColor": "#EAEAEA",
+        "TextViewMargin": 8.0,
+        "TextViewPadding": 8.0,
+        "BackgroundImageSrc" : "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "WholeViewRadius" : 19.0
+      }
+    },
+    {
+      "View": "Category",
+      "CategoryData": {
+        "CategoryImageBackgroundColor": "#d17171",
+        "CategoryTextColor": "#000000",
+        "CategoryFontSize": 20.0,
+        "CategoryImageRadius": 10.0,
+        "CategoryViewBackgroundColor": "#bcbcbc",
+        "CategoryContainerBackgroundColor": "#EAEAEA",
+        "CategoryAllVisible": true,
+        "CategoryLinkType": "Category",
+        "CategoryItems": [
+          {
+            "CategoryImageLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "CategoryLinkHandle": "Image",
+            "CategoryLinkId": 1,
+            "CategoryTitleText": "Category 1"
+          },
+          {
+            "CategoryImageLink": "https://images.unsplash.com/photo-1624670760266-0ddc7639b3a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-a&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "CategoryLinkHandle": "Image",
+            "CategoryLinkId": 2,
+            "CategoryTitleText": "Category 2"
+          },
+          {
+            "CategoryImageLink": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "CategoryLinkHandle": "Image",
+            "CategoryLinkId": 3,
+            "CategoryTitleText": "Category 3"
+          },
+          {
+            "CategoryImageLink": "https://images.unsplash.com/photo-1585801442122-96dd773c76fa?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "CategoryLinkHandle": "Image",
+            "CategoryLinkId": 4,
+            "CategoryTitleText": "Category 4"
+          },
+          {
+            "CategoryImageLink": "https://images.unsplash.com/photo-1591779051696-1c3fa1469a79?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "CategoryLinkHandle": "Image",
+            "CategoryLinkId": 5,
+            "CategoryTitleText": "Category 5"
+          }
+        ]
+      }
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
+        "ImageViewViewType": "Full",
+        "ImageViewSrc": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "ImageViewRadius": 19.0,
+        "ImageViewContainerColor": "#808080",
+        "ImageViewBackgroundColor": "#EAEAEA",
+        "ImageViewMargin": 8.0,
+        "ImageViewPadding": 8.0,
+
+        "ImageViewTextView": {
+          "ImageViewTitleFontSize": 18.0,
+          "ImageViewDescriptionFontSize": 14.0,
+          "ImageViewFontColor": "#000000",
+          "ImageViewFontWeight": "normal",
+          "ImageViewFontType": "B",
+          "ImageViewNumberOfLines": 4,
+          "ImageViewBackgroundColor2": "#EAEAEA",
+          "ImageViewMargin": 8.0,
+          "ImageViewPadding": 8.0,
+          "ImageViewTitle": "My Title",
+          "ImageViewDescription": "My TextView Description"
+        }
+      }
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
+        "ImageViewViewType": "Half",
+        "ImageViewSrc": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "ImageViewRadius": 19.0,
+        "ImageViewContainerColor": "#c1c1c1",
+        "ImageViewBackgroundColor": "#EAEAEA",
+        "ImageViewMargin": 8.0,
+        "ImageViewPadding": 8.0,
+        "ImageViewTextView": {
+          "ImageViewTitleFontSize": 18.0,
+          "ImageViewDescriptionFontSize": 14.0,
+          "ImageViewFontColor": "#000000",
+          "ImageViewFontWeight": "normal",
+          "ImageViewFontType": "B",
+          "ImageViewNumberOfLines": 4,
+          "ImageViewBackgroundColor2": "#EAEAEA",
+          "ImageViewMargin": 8.0,
+          "ImageViewPadding": 8.0,
+          "ImageViewTitle": "My Title",
+          "ImageViewDescription": "My TextView Description"
+        }
+      }
+    },
+    {
+      "View": "VideoView",
+      "VideoViewData": {
+        "VideoViewSrc": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+        "VideoViewContainerColor": "#808080",
+        "VideoViewBackgroundColor": "#EAEAEA",
+        "VideoViewMargin": 8.0,
+        "VideoViewPadding": 8.0,
+        "VideoViewRadius": 19.0,
+        "VideoViewTextView": {
+          "VideoViewDescriptionFontSize": 16.0,
+          "VideoViewFontColor": "#000000",
+          "VideoViewFontWeight": "normal",
+          "VideoViewNumberOfLines": 4,
+          "VideoViewBackgroundColor2": "#EAEAEA",
+          "VideoViewMargin": 8.0,
+          "VideoViewPadding": 8.0,
+          "VideoViewDescription": "My TextView Description"
+        }
+      }
+    },
+    {
+      "View": "BlogView",
+      "BlogViewData": {
+        "BlogViewAutoPlay": false,
+        "BlogViewAspectRatio": 1.142857142857143,
+        "BlogViewEnableInfiniteScroll": true,
+        "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
+        "BlogViewViewportFraction": 1.0,
+        "BlogViewViewType": "View1",
+        "BlogViewActiveColor": "#ffbf00",
+        "BlogViewColorDots": "#0000FF",
+        "BlogViewItems": [
+          {
+            "BlogViewTitle": "title1",
+            "BlogViewDescription": "cvbxcvbnfdsfbgfdsdfgbfdfbvvcv",
+            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
+            "BlogViewTextTitleColor": "#000000",
+            "BlogViewTextDescriptionColor": "#000000",
+            "BlogViewTextBackgroundColor": "#c1c1c1",
+            "BlogViewBackgroundColor": "#EAEAEA",
+            "BlogViewRadius": 19.0
+          },
+          {
+            "BlogViewTitle": "title2",
+            "BlogViewDescription": "dfxcvxxvbbnbvfdsadfghjgfdsfghjgfdsdfghjjhgfdsaszdxfcgvhbjnhgfdsazdxfcgvhgfdsdzxfcgvcxcvfcbvfbvgb",
+            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
+            "BlogViewTextTitleColor": "#000000",
+            "BlogViewTextDescriptionColor": "#000000",
+            "BlogViewTextBackgroundColor": "#c1c1c1",
+            "BlogViewBackgroundColor": "#EAEAEA",
+            "BlogViewRadius": 19.0
+          },
+          {
+            "BlogViewTitle": "title3",
+            "BlogViewDescription": "cxgvnbfcgvbccvbnvcgvbvvvfdsfvxbcxjndbjsmndfbsnvdbv jhxfnfgdbd ncvbvbcc",
+            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
+            "BlogViewTextTitleColor": "#000000",
+            "BlogViewTextDescriptionColor": "#000000",
+            "BlogViewTextBackgroundColor": "#c1c1c1",
+            "BlogViewBackgroundColor": "#EAEAEA",
+            "BlogViewRadius": 19.0
+          }
+        ]
+      }
+    },
+    {
+      "View": "Product",
+      "ProductData": {
+        "ProductImageBackgroundColor": "#d17171",
+        "ProductTextColor": "#000000",
+        "ProductFontSize": 20.0,
+        "ProductImageRadius": 10.0,
+        "ProductViewBackgroundColor": "#bcbcbc",
+        "ProductContainerBackgroundColor": "#EAEAEA",
+        "ProductAllVisible": true,
+        "ProductLinkType": "Product",
+        "ProductItems": [
+          {
+            "ProductImageLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ProductLinkHandle": "Image",
+            "ProductLinkId": 1,
+            "ProductPrice": 99.0,
+            "ProductTitleText": "T-Shirt"
+          },
+          {
+            "ProductImageLink": "https://images.unsplash.com/photo-1624670760266-0ddc7639b3a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-a&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ProductLinkHandle": "Image",
+            "ProductLinkId": 2,
+            "ProductPrice": 299.0,
+            "ProductTitleText": "Shirt"
+          },
+          {
+            "ProductImageLink": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ProductLinkHandle": "Image",
+            "ProductLinkId": 3,
+            "ProductPrice": 399.0,
+            "ProductTitleText": "Hoodie"
+          },
+          {
+            "ProductImageLink": "https://images.unsplash.com/photo-1585801442122-96dd773c76fa?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "ProductLinkHandle": "Image",
+            "ProductLinkId": 4,
+            "ProductPrice": 699.0,
+            "ProductTitleText": "Jeans"
+          }
+        ]
+      }
+    }
+  ]
+}

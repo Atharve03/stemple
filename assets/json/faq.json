@@ -1,0 +1,201 @@
+{
+    "FrequentlyAskedQuestions": {
+        "ContainerColor": "#171717",
+        "Margin": 8.0,
+        "Padding": 8.0,
+        "QuestionFontSize": 16.0,
+        "AnswerFontSize": 14.0,
+        "wholeViewRadius": 14.0,
+        "QuestionFontColor": "#ffffff",
+        "AnswerFontColor": "#ffffff",
+        "ArrowVisibility": true,
+
+        "QuestionAnswer": [
+            {
+                "Question" : "MEMBERSHIP HOW CAN I JOIN?",
+                "Expand": false,
+                "Answer" : "Go to join us page"
+            },
+            {
+                "Question" : "WHAT ARE THE BENEFITS OF JOINING?",
+                "Expand": false,
+                "Answer" : "The benefits of joining depend on what you want to do with your membership. Joining on our website will put you on our mailing list so you can stay up-to-date on our activities and campaigns. If you want your membership to be even more rewarding, consider becoming active in a congregation or contributing to the mission of The Satanic Temple in other ways. A list of our congregations can be found here: thesatanictemple.com/pages/find-a-congregation"
+            },
+            {
+                "Question" : "HOW IS MEMBERSHIP INFORMATION USED?",
+                "Expand": false,
+                "Answer" : "We value the privacy of our members and do not share membership information with anyone. Only the founders of the organization are permitted access to the membership database and it is used exclusively by TST for outreach and communication. TST will never disclose the names of any of our members without their explicit permission. The release of anyone's name without their consent would undermine our members' trust in the organization."
+            },
+            {
+                "Question" : "HOW CAN I CANCEL MY TST MEMBERSHIP?",
+                "Expand": false,
+                "Answer" : "If you wish to cancel your TST membership, please click here."
+            },
+            {
+                "Question" : "ARE THERE AGE RESTRICTIONS FOR MEMBERS?",
+                "Expand": false,
+                "Answer" : "No."
+            },
+            {
+                "Question" : "I WANT TO SELL MY SOUL, GET RICH, JOIN THE ILLUMINATI, ETC. ",
+                "Expand": false,
+                "Answer" : "Please look elsewhere."
+            },
+            {
+                "Question" : "WHERE ARE TST CONGREGATIONS AND HOW CAN I REACH OUT TO THEM?",
+                "Expand": false,
+                "Answer" : "A list of our current congregations can be found on our website at thesatanictemple.com/pages/find-a-congregation. If you do not see a congregation in your area, it might be possible for you to start one."
+            },
+            {
+                "Question" : "I DON’T SEE A CONGREGATION LISTED IN MY CITY. ",
+                "Expand": false,
+                "Answer" : "Then we do not have a congregation in your city."
+            },
+            {
+                "Question" : "CAN YOU START A CONGREGATION IN MY CITY? ",
+                "Expand": false,
+                "Answer" : "Congregations are formed by members with the guidance and support of the Recognition and Onboarding Committee, a leadership body elected and managed by our Society of Congregations. TST does not independently create its congregations"
+            },
+            {
+                "Question" : "HOW CAN I START A CONGREGATION?",
+                "Expand": false,
+                "Answer" : "Congregations are built by local members working under the supervision of the Recognition and Onboarding Committee (RoC). Starting a new congregation of The Satanic Temple can be very rewarding. It also requires substantial time and effort as well as a thorough understanding of the mission, values, and history of The Satanic Temple. Familiarize yourself with TST’s tenets, mission statement, and frequently asked questions, all of which are on our website, prior to contacting the RoC.              Write to the RoC at committee.roc@thesatanictemple.org and express your desire to create a new congregation in your area. In your email, please include your full name and the precise location where you would like to start a congregation."
+            },
+            {
+                "Question" : "DO YOU WORSHIP SATAN?",
+                "Expand": false,
+                "Answer" : "No, nor do we believe in the existence of Satan or the supernatural. The Satanic Temple believes that religion can, and should, be divorced from superstition. As such, we do not promote a belief in a personal Satan. To embrace the name Satan is to embrace rational inquiry removed from supernaturalism and archaic tradition-based superstitions. Satanists should actively work to hone critical thinking and exercise reasonable agnosticism in all things. Our beliefs must be malleable to the best current scientific understandings of the material world — never the reverse."
+            },
+            {
+                "Question" : "DO YOU PROMOTE EVIL?",
+                "Expand": false,
+                "Answer" : "No. The Satanic Temple holds to the basic premise that undue suffering is bad, and that which reduces suffering is good. We do not believe in symbolic “evil.” We acknowledge blasphemy is a legitimate expression of personal independence from counter-productive traditional norms."
+            },
+            {
+                "Question" : "WHAT DOES SATAN MEAN TO TST?",
+                "Expand": false,
+                "Answer" : "Satan is a symbol of the Eternal Rebel in opposition to arbitrary authority, forever defending personal sovereignty even in the face of insurmountable odds. Satan is an icon for the unbowed will of the unsilenced inquirer – the heretic who questions sacred laws and rejects all tyrannical impositions. Our metaphoric representation is the literary Satan best exemplified by Milton and the Romantic Satanists from Blake to Shelley to Anatole France"
+            },
+            {
+                "Question" : "IF YOU DO NOT BELIEVE IN THE SUPERNATURAL, HOW IS TST A RELIGION?",
+                "Expand": false,
+                "Answer" : "The idea that religion belongs to supernaturalists is ignorant, backward, and offensive. The metaphorical Satanic construct is no more arbitrary to us than are the deeply held beliefs that we actively advocate. Are we supposed to believe that those who pledge submission to an ethereal supernatural deity hold to their values more deeply than we? Are we supposed to concede that only the superstitious are rightful recipients of religious exemption and privilege? Satanism provides all that a religion should be without a compulsory attachment to untenable items of faith-based belief. It provides a narrative structure by which we contextualize our lives and works. It also provides a body of symbolism and religious practice — a sense of identity, culture, community, and shared values."
+            },
+            {
+                "Question" : "IS TST A MEDIA STUNT/HOAX/TROLLING, ETC.? ",
+                "Expand": false,
+                "Answer" : "Some have conveniently concluded, upon observing The Satanic Temple’s media coverage, that attention is the primary objective of our activities. While media outreach has helped to raise awareness of the campaigns we have initiated, these campaigns have articulated goals related issues that are important to us and our membership. So inured is the general public to the idea that there is only one monolithic voice of “the” religious agenda that any attempt at a counter-balance — or assertion of a minority voice — is often viewed as a targeted provocation against those who enjoy traditional religious privilege."
+            },
+            {
+                "Question" : "WHAT DO YOU BELIEVE?",
+                "Expand": false,
+                "Answer" : "We believe in reason, empathy, the pursuit of knowledge and our Seven Tenets:  - One should strive to act with compassion and empathy toward all creatures in accordance with reason.        - The struggle for justice is an ongoing and necessary pursuit that should prevail over laws and institutions.             - One’s body is inviolable, subject to one’s own will alone.                - The freedoms of others should be respected, including the freedom to offend. To willfully and unjustly encroach upon the freedoms of another is to forgo one's own.               - Beliefs should conform to one's best scientific understanding of the world. One should take care never to distort scientific facts to fit one's beliefs.              - People are fallible. If one makes a mistake, one should do one's best to rectify it and resolve any harm that might have been caused.                - Every tenet is a guiding principle designed to inspire nobility in action and thought. The spirit of compassion, wisdom, and justice should always prevail over the written or spoken word"
+            },
+            {
+                "Question" : "DO YOU ADHERE TO THE SATANIC BIBLE OR HAVE ANY BOOKS THAT YOU RECOMMEND?",
+                "Expand": false,
+                "Answer" : "The Satanic Temple does not have any sacred book or scripture and we do not adhere to The Satanic Bible. We do have a suggested reading list that provides some illumination on the philosophical origins of our beliefs: Library"
+            },
+            {
+                "Question" : "WHAT ARE SOME OF THE RITUALS OF TST? ",
+                "Expand": false,
+                "Answer" : "The Satanic Temple does not have any required rituals, but some members choose to participate in rituals that they find personally meaningful. There is no absolute “right” way to perform any of them. Typically, they are composed by members themselves, adhere to the TST tenets, and are tailored to meet their individual or local needs. Rituals never involve the promotion of suffering, do not involve animals, and are always consensual among all participants. Some of the rituals that have been held by TST members include:              - Black Mass — a celebration of blasphemy, which can be an expression of personal liberty and freedom                 - Unbaptism — participants renounce superstitions that may have been imposed upon them without their consent as a child              - Destruction ritual — participants destroy an object they own that symbolizes a source of pain in their lives           - Defiance ritual — a pledge to challenge the status quo in a way that is personally meaningful"
+            },
+            {
+                "Question" : "HOW ARE YOU DIFFERENT FROM HUMANISTS?",
+                "Expand": false,
+                "Answer" : "A unifying attribute of all Satanists is our embrace of our outsider status. In addition, Satanists adhere to the principles of individual sovereignty and the rejection of tyrannical authority. These concerns are of paramount importance to us, but are not fundamental components of Humanism."
+            },
+            {
+                "Question" : "HOW ARE YOU DIFFERENT FROM OTHER SATANIC ORGANIZATIONS?",
+                "Expand": false,
+                "Answer" : "Many Satanic organizations focus on pointless and misguided efforts to establish a monopoly on a vision of the one ‘true’ Satanism. This obsession with ownership has fomented an unfortunate culture in which Satanism’s most vitriolic critics are often self-identified Satanists. The Satanic Temple is not interested in establishing itself as the sole arbiter of Satanic practice. Rather, we are open to working with other self-identified Satanic organizations to promote general recognition of Satanic legitimacy. While many Satanic organizations seem to revel in superfluous hierarchies while isolating themselves in petty organizational autocracy, the Satanic Temple eschews rigid, centralized authority and focuses its efforts on effecting tangible constructive change. We believe in building a politically active Satanic movement and invite others to join us in these efforts."
+            },
+            {
+                "Question" : "HOW DOES TST’S SATANISM DIFFER FROM LAVEYAN SATANISM?",
+                "Expand": false,
+                "Answer" : "TST has its own guiding principles and tenets, distinct from the LaVeyan school, that we feel represents a natural evolution in Satanic thought. The overriding principle calls for utilizing the best scientific evidence available to make the most rational real-world decisions. To that end, we reject LaVeyan social Darwinist rhetoric that fails to agree with what is currently known regarding social evolution, specifically as it relates to research in evolutionary biology, game theory, reciprocal altruism, cognitive science, etc.              TST also strongly rejects the LaVeyan fetishization of authoritarianism. We believe this is antithetical to Satanic notions of individual sovereignty. Further, while LaVeyan Satanism is atheistic in that it rejects the notion that Satan is a conscious entity, it nevertheless adheres to supernaturalism. TST does not forward supernatural theories of the universe and finds little value in LaVeyan edicts such as those that instruct one to “acknowledge the power of magic if you have employed it successfully to obtain your desires. If you deny the power of magic after having called upon it with success, you will lose all you have obtained.” (From the Eleven Satanic Rules of the Earth, Anton LaVey)"
+            },
+            {
+                "Question" : "HOW CAN I ATTEND TST SERVICES?",
+                "Expand": false,
+                "Answer" : "There are two Satanic Services each week. All events are free to attend.                 Join us online at The Satanic Estate for Temple Tuesdays at 9 PM ET. All tickets to Temple Tuesdays are free but you need a ticket to attend. For the best experience, use a laptop or desktop. https://thesatanic.estate/collections/temple/Temple-Services            Join us online at The Satanic Temple TV for Temple Weekend Services at 10 AM UTC on Saturdays. A TST TV account is required to attend. https://www.thesatanictemple.tv/categories/live"
+            },
+            {
+                "Question" : "I WANT TO DONATE?",
+                "Expand": false,
+                "Answer" : "Contribute to The Satanic Temple:             Donations can be made to The Satanic Temple via our website by following this link: thesatanictemple.com/pages/donate             Donations can also be made to Reason Alliance: Reason Alliance Ltd. is a 501(c)(3) non-profit created to promote the tenets of TST. Donations can be made here: reasonalliance.com/donate"
+            },
+            {
+                "Question" : "I WANT TO VOLUNTEER SERVICES",
+                "Expand": false,
+                "Answer" : "Please let us know what specific services you are offering and fill out the form at: thesatanictemple.com/pages/contact"
+            },
+            {
+                "Question" : "I AM A JOURNALIST OR OTHER MEMBER OF THE MEDIA, HOST A PODCAST, OR AM FILMMAKER, HOW CAN I SET UP AN INTERVIEW OR HOW CAN I GET SOMEONE TO SPEAK AT AN EVENT? ",
+                "Expand": false,
+                "Answer" : "Please email us at media@thesatanictemple.com"
+            },
+            {
+                "Question" : "I AM DOING A STUDENT PROJECT AND HAVE QUESTIONS",
+                "Expand": false,
+                "Answer" : "We are happy to assist. Please review our site and if you have specific questions that are not addressed, reach out and email us your questions. Please allow us sufficient time to draft a response. You can find the contact form here: thesatanictemple.com/pages/contact"
+            },
+            {
+                "Question" : "I WOULD LIKE TO BE ORDAINED ",
+                "Expand": false,
+                "Answer" : "TST launched our ordination program in early 2021, and is currently offering ordination to members who are active volunteers for a campaign or members of a congregation. If you are an official member of one of these groups and are interested in becoming ordained, please speak to your Campaign Director or Congregation Head for more information. If you are not actively involved in our community, you can find a congregation near you or contact a campaign to find out more about how you can get involved. For more information about the program, including requirements and eligibility, please visit the Satanic Ministry website."
+            },
+            {
+                "Question" : "WEDDINGS – I WOULD LIKE TO GET MARRIED BY THE SATANIC TEMPLE",
+                "Expand": false,
+                "Answer" : "Our ordained ministers can legally officiate weddings in every state in the United States. If you are planning a wedding and are interested in having a Minister of Satan who has been ordained by The Satanic Temple officiate the ceremony, please contact your closest congregation to see if a Minister is available in your area.                The Satanic Temple headquarters in Salem, Massachusetts offers Satanic ceremonies.               Please click here for more information."
+            },
+            {
+                "Question" : "TST STORE – SHOP SATAN HAVE AN ISSUE WITH AN ORDER.",
+                "Expand": false,
+                "Answer" : "Please Contact Us"
+            },
+            {
+                "Question" : "MY CITY IS CONSIDERING PASSING A LAW THAT VIOLATES THE CIVIL RIGHTS OF MEMBERS OF TST",
+                "Expand": false,
+                "Answer" : "Cities often consider laws that are problematic and possibly unconstitutional and quite often they do not get enacted or even voted on. Except in extraordinary situations, we do not get involved with legislation that is merely being considered."
+            },
+            {
+                "Question" : "I READ ABOUT A CITY SOMEWHERE THAT PASSED A LAW THAT VIOLATES THE CIVIL RIGHTS",
+                "Expand": false,
+                "Answer" : "LAW THAT VIOLATES THE CIVIL RIGHTS                 Without a person in that city willing to work with us, it is often difficult for us to intervene."
+            },
+            {
+                "Question" : "MY CITY HAS PASSED A LAW OR ENGAGED IN AN ACTION THAT SHOULD BE OF INTEREST TO TST ",
+                "Expand": false,
+                "Answer" : "Please provide details and let us know if you or someone you know is willing to go on record as a local resident. TST is often, but not always, a last resort and in many situations Freedom From Religion Foundation (FFRF.org) and Americans United for Separation of Church and State (www.au.org) are able to help. They have a team of lawyers on staff who deal with many related issues. Please keep in mind that The Satanic Temple does not have the resources to fight every instance of injustice and some instances of injustice, though worth fighting, do not fall within TST’s mission."
+            },
+            {
+                "Question" : "I SAW SOMETHING DISPARAGING ABOUT TST ONLINE",
+                "Expand": false,
+                "Answer" : "TST's activities typically receive widespread support and glowing reviews. Unfortunately, our efforts sometimes attract negative attention from evangelists, violent abusers, and those seeking to profit from criticism of us. Some of these people join TST so that they can claim to be former members. Negative comments are often outright lies and defamatory. In instances where there is libel, we often take legal action. If you come across sensational accusations, the smallest amount of research is enough to debunk false claims."
+            },
+            {
+                "Question" : "I RECEIVED AN ODD SOCIAL MEDIA MESSAGE FROM SOMEONE CLAIMING TO REPRESENT TST ",
+                "Expand": false,
+                "Answer" : "Fraudulent accounts are a common occurrence on social media. TST does not recruit or initiate new members. TST does not ask for personal or financial information through social media. Membership is, and has always been, free.                Visit our Social Media Accounts page for a list of official TST social media accounts. Fake accounts should also be reported to the social networks directly."
+            },
+            {
+                "Question" : "CAN I JOIN TST IF I HAVE SUPERNATURAL BELIEFS? ",
+                "Expand": false,
+                "Answer" : "If you support our values and mission, you can join The Satanic Temple while holding supernatural beliefs that are incongruent with ours, as long as you understand that our religion is non-theistic and non-supernaturalist, and that we are a separate and distinct religion from Wicca, neo-paganism and neo-heathenism, and other occult or left-hand path traditions. Membership in most congregations may not be open to non-Satanists, but most of them have allies groups where you can still partake in community and even help on projects."
+            },
+            {
+                "Question" : "I HAVE A QUESTION ABOUT DONATIONS. ",
+                "Expand": false,
+                "Answer" : "Please see our Donation FAQ page for information about managing your donation or alternative donation methods."
+            },
+            {
+                "Question" : "IS OFFERING THE STUDENT RIGHTS CARD TO CHILDREN CONSIDERED PROSELYTIZING? ",
+                "Expand": false,
+                "Answer" : "8. No. The information on the card does not attempt to convert anyone or persuade them to become a member of TST. Anyone can download or receive the card, but it's solely up to them if they believe in Tenet III and decide to use it."
+            }
+        ]
+    }
+}

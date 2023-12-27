@@ -1,0 +1,41 @@
+{
+    "textTileData": {
+        "ContainerColor": "#EAEAEA",
+        "Margin": 8.0,
+        "Padding": 8.0,
+        "textFontSize": 16.0,
+        "wholeViewRadius": 14.0,
+        "textFontColor": "#171717",
+
+        "textTileItems": [
+            {
+                "IconData" : "I",
+                "Text" : "One should strive to act with compassion and empathy toward all creatures in accordance with reason."
+            },
+            {
+                "IconData" : "II",
+                "Text" : "The struggle for justice is an ongoing and necessary pursuit that should prevail over laws and institutions."
+            },
+            {
+                "IconData" : "III",
+                "Text" : "One’s body is inviolable, subject to one’s own will alone."
+            },
+            {
+                "IconData" : "IV",
+                "Text" : "The freedoms of others should be respected, including the freedom to offend. To willfully and unjustly encroach upon the freedoms of another is to forgo one's own."
+            },
+            {
+                "IconData" : "V",
+                "Text" : "Beliefs should conform to one's best scientific understanding of the world. One should take care never to distort scientific facts to fit one's beliefs."
+            },
+            {
+                "IconData" : "VI",
+                "Text" : "People are fallible. If one makes a mistake, one should do one's best to rectify it and resolve any harm that might have been caused."
+            },
+            {
+                "IconData" : "VII",
+                "Text" : "Every tenet is a guiding principle designed to inspire nobility in action and thought. The spirit of compassion, wisdom, and justice should always prevail over the written or spoken word."
+            }
+        ]
+    }
+}
