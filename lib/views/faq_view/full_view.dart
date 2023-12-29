@@ -63,7 +63,7 @@ class ItgeekWidgetFullView extends StatelessWidget {
                     style: TextStyle(
                         // color: textColor,
                         fontWeight: FontWeight.bold,
-                        fontSize: 14//imageViewData.imageViewTextView!.imageViewDescriptionFontSize!
+                        fontSize: 14.0//imageViewData.imageViewTextView!.imageViewDescriptionFontSize!
                         )
                         ,
                   ),

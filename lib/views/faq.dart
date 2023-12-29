@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:stemple/helper/util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:stemple/modelClass/data_model.dart';
 import 'package:stemple/modelClass/page_layout_model.dart';
 import 'package:stemple/views/faq_view/itgeek_widget_faq.dart';
 
@@ -13,7 +14,7 @@ class WidgetFrequentlyAskedQuestions extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-      future: rootBundle.loadString("assets/json/faq.json"),
+      future: rootBundle.loadString("assets/json/new.json"),
       builder: (context, snapshot) {
         if (snapshot.hasData) {
           //         var list = json.decode(snapshot.data!);
@@ -21,9 +22,10 @@ class WidgetFrequentlyAskedQuestions extends StatelessWidget {
           //  FAQ(frequentlyAskedQuestions);
 
           var list = json.decode(snapshot.data!);
-          PageLayoutModel faq = PageLayoutModel.fromJson(list);
-          print("faq $faq");
-          return ItgeekWidgetFaq(faq.pageLayout!.first.textListWithDetailsData!);
+          PageLayoutModel pageLayoutModel = PageLayoutModel.fromJson(list);
+          print("faq $pageLayoutModel");
+           return ItgeekWidgetFaq(pageLayoutModel.pageLayout!.last.textListWithDetailsData!);
+           
         } else if (snapshot.hasError) {
           return Text('Error loading JSON'); // Handle error
         } else {

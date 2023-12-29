@@ -117,7 +117,7 @@ Navigator.push(context, MaterialPageRoute(builder: (context)=>ItgeekWidgetFullVi
           angle: listQuestionAnswer[index].expand!  ? 1.5708 : 0.0, // 90 degrees in radians
           child: Icon(
             Icons.arrow_forward_ios,
-            size: 30.0,
+            size: widget.frequentlyAskedQuestions.iconSize,
             color:Util.getColorFromHex( widget.frequentlyAskedQuestions.iconColor!),
           ),
         ),
