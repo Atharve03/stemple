@@ -705,7 +705,7 @@ class TextListWithDetailsData {
   bool? arrowVisibility;
   List<QuestionAnswer>? questionAnswer;
   String? ViewType;
-  String? iconSize;
+  double? iconSize;
 String? iconColor;
 
   TextListWithDetailsData(
