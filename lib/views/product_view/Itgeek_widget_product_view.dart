@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../../modelClass/data_model.dart';
+import '../../modelClass/page_layout_model.dart';
 import '../utils/util.dart';
 
 class ItgeekWidgetPopulorProduct extends StatelessWidget {
@@ -13,7 +14,7 @@ class ItgeekWidgetPopulorProduct extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Color containerBackgroundColor =
-        Util.getColorFromHex(product.productContainerBackgroundColor!);
+        Util.getColorFromHex(product.styleProperties!.backgroundColor!);
 
     return Container(
       color: containerBackgroundColor,
@@ -57,8 +58,8 @@ class PopulorProductView extends StatelessWidget {
     product.productItems!.map((item) => {listItems.add(item)}).toList();
 
     Color imageBackgroundColor =
-        Util.getColorFromHex(product.productImageBackgroundColor!);
-    Color textColor = Util.getColorFromHex(product.productTextColor!);
+        Util.getColorFromHex(product.styleProperties!.backgroundColor!);
+    Color textColor = Util.getColorFromHex(product.styleProperties!.titleTextColor!);
     Color viewBackgroundColor =
         Util.getColorFromHex(product.productViewBackgroundColor!);
 
@@ -78,14 +79,14 @@ class PopulorProductView extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: viewBackgroundColor,
                       borderRadius:
-                          BorderRadius.circular(product.productImageRadius!),
+                          BorderRadius.circular(product.styleProperties!.radius!),
                       border: Border.all(width: 1, color: Colors.blue)),
                   margin: EdgeInsets.all(5),
                   child: Padding(
                     padding: const EdgeInsets.all(5.0),
                     child: ClipRRect(
                         borderRadius:
-                            BorderRadius.circular(product.productImageRadius!),
+                            BorderRadius.circular(product.styleProperties!.radius!),
                         child: Column(
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: [
@@ -108,7 +109,7 @@ class PopulorProductView extends StatelessWidget {
                                     maxLines: 2,
                                     style: TextStyle(
                                         color: textColor,
-                                        fontSize: product.productFontSize!)),
+                                        fontSize: product.styleProperties!.descriptionTextFontSize)),
                               ),
                               Container(
                                 padding: EdgeInsets.fromLTRB(0, 0, 5, 0),
@@ -116,7 +117,7 @@ class PopulorProductView extends StatelessWidget {
                                 child: Text("${listItems[index].productPrice!}",
                                     style: TextStyle(
                                         color: textColor,
-                                        fontSize: product.productFontSize!)),
+                                        fontSize: product.styleProperties!.descriptionTextFontSize)),
                               ),
                             ])),
                   ),

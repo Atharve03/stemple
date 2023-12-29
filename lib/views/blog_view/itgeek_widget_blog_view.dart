@@ -3,6 +3,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 
 import '../../modelClass/data_model.dart';
+import '../../modelClass/page_layout_model.dart';
 import '../utils/util.dart';
 import 'itgeek_blog_half_image.dart';
 import 'itgeek_blog_image.dart';
@@ -10,6 +11,7 @@ import 'itgeek_blog_position_text.dart';
 
 class ItgeekWidgetBlogView extends StatefulWidget {
   BlogViewData blogViewData;
+ 
   Function(BlogViewItems) onClick;
 
   ItgeekWidgetBlogView(this.blogViewData, this.onClick, {super.key});
@@ -32,19 +34,19 @@ class _WidgetBlogViewState extends State<ItgeekWidgetBlogView> {
                   onTap: () {
                     widget.onClick(item);
                   },
-                  child: ItgeekWidgetBlogHalfImage(item));
+                  child: ItgeekWidgetBlogHalfImage(widget.blogViewData.styleProperties!,item));
             } else if (widget.blogViewData.blogViewViewType == "View2") {
               return InkWell(
                   onTap: () {
                     widget.onClick(item);
                   },
-                  child: ItgeekWidgetBlog(item));
+                  child: ItgeekWidgetBlog(item,widget.blogViewData.styleProperties!));
             } else {
               return InkWell(
                   onTap: () {
                     widget.onClick(item);
                   },
-                  child: ItgeekWidgetBlogPosition(item));
+                  child: ItgeekWidgetBlogPosition(item,widget.blogViewData.styleProperties!));
             }
           }).toList(),
           options: CarouselOptions(
@@ -56,7 +58,7 @@ class _WidgetBlogViewState extends State<ItgeekWidgetBlogView> {
             enableInfiniteScroll:
                 widget.blogViewData.blogViewEnableInfiniteScroll!,
             autoPlayAnimationDuration: Duration(milliseconds: 800),
-            viewportFraction: widget.blogViewData.blogViewViewportFraction!,
+            viewportFraction: widget.blogViewData.blogViewViewportFraction!.toDouble(),
             onPageChanged: (index, reason) {
               setState(() {
                 currentIndex = index;

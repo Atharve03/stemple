@@ -31,32 +31,28 @@ class TopText extends StatelessWidget {
   TopText(this.buttonViewData);
   @override
   Widget build(BuildContext context) {
-    var textColor = Util.getColorFromHex(buttonViewData.fontColor!);
-    var containerColor = Util.getColorFromHex(buttonViewData.containerColor!);
-    var imageBackgroundColor =
-        Util.getColorFromHex(buttonViewData.backgroundImageViewColor!);
-    var buttonTextColor =
-        Util.getColorFromHex(buttonViewData.buttonView!.buttonFontColor!);
-    var buttonBackgroundColor =
-        Util.getColorFromHex(buttonViewData.buttonView!.buttonBackgroundColor!);
-    var buttonRadiusColor = Util.getColorFromHex(buttonViewData.fontColor!);
-
+    var titleTextColor = Util.getColorFromHex(buttonViewData.styleProperties!.titleTextColor!);
+    var descriptionTextColor = Util.getColorFromHex(buttonViewData.styleProperties!.descriptionTextColor!);
+    var bgColor = Util.getColorFromHex(buttonViewData.styleProperties!.backgroundColor!);
+    var buttonTextColor = Util.getColorFromHex(buttonViewData.buttonFontColor!);
+    var buttonBackgroundColor = Util.getColorFromHex(buttonViewData.buttonBackgroundColor!);
+  
     return Container(
-      margin: EdgeInsets.all(buttonViewData.margin!),
+      margin: EdgeInsets.all(buttonViewData.styleProperties!.margin!),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(buttonViewData.wholeViewRadius!),
-        color: containerColor,
+        borderRadius: BorderRadius.circular(buttonViewData.styleProperties!.backgroundRadius!),
+        color: bgColor,
       ),
       width: double.infinity,
       child: Stack(
         children: [
           Padding(
-            padding: EdgeInsets.all(buttonViewData.padding!),
+            padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
             child: ClipRRect(
               borderRadius:
-                  BorderRadius.circular(buttonViewData.wholeViewRadius!),
+                  BorderRadius.circular(buttonViewData.styleProperties!.radius!),
               child: Image.network(
-                buttonViewData.backgroundImageViewSrc!,
+                buttonViewData.styleProperties!.imageSrc!,
                 fit: BoxFit.cover,
                 width: double.infinity,
                 // color: imageBackgroundColor,
@@ -73,29 +69,31 @@ class TopText extends StatelessWidget {
                 children: [
                 //   Row(mainAxisAlignment: MainAxisAlignment.center, children: [    
                 Padding(
-                      padding: EdgeInsets.all(buttonViewData.padding!),
+                      padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
                       child: Text(
                         buttonViewData.title!,
+                      maxLines: buttonViewData.styleProperties!.titleTextNoOfLines!,
                         style: TextStyle(
-                            color: textColor,
+                            color: titleTextColor,
                             fontWeight: FontWeight.bold,
-                            fontSize: buttonViewData.titleFontSize!),
+                            fontSize: buttonViewData.styleProperties!.titleTextFontSize!),
                       ),
                     ),
                   // ]),
                   Padding(
-                    padding: EdgeInsets.all(buttonViewData.padding!),
+                    padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
                     child: Text(
                       buttonViewData.description!,
+                      maxLines: buttonViewData.styleProperties!.descriptionTextNoOfLines!,
                       style: TextStyle(
-                          color: textColor,
+                          color: descriptionTextColor,
                           fontWeight: FontWeight.bold,
-                          fontSize: buttonViewData.descriptionFontSize!),
+                          fontSize: buttonViewData.styleProperties!.descriptionTextFontSize!),
                     ),
                   ),
                   Padding(
                     padding: EdgeInsets.all(
-                        buttonViewData.buttonView!.buttonPadding!),
+                        buttonViewData.styleProperties!.padding!),
                     child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -104,7 +102,7 @@ class TopText extends StatelessWidget {
                               print("button banner clicked");
                             },
                             child: Text(
-                              buttonViewData.buttonView!.buttonText!,
+                              buttonViewData.buttonText!,
                               style: TextStyle(
                                 color: buttonTextColor,
                                 fontWeight: FontWeight.bold,
@@ -129,32 +127,28 @@ class BottomText extends StatelessWidget {
   BottomText(this.buttonViewData);
   @override
   Widget build(BuildContext context) {
-    var textColor = Util.getColorFromHex(buttonViewData.fontColor!);
-    var containerColor = Util.getColorFromHex(buttonViewData.containerColor!);
-    var imageBackgroundColor =
-        Util.getColorFromHex(buttonViewData.backgroundImageViewColor!);
-    var buttonTextColor =
-        Util.getColorFromHex(buttonViewData.buttonView!.buttonFontColor!);
-    var buttonBackgroundColor =
-        Util.getColorFromHex(buttonViewData.buttonView!.buttonBackgroundColor!);
-    var buttonRadiusColor = Util.getColorFromHex(buttonViewData.fontColor!);
+    var titleTextColor = Util.getColorFromHex(buttonViewData.styleProperties!.titleTextColor!);
+    var descriptionTextColor = Util.getColorFromHex(buttonViewData.styleProperties!.descriptionTextColor!);
+    var bgColor = Util.getColorFromHex(buttonViewData.styleProperties!.backgroundColor!);
+    var buttonTextColor = Util.getColorFromHex(buttonViewData.buttonFontColor!);
+    var buttonBackgroundColor = Util.getColorFromHex(buttonViewData.buttonBackgroundColor!);
 
     return Container(
-      margin: EdgeInsets.all(buttonViewData.margin!),
+      margin: EdgeInsets.all(buttonViewData.styleProperties!.margin!),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(buttonViewData.wholeViewRadius!),
-        color: containerColor,
+        borderRadius: BorderRadius.circular(buttonViewData.styleProperties!.backgroundRadius!),
+        color: bgColor,
       ),
       width: double.infinity,
       child: Stack(
         children: [
           Padding(
-            padding: EdgeInsets.all(buttonViewData.padding!),
+            padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
             child: ClipRRect(
               borderRadius:
-                  BorderRadius.circular(buttonViewData.wholeViewRadius!),
+                  BorderRadius.circular(buttonViewData.styleProperties!.backgroundRadius!),
               child: Image.network(
-                buttonViewData.backgroundImageViewSrc!,
+                buttonViewData.styleProperties!.imageSrc!,
                 fit: BoxFit.cover,
                 width: double.infinity,
                 // color: imageBackgroundColor,
@@ -171,7 +165,7 @@ class BottomText extends StatelessWidget {
                 children: [
                     Padding(
                     padding: EdgeInsets.all(
-                        buttonViewData.buttonView!.buttonPadding!),
+                        buttonViewData.styleProperties!.backgroundPadding!),
                     child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -180,7 +174,7 @@ class BottomText extends StatelessWidget {
                               print("button banner clicked");
                             },
                             child: Text(
-                              buttonViewData.buttonView!.buttonText!,
+                              buttonViewData.buttonText!,
                               style: TextStyle(
                                 color: buttonTextColor,
                                 fontWeight: FontWeight.bold,
@@ -195,24 +189,24 @@ class BottomText extends StatelessWidget {
                
                 //   Row(mainAxisAlignment: MainAxisAlignment.center, children: [    
                 Padding(
-                      padding: EdgeInsets.all(buttonViewData.padding!),
+                      padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
                       child: Text(
                         buttonViewData.title!,
                         style: TextStyle(
-                            color: textColor,
+                            color: titleTextColor,
                             fontWeight: FontWeight.bold,
-                            fontSize: buttonViewData.titleFontSize!),
+                            fontSize: buttonViewData.styleProperties!.titleTextFontSize!),
                       ),
                     ),
                   // ]),
                   Padding(
-                    padding: EdgeInsets.all(buttonViewData.padding!),
+                    padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
                     child: Text(
                       buttonViewData.description!,
                       style: TextStyle(
-                          color: textColor,
+                          color: descriptionTextColor,
                           fontWeight: FontWeight.bold,
-                          fontSize: buttonViewData.descriptionFontSize!),
+                          fontSize: buttonViewData.styleProperties!.descriptionTextFontSize!),
                     ),
                   ),
                  ],

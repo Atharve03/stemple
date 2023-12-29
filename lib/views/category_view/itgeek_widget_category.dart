@@ -3,17 +3,19 @@ import 'package:flutter/services.dart';
 
 
 import '../../modelClass/data_model.dart';
+import '../../modelClass/page_layout_model.dart';
 import '../utils/util.dart';
 
 class ItgeekWidgetCategory extends StatelessWidget {
   Function(CategoryItems) OnClick;
   CategoryData category;
+ 
   ItgeekWidgetCategory(this.category, this.OnClick);
   
   @override
   Widget build(BuildContext context) {
     Color containerBackgroundColor =
-        Util.getColorFromHex(category.categoryContainerBackgroundColor!);
+        Util.getColorFromHex(category.styleProperties!.backgroundColor!);
 
     return Container(
       color: containerBackgroundColor,
@@ -50,6 +52,7 @@ class ItgeekWidgetCategory extends StatelessWidget {
 class PopulorCategoryView extends StatelessWidget {
   Function(CategoryItems) OnClick;
   CategoryData category;
+ 
   PopulorCategoryView(this.category, this.OnClick);
 
   @override
@@ -58,8 +61,8 @@ class PopulorCategoryView extends StatelessWidget {
     category.categoryItems!.map((item) => {listItems.add(item)}).toList();
 
     Color imageBackgroundColor =
-        Util.getColorFromHex(category.categoryImageBackgroundColor!);
-    Color textColor = Util.getColorFromHex(category.categoryTextColor!);
+        Util.getColorFromHex(category.styleProperties!.backgroundColor!);
+    Color textColor = Util.getColorFromHex(category.styleProperties!.titleTextColor!);
     Color viewBackgroundColor =
         Util.getColorFromHex(category.categoryViewBackgroundColor!);
 
@@ -80,7 +83,7 @@ class PopulorCategoryView extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: viewBackgroundColor,
                       borderRadius:
-                          BorderRadius.circular(category.categoryImageRadius!),
+                          BorderRadius.circular(category.styleProperties!.radius!.toDouble()),
                       border: Border.all(width: 1, color: Colors.blue)),
                   margin: EdgeInsets.all(5),
                   child: Padding(
@@ -96,7 +99,7 @@ class PopulorCategoryView extends StatelessWidget {
                                   listItems[index].categoryImageLink!),
                               fit: BoxFit.cover),
                           borderRadius: BorderRadius.circular(
-                              category.categoryImageRadius!),
+                              category.styleProperties!.radius!.toDouble()),
                         ),
                       ),
                       Container(
@@ -108,7 +111,7 @@ class PopulorCategoryView extends StatelessWidget {
                             textAlign: TextAlign.center,
                             style: TextStyle(
                                 color: textColor,
-                                fontSize: category.categoryFontSize!)),
+                                fontSize: category.styleProperties!.titleTextFontSize!.toDouble())),
                       )
                     ]),
                   ),

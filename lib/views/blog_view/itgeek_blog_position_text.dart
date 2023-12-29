@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-
 import '../../modelClass/data_model.dart';
+import '../../modelClass/page_layout_model.dart';
 import '../utils/util.dart';
 
 class ItgeekWidgetBlogPosition extends StatefulWidget {
   BlogViewItems blogViewItems;
-
-  ItgeekWidgetBlogPosition(this.blogViewItems, {super.key});
+StyleProperties style;
+  ItgeekWidgetBlogPosition(this.blogViewItems,this.style, {super.key});
 
   @override
   State<ItgeekWidgetBlogPosition> createState() => _WidgetCallPositionState();
@@ -19,9 +19,9 @@ class _WidgetCallPositionState extends State<ItgeekWidgetBlogPosition> {
     return Container(
       decoration: BoxDecoration(
           borderRadius:
-              BorderRadius.circular(widget.blogViewItems.blogViewRadius!),
+              BorderRadius.circular(widget.style.radius!.toDouble()),
           color: Util.getColorFromHex(
-              widget.blogViewItems.blogViewBackgroundColor!)),
+              widget.style.backgroundColor!)),
       child: Stack(
         children: [
           Container(
@@ -51,7 +51,7 @@ class _WidgetCallPositionState extends State<ItgeekWidgetBlogPosition> {
                     // width: 100,
                     decoration: BoxDecoration(
                       color: Util.getColorFromHex(
-                              widget.blogViewItems.blogViewTextBackgroundColor!)
+                              widget.style.backgroundColor!)
                           .withOpacity(0.5),
                     ),
                     child: Text(
@@ -60,7 +60,7 @@ class _WidgetCallPositionState extends State<ItgeekWidgetBlogPosition> {
                           fontWeight: FontWeight.w500,
                           fontSize: 18,
                           color: Util.getColorFromHex(widget
-                              .blogViewItems.blogViewTextTitleColor
+                              .style.titleTextColor
                               .toString())),
                       maxLines: 2,
                       textAlign: TextAlign.start,
@@ -70,7 +70,7 @@ class _WidgetCallPositionState extends State<ItgeekWidgetBlogPosition> {
                     // width: 100,
                     decoration: BoxDecoration(
                       color: Util.getColorFromHex(
-                              widget.blogViewItems.blogViewTextBackgroundColor!)
+                              widget.style.backgroundColor!)
                           .withOpacity(0.5),
                     ),
                     child: Text(
@@ -78,7 +78,7 @@ class _WidgetCallPositionState extends State<ItgeekWidgetBlogPosition> {
                       style: TextStyle(
                           fontSize: 14,
                           color: Util.getColorFromHex(widget
-                              .blogViewItems.blogViewTextDescriptionColor
+                              .style.descriptionTextColor
                               .toString())),
                       maxLines: 2,
                       textAlign: TextAlign.start,

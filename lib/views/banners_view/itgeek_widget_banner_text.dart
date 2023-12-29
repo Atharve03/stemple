@@ -23,22 +23,19 @@ class TextView extends StatelessWidget {
   TextView(this.textViewData);
   @override
   Widget build(BuildContext context) {
-    var textColor = Util.getColorFromHex(textViewData.textViewFontColor!);
-    var containerColor =
-        Util.getColorFromHex(textViewData.textViewBackgroundColor!);
-    // var imageBackgroundColor =
-    //     Util.getColorFromHex(textViewData.backgroundImageViewColor!);
-    // var textAlignment = textViewData.textAlignment!;
+    var titleTextColor = Util.getColorFromHex(textViewData.styleProperties!.titleTextColor!);
+    var descriptionTextColor = Util.getColorFromHex(textViewData.styleProperties!.descriptionTextColor!);
+    var bgColor = Util.getColorFromHex(textViewData.styleProperties!.backgroundColor!);
 
     return Container(
-      margin: EdgeInsets.all(textViewData.textViewMargin!),
-      padding: EdgeInsets.all(textViewData.textViewPadding!),
+      margin: EdgeInsets.all(textViewData.styleProperties!.backgroundMargin!),
+      padding: EdgeInsets.all(textViewData.styleProperties!.backgroundPadding!),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(textViewData.wholeViewRadius!),
-        color: containerColor,
+        borderRadius: BorderRadius.circular(textViewData.styleProperties!.backgroundRadius!),
+        color: bgColor,
         image: DecorationImage(
           image: NetworkImage(
-            textViewData.backgroundImageSrc!,
+            textViewData.styleProperties!.imageSrc!,
           ),
           fit: BoxFit.cover,
         )
@@ -49,30 +46,32 @@ class TextView extends StatelessWidget {
         // crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           //   Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-          textViewData.textViewTitle!="" ?
+          textViewData.title != "" ?
           Container(
-            margin: EdgeInsets.all(textViewData.textViewMargin!),
-            padding: EdgeInsets.all(textViewData.textViewPadding!),
+            margin: EdgeInsets.all(textViewData.styleProperties!.margin!),
+            padding: EdgeInsets.all(textViewData.styleProperties!.padding!),
             child: Text(
               textAlign: TextAlign.center,
-              textViewData.textViewTitle!,
+              textViewData.title!,
+              maxLines: textViewData.styleProperties!.titleTextNoOfLines!,
               style: TextStyle(
-                color: textColor,
+                color: titleTextColor,
                 fontWeight: FontWeight.bold,
-                fontSize: textViewData.textViewTitleFontSize!),
+                fontSize: textViewData.styleProperties!.titleTextFontSize!),
             ),
           ):Container(),
-          textViewData.textViewDescription!="" ?
+          textViewData.description!="" ?
           Container(
-            margin: EdgeInsets.all(textViewData.textViewMargin!),
-            padding: EdgeInsets.all(textViewData.textViewPadding!),
+            margin: EdgeInsets.all(textViewData.styleProperties!.margin!),
+            padding: EdgeInsets.all(textViewData.styleProperties!.padding!),
             child: Text(
               textAlign: TextAlign.center,
-              textViewData.textViewDescription!,
+              textViewData.description!,
+              maxLines: textViewData.styleProperties!.descriptionTextNoOfLines!,
               style: TextStyle(
-                color: textColor,
+                color: descriptionTextColor,
                 fontWeight: FontWeight.bold,
-                fontSize: textViewData.textViewDescriptionFontSize!),
+                fontSize: textViewData.styleProperties!.descriptionTextFontSize!),
             ),
           ):Container()
         ],

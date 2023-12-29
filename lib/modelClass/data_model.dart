@@ -1,3 +1,4 @@
+
 class TextViewData {
   String? description;
   String? title;
@@ -27,22 +28,22 @@ class TextViewData {
 class StyleProperties {
   String? titleTextColor;
   String? titleTextFontName;
-  String? titleTextFontSize;
+  double? titleTextFontSize;
   String? titleTextFontWeight;
-  String? titleTextNoOfLines;
+  int? titleTextNoOfLines;
   String? descriptionTextColor;
   String? descriptionTextFontName;
-  String? descriptionTextFontSize;
+  double? descriptionTextFontSize;
   String? descriptionTextFontWeight;
-  String? descriptionTextNoOfLines;
+  int? descriptionTextNoOfLines;
   String? backgroundColor;
   String? alignment;
-  String? margin;
-  String? pedding;
-  String? radius;
-  String? backgroundMargin;
-  String? backgroundPedding;
-  String? backgroundRadius;
+  double? margin;
+  double? padding;
+  double? radius;
+  double? backgroundMargin;
+  double? backgroundPadding;
+  double? backgroundRadius;
   String? imageSrc;
 
   StyleProperties(
@@ -59,10 +60,10 @@ class StyleProperties {
       this.backgroundColor,
       this.alignment,
       this.margin,
-      this.pedding,
+      this.padding,
       this.radius,
       this.backgroundMargin,
-      this.backgroundPedding,
+      this.backgroundPadding,
       this.backgroundRadius,
       this.imageSrc});
 
@@ -80,10 +81,10 @@ class StyleProperties {
     backgroundColor = json['BackgroundColor'];
     alignment = json['Alignment'];
     margin = json['Margin'];
-    pedding = json['Pedding'];
+    padding = json['Padding'];
     radius = json['Radius'];
     backgroundMargin = json['BackgroundMargin'];
-    backgroundPedding = json['BackgroundPedding'];
+    backgroundPadding = json['BackgroundPadding'];
     backgroundRadius = json['BackgroundRadius'];
     imageSrc = json['ImageSrc'];
   }
@@ -103,10 +104,10 @@ class StyleProperties {
     data['BackgroundColor'] = this.backgroundColor;
     data['Alignment'] = this.alignment;
     data['Margin'] = this.margin;
-    data['Pedding'] = this.pedding;
+    data['Padding'] = this.padding;
     data['Radius'] = this.radius;
     data['BackgroundMargin'] = this.backgroundMargin;
-    data['BackgroundPedding'] = this.backgroundPedding;
+    data['BackgroundPadding'] = this.backgroundPadding;
     data['BackgroundRadius'] = this.backgroundRadius;
     data['ImageSrc'] = this.imageSrc;
     return data;
@@ -181,7 +182,6 @@ class TextTileData {
   }
 }
 
-
 class TextTileItems {
   String? iconData;
   String? text;
@@ -243,7 +243,7 @@ class SliderData {
   String? sliderIndicatorUnSelectedColor;
   double? sliderViewPortFraction;
   bool? sliderAutoPlay;
-  int? sliderPadding;
+  double? sliderPadding;
   String? sliderViewType;
   List<SliderItems>? sliderItems;
 
@@ -336,77 +336,57 @@ class SliderItems {
   }
 }
 
+
 class ButtonViewData {
+  String? actionType;
+  String? actionId;
+  String? buttonText;
+  String? actionHandle;
   String? buttonViewViewType;
+  String? buttonFontColor;
+  String? buttonBackgroundColor;
   String? title;
   String? description;
   StyleProperties? styleProperties;
-  ButtonView? buttonView;
 
   ButtonViewData(
-      {this.buttonViewViewType,
+      {this.actionType,
+      this.actionId,
+      this.buttonText,
+      this.actionHandle,
+      this.buttonViewViewType,
+      this.buttonFontColor,
+      this.buttonBackgroundColor,
       this.title,
       this.description,
-      this.styleProperties,
-      this.buttonView});
+      this.styleProperties});
 
   ButtonViewData.fromJson(Map<String, dynamic> json) {
+    actionType = json['ActionType'];
+    actionId = json['ActionId'];
+    buttonText = json['ButtonText'];
+    actionHandle = json['ActionHandle'];
     buttonViewViewType = json['ButtonViewViewType'];
+    buttonFontColor = json['ButtonFontColor'];
+    buttonBackgroundColor = json['ButtonBackgroundColor'];
     title = json['Title'];
     description = json['Description'];
     styleProperties = json['StyleProperties'] != null
         ? new StyleProperties.fromJson(json['StyleProperties'])
         : null;
-    buttonView = json['ButtonView'] != null
-        ? new ButtonView.fromJson(json['ButtonView'])
-        : null;
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['ButtonViewViewType'] = this.buttonViewViewType;
-    data['Title'] = this.title;
-    data['Description'] = this.description;
-    if (this.styleProperties != null) {
-      data['StyleProperties'] = this.styleProperties!.toJson();
-    }
-    if (this.buttonView != null) {
-      data['ButtonView'] = this.buttonView!.toJson();
-    }
-    return data;
-  }
-}
-
-class ButtonView {
-  String? buttonText;
-  String? actionType;
-  String? actionId;
-  String? actionHandle;
-  StyleProperties? styleProperties;
-
-  ButtonView(
-      {this.buttonText,
-      this.actionType,
-      this.actionId,
-      this.actionHandle,
-      this.styleProperties});
-
-  ButtonView.fromJson(Map<String, dynamic> json) {
-    buttonText = json['ButtonText'];
-    actionType = json['ActionType'];
-    actionId = json['ActionId'];
-    actionHandle = json['ActionHandle'];
-    styleProperties = json['StyleProperties'] != null
-        ? new StyleProperties.fromJson(json['StyleProperties'])
-        : null;
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['ButtonText'] = this.buttonText;
     data['ActionType'] = this.actionType;
     data['ActionId'] = this.actionId;
+    data['ButtonText'] = this.buttonText;
     data['ActionHandle'] = this.actionHandle;
+    data['ButtonViewViewType'] = this.buttonViewViewType;
+    data['ButtonFontColor'] = this.buttonFontColor;
+    data['ButtonBackgroundColor'] = this.buttonBackgroundColor;
+    data['Title'] = this.title;
+    data['Description'] = this.description;
     if (this.styleProperties != null) {
       data['StyleProperties'] = this.styleProperties!.toJson();
     }
@@ -419,7 +399,7 @@ class BlogViewData {
   double? blogViewAspectRatio;
   bool? blogViewEnableInfiniteScroll;
   String? blogViewAutoPlayAnimationDuration;
-  int? blogViewViewportFraction;
+  double? blogViewViewportFraction;
   String? blogViewViewType;
   String? blogViewActiveColor;
   String? blogViewColorDots;
@@ -513,66 +493,43 @@ class BlogViewItems {
 }
 
 class VideoViewData {
-  String? videoViewSrc;
   String? actionType;
   String? actionId;
   String? actionHandle;
+  String? title;
+  String? description;
+  String? videoViewSrc;
   StyleProperties? styleProperties;
-  VideoViewTextView? videoViewTextView;
 
   VideoViewData(
-      {this.videoViewSrc,
-      this.actionType,
+      {this.actionType,
       this.actionId,
       this.actionHandle,
-      this.styleProperties,
-      this.videoViewTextView});
+      this.title,
+      this.videoViewSrc,
+      this.description,
+      this.styleProperties});
 
   VideoViewData.fromJson(Map<String, dynamic> json) {
-    videoViewSrc = json['VideoViewSrc'];
     actionType = json['ActionType'];
     actionId = json['ActionId'];
     actionHandle = json['ActionHandle'];
+    title = json['Title'];
+    videoViewSrc = json['VideoViewSrc'];
+    description = json['Description'];
     styleProperties = json['StyleProperties'] != null
         ? new StyleProperties.fromJson(json['StyleProperties'])
-        : null;
-    videoViewTextView = json['VideoViewTextView'] != null
-        ? new VideoViewTextView.fromJson(json['VideoViewTextView'])
         : null;
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['VideoViewSrc'] = this.videoViewSrc;
     data['ActionType'] = this.actionType;
     data['ActionId'] = this.actionId;
     data['ActionHandle'] = this.actionHandle;
-    if (this.styleProperties != null) {
-      data['StyleProperties'] = this.styleProperties!.toJson();
-    }
-    if (this.videoViewTextView != null) {
-      data['VideoViewTextView'] = this.videoViewTextView!.toJson();
-    }
-    return data;
-  }
-}
-
-class VideoViewTextView {
-  String? title;
-  StyleProperties? styleProperties;
-
-  VideoViewTextView({this.title, this.styleProperties});
-
-  VideoViewTextView.fromJson(Map<String, dynamic> json) {
-    title = json['Title'];
-    styleProperties = json['StyleProperties'] != null
-        ? new StyleProperties.fromJson(json['StyleProperties'])
-        : null;
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
     data['Title'] = this.title;
+    data['VideoViewSrc'] = this.videoViewSrc;
+    data['Description'] = this.description;
     if (this.styleProperties != null) {
       data['StyleProperties'] = this.styleProperties!.toJson();
     }
@@ -714,7 +671,7 @@ class ProductItems {
   String? productImageLink;
   String? productLinkHandle;
   int? productLinkId;
-  int? productPrice;
+  double? productPrice;
   String? productTitleText;
 
   ProductItems(
@@ -747,15 +704,21 @@ class TextListWithDetailsData {
   StyleProperties? styleProperties;
   bool? arrowVisibility;
   List<QuestionAnswer>? questionAnswer;
+  String? ViewType;
+  String? iconSize;
+String? iconColor;
 
   TextListWithDetailsData(
-      {this.styleProperties, this.arrowVisibility, this.questionAnswer});
+      {this.styleProperties, this.arrowVisibility, this.questionAnswer,this.ViewType,this.iconSize,this.iconColor});
 
   TextListWithDetailsData.fromJson(Map<String, dynamic> json) {
     styleProperties = json['StyleProperties'] != null
         ? new StyleProperties.fromJson(json['StyleProperties'])
         : null;
     arrowVisibility = json['ArrowVisibility'];
+    ViewType=json['ViewType'];
+    iconSize=json['IconSize'];
+    iconColor=json['IconColor'];
     if (json['QuestionAnswer'] != null) {
       questionAnswer = <QuestionAnswer>[];
       json['QuestionAnswer'].forEach((v) {
@@ -770,6 +733,9 @@ class TextListWithDetailsData {
       data['StyleProperties'] = this.styleProperties!.toJson();
     }
     data['ArrowVisibility'] = this.arrowVisibility;
+    data['ViewType'] = this.ViewType;
+    data['IconSize'] = this.iconSize;
+    data['IconColor'] = this.iconColor;
     if (this.questionAnswer != null) {
       data['QuestionAnswer'] =
           this.questionAnswer!.map((v) => v.toJson()).toList();

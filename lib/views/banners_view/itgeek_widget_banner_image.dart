@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 import '../../modelClass/data_model.dart';
@@ -33,58 +35,62 @@ class FullImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var textColor = Util.getColorFromHex(
-        imageViewData.imageViewTextView!.imageViewFontColor!);
-    var bgColor = Util.getColorFromHex(imageViewData.imageViewBackgroundColor!);
+    var titleTextColor = Util.getColorFromHex(
+        imageViewData.styleProperties!.titleTextColor!);
+    var descriptionTextColor = Util.getColorFromHex(
+        imageViewData.styleProperties!.descriptionTextColor!);
+    var bgColor = Util.getColorFromHex(imageViewData.styleProperties!.backgroundColor!);
 
     return Container(
-        margin: EdgeInsets.all(imageViewData.imageViewMargin!),
+        margin: EdgeInsets.all(imageViewData.styleProperties!.backgroundMargin!),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(imageViewData.imageViewRadius!),
+          borderRadius: BorderRadius.circular(imageViewData.styleProperties!.backgroundRadius!),
           color: bgColor,
         ),
         width: double.infinity,
         child: Column(children: [
           Padding(
-            padding: EdgeInsets.all(imageViewData.imageViewPadding!),
+            padding: EdgeInsets.all(imageViewData.styleProperties!.padding!),
             child: ClipRRect(
               borderRadius:
-                  BorderRadius.circular(imageViewData.imageViewRadius!),
+                  BorderRadius.circular(imageViewData.styleProperties!.radius!),
               child: Image.network(
-                imageViewData.imageViewSrc!,
+                imageViewData.imageSrc!,
                 fit: BoxFit.cover,
                 width: double.infinity,
               ),
             ),
           ),
-          imageViewData.imageViewTextView!.imageViewTitle != ""
+          imageViewData.title != ""
               ? Padding(
                   padding: EdgeInsets.all(
-                      imageViewData.imageViewTextView!.imageViewPadding!),
+                      imageViewData.styleProperties!.padding!),
                   child: Text(
-                    imageViewData.imageViewTextView!.imageViewTitle!,
+                    imageViewData.title!,
                     style: TextStyle(
-                        color: textColor,
+                        color: titleTextColor,
                         fontWeight: FontWeight.bold,
                         fontSize: imageViewData
-                            .imageViewTextView!.imageViewTitleFontSize!),
+                            .styleProperties!.titleTextFontSize!),
+                              maxLines: imageViewData.styleProperties!.titleTextNoOfLines!,
                   ),
                 )
               : Container(),
           SizedBox(
             height: 5,
           ),
-          imageViewData.imageViewTextView!.imageViewDescription != ""
+          imageViewData.description != ""
               ? Padding(
                   padding: EdgeInsets.all(
-                      imageViewData.imageViewTextView!.imageViewPadding!),
+                      imageViewData.styleProperties!.padding!),
                   child: Text(
-                    imageViewData.imageViewTextView!.imageViewDescription!,
+                    imageViewData.description!,
                     style: TextStyle(
-                        color: textColor,
+                        color: descriptionTextColor,
                         fontWeight: FontWeight.bold,
                         fontSize: imageViewData
-                            .imageViewTextView!.imageViewDescriptionFontSize!),
+                            .styleProperties!.descriptionTextFontSize!),
+                              maxLines: imageViewData.styleProperties!.descriptionTextNoOfLines!,
                   ),
                 )
               : Container()
@@ -99,18 +105,21 @@ class HalfImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var textColor = Util.getColorFromHex(
-        imageViewData.imageViewTextView!.imageViewFontColor!);
-    var bgColor = Util.getColorFromHex(imageViewData.imageViewBackgroundColor!);
+    var titleTextColor = Util.getColorFromHex(
+        imageViewData.styleProperties!.titleTextColor!);
+    var descriptionTextColor = Util.getColorFromHex(
+        imageViewData.styleProperties!.descriptionTextColor!);
+    var bgColor = Util.getColorFromHex(imageViewData.styleProperties!.backgroundColor!);
+
 
     return Container(
+      margin: EdgeInsets.all(imageViewData.styleProperties!.backgroundMargin!),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(imageViewData.imageViewRadius!),
+        borderRadius: BorderRadius.circular(imageViewData.styleProperties!.backgroundRadius!),
         color: bgColor,
       ),
-      margin: EdgeInsets.all(10),
-      padding: EdgeInsets.all(10),
-      child: Row(
+      padding: EdgeInsets.all(imageViewData.styleProperties!.backgroundPadding!),
+        child: Row(
         children: [
           Expanded(
             child: Container(
@@ -122,7 +131,7 @@ class HalfImage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10.0),
                 image: DecorationImage(
                   image: NetworkImage(
-                    imageViewData.imageViewSrc!,
+                    imageViewData.imageSrc!,
                   ),
                   fit: BoxFit.cover,
                 ),
@@ -137,26 +146,23 @@ class HalfImage extends StatelessWidget {
                 // height: double.infinity,
                 decoration: BoxDecoration(
                   borderRadius:
-                      BorderRadius.circular(imageViewData.imageViewRadius!),
-                  color: Util.getColorFromHex(
-                          imageViewData.imageViewContainerColor!)
-                      .withOpacity(0.5),
+                      BorderRadius.circular(imageViewData.styleProperties!.radius!),
+                  color: bgColor.withOpacity(0.5),
                 ),
-                padding: EdgeInsets.all(imageViewData.imageViewPadding!),
+                padding: EdgeInsets.all(imageViewData.styleProperties!.padding!),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    imageViewData.imageViewTextView!.imageViewTitle != ""
+                    imageViewData.title != ""
                         ? Container(
                             child: Text(
-                              imageViewData.imageViewTextView!.imageViewTitle!,
+                              imageViewData.title!,
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  fontSize: imageViewData.imageViewTextView!
-                                      .imageViewTitleFontSize!,
-                                  color: textColor),
-                              maxLines: 4,
+                                  fontSize: imageViewData.styleProperties!.titleTextFontSize!,
+                                  color: titleTextColor),
+                              maxLines: imageViewData.styleProperties!.titleTextNoOfLines!,
                               textAlign: TextAlign.center,
                             ),
                           )
@@ -164,17 +170,14 @@ class HalfImage extends StatelessWidget {
                     SizedBox(
                       height: 5,
                     ),
-                    imageViewData.imageViewTextView!.imageViewDescription != ""
+                    imageViewData.description != ""
                         ? Container(
                             child: Text(
-                              imageViewData
-                                  .imageViewTextView!.imageViewDescription!,
+                              imageViewData.description!,
                               style: TextStyle(
-                                  fontSize: imageViewData.imageViewTextView!
-                                      .imageViewDescriptionFontSize!,
-                                  color: textColor),
-                              maxLines: imageViewData
-                                  .imageViewTextView!.imageViewNumberOfLines!,
+                                  fontSize: imageViewData.styleProperties!.descriptionTextFontSize!,
+                                  color: descriptionTextColor),
+                              maxLines: imageViewData.styleProperties!.descriptionTextNoOfLines!,
                               textAlign: TextAlign.center,
                             ),
                           )

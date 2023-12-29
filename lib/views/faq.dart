@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:stemple/helper/util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:stemple/modelClass/data_model.dart';
 import 'package:stemple/modelClass/page_layout_model.dart';
 import 'package:stemple/views/faq_view/itgeek_widget_faq.dart';
 
@@ -24,7 +23,7 @@ class WidgetFrequentlyAskedQuestions extends StatelessWidget {
           var list = json.decode(snapshot.data!);
           PageLayoutModel faq = PageLayoutModel.fromJson(list);
           print("faq $faq");
-          return ItgeekWidgetFaq(faq.pageLayout!.first!.textListWithDetailsData!);
+          return ItgeekWidgetFaq(faq.pageLayout!.first.textListWithDetailsData!);
         } else if (snapshot.hasError) {
           return Text('Error loading JSON'); // Handle error
         } else {

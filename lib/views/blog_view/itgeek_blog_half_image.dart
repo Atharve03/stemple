@@ -2,24 +2,26 @@ import 'package:flutter/material.dart';
 
 
 import '../../modelClass/data_model.dart';
+import '../../modelClass/page_layout_model.dart';
 import '../utils/util.dart';
 
 class ItgeekWidgetBlogHalfImage extends StatelessWidget {
-  BlogViewItems blogViewItems;
-
-  ItgeekWidgetBlogHalfImage(this.blogViewItems, {super.key});
+ 
+StyleProperties style;
+BlogViewItems items;
+  ItgeekWidgetBlogHalfImage(this.style,this.items, {super.key});
 
   @override
   Widget build(BuildContext context) {
-    var textColor = Util.getColorFromHex(blogViewItems.blogViewTextTitleColor!);
+    var textColor = Util.getColorFromHex(style!.titleTextColor!);
     // var bgColor = Util.getColorFromHex(blogViewItems.blogViewBackgroundColor!);
     var descriptionTextColor =
-        Util.getColorFromHex(blogViewItems.blogViewTextDescriptionColor!);
+        Util.getColorFromHex(style!.descriptionTextColor!);
 
     return Container(
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(blogViewItems.blogViewRadius!),
-        color: Util.getColorFromHex(blogViewItems.blogViewBackgroundColor!),
+        borderRadius: BorderRadius.circular(style!.radius!.toDouble()),
+        color: Util.getColorFromHex(style!.backgroundColor!),
       ),
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
@@ -38,7 +40,7 @@ class ItgeekWidgetBlogHalfImage extends StatelessWidget {
                 color: Colors.purple,
                 borderRadius: BorderRadius.circular(10.0),
                 image: DecorationImage(
-                  image: NetworkImage(blogViewItems.blogViewImagePath!),
+                  image: NetworkImage(style.imageSrc!),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -52,9 +54,9 @@ class ItgeekWidgetBlogHalfImage extends StatelessWidget {
             child: Container(
                 decoration: BoxDecoration(
                   borderRadius:
-                      BorderRadius.circular(blogViewItems.blogViewRadius!),
+                      BorderRadius.circular(style.radius!.toDouble()),
                   color: Util.getColorFromHex(
-                          blogViewItems.blogViewTextBackgroundColor!)
+                          style!.backgroundColor!)
                       .withOpacity(0.5),
                 ),
                 padding: EdgeInsets.all(15),
@@ -67,7 +69,7 @@ class ItgeekWidgetBlogHalfImage extends StatelessWidget {
                       //  color: Color.fromARGB(95, 34, 66, 79),
                       // margin: EdgeInsets.only(top: 8.0, bottom: 8.0, right: 8.0, left: 8.0),
                       child: Text(
-                        blogViewItems.blogViewTitle!,
+                        items.blogViewTitle!,
                         style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 18,
@@ -85,7 +87,7 @@ class ItgeekWidgetBlogHalfImage extends StatelessWidget {
 
                       // margin: EdgeInsets.only(top: 8.0, bottom: 8.0, right: 20.0, left: 20.0),
                       child: Text(
-                        blogViewItems.blogViewDescription!,
+                       items.blogViewDescription! ,
                         style: TextStyle(
                             fontSize: 14, color: descriptionTextColor),
                         maxLines: 2,

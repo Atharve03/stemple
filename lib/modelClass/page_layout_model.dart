@@ -1,4 +1,4 @@
-import 'data_model.dart';
+import 'package:stemple/modelClass/data_model.dart';
 
 class PageLayoutModel {
   String? backgroundColor;
@@ -140,4 +140,3 @@ class PageLayout {
     return data;
   }
 }
-

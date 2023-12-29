@@ -18,16 +18,16 @@ class ItgeekWidgetTextTile extends StatelessWidget {
     textTileData.textTileItems!.map((item) => {listText.add(item)}).toList();
 
     // print("listText $listText");
-    var containerColor = Util.getColorFromHex(textTileData.containerColor!);
-    var textFontColor = Util.getColorFromHex(textTileData.textFontColor!);
+    var containerColor = Util.getColorFromHex(textTileData.styleProperties!.backgroundColor!);
+    var textFontColor = Util.getColorFromHex(textTileData.styleProperties!.titleTextColor!);
 
     return Container(
         width: double.infinity,
-        padding: EdgeInsets.all(textTileData.padding!),
-        margin: EdgeInsets.all(textTileData.margin!),
+        padding: EdgeInsets.all(textTileData.styleProperties!.padding!),
+        margin: EdgeInsets.all(textTileData.styleProperties!.margin!),
         decoration: BoxDecoration(
             color: containerColor,
-            borderRadius: BorderRadius.circular(textTileData.wholeViewRadius!)),
+            borderRadius: BorderRadius.circular(textTileData.styleProperties!.radius!)),
         child: ListView.separated(
           physics: ClampingScrollPhysics(),
           shrinkWrap: true,
@@ -51,13 +51,13 @@ class ItgeekWidgetTextTile extends StatelessWidget {
               // ),
               ,
               title: Padding(
-                padding: EdgeInsets.all(textTileData.padding!),
+                padding: EdgeInsets.all(textTileData.styleProperties!.padding!),
                 child: Text(
                   listText[index].text!,
                   style: TextStyle(
                       color: textFontColor,
                       fontWeight: FontWeight.bold,
-                      fontSize: textTileData.textFontSize!),
+                      fontSize: textTileData.styleProperties!.titleTextFontSize),
                 ),
               ),
             );

@@ -12,18 +12,17 @@ class ItgeekWidgetBannerVideo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var textColor = Util.getColorFromHex(
-        videoViewData.videoViewTextView!.videoViewFontColor!);
-    var bgColor = Util.getColorFromHex(videoViewData.videoViewBackgroundColor!);
+    var descriptionTextColor = Util.getColorFromHex(videoViewData.styleProperties!.descriptionTextColor!);
+    var bgColor = Util.getColorFromHex(videoViewData.styleProperties!.backgroundColor!);
 
     return InkWell(
         onTap: () {
           OnClick(videoViewData);
         },
         child: Container(
-          margin: EdgeInsets.all(videoViewData.videoViewMargin!),
+          margin: EdgeInsets.all(videoViewData.styleProperties!.backgroundMargin!),
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(videoViewData.videoViewRadius!),
+            borderRadius: BorderRadius.circular(videoViewData.styleProperties!.backgroundRadius!),
             color: bgColor,
           ),
           width: double.infinity,
@@ -32,14 +31,14 @@ class ItgeekWidgetBannerVideo extends StatelessWidget {
             children: [
               MyVideo(videoViewData),
               Padding(
-                padding: EdgeInsets.all(videoViewData.videoViewPadding!),
+                padding: EdgeInsets.all(videoViewData.styleProperties!.padding!),
                 child: Text(
-                  videoViewData.videoViewTextView!.videoViewDescription!,
+                  videoViewData.description!,
                   style: TextStyle(
-                      color: textColor,
+                      color: descriptionTextColor,
                       fontWeight: FontWeight.bold,
-                      fontSize: videoViewData
-                          .videoViewTextView!.videoViewDescriptionFontSize),
+                      fontSize: videoViewData.styleProperties!
+                          .descriptionTextFontSize),
                 ),
               ),
             ],
@@ -73,21 +72,21 @@ class _MyVideoState extends State<MyVideo> {
 
   @override
   Widget build(BuildContext context) {
-    var textColor = Util.getColorFromHex(
-        widget.videoViewData.videoViewTextView!.videoViewFontColor!);
+    var titleTextColor = Util.getColorFromHex(widget.videoViewData.styleProperties!.titleTextColor!);
+
     return FutureBuilder(
         future: widget._initializeVideoPlayerFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             return Padding(
-              padding: EdgeInsets.all(widget.videoViewData.videoViewMargin!),
+              padding: EdgeInsets.all(widget.videoViewData.styleProperties!.padding!),
               child: InkWell(
                 child: Stack(children: [
                   AspectRatio(
                     aspectRatio: widget._videoController!.value.aspectRatio,
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(
-                          widget.videoViewData.videoViewRadius!),
+                          widget.videoViewData.styleProperties!.radius!),
                       child: VideoPlayer(widget._videoController!),
                     ),
                   ),
@@ -120,7 +119,7 @@ class _MyVideoState extends State<MyVideo> {
           } else {
             return Padding(
                 padding: EdgeInsets.all(
-                    widget.videoViewData.videoViewTextView!.videoViewPadding!),
+                    widget.videoViewData.styleProperties!.padding!),
                 child: const SizedBox(
                   height: 40.0,
                   // width: 10.0,

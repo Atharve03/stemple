@@ -1,33 +1,34 @@
 import 'package:flutter/material.dart';
 
-
 import '../../modelClass/data_model.dart';
+import '../../modelClass/page_layout_model.dart';
 import '../utils/util.dart';
 
 class ItgeekWidgetBlog extends StatelessWidget {
   BlogViewItems blogViewItems;
-  ItgeekWidgetBlog(this.blogViewItems);
+  StyleProperties style;
+  ItgeekWidgetBlog(this.blogViewItems,this.style);
 
   @override
   Widget build(BuildContext context) {
     var textColor = Util.getColorFromHex(
-        blogViewItems.blogViewTextTitleColor!);
-    var bgColor = Util.getColorFromHex(blogViewItems.blogViewBackgroundColor!);
+        style.titleTextColor!);
+    var bgColor = Util.getColorFromHex(style.backgroundColor!);
 
     return Container(
       
             padding: EdgeInsets.all(10.0),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(blogViewItems.blogViewRadius!),
+          borderRadius: BorderRadius.circular(style.radius!.toDouble()),
           color: bgColor,
         ),
         width: double.infinity,
         child: Column(children: [
              ClipRRect(
               borderRadius:
-                  BorderRadius.circular(blogViewItems.blogViewRadius!),
+                  BorderRadius.circular(style.radius!.toDouble()),
               child: Image.network(
-                blogViewItems.blogViewImagePath!,
+                style.imageSrc!,
                 fit: BoxFit.cover,
                 width: double.infinity,
               ),
@@ -46,7 +47,7 @@ class ItgeekWidgetBlog extends StatelessWidget {
             textAlign: TextAlign.start,
           ),
           Text(
-            blogViewItems.blogViewDescription.toString(),
+            blogViewItems.blogViewDescription!,
             style: TextStyle(
                 fontSize: 14,
                 color: textColor),

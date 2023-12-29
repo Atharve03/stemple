@@ -15,8 +15,8 @@ class ItgeekWebView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        margin: EdgeInsets.all(data!.margin!),
-        padding: EdgeInsets.all(data!.padding!),
+        margin: EdgeInsets.all(data.styleProperties!.margin!),
+        padding: EdgeInsets.all(data.styleProperties!.padding!),
         child: InAppWebView(
             initialUrlRequest: URLRequest(url: WebUri(data!.link!)),
             onWebViewCreated: (InAppWebViewController controller) {

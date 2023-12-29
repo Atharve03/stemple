@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../modelClass/data_model.dart';
+import '../../modelClass/page_layout_model.dart';
 
 
 class WidgetImage extends StatelessWidget {

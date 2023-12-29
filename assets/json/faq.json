@@ -13,6 +13,9 @@
           "QuestionFontColor": "#ffffff",
           "AnswerFontColor": "#ffffff",
           "ArrowVisibility": true,
+          "ViewType":"detail",
+          "IconSize":"30",
+          "IconColor":"#FF0000",
           "QuestionAnswer": [
             {
               "Question": "MEMBERSHIP HOW CAN I JOIN?",

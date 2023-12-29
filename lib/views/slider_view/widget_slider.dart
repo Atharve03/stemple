@@ -4,6 +4,7 @@ import 'package:stemple/views/slider_view/widget_image.dart';
 
 
 import '../../modelClass/data_model.dart';
+import '../../modelClass/page_layout_model.dart';
 import '../utils/util.dart';
 import 'widget_image_with_text.dart';
 import 'widget_image_with_text_button.dart';
