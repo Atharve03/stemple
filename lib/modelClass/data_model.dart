@@ -1,108 +1,3 @@
-class DashboardModel {
-  List<DashboardJson>? dashboardJson;
-
-  DashboardModel({this.dashboardJson});
-
-  DashboardModel.fromJson(Map<String, dynamic> json) {
-    if (json['DashboardJson'] != null) {
-      dashboardJson = <DashboardJson>[];
-      json['DashboardJson'].forEach((v) {
-        dashboardJson!.add(new DashboardJson.fromJson(v));
-      });
-    }
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    if (this.dashboardJson != null) {
-      data['DashboardJson'] =
-          this.dashboardJson!.map((v) => v.toJson()).toList();
-    }
-    return data;
-  }
-}
-
-class DashboardJson {
-  String? view;
-  SliderData? sliderData;
-  CategoryData? categoryData;
-  ProductData? productData;
-  TextViewData? textViewData;
-  ImageViewData? imageViewData;
-  ButtonViewData? buttonViewData;
-  VideoViewData? videoViewData;
-  BlogViewData? blogViewData;
-
-  DashboardJson(
-      {this.view,
-      this.sliderData,
-      this.categoryData,
-      this.productData,
-      this.textViewData,
-      this.imageViewData,
-      this.buttonViewData,
-      this.videoViewData,
-      this.blogViewData});
-
-  DashboardJson.fromJson(Map<String, dynamic> json) {
-    view = json['View'];
-    sliderData = json['SliderData'] != null
-        ? new SliderData.fromJson(json['SliderData'])
-        : null;
-    categoryData = json['CategoryData'] != null
-        ? new CategoryData.fromJson(json['CategoryData'])
-        : null;
-    productData = json['ProductData'] != null
-        ? new ProductData.fromJson(json['ProductData'])
-        : null;
-    textViewData = json['TextViewData'] != null
-        ? new TextViewData.fromJson(json['TextViewData'])
-        : null;
-    imageViewData = json['ImageViewData'] != null
-        ? new ImageViewData.fromJson(json['ImageViewData'])
-        : null;
-    buttonViewData = json['ButtonViewData'] != null
-        ? new ButtonViewData.fromJson(json['ButtonViewData'])
-        : null;
-    videoViewData = json['VideoViewData'] != null
-        ? new VideoViewData.fromJson(json['VideoViewData'])
-        : null;
-    blogViewData = json['BlogViewData'] != null
-        ? new BlogViewData.fromJson(json['BlogViewData'])
-        : null;
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['View'] = this.view;
-    if (this.sliderData != null) {
-      data['SliderData'] = this.sliderData!.toJson();
-    }
-    if (this.categoryData != null) {
-      data['CategoryData'] = this.categoryData!.toJson();
-    }
-    if (this.productData != null) {
-      data['ProductData'] = this.productData!.toJson();
-    }
-    if (this.textViewData != null) {
-      data['TextViewData'] = this.textViewData!.toJson();
-    }
-    if (this.imageViewData != null) {
-      data['ImageViewData'] = this.imageViewData!.toJson();
-    }
-    if (this.buttonViewData != null) {
-      data['ButtonViewData'] = this.buttonViewData!.toJson();
-    }
-    if (this.videoViewData != null) {
-      data['VideoViewData'] = this.videoViewData!.toJson();
-    }
-    if (this.blogViewData != null) {
-      data['BlogViewData'] = this.blogViewData!.toJson();
-    }
-    return data;
-  }
-}
-
 class SliderData {
   String? sliderIndicatorSelectedColor;
   String? sliderIndicatorUnSelectedColor;
@@ -379,9 +274,9 @@ class ProductItems {
 }
 
 class TextViewData {
-  String? textViewText;
+  String? textViewTitle;
+  double? textViewTitleFontSize;
   String? textAlignment;
-  double? textViewFontSize;
   String? textViewDescription;
   double? textViewDescriptionFontSize;
   String? textViewFontColor;
@@ -395,9 +290,9 @@ class TextViewData {
   double? wholeViewRadius;
 
   TextViewData(
-      {this.textAlignment,
-        this.textViewText,
-      this.textViewFontSize,
+      {this.textViewTitle,
+      this.textViewTitleFontSize,
+      this.textAlignment,
       this.textViewDescription,
       this.textViewDescriptionFontSize,
       this.textViewFontColor,
@@ -411,27 +306,29 @@ class TextViewData {
       this.wholeViewRadius});
 
   TextViewData.fromJson(Map<String, dynamic> json) {
+    textViewTitle = json['TextViewTitle'];
+    textViewTitleFontSize =
+        double.parse(json['TextViewTitleFontSize'].toString());
     textAlignment = json['TextAlignment'];
-    textViewText = json['TextViewText'];
-    textViewFontSize = json['TextViewFontSize'];
     textViewDescription = json['TextViewDescription'];
-    textViewDescriptionFontSize = json['TextViewDescriptionFontSize'];
+    textViewDescriptionFontSize =
+        double.parse(json['TextViewDescriptionFontSize'].toString());
     textViewFontColor = json['TextViewFontColor'];
     textViewFontWeight = json['TextViewFontWeight'];
     textViewFontType = json['TextViewFontType'];
     textViewNumberOfLines = json['TextViewNumberOfLines'];
     textViewBackgroundColor = json['TextViewBackgroundColor'];
-    textViewMargin = json['TextViewMargin'];
-    textViewPadding = json['TextViewPadding'];
+    textViewMargin = double.parse(json['TextViewMargin'].toString());
+    textViewPadding = double.parse(json['TextViewPadding'].toString());
     backgroundImageSrc = json['BackgroundImageSrc'];
-    wholeViewRadius = json['WholeViewRadius'];
+    wholeViewRadius = double.parse(json['WholeViewRadius'].toString());
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['TextViewTitle'] = this.textViewTitle;
+    data['TextViewTitleFontSize'] = this.textViewTitleFontSize;
     data['TextAlignment'] = this.textAlignment;
-    data['TextViewText'] = this.textViewText;
-    data['TextViewFontSize'] = this.textViewFontSize;
     data['TextViewDescription'] = this.textViewDescription;
     data['TextViewDescriptionFontSize'] = this.textViewDescriptionFontSize;
     data['TextViewFontColor'] = this.textViewFontColor;
@@ -469,11 +366,11 @@ class ImageViewData {
 
   ImageViewData.fromJson(Map<String, dynamic> json) {
     imageViewSrc = json['ImageViewSrc'];
-    imageViewRadius = json['ImageViewRadius'];
+    imageViewRadius = double.parse(json['ImageViewRadius'].toString());
     imageViewContainerColor = json['ImageViewContainerColor'];
     imageViewBackgroundColor = json['ImageViewBackgroundColor'];
-    imageViewMargin = json['ImageViewMargin'];
-    imageViewPadding = json['ImageViewPadding'];
+    imageViewMargin = double.parse(json['ImageViewMargin'].toString());
+    imageViewPadding = double.parse(json['ImageViewPadding'].toString());
     imageViewTextView = json['ImageViewTextView'] != null
         ? new ImageViewTextView.fromJson(json['ImageViewTextView'])
         : null;
@@ -491,7 +388,7 @@ class ImageViewData {
     if (this.imageViewTextView != null) {
       data['ImageViewTextView'] = this.imageViewTextView!.toJson();
     }
-    data['ImageViewViewType'] = this.imageViewViewType;    
+    data['ImageViewViewType'] = this.imageViewViewType;
     return data;
   }
 }
@@ -523,15 +420,17 @@ class ImageViewTextView {
       this.imageViewDescription});
 
   ImageViewTextView.fromJson(Map<String, dynamic> json) {
-    imageViewTitleFontSize = json['ImageViewTitleFontSize'];
-    imageViewDescriptionFontSize = json['ImageViewDescriptionFontSize'];
+    imageViewTitleFontSize =
+        double.parse(json['ImageViewTitleFontSize'].toString());
+    imageViewDescriptionFontSize =
+        double.parse(json['ImageViewDescriptionFontSize'].toString());
     imageViewFontColor = json['ImageViewFontColor'];
     imageViewFontWeight = json['ImageViewFontWeight'];
     imageViewFontType = json['ImageViewFontType'];
     imageViewNumberOfLines = json['ImageViewNumberOfLines'];
     imageViewBackgroundColor2 = json['ImageViewBackgroundColor2'];
-    imageViewMargin = json['ImageViewMargin'];
-    imageViewPadding = json['ImageViewPadding'];
+    imageViewMargin = double.parse(json['ImageViewMargin'].toString());
+    imageViewPadding = double.parse(json['ImageViewPadding'].toString());
     imageViewTitle = json['ImageViewTitle'];
     imageViewDescription = json['ImageViewDescription'];
   }
@@ -588,14 +487,14 @@ class ButtonViewData {
   ButtonViewData.fromJson(Map<String, dynamic> json) {
     buttonViewViewType = json['ButtonViewViewType'];
     backgroundImageViewSrc = json['BackgroundImageViewSrc'];
-    wholeViewRadius = json['WholeViewRadius'];
+    wholeViewRadius = double.parse(json['WholeViewRadius'].toString());
     containerColor = json['ContainerColor'];
     backgroundImageViewColor = json['BackgroundImageViewColor'];
-    margin = json['Margin'];
-    padding = json['Padding'];
+    margin = double.parse(json['Margin'].toString());
+    padding = double.parse(json['Padding'].toString());
     fontColor = json['FontColor'];
-    titleFontSize = json['TitleFontSize'];
-    descriptionFontSize = json['DescriptionFontSize'];
+    titleFontSize = double.parse(json['TitleFontSize'].toString());
+    descriptionFontSize = double.parse(json['DescriptionFontSize'].toString());
     title = json['Title'];
     description = json['Description'];
     numberOfLines = json['NumberOfLines'];
@@ -647,13 +546,13 @@ class ButtonView {
       this.buttonText});
 
   ButtonView.fromJson(Map<String, dynamic> json) {
-    buttonRadius = json['ButtonRadius'];
+    buttonRadius = double.parse(json['ButtonRadius'].toString());
     buttonRadiusColor = json['ButtonRadiusColor'];
     buttonFontColor = json['ButtonFontColor'];
     buttonFontWeight = json['ButtonFontWeight'];
     buttonBackgroundColor = json['ButtonBackgroundColor'];
-    buttonMargin = json['ButtonMargin'];
-    buttonPadding = json['ButtonPadding'];
+    buttonMargin = double.parse(json['ButtonMargin'].toString());
+    buttonPadding = double.parse(json['ButtonPadding'].toString());
     buttonText = json['ButtonText'];
   }
 
@@ -670,6 +569,7 @@ class ButtonView {
     return data;
   }
 }
+
 class VideoViewData {
   String? videoViewSrc;
   String? videoViewContainerColor;
@@ -692,9 +592,9 @@ class VideoViewData {
     videoViewSrc = json['VideoViewSrc'];
     videoViewContainerColor = json['VideoViewContainerColor'];
     videoViewBackgroundColor = json['VideoViewBackgroundColor'];
-    videoViewMargin = json['VideoViewMargin'];
-    videoViewPadding = json['VideoViewPadding'];
-    videoViewRadius = json['VideoViewRadius'];
+    videoViewMargin = double.parse(json['VideoViewMargin'].toString());
+    videoViewPadding = double.parse(json['VideoViewPadding'].toString());
+    videoViewRadius = double.parse(json['VideoViewRadius'].toString());
     videoViewTextView = json['VideoViewTextView'] != null
         ? new VideoViewTextView.fromJson(json['VideoViewTextView'])
         : null;
@@ -736,13 +636,14 @@ class VideoViewTextView {
       this.videoViewDescription});
 
   VideoViewTextView.fromJson(Map<String, dynamic> json) {
-    videoViewDescriptionFontSize = json['VideoViewDescriptionFontSize'];
+    videoViewDescriptionFontSize =
+        double.parse(json['VideoViewDescriptionFontSize'].toString());
     videoViewFontColor = json['VideoViewFontColor'];
     videoViewFontWeight = json['VideoViewFontWeight'];
     videoViewNumberOfLines = json['VideoViewNumberOfLines'];
     videoViewBackgroundColor2 = json['VideoViewBackgroundColor2'];
-    videoViewMargin = json['VideoViewMargin'];
-    videoViewPadding = json['VideoViewPadding'];
+    videoViewMargin = double.parse(json['VideoViewMargin'].toString());
+    videoViewPadding = double.parse(json['VideoViewPadding'].toString());
     videoViewDescription = json['VideoViewDescription'];
   }
 
@@ -784,11 +685,12 @@ class BlogViewData {
 
   BlogViewData.fromJson(Map<String, dynamic> json) {
     blogViewAutoPlay = json['BlogViewAutoPlay'];
-    blogViewAspectRatio = json['BlogViewAspectRatio'];
+    blogViewAspectRatio = double.parse(json['BlogViewAspectRatio'].toString());
     blogViewEnableInfiniteScroll = json['BlogViewEnableInfiniteScroll'];
     blogViewAutoPlayAnimationDuration =
-        json['BlogViewAutoPlayAnimationDuration'];
-    blogViewViewportFraction = json['BlogViewViewportFraction'];
+        json['BlogViewAutoPlayAnimationDuration'].toString();
+    blogViewViewportFraction =
+        double.parse(json['BlogViewViewportFraction'].toString());
     blogViewViewType = json['BlogViewViewType'];
     blogViewActiveColor = json['BlogViewActiveColor'];
     blogViewColorDots = json['BlogViewColorDots'];
@@ -847,7 +749,7 @@ class BlogViewItems {
     blogViewTextDescriptionColor = json['BlogViewTextDescriptionColor'];
     blogViewTextBackgroundColor = json['BlogViewTextBackgroundColor'];
     blogViewBackgroundColor = json['BlogViewBackgroundColor'];
-    blogViewRadius = json['BlogViewRadius'];
+    blogViewRadius = double.parse(json['BlogViewRadius'].toString());
   }
 
   Map<String, dynamic> toJson() {
@@ -860,6 +762,206 @@ class BlogViewItems {
     data['BlogViewTextBackgroundColor'] = this.blogViewTextBackgroundColor;
     data['BlogViewBackgroundColor'] = this.blogViewBackgroundColor;
     data['BlogViewRadius'] = this.blogViewRadius;
+    return data;
+  }
+}
+
+class TextListWithDetailsData {
+  String? containerColor;
+  double? margin;
+  double? padding;
+  double? questionFontSize;
+  double? answerFontSize;
+  double? wholeViewRadius;
+  String? questionFontColor;
+  String? answerFontColor;
+  bool? arrowVisibility;
+  String? arrowColor;
+  String? listViewType;
+  List<QuestionAnswer>? questionAnswer;
+
+  TextListWithDetailsData(
+      {this.containerColor,
+      this.margin,
+      this.padding,
+      this.questionFontSize,
+      this.answerFontSize,
+      this.wholeViewRadius,
+      this.questionFontColor,
+      this.answerFontColor,
+      this.arrowVisibility,
+      this.arrowColor,
+      this.listViewType,
+      this.questionAnswer});
+
+  TextListWithDetailsData.fromJson(Map<String, dynamic> json) {
+    containerColor = json['ContainerColor'];
+    margin = double.parse(json['Margin'].toString());
+    padding = double.parse(json['Padding'].toString());
+    questionFontSize = double.parse(json['QuestionFontSize'].toString());
+    answerFontSize = double.parse(json['AnswerFontSize'].toString());
+    wholeViewRadius = double.parse(json['wholeViewRadius'].toString());
+    questionFontColor = json['QuestionFontColor'];
+    answerFontColor = json['AnswerFontColor'];
+    arrowVisibility = json['ArrowVisibility'];
+    arrowColor = json['ArrowColor'];
+    listViewType = json['ListViewType'];
+    if (json['QuestionAnswer'] != null) {
+      questionAnswer = <QuestionAnswer>[];
+      json['QuestionAnswer'].forEach((v) {
+        questionAnswer!.add(new QuestionAnswer.fromJson(v));
+      });
+    }
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['ContainerColor'] = this.containerColor;
+    data['Margin'] = this.margin;
+    data['Padding'] = this.padding;
+    data['QuestionFontSize'] = this.questionFontSize;
+    data['AnswerFontSize'] = this.answerFontSize;
+    data['WholeViewRadius'] = this.wholeViewRadius;
+    data['QuestionFontColor'] = this.questionFontColor;
+    data['AnswerFontColor'] = this.answerFontColor;
+    data['ArrowVisibility'] = this.arrowVisibility;
+    data['ArrowColor'] = this.arrowColor;
+    data['ListViewType'] = this.listViewType;
+    if (this.questionAnswer != null) {
+      data['QuestionAnswer'] =
+          this.questionAnswer!.map((v) => v.toJson()).toList();
+    }
+    return data;
+  }
+}
+
+class QuestionAnswer {
+  String? question;
+  bool? expand;
+  String? answer;
+
+  QuestionAnswer({this.question, this.expand, this.answer});
+
+  QuestionAnswer.fromJson(Map<String, dynamic> json) {
+    question = json['Question'];
+    expand = json['Expand'];
+    answer = json['Answer'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['Question'] = this.question;
+    data['Expand'] = this.expand;
+    data['Answer'] = this.answer;
+    return data;
+  }
+}
+
+class TextTileData {
+  String? containerColor;
+  double? margin;
+  double? padding;
+  double? textFontSize;
+  double? wholeViewRadius;
+  String? textFontColor;
+  List<TextTileItems>? textTileItems;
+
+  TextTileData(
+      {this.containerColor,
+      this.margin,
+      this.padding,
+      this.textFontSize,
+      this.wholeViewRadius,
+      this.textFontColor,
+      this.textTileItems});
+
+  TextTileData.fromJson(Map<String, dynamic> json) {
+    containerColor = json['ContainerColor'];
+    margin = double.parse(json['Margin'].toString());
+    padding = double.parse(json['Padding'].toString());
+    textFontSize = double.parse(json['textFontSize'].toString());
+    wholeViewRadius = double.parse(json['wholeViewRadius'].toString());
+    textFontColor = json['textFontColor'];
+    if (json['textTileItems'] != null) {
+      textTileItems = <TextTileItems>[];
+      json['textTileItems'].forEach((v) {
+        textTileItems!.add(new TextTileItems.fromJson(v));
+      });
+    }
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['ContainerColor'] = this.containerColor;
+    data['Margin'] = this.margin;
+    data['Padding'] = this.padding;
+    data['textFontSize'] = this.textFontSize;
+    data['wholeViewRadius'] = this.wholeViewRadius;
+    data['textFontColor'] = this.textFontColor;
+    if (this.textTileItems != null) {
+      data['textTileItems'] =
+          this.textTileItems!.map((v) => v.toJson()).toList();
+    }
+    return data;
+  }
+}
+
+class TextTileItems {
+  String? iconData;
+  String? text;
+
+  TextTileItems({this.iconData, this.text});
+
+  TextTileItems.fromJson(Map<String, dynamic> json) {
+    iconData = json['IconData'];
+    text = json['Text'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['IconData'] = this.iconData;
+    data['Text'] = this.text;
+    return data;
+  }
+}
+
+class WebViewData {
+  String? contentType;
+  String? htmlContent;
+  String? backgroundColor;
+  double? scaleSize;
+  String? link;
+  double? padding;
+  double? margin;
+
+  WebViewData(
+      {this.contentType,
+      this.htmlContent,
+      this.backgroundColor,
+      this.scaleSize,
+      this.link,
+      this.padding,
+      this.margin});
+
+  WebViewData.fromJson(Map<String, dynamic> json) {
+    contentType = json['ContentType'];
+    htmlContent = json['HtmlContent'];
+    backgroundColor = json['BackgroundColor'];
+    scaleSize = double.parse(json['ScaleSize'].toString());
+    link = json['Link'];
+    padding = double.parse(json['Padding'].toString());
+    margin = double.parse(json['Margin'].toString());
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['ContentType'] = this.contentType;
+    data['HtmlContent'] = this.htmlContent;
+    data['BackgroundColor'] = this.backgroundColor;
+    data['ScaleSize'] = this.scaleSize;
+    data['Link'] = this.link;
+    data['Padding'] = this.padding;
+    data['Margin'] = this.margin;
     return data;
   }
 }

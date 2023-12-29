@@ -1,14 +1,14 @@
 
-
-import 'package:stemple/modelClass/DashboardModel.dart';
-import 'package:stemple/helper/util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class WidgetPopulorProduct extends StatelessWidget {
+import '../../modelClass/data_model.dart';
+import '../utils/util.dart';
+
+class ItgeekWidgetPopulorProduct extends StatelessWidget {
   ProductData product;
   Function(ProductItems) OnClick;
-  WidgetPopulorProduct(this.product, this.OnClick);
+  ItgeekWidgetPopulorProduct(this.product, this.OnClick);
 
   @override
   Widget build(BuildContext context) {

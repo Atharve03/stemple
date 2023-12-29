@@ -1,27 +1,32 @@
-import 'package:stemple/helper/util.dart';
-import 'package:stemple/modelClass/DashboardModel.dart';
 import 'package:flutter/material.dart';
 
-class WidgetCallPosition extends StatefulWidget {
+
+import '../../modelClass/data_model.dart';
+import '../utils/util.dart';
+
+class ItgeekWidgetBlogPosition extends StatefulWidget {
   BlogViewItems blogViewItems;
-  WidgetCallPosition(this.blogViewItems, {super.key});
+
+  ItgeekWidgetBlogPosition(this.blogViewItems, {super.key});
+
   @override
-  State<WidgetCallPosition> createState() => _WidgetCallPositionState();
+  State<ItgeekWidgetBlogPosition> createState() => _WidgetCallPositionState();
 }
 
-class _WidgetCallPositionState extends State<WidgetCallPosition> {
+class _WidgetCallPositionState extends State<ItgeekWidgetBlogPosition> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(widget.blogViewItems.blogViewRadius!),
-  color: Util.getColorFromHex( widget.blogViewItems.blogViewBackgroundColor!)
-              ),
+      decoration: BoxDecoration(
+          borderRadius:
+              BorderRadius.circular(widget.blogViewItems.blogViewRadius!),
+          color: Util.getColorFromHex(
+              widget.blogViewItems.blogViewBackgroundColor!)),
       child: Stack(
         children: [
           Container(
-            margin: EdgeInsets.only(top: 8.0, bottom: 8.0, right: 8.0, left: 8.0),
+            margin:
+                EdgeInsets.only(top: 8.0, bottom: 8.0, right: 8.0, left: 8.0),
             padding: EdgeInsets.only(top: 20.0),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10.0),
@@ -45,7 +50,9 @@ class _WidgetCallPositionState extends State<WidgetCallPosition> {
                   Container(
                     // width: 100,
                     decoration: BoxDecoration(
-                       color: Util.getColorFromHex( widget.blogViewItems.blogViewTextBackgroundColor!).withOpacity(0.5),
+                      color: Util.getColorFromHex(
+                              widget.blogViewItems.blogViewTextBackgroundColor!)
+                          .withOpacity(0.5),
                     ),
                     child: Text(
                       widget.blogViewItems.blogViewTitle.toString(),
@@ -62,7 +69,9 @@ class _WidgetCallPositionState extends State<WidgetCallPosition> {
                   Container(
                     // width: 100,
                     decoration: BoxDecoration(
-                       color: Util.getColorFromHex( widget.blogViewItems.blogViewTextBackgroundColor!).withOpacity(0.5),
+                      color: Util.getColorFromHex(
+                              widget.blogViewItems.blogViewTextBackgroundColor!)
+                          .withOpacity(0.5),
                     ),
                     child: Text(
                       widget.blogViewItems.blogViewDescription.toString(),

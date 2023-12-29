@@ -1,12 +1,14 @@
-import 'package:stemple/helper/util.dart';
-import 'package:stemple/modelClass/DashboardModel.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
-class WidgetBannerVideo extends StatelessWidget {
+
+import '../../modelClass/data_model.dart';
+import '../utils/util.dart';
+
+class ItgeekWidgetBannerVideo extends StatelessWidget {
   Function(VideoViewData) OnClick;
   VideoViewData videoViewData;
-  WidgetBannerVideo(this.videoViewData, this.OnClick);
+  ItgeekWidgetBannerVideo(this.videoViewData, this.OnClick);
 
   @override
   Widget build(BuildContext context) {

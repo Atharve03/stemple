@@ -1,6 +1,6 @@
 import 'package:stemple/dashboardScreen.dart';
 import 'package:flutter/material.dart';
-import 'package:stemple/views/about_us.dart';
+import 'package:stemple/views/faq.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,6 +30,6 @@ class MyDashboard extends StatelessWidget {
           backgroundColor: Colors.amber,
           title: const Text("Slider Example"),
         ),
-        body: Container(child: AboutUsScreen()));
+        body: Container(child: WidgetFrequentlyAskedQuestions()));
   }
 }

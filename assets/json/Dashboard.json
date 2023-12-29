@@ -1,549 +1,177 @@
 {
-  "DashboardJson": [
-    {
-      "View": "Sliders",
-      "SliderData": {
-        "SliderIndicatorSelectedColor": "#ffffff",
-        "SliderIndicatorUnSelectedColor": "#bcbcbc",
-        "SliderViewPortFraction": 0.8,
-        "SliderAutoPlay": true,
-        "SliderPadding": 5.0,
-        "SliderViewType": "Enlarge",
-        "SliderItems": [
-          {
-            "SliderType": "Image",
-            "SliderText": "Slider with Image",
-            "SliderLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "SliderButtonText": "My Button",
-            "SliderButtonColor": "#000000",
-            "SliderBackgroundColor": "#808080",
-            "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
-            "SliderBannerUID": 1,
-            "SliderButtonClicked": ""
-          },
-          {
-            "SliderType": "ImageWithText",
-            "SliderText": "Slider with Text",
-            "SliderLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "SliderButtonText": "My Button",
-            "SliderButtonColor": "#000000",
-            "SliderBackgroundColor": "#808080",
-            "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
-            "SliderBannerUID": 2,
-            "SliderButtonClicked": ""
-          },
-          {
-            "SliderType": "ImageWithButtonText",
-            "SliderText": "Slider with Button",
-            "SliderLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "SliderButtonText": "My Button",
-            "SliderButtonColor": "#000000",
-            "SliderBackgroundColor": "#808080",
-            "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
-            "SliderBannerUID": 1234,
-            "SliderButtonClicked": ""
-          }
-        ]
-      }
-    },
-    {
-      "View": "DetailButtonView",
-      "ButtonViewData": {
-        "ButtonViewViewType": "Bottom",
-        "BackgroundImageViewSrc": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "WholeViewRadius": 19.0,
-        "ContainerColor": "#c1c1c1",
-        "BackgroundImageViewColor": "#EAEAEA",
-        "Margin": 8.0,
-        "Padding": 8.0,
-        "TitleFontSize": 18.0,
-        "DescriptionFontSize": 14.0,
-        "FontColor": "#000000",
-        "Title": "My New Title",
-        "Description": "My TextView Description",
-        "NumberOfLines": 4,
-          
-        "ButtonView": {
-          "ButtonRadius": 15.0,
-          "ButtonRadiusColor":"ffffff",
-          "ButtonFontColor": "#000000",
-          "ButtonFontWeight": "normal",
-          "ButtonBackgroundColor": "#EAEAEA",
-          "ButtonMargin": 8.0,
-          "ButtonPadding": 8.0,
-          "ButtonText": "My Button"
-        }
-      }
-    },
-    {
-      "View": "BlogView",
-      "BlogViewData": {
-        "BlogViewAutoPlay": false,
-        "BlogViewAspectRatio": 1.142857142857143,
-        "BlogViewEnableInfiniteScroll": true,
-        "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
-        "BlogViewViewportFraction": 1.0,
-        "BlogViewViewType": "View2",
-        "BlogViewActiveColor": "#ffbf00",
-        "BlogViewColorDots": "#0000FF",
-        "BlogViewItems": [
-          {
-            "BlogViewTitle": "title1",
-            "BlogViewDescription": "cvbxcvbnfdsfbgfdsdfgbfdfbvvcv",
-            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
-            "BlogViewTextTitleColor": "#000000",
-            "BlogViewTextDescriptionColor": "#000000",
-            "BlogViewTextBackgroundColor": "#c1c1c1",
-            "BlogViewBackgroundColor": "#EAEAEA",
-            "BlogViewRadius": 19.0
-          },
-          {
-            "BlogViewTitle": "title2",
-            "BlogViewDescription": "dfxcvxxvbbnbvfdsadfghjgfdsfghjgfdsdfghjjhgfdsaszdxfcgvhbjnhgfdsazdxfcgvhgfdsdzxfcgvcxcvfcbvfbvgb",
-            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
-            "BlogViewTextTitleColor": "#000000",
-            "BlogViewTextDescriptionColor": "#000000",
-            "BlogViewTextBackgroundColor": "#c1c1c1",
-            "BlogViewBackgroundColor": "#EAEAEA",
-            "BlogViewRadius": 19.0
-          },
-          {
-            "BlogViewTitle": "title3",
-            "BlogViewDescription": "cxgvnbfcgvbccvbnvcgvbvvvfdsfvxbcxjndbjsmndfbsnvdbv jhxfnfgdbd ncvbvbcc",
-            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
-            "BlogViewTextTitleColor": "#000000",
-            "BlogViewTextDescriptionColor": "#000000",
-            "BlogViewTextBackgroundColor": "#c1c1c1",
-            "BlogViewBackgroundColor": "#EAEAEA",
-            "BlogViewRadius": 19.0
-          }
-        ]
-      }
-    },
-    {
-      "View": "DetailButtonView",
-      "ButtonViewData": {
-        "ButtonViewViewType": "Top",
-        "BackgroundImageViewSrc": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "WholeViewRadius": 19.0,
-        "ContainerColor": "#c1c1c1",
-        "BackgroundImageViewColor": "#EAEAEA",
-        "Margin": 8.0,
-        "Padding": 8.0,
-        "TitleFontSize": 18.0,
-        "DescriptionFontSize": 14.0,
-        "FontColor": "#000000",
-        "Title": "My New Title",
-        "Description": "My TextView Description",
-        "NumberOfLines": 4,
-          
-        "ButtonView": {
-          "ButtonRadius": 15.0,
-          "ButtonRadiusColor":"ffffff",
-          "ButtonFontColor": "#000000",
-          "ButtonFontWeight": "normal",
-          "ButtonBackgroundColor": "#EAEAEA",
-          "ButtonMargin": 8.0,
-          "ButtonPadding": 8.0,
-          "ButtonText": "My Button"
-        }
-      }
-    },
-    {
-      "View": "VideoView",
-      "VideoViewData": {
-        "VideoViewSrc": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-        "VideoViewContainerColor": "#808080",
-        "VideoViewBackgroundColor": "#EAEAEA",
-        "VideoViewMargin": 8.0,
-        "VideoViewPadding": 8.0,
-        "VideoViewRadius": 19.0,
-        "VideoViewTextView": {
-          "VideoViewDescriptionFontSize": 16.0,
-          "VideoViewFontColor": "#000000",
-          "VideoViewFontWeight": "normal",
-          "VideoViewNumberOfLines": 4,
-          "VideoViewBackgroundColor2": "#EAEAEA",
-          "VideoViewMargin": 8.0,
-          "VideoViewPadding": 8.0,
-          "VideoViewDescription": "My TextView Description"
-        }
-      }
-    },
-    {
-      "View": "BlogView",
-      "BlogViewData": {
-        "BlogViewAutoPlay": false,
-        "BlogViewAspectRatio": 1.142857142857143,
-        "BlogViewEnableInfiniteScroll": true,
-        "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
-        "BlogViewViewportFraction": 1.0,
-        "BlogViewViewType": "View3",
-        "BlogViewActiveColor": "#ffbf00",
-        "BlogViewColorDots": "#0000FF",
-        "BlogViewItems": [
-          {
-            "BlogViewTitle": "title1",
-            "BlogViewDescription": "cvbxcvbnfdsfbgfdsdfgbfdfbvvcv",
-            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
-            "BlogViewTextTitleColor": "#000000",
-            "BlogViewTextDescriptionColor": "#000000",
-            "BlogViewTextBackgroundColor": "#c1c1c1",
-            "BlogViewBackgroundColor": "#EAEAEA",
-            "BlogViewRadius": 19.0
-          },
-          {
-            "BlogViewTitle": "title2",
-            "BlogViewDescription": "dfxcvxxvbbnbvfdsadfghjgfdsfghjgfdsdfghjjhgfdsaszdxfcgvhbjnhgfdsazdxfcgvhgfdsdzxfcgvcxcvfcbvfbvgb",
-            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
-            "BlogViewTextTitleColor": "#000000",
-            "BlogViewTextDescriptionColor": "#000000",
-            "BlogViewTextBackgroundColor": "#c1c1c1",
-            "BlogViewBackgroundColor": "#EAEAEA",
-            "BlogViewRadius": 19.0
-          },
-          {
-            "BlogViewTitle": "title3",
-            "BlogViewDescription": "cxgvnbfcgvbccvbnvcgvbvvvfdsfvxbcxjndbjsmndfbsnvdbv jhxfnfgdbd ncvbvbcc",
-            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
-            "BlogViewTextTitleColor": "#000000",
-            "BlogViewTextDescriptionColor": "#000000",
-            "BlogViewTextBackgroundColor": "#c1c1c1",
-            "BlogViewBackgroundColor": "#EAEAEA",
-            "BlogViewRadius": 19.0
-          }
-        ]
-      }
-    },
-    {
-      "View": "Category",
-      "CategoryData": {
-        "CategoryImageBackgroundColor": "#d17171",
-        "CategoryTextColor": "#000000",
-        "CategoryFontSize": 20.0,
-        "CategoryImageRadius": 10.0,
-        "CategoryViewBackgroundColor": "#bcbcbc",
-        "CategoryContainerBackgroundColor": "#EAEAEA",
-        "CategoryAllVisible": true,
-        "CategoryLinkType": "Category",
-        "CategoryItems": [
-          {
-            "CategoryImageLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "CategoryLinkHandle": "Image",
-            "CategoryLinkId": 1,
-            "CategoryTitleText": "Category 1"
-          },
-          {
-            "CategoryImageLink": "https://images.unsplash.com/photo-1624670760266-0ddc7639b3a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-a&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "CategoryLinkHandle": "Image",
-            "CategoryLinkId": 2,
-            "CategoryTitleText": "Category 2"
-          },
-          {
-            "CategoryImageLink": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "CategoryLinkHandle": "Image",
-            "CategoryLinkId": 3,
-            "CategoryTitleText": "Category 3"
-          },
-          {
-            "CategoryImageLink": "https://images.unsplash.com/photo-1585801442122-96dd773c76fa?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "CategoryLinkHandle": "Image",
-            "CategoryLinkId": 4,
-            "CategoryTitleText": "Category 4"
-          },
-          {
-            "CategoryImageLink": "https://images.unsplash.com/photo-1591779051696-1c3fa1469a79?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "CategoryLinkHandle": "Image",
-            "CategoryLinkId": 5,
-            "CategoryTitleText": "Category 5"
-          }
-        ]
-      }
-    },
-    {
-      "View": "Product",
-      "ProductData": {
-        "ProductImageBackgroundColor": "#d17171",
-        "ProductTextColor": "#000000",
-        "ProductFontSize": 20.0,
-        "ProductImageRadius": 10.0,
-        "ProductViewBackgroundColor": "#bcbcbc",
-        "ProductContainerBackgroundColor": "#EAEAEA",
-        "ProductAllVisible": true,
-        "ProductLinkType": "Product",
-        "ProductItems": [
-          {
-            "ProductImageLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "ProductLinkHandle": "Image",
-            "ProductLinkId": 1,
-            "ProductPrice": 99.0,
-            "ProductTitleText": "T-Shirt"
-          },
-          {
-            "ProductImageLink": "https://images.unsplash.com/photo-1624670760266-0ddc7639b3a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-a&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "ProductLinkHandle": "Image",
-            "ProductLinkId": 2,
-            "ProductPrice": 299.0,
-            "ProductTitleText": "Shirt"
-          },
-          {
-            "ProductImageLink": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "ProductLinkHandle": "Image",
-            "ProductLinkId": 3,
-            "ProductPrice": 399.0,
-            "ProductTitleText": "Hoodie"
-          },
-          {
-            "ProductImageLink": "https://images.unsplash.com/photo-1585801442122-96dd773c76fa?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "ProductLinkHandle": "Image",
-            "ProductLinkId": 4,
-            "ProductPrice": 699.0,
-            "ProductTitleText": "Jeans"
-          }
-        ]
-      }
-    },
+  "BackgroundColor": "#000000",
+  "PageLayout": [
     {
       "View": "TextView",
       "TextViewData": {
-        "TextViewText": "My Button",
-        "TextViewFontSize": 20.0,
-        "TextAlignment" : "left",
-        "TextViewDescription": "My Text Description",
-        "TextViewDescriptionFontSize": 16.0,
-        "TextViewFontColor": "#000000",
+        "TextViewTitle": "ABOUT US",
+        "TextViewTitleFontSize": 14,
+        "TextAlignment": "left",
+        "TextViewDescription": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+        "TextViewDescriptionFontSize": 10,
+        "TextViewFontColor": "#ffffff",
         "TextViewFontWeight": "normal",
         "TextViewFontType": "",
         "TextViewNumberOfLines": 4,
-        "TextViewBackgroundColor": "#EAEAEA",
-        "TextViewMargin": 8.0,
-        "TextViewPadding": 8.0,
-        "BackgroundImageSrc" : "",
-        "WholeViewRadius" : 19.0
-      }
-    },
-    {
-      "View": "TextView",
-      "TextViewData": {
-        "TextViewText": "My Button",
-        "TextViewFontSize": 20.0,
-        "TextAlignment" : "left",
-        "TextViewDescription": "My Text Description",
-        "TextViewDescriptionFontSize": 16.0,
-        "TextViewFontColor": "#000000",
-        "TextViewFontWeight": "normal",
-        "TextViewFontType": "",
-        "TextViewNumberOfLines": 4,
-        "TextViewBackgroundColor": "#EAEAEA",
-        "TextViewMargin": 8.0,
-        "TextViewPadding": 8.0,
-        "BackgroundImageSrc" : "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "WholeViewRadius" : 19.0
-      }
-    },
-    {
-      "View": "Category",
-      "CategoryData": {
-        "CategoryImageBackgroundColor": "#d17171",
-        "CategoryTextColor": "#000000",
-        "CategoryFontSize": 20.0,
-        "CategoryImageRadius": 10.0,
-        "CategoryViewBackgroundColor": "#bcbcbc",
-        "CategoryContainerBackgroundColor": "#EAEAEA",
-        "CategoryAllVisible": true,
-        "CategoryLinkType": "Category",
-        "CategoryItems": [
-          {
-            "CategoryImageLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "CategoryLinkHandle": "Image",
-            "CategoryLinkId": 1,
-            "CategoryTitleText": "Category 1"
-          },
-          {
-            "CategoryImageLink": "https://images.unsplash.com/photo-1624670760266-0ddc7639b3a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-a&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "CategoryLinkHandle": "Image",
-            "CategoryLinkId": 2,
-            "CategoryTitleText": "Category 2"
-          },
-          {
-            "CategoryImageLink": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "CategoryLinkHandle": "Image",
-            "CategoryLinkId": 3,
-            "CategoryTitleText": "Category 3"
-          },
-          {
-            "CategoryImageLink": "https://images.unsplash.com/photo-1585801442122-96dd773c76fa?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "CategoryLinkHandle": "Image",
-            "CategoryLinkId": 4,
-            "CategoryTitleText": "Category 4"
-          },
-          {
-            "CategoryImageLink": "https://images.unsplash.com/photo-1591779051696-1c3fa1469a79?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "CategoryLinkHandle": "Image",
-            "CategoryLinkId": 5,
-            "CategoryTitleText": "Category 5"
-          }
-        ]
-      }
-    },
-    {
-      "View": "ImageView",
-      "ImageViewData": {
-        "ImageViewViewType": "Full",
-        "ImageViewSrc": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "ImageViewRadius": 19.0,
-        "ImageViewContainerColor": "#808080",
-        "ImageViewBackgroundColor": "#EAEAEA",
-        "ImageViewMargin": 8.0,
-        "ImageViewPadding": 8.0,
-
-        "ImageViewTextView": {
-          "ImageViewTitleFontSize": 18.0,
-          "ImageViewDescriptionFontSize": 14.0,
-          "ImageViewFontColor": "#000000",
-          "ImageViewFontWeight": "normal",
-          "ImageViewFontType": "B",
-          "ImageViewNumberOfLines": 4,
-          "ImageViewBackgroundColor2": "#EAEAEA",
-          "ImageViewMargin": 8.0,
-          "ImageViewPadding": 8.0,
-          "ImageViewTitle": "My Title",
-          "ImageViewDescription": "My TextView Description"
-        }
+        "TextViewBackgroundColor": "#171717",
+        "TextViewMargin": 0,
+        "TextViewPadding": 8,
+        "BackgroundImageSrc": "https://thesatanictemple.com/cdn/shop/files/join-us-banner_1200x_070d9ec1-db32-4c1d-8171-4e5b00e86150_1200x553.jpg?v=1694104786",
+        "WholeViewRadius": 0
       }
     },
     {
       "View": "ImageView",
       "ImageViewData": {
         "ImageViewViewType": "Half",
-        "ImageViewSrc": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "ImageViewRadius": 19.0,
-        "ImageViewContainerColor": "#c1c1c1",
-        "ImageViewBackgroundColor": "#EAEAEA",
-        "ImageViewMargin": 8.0,
-        "ImageViewPadding": 8.0,
+        "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/The-Satanic-temple_de242aac-3486-4537-b801-ab5e5d10bd9a_1.jpg?v=1694429082",
+        "ImageViewRadius": 0,
+        "ImageViewContainerColor": "#171717",
+        "ImageViewBackgroundColor": "#171717",
+        "ImageViewMargin": 8,
+        "ImageViewPadding": 8,
         "ImageViewTextView": {
-          "ImageViewTitleFontSize": 18.0,
-          "ImageViewDescriptionFontSize": 14.0,
-          "ImageViewFontColor": "#000000",
+          "ImageViewTitleFontSize": 18,
+          "ImageViewDescriptionFontSize": 14,
+          "ImageViewFontColor": "#ffffff",
+          "ImageViewFontWeight": "normal",
+          "ImageViewFontType": "B",
+          "ImageViewNumberOfLines": 10,
+          "ImageViewBackgroundColor2": "#FF0000",
+          "ImageViewMargin": 8,
+          "ImageViewPadding": 8,
+          "ImageViewTitle": "THE SATANIC TEMPLE",
+          "ImageViewDescription": "We have publicly confronted hate groups, fought for the abolition of corporal punishment in public schools, applied for equal representation when religious installations are placed on public property, provided religious exemption and legal protection against laws that unscientifically restrict people's reproductive autonomy, exposed harmful pseudo-scientific practitioners in mental health care, organized clubs alongside other religious after-school clubs in schools besieged by proselytizing organizations, and engaged in other advocacy in accordance with our tenets."
+        }
+      }
+    },
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "TextViewTitle": "There are Seven",
+        "TextViewTitleFontSize": 20,
+        "TextAlignment": "left",
+        "TextViewDescription": "FUNDAMENTAL TENETS",
+        "TextViewDescriptionFontSize": 22,
+        "TextViewFontColor": "#9a1515",
+        "TextViewFontWeight": "normal",
+        "TextViewFontType": "",
+        "TextViewNumberOfLines": 4,
+        "TextViewBackgroundColor": "#000000",
+        "TextViewMargin": 10,
+        "TextViewPadding": 8,
+        "BackgroundImageSrc": "",
+        "WholeViewRadius": 20
+      }
+    },
+    {
+      "View": "textTile",
+      "textTileData": {
+        "ContainerColor": "#ffffff",
+        "Margin": 10,
+        "Padding": 8,
+        "textFontSize": 16,
+        "wholeViewRadius": 10,
+        "textFontColor": "#171717",
+        "textTileItems": [
+          {
+            "IconData": "I",
+            "Text": "One should strive to act with compassion and empathy toward all creatures in accordance with reason."
+          },
+          {
+            "IconData": "II",
+            "Text": "The struggle for justice is an ongoing and necessary pursuit that should prevail over laws and institutions."
+          },
+          {
+            "IconData": "III",
+            "Text": "One’s body is inviolable, subject to one’s own will alone."
+          },
+          {
+            "IconData": "IV",
+            "Text": "The freedoms of others should be respected, including the freedom to offend. To willfully and unjustly encroach upon the freedoms of another is to forgo one's own."
+          },
+          {
+            "IconData": "V",
+            "Text": "Beliefs should conform to one's best scientific understanding of the world. One should take care never to distort scientific facts to fit one's beliefs."
+          },
+          {
+            "IconData": "VI",
+            "Text": "People are fallible. If one makes a mistake, one should do one's best to rectify it and resolve any harm that might have been caused."
+          },
+          {
+            "IconData": "VII",
+            "Text": "Every tenet is a guiding principle designed to inspire nobility in action and thought. The spirit of compassion, wisdom, and justice should always prevail over the written or spoken word."
+          }
+        ]
+      }
+    },
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "TextViewTitle": "THE SATANIC TEMPLE VS. CHURCH OF SATAN",
+        "TextViewTitleFontSize": 24,
+        "TextAlignment": "left",
+        "TextViewDescription": "",
+        "TextViewDescriptionFontSize": 16,
+        "TextViewFontColor": "#ffffff",
+        "TextViewFontWeight": "normal",
+        "TextViewFontType": "",
+        "TextViewNumberOfLines": 4,
+        "TextViewBackgroundColor": "#171717",
+        "TextViewMargin": 8,
+        "TextViewPadding": 8,
+        "BackgroundImageSrc": "",
+        "WholeViewRadius": 19
+      }
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
+        "ImageViewViewType": "Full",
+        "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/statue_5ada61de-0bea-451e-b385-8481106e9d1c.jpg?v=1694177819",
+        "ImageViewRadius": 19,
+        "ImageViewContainerColor": "#171717",
+        "ImageViewBackgroundColor": "#171717",
+        "ImageViewMargin": 8,
+        "ImageViewPadding": 8,
+        "ImageViewTextView": {
+          "ImageViewTitleFontSize": 18,
+          "ImageViewDescriptionFontSize": 14,
+          "ImageViewFontColor": "#ffffff",
+          "ImageViewFontWeight": "normal",
+          "ImageViewFontType": "B",
+          "ImageViewNumberOfLines": 4,
+          "ImageViewBackgroundColor2": "#171717",
+          "ImageViewMargin": 8,
+          "ImageViewPadding": 8,
+          "ImageViewTitle": "",
+          "ImageViewDescription": "The Satanic Temple has become the primary religious Satanic organization in the world with congregations internationally, and a number of high-profile public campaigns designed to preserve and advance secularism and individual liberties. The rise of The Satanic Temple has been met with an increase in commentary regarding what Satanism is as media outlets struggle to grasp how this upstart religion has begun to shift religious liberty debates with claims of equal access."
+        }
+      }
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
+        "ImageViewViewType": "Full",
+        "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/church-img-2_9ad7322c-c7ba-427a-89c9-c1af082a10fa.jpg?v=1694177770",
+        "ImageViewRadius": 19,
+        "ImageViewContainerColor": "#171717",
+        "ImageViewBackgroundColor": "#171717",
+        "ImageViewMargin": 8,
+        "ImageViewPadding": 8,
+        "ImageViewTextView": {
+          "ImageViewTitleFontSize": 18,
+          "ImageViewDescriptionFontSize": 14,
+          "ImageViewFontColor": "#ffffff",
           "ImageViewFontWeight": "normal",
           "ImageViewFontType": "B",
           "ImageViewNumberOfLines": 4,
           "ImageViewBackgroundColor2": "#EAEAEA",
-          "ImageViewMargin": 8.0,
-          "ImageViewPadding": 8.0,
-          "ImageViewTitle": "My Title",
-          "ImageViewDescription": "My TextView Description"
+          "ImageViewMargin": 8,
+          "ImageViewPadding": 8,
+          "ImageViewTitle": "",
+          "ImageViewDescription": "With unfortunate regularity - and much to our chagrin - The Satanic Temple is confused with an earlier organization, the Church of Satan, founded by Anton Szandor LaVey in the 1960s. The Church of Satan expresses vehement opposition to the campaigns and activities of The Satanic Temple, asserting themselves as the only “true” arbiters of Satanism, while The Satanic Temple dismisses the Church of Satan as irrelevant and inactive."
         }
-      }
-    },
-    {
-      "View": "VideoView",
-      "VideoViewData": {
-        "VideoViewSrc": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
-        "VideoViewContainerColor": "#808080",
-        "VideoViewBackgroundColor": "#EAEAEA",
-        "VideoViewMargin": 8.0,
-        "VideoViewPadding": 8.0,
-        "VideoViewRadius": 19.0,
-        "VideoViewTextView": {
-          "VideoViewDescriptionFontSize": 16.0,
-          "VideoViewFontColor": "#000000",
-          "VideoViewFontWeight": "normal",
-          "VideoViewNumberOfLines": 4,
-          "VideoViewBackgroundColor2": "#EAEAEA",
-          "VideoViewMargin": 8.0,
-          "VideoViewPadding": 8.0,
-          "VideoViewDescription": "My TextView Description"
-        }
-      }
-    },
-    {
-      "View": "BlogView",
-      "BlogViewData": {
-        "BlogViewAutoPlay": false,
-        "BlogViewAspectRatio": 1.142857142857143,
-        "BlogViewEnableInfiniteScroll": true,
-        "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
-        "BlogViewViewportFraction": 1.0,
-        "BlogViewViewType": "View1",
-        "BlogViewActiveColor": "#ffbf00",
-        "BlogViewColorDots": "#0000FF",
-        "BlogViewItems": [
-          {
-            "BlogViewTitle": "title1",
-            "BlogViewDescription": "cvbxcvbnfdsfbgfdsdfgbfdfbvvcv",
-            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
-            "BlogViewTextTitleColor": "#000000",
-            "BlogViewTextDescriptionColor": "#000000",
-            "BlogViewTextBackgroundColor": "#c1c1c1",
-            "BlogViewBackgroundColor": "#EAEAEA",
-            "BlogViewRadius": 19.0
-          },
-          {
-            "BlogViewTitle": "title2",
-            "BlogViewDescription": "dfxcvxxvbbnbvfdsadfghjgfdsfghjgfdsdfghjjhgfdsaszdxfcgvhbjnhgfdsazdxfcgvhgfdsdzxfcgvcxcvfcbvfbvgb",
-            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
-            "BlogViewTextTitleColor": "#000000",
-            "BlogViewTextDescriptionColor": "#000000",
-            "BlogViewTextBackgroundColor": "#c1c1c1",
-            "BlogViewBackgroundColor": "#EAEAEA",
-            "BlogViewRadius": 19.0
-          },
-          {
-            "BlogViewTitle": "title3",
-            "BlogViewDescription": "cxgvnbfcgvbccvbnvcgvbvvvfdsfvxbcxjndbjsmndfbsnvdbv jhxfnfgdbd ncvbvbcc",
-            "BlogViewImagePath": "https://img.freepik.com/free-photo/beautiful-scenery-summit-mount-everest-covered-with-snow-white-clouds_181624-21317.jpg?size=626&ext=jpg&ga=GA1.2.95270652.1697459820&semt=sph",
-            "BlogViewTextTitleColor": "#000000",
-            "BlogViewTextDescriptionColor": "#000000",
-            "BlogViewTextBackgroundColor": "#c1c1c1",
-            "BlogViewBackgroundColor": "#EAEAEA",
-            "BlogViewRadius": 19.0
-          }
-        ]
-      }
-    },
-    {
-      "View": "Product",
-      "ProductData": {
-        "ProductImageBackgroundColor": "#d17171",
-        "ProductTextColor": "#000000",
-        "ProductFontSize": 20.0,
-        "ProductImageRadius": 10.0,
-        "ProductViewBackgroundColor": "#bcbcbc",
-        "ProductContainerBackgroundColor": "#EAEAEA",
-        "ProductAllVisible": true,
-        "ProductLinkType": "Product",
-        "ProductItems": [
-          {
-            "ProductImageLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "ProductLinkHandle": "Image",
-            "ProductLinkId": 1,
-            "ProductPrice": 99.0,
-            "ProductTitleText": "T-Shirt"
-          },
-          {
-            "ProductImageLink": "https://images.unsplash.com/photo-1624670760266-0ddc7639b3a4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-a&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "ProductLinkHandle": "Image",
-            "ProductLinkId": 2,
-            "ProductPrice": 299.0,
-            "ProductTitleText": "Shirt"
-          },
-          {
-            "ProductImageLink": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "ProductLinkHandle": "Image",
-            "ProductLinkId": 3,
-            "ProductPrice": 399.0,
-            "ProductTitleText": "Hoodie"
-          },
-          {
-            "ProductImageLink": "https://images.unsplash.com/photo-1585801442122-96dd773c76fa?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "ProductLinkHandle": "Image",
-            "ProductLinkId": 4,
-            "ProductPrice": 699.0,
-            "ProductTitleText": "Jeans"
-          }
-        ]
       }
     }
   ]

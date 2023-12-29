@@ -1,10 +1,13 @@
-import 'package:stemple/helper/util.dart';
-import 'package:stemple/modelClass/DashboardModel.dart';
 import 'package:flutter/material.dart';
 
-class WidgetCallHalfImage extends StatelessWidget {
+
+import '../../modelClass/data_model.dart';
+import '../utils/util.dart';
+
+class ItgeekWidgetBlogHalfImage extends StatelessWidget {
   BlogViewItems blogViewItems;
-  WidgetCallHalfImage(this.blogViewItems, {super.key});
+
+  ItgeekWidgetBlogHalfImage(this.blogViewItems, {super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,10 +17,10 @@ class WidgetCallHalfImage extends StatelessWidget {
         Util.getColorFromHex(blogViewItems.blogViewTextDescriptionColor!);
 
     return Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(blogViewItems.blogViewRadius!),
-  color: Util.getColorFromHex(blogViewItems.blogViewBackgroundColor!),
-              ),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(blogViewItems.blogViewRadius!),
+        color: Util.getColorFromHex(blogViewItems.blogViewBackgroundColor!),
+      ),
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
       child: Stack(
@@ -47,11 +50,14 @@ class WidgetCallHalfImage extends StatelessWidget {
             bottom: 30,
             right: 0,
             child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(blogViewItems.blogViewRadius!),
-  color: Util.getColorFromHex(blogViewItems.blogViewTextBackgroundColor!).withOpacity(0.5),
-              ),
-                    padding: EdgeInsets.all(15),
+                decoration: BoxDecoration(
+                  borderRadius:
+                      BorderRadius.circular(blogViewItems.blogViewRadius!),
+                  color: Util.getColorFromHex(
+                          blogViewItems.blogViewTextBackgroundColor!)
+                      .withOpacity(0.5),
+                ),
+                padding: EdgeInsets.all(15),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,

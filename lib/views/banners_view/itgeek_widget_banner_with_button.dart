@@ -1,11 +1,12 @@
-import 'package:stemple/helper/util.dart';
-import 'package:stemple/modelClass/DashboardModel.dart';
 import 'package:flutter/material.dart';
 
-class WidgetBannerImageButton extends StatelessWidget {
+import '../../modelClass/data_model.dart';
+import '../utils/util.dart';
+
+class ItgeekWidgetBannerImageButton extends StatelessWidget {
   Function(ButtonViewData) OnClick;
   ButtonViewData buttonViewData;
-  WidgetBannerImageButton(this.buttonViewData, this.OnClick);
+  ItgeekWidgetBannerImageButton(this.buttonViewData, this.OnClick);
 
   @override
   Widget build(BuildContext context) {

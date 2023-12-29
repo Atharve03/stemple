@@ -1,17 +1,14 @@
 import 'dart:convert';
-import 'package:stemple/views/myResources/banners/widget_banner_with_button.dart';
-import 'package:stemple/views/myResources/blog/widget_blog_view.dart';
-import 'package:stemple/modelClass/DashboardModel.dart';
-import 'package:stemple/views/myResources/banners/widget_banner_image.dart';
-import 'package:stemple/views/myResources/banners/widget_banner_text.dart';
-import 'package:stemple/views/myResources/banners/widget_banner_video.dart';
-import 'package:stemple/views/myResources/category/widget_popular_category.dart';
-import 'package:stemple/views/faq.dart';
-import 'package:stemple/views/myResources/category/widget_popular_category.dart';
-import 'package:stemple/views/myResources/product/widget_product_view.dart';
-import 'package:stemple/views/myResources/slider/widget_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+import 'modelClass/page_layout_model.dart';
+import 'views/banners_view/itgeek_widget_banner_video.dart';
+import 'views/banners_view/itgeek_widget_banner_with_button.dart';
+import 'views/blog_view/itgeek_widget_blog_view.dart';
+import 'views/category_view/itgeek_widget_category.dart';
+import 'views/product_view/Itgeek_widget_product_view.dart';
+import 'views/slider_view/widget_slider.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});
@@ -28,28 +25,28 @@ class _DashboardState extends State<Dashboard> {
         builder: (context, snapshot) {
           if (snapshot.hasData) {
             var list = json.decode(snapshot.data!);
-            DashboardModel myList = DashboardModel.fromJson(list);
+            PageLayoutModel myList = PageLayoutModel.fromJson(list);
 
             return SingleChildScrollView(
               child: Column(
-                  children: myList.dashboardJson!.map((element) {
+                  children: myList.pageLayout!.map((element) {
 
                     // return WidgetFrequentlyAskedQuestions();
 
                 if (element.view == "Sliders") {
-                  return WidgetSlider(element.sliderData!, (item) {
+                  return ItgeekWidgetSlider(element.sliderData!, (item) {
                     (element.sliderData);
                     print("itemSliders $item");
                   });
                 }
                 if (element.view == "Category") {
-                  return WidgetPopularCategory(element.categoryData!, (item) {
+                  return ItgeekWidgetCategory(element.categoryData!, (item) {
                     (element.categoryData);
                     print("itemCategory $item");
                   });
                 }
                 if (element.view == "Product") {
-                  return WidgetPopulorProduct(element.productData!, (item) {
+                  return ItgeekWidgetPopulorProduct(element.productData!, (item) {
                     (element.productData);
                     print("itemProduct $item");
                   });
@@ -67,19 +64,19 @@ class _DashboardState extends State<Dashboard> {
                 //   });
                 // }
                 if (element.view == "DetailButtonView") {
-                  return WidgetBannerImageButton(element.buttonViewData!, (item) {
+                  return ItgeekWidgetBannerImageButton(element.buttonViewData!, (item) {
                     (element.buttonViewData);
                     print("itemButtonView $item");
                   });
                 }
                 if (element.view == "VideoView") {
-                  return WidgetBannerVideo(element.videoViewData!, (item) {
+                  return ItgeekWidgetBannerVideo(element.videoViewData!, (item) {
                     (element.videoViewData);
                     print("itemVideoView $item");
                   });
                 }
                 if (element.view == "BlogView") {
-                  return WidgetBlogView(element.blogViewData!, (item) {
+                  return ItgeekWidgetBlogView(element.blogViewData!, (item) {
                     (element.blogViewData!);
                     print("itemBlogView $item");
                   });

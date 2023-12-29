@@ -1,11 +1,12 @@
-import 'package:stemple/helper/util.dart';
-import 'package:stemple/modelClass/ModelAboutUs.dart';
 import 'package:flutter/material.dart';
 
-class WidgetBannerImage extends StatelessWidget {
+import '../../modelClass/data_model.dart';
+import '../utils/util.dart';
+
+class ItgeekWidgetBannerImage extends StatelessWidget {
   Function(ImageViewData) OnClick;
   ImageViewData imageViewData;
-  WidgetBannerImage(this.imageViewData, this.OnClick);
+  ItgeekWidgetBannerImage(this.imageViewData, this.OnClick);
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +28,9 @@ class WidgetBannerImage extends StatelessWidget {
 
 class FullImage extends StatelessWidget {
   ImageViewData imageViewData;
+
   FullImage(this.imageViewData);
+
   @override
   Widget build(BuildContext context) {
     var textColor = Util.getColorFromHex(
@@ -54,42 +57,46 @@ class FullImage extends StatelessWidget {
               ),
             ),
           ),
-           imageViewData.imageViewTextView!.imageViewTitle!="" ?
-          Padding(
-            padding: EdgeInsets.all(
-                imageViewData.imageViewTextView!.imageViewPadding!),
-            child: Text(
-              imageViewData.imageViewTextView!.imageViewTitle!,
-              style: TextStyle(
-                  color: textColor,
-                  fontWeight: FontWeight.bold,
-                  fontSize:
-                      imageViewData.imageViewTextView!.imageViewTitleFontSize!),
-            ),
-          ):Container(),
+          imageViewData.imageViewTextView!.imageViewTitle != ""
+              ? Padding(
+                  padding: EdgeInsets.all(
+                      imageViewData.imageViewTextView!.imageViewPadding!),
+                  child: Text(
+                    imageViewData.imageViewTextView!.imageViewTitle!,
+                    style: TextStyle(
+                        color: textColor,
+                        fontWeight: FontWeight.bold,
+                        fontSize: imageViewData
+                            .imageViewTextView!.imageViewTitleFontSize!),
+                  ),
+                )
+              : Container(),
           SizedBox(
             height: 5,
           ),
-           imageViewData.imageViewTextView!.imageViewDescription!="" ?
-          Padding(
-            padding: EdgeInsets.all(
-                imageViewData.imageViewTextView!.imageViewPadding!),
-            child: Text(
-              imageViewData.imageViewTextView!.imageViewDescription!,
-              style: TextStyle(
-                  color: textColor,
-                  fontWeight: FontWeight.bold,
-                  fontSize: imageViewData
-                      .imageViewTextView!.imageViewDescriptionFontSize!),
-            ),
-          ):Container()
+          imageViewData.imageViewTextView!.imageViewDescription != ""
+              ? Padding(
+                  padding: EdgeInsets.all(
+                      imageViewData.imageViewTextView!.imageViewPadding!),
+                  child: Text(
+                    imageViewData.imageViewTextView!.imageViewDescription!,
+                    style: TextStyle(
+                        color: textColor,
+                        fontWeight: FontWeight.bold,
+                        fontSize: imageViewData
+                            .imageViewTextView!.imageViewDescriptionFontSize!),
+                  ),
+                )
+              : Container()
         ]));
   }
 }
 
 class HalfImage extends StatelessWidget {
   ImageViewData imageViewData;
+
   HalfImage(this.imageViewData);
+
   @override
   Widget build(BuildContext context) {
     var textColor = Util.getColorFromHex(
@@ -140,35 +147,38 @@ class HalfImage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                     imageViewData.imageViewTextView!.imageViewTitle!="" ?
-                    Container(
-                      child: Text(
-                        imageViewData.imageViewTextView!.imageViewTitle!,
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: imageViewData
-                                .imageViewTextView!.imageViewTitleFontSize!,
-                            color: textColor),
-                        maxLines: 4,
-                        textAlign: TextAlign.center,
-                      ),
-                    ) :Container(),
+                    imageViewData.imageViewTextView!.imageViewTitle != ""
+                        ? Container(
+                            child: Text(
+                              imageViewData.imageViewTextView!.imageViewTitle!,
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: imageViewData.imageViewTextView!
+                                      .imageViewTitleFontSize!,
+                                  color: textColor),
+                              maxLines: 4,
+                              textAlign: TextAlign.center,
+                            ),
+                          )
+                        : Container(),
                     SizedBox(
                       height: 5,
                     ),
-                     imageViewData.imageViewTextView!.imageViewDescription!="" ?
-                    Container(
-                      child: Text(
-                        imageViewData.imageViewTextView!.imageViewDescription!,
-                        style: TextStyle(
-                            fontSize: imageViewData.imageViewTextView!
-                                .imageViewDescriptionFontSize!,
-                            color: textColor),
-                        maxLines: imageViewData
-                            .imageViewTextView!.imageViewNumberOfLines!,
-                        textAlign: TextAlign.center,
-                      ),
-                    ) :Container()
+                    imageViewData.imageViewTextView!.imageViewDescription != ""
+                        ? Container(
+                            child: Text(
+                              imageViewData
+                                  .imageViewTextView!.imageViewDescription!,
+                              style: TextStyle(
+                                  fontSize: imageViewData.imageViewTextView!
+                                      .imageViewDescriptionFontSize!,
+                                  color: textColor),
+                              maxLines: imageViewData
+                                  .imageViewTextView!.imageViewNumberOfLines!,
+                              textAlign: TextAlign.center,
+                            ),
+                          )
+                        : Container()
                   ],
                 )),
           )

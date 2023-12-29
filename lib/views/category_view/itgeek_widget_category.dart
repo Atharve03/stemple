@@ -1,12 +1,14 @@
-import 'package:stemple/modelClass/DashboardModel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:stemple/helper/util.dart';
 
-class WidgetPopularCategory extends StatelessWidget {
+
+import '../../modelClass/data_model.dart';
+import '../utils/util.dart';
+
+class ItgeekWidgetCategory extends StatelessWidget {
   Function(CategoryItems) OnClick;
   CategoryData category;
-  WidgetPopularCategory(this.category, this.OnClick);
+  ItgeekWidgetCategory(this.category, this.OnClick);
   
   @override
   Widget build(BuildContext context) {

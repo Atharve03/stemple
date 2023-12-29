@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:stemple/helper/util.dart';
-import 'package:stemple/modelClass/ModelAboutUs.dart';
 
-class WidgetBannerText extends StatelessWidget {
+import '../../modelClass/data_model.dart';
+import '../utils/util.dart';
+
+class ItgeekWidgetBannerText extends StatelessWidget {
   Function(TextViewData) OnClick;
   TextViewData textViewData;
-  WidgetBannerText(this.textViewData, this.OnClick);
+  ItgeekWidgetBannerText(this.textViewData, this.OnClick);
 
   @override
   Widget build(BuildContext context) {

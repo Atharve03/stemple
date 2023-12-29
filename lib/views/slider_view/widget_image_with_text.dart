@@ -1,5 +1,7 @@
-import 'package:stemple/modelClass/DashboardModel.dart';
 import 'package:flutter/material.dart';
+
+import '../../modelClass/data_model.dart';
+
 
 class WidgetImageWithText extends StatelessWidget {
   SliderItems sliderItems;

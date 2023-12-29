@@ -1,23 +1,24 @@
-import 'package:stemple/helper/util.dart';
-import 'package:stemple/modelClass/DashboardModel.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dots_indicator/dots_indicator.dart';
-import 'package:stemple/views/myResources/blog/blog_half_image.dart';
-import 'package:stemple/views/myResources/blog/blog_image.dart';
-import 'package:stemple/views/myResources/blog/blog_position_text.dart';
 
-class WidgetBlogView extends StatefulWidget {
+import '../../modelClass/data_model.dart';
+import '../utils/util.dart';
+import 'itgeek_blog_half_image.dart';
+import 'itgeek_blog_image.dart';
+import 'itgeek_blog_position_text.dart';
+
+class ItgeekWidgetBlogView extends StatefulWidget {
   BlogViewData blogViewData;
-   Function(BlogViewItems) onClick;
-  WidgetBlogView(this.blogViewData, this.onClick, {super.key});
- 
+  Function(BlogViewItems) onClick;
+
+  ItgeekWidgetBlogView(this.blogViewData, this.onClick, {super.key});
 
   @override
-  State<WidgetBlogView> createState() => _WidgetBlogViewState();
+  State<ItgeekWidgetBlogView> createState() => _WidgetBlogViewState();
 }
 
-class _WidgetBlogViewState extends State<WidgetBlogView> {
+class _WidgetBlogViewState extends State<ItgeekWidgetBlogView> {
   int currentIndex = 0;
 
   @override
@@ -27,17 +28,23 @@ class _WidgetBlogViewState extends State<WidgetBlogView> {
         CarouselSlider(
           items: widget.blogViewData.blogViewItems!.map((item) {
             if (widget.blogViewData.blogViewViewType == "View1") {
-        return InkWell(
-          onTap: (){widget.onClick(item);},
-          child: WidgetCallHalfImage(item));
+              return InkWell(
+                  onTap: () {
+                    widget.onClick(item);
+                  },
+                  child: ItgeekWidgetBlogHalfImage(item));
             } else if (widget.blogViewData.blogViewViewType == "View2") {
-        return InkWell(
-          onTap: (){widget.onClick(item);},
-          child: WidgetCall(item));
+              return InkWell(
+                  onTap: () {
+                    widget.onClick(item);
+                  },
+                  child: ItgeekWidgetBlog(item));
             } else {
-        return InkWell(
-          onTap: (){widget.onClick(item);},
-          child: WidgetCallPosition(item));
+              return InkWell(
+                  onTap: () {
+                    widget.onClick(item);
+                  },
+                  child: ItgeekWidgetBlogPosition(item));
             }
           }).toList(),
           options: CarouselOptions(

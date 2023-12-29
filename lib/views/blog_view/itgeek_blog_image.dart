@@ -1,10 +1,12 @@
-import 'package:stemple/helper/util.dart';
-import 'package:stemple/modelClass/DashboardModel.dart';
 import 'package:flutter/material.dart';
 
-class WidgetCall extends StatelessWidget {
+
+import '../../modelClass/data_model.dart';
+import '../utils/util.dart';
+
+class ItgeekWidgetBlog extends StatelessWidget {
   BlogViewItems blogViewItems;
-  WidgetCall(this.blogViewItems);
+  ItgeekWidgetBlog(this.blogViewItems);
 
   @override
   Widget build(BuildContext context) {
