@@ -35,163 +35,183 @@
     {
       "View": "ImageView",
       "ImageViewData": {
-        "ImageViewViewType": "",
-        "ImageViewSrc": "",
-        "ImageViewRadius": 19.0,
-        "ImageViewContainerColor": "#171717",
-        "ImageViewBackgroundColor": "#171717",
-        "ImageViewMargin": 8.0,
-        "ImageViewPadding": 8.0,
-
-        "ImageViewTextView": {
-          "ImageViewTitleFontSize": 18.0,
-          "ImageViewDescriptionFontSize": 14.0,
-          "ImageViewFontColor": "#ffffff",
-          "ImageViewFontWeight": "normal",
-          "ImageViewFontType": "B",
-          "ImageViewNumberOfLines": 4,
-          "ImageViewBackgroundColor2": "#EAEAEA",
-          "ImageViewMargin": 8.0,
-          "ImageViewPadding": 8.0,
-          "ImageViewTitle": "",
-          "ImageViewDescription": ""
-        }
+          "ImageViewViewType": "Half",
+          "ImageSrc": "",
+          "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+          "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+          "StyleProperties": {
+              "TitleTextColor": "#ddddd",
+              "TitleTextFontName": "",
+              "TitleTextFontSize": 17.0,
+              "TitleTextFontWeight": "",
+              "TitleTextNoOfLines": 4,
+              "DescriptionTextColor": "#ddddd",
+              "DescriptionTextFontName": "",
+              "DescriptionTextFontSize": 15.0,
+              "DescriptionTextFontWeight": "",
+              "DescriptionTextNoOfLines": 4,
+              "BackgroundColor": "#ddddd",
+              "Alignment": "",
+              "Margin": 15.0,
+              "Padding": 15.0,
+              "Radius": 15.0,
+              "BackgroundMargin": 15.0,
+              "BackgroundPadding": 15.0,
+              "BackgroundRadius": 15.0,
+              "ImageSrc": ""
+          }
       }
-    },
-    {
-        "View": "ImageView",
-        "ImageViewData": {
-            "ImageViewViewType": "Full",
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/thumb-img1.jpg?v=1614315165",
-            "Title": "Lupercalia",
-            "Description": "Celebration of bodily autonomy, sexual liberation, and reproduction \n          Based on the Roman festival of the same name, Lupercalia falls on February 15. In keeping with the ancient tradition, February 13th and 14th are observed as feast days leading up to the actual holiday. What we are translating this to in TST is a 'hail yourself' day. This idea offers a parallel to the 'others-centered' traditions of Sol Invictus.",
-            "StyleProperties": {
-                "TitleTextColor": "#ddddd",
-                "TitleTextFontName": "",
-                "TitleTextFontSize": 17.0,
-                "TitleTextFontWeight": "",
-                "TitleTextNoOfLines": 4,
-                "DescriptionTextColor": "#ddddd",
-                "DescriptionTextFontName": "",
-                "DescriptionTextFontSize": 15.0,
-                "DescriptionTextFontWeight": "",
-                "DescriptionTextNoOfLines": 4,
-                "BackgroundColor": "#171717",
-                "Alignment": "",
-                "Margin": 15.0,
-                "Padding": 15.0,
-                "Radius": 15.0,
-                "BackgroundMargin": 15.0,
-                "BackgroundPadding": 15.0,
-                "BackgroundRadius": 15.0,
-                "ImageSrc": ""
-            }
+  },
+  {
+    "View": "ImageView",
+    "ImageViewData": {
+        "ImageViewViewType": "Half",
+        "ImageSrc": "",
+        "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+        "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+        "StyleProperties": {
+            "TitleTextColor": "#ddddd",
+            "TitleTextFontName": "",
+            "TitleTextFontSize": 17.0,
+            "TitleTextFontWeight": "",
+            "TitleTextNoOfLines": 4,
+            "DescriptionTextColor": "#ddddd",
+            "DescriptionTextFontName": "",
+            "DescriptionTextFontSize": 15.0,
+            "DescriptionTextFontWeight": "",
+            "DescriptionTextNoOfLines": 4,
+            "BackgroundColor": "#ddddd",
+            "Alignment": "",
+            "Margin": 15.0,
+            "Padding": 15.0,
+            "Radius": 15.0,
+            "BackgroundMargin": 15.0,
+            "BackgroundPadding": 15.0,
+            "BackgroundRadius": 15.0,
+            "ImageSrc": ""
         }
-    },
-    {
-      "View": "ImageView",
-      "ImageViewData": {
-        "ImageViewViewType": "Full",
-        "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/thumb-img2_92f1ce8d-0c65-4e6b-821f-8049065eb6d4.jpg?v=1694783731",
-        "ImageViewRadius": 19.0,
-        "ImageViewContainerColor": "#171717",
-        "ImageViewBackgroundColor": "#171717",
-        "ImageViewMargin": 8.0,
-        "ImageViewPadding": 8.0,
-
-        "ImageViewTextView": {
-          "ImageViewTitleFontSize": 18.0,
-          "ImageViewDescriptionFontSize": 14.0,
-          "ImageViewFontColor": "#ffffff",
-          "ImageViewFontWeight": "normal",
-          "ImageViewFontType": "B",
-          "ImageViewNumberOfLines": 4,
-          "ImageViewBackgroundColor2": "#EAEAEA",
-          "ImageViewMargin": 8.0,
-          "ImageViewPadding": 8.0,
-          "ImageViewTitle": "Hexennacht",
-          "ImageViewDescription": "Occasion honoring those who fell victim to superstition and pseudoscience, whether by witch hunt, Satanic panic, or other injustices \n             In Johann Wolfgang von Goethe's Faust: a Tragedy (1808), Mephisto and Faust attend the Walpurgisnacht revelry atop Mount Brocken. TST's Hexenacht is a solemn holiday to honor those who were victimized by superstition."
-        }
-      }
-    },
-    {
-      "View": "ImageView",
-      "ImageViewData": {
-        "ImageViewViewType": "Full",
-        "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/thumb-img3_2282d700-64ab-41eb-9dbd-87812ec298ac.jpg?v=1694783730",
-        "ImageViewRadius": 19.0,
-        "ImageViewContainerColor": "#171717",
-        "ImageViewBackgroundColor": "#171717",
-        "ImageViewMargin": 8.0,
-        "ImageViewPadding": 8.0,
-
-        "ImageViewTextView": {
-          "ImageViewTitleFontSize": 18.0,
-          "ImageViewDescriptionFontSize": 14.0,
-          "ImageViewFontColor": "#ffffff",
-          "ImageViewFontWeight": "normal",
-          "ImageViewFontType": "B",
-          "ImageViewNumberOfLines": 4,
-          "ImageViewBackgroundColor2": "#EAEAEA",
-          "ImageViewMargin": 8.0,
-          "ImageViewPadding": 8.0,
-          "ImageViewTitle": "Unveiling Day",
-          "ImageViewDescription": "Celebration of religious plurality and shedding archaic superstition \n             A centerpiece of our religious movement and icon of modern Satanism, the Baphomet with Children statue was commissioned by The Satanic Temple in 2014 and created by Mark Porter with 'respect for diversity and religious minorities' in mind. On July 25, 2015, The Satanic Temple unveiled Baphomet to a large crowd of devotees in Detroit, signaling the beginning of the new Satanic era. We observe this milestone in Satanic history by celebrating Unveiling Day."
-        }
-      }
-    },
-    {
-      "View": "ImageView",
-      "ImageViewData": {
-        "ImageViewViewType": "Full",
-        "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/thumb-img4_4e24d7a4-7396-4b43-922f-879a8d0f8816.jpg?v=1694783730",
-        "ImageViewRadius": 19.0,
-        "ImageViewContainerColor": "#171717",
-        "ImageViewBackgroundColor": "#171717",
-        "ImageViewMargin": 8.0,
-        "ImageViewPadding": 8.0,
-
-        "ImageViewTextView": {
-          "ImageViewTitleFontSize": 18.0,
-          "ImageViewDescriptionFontSize": 14.0,
-          "ImageViewFontColor": "#ffffff",
-          "ImageViewFontWeight": "normal",
-          "ImageViewFontType": "B",
-          "ImageViewNumberOfLines": 4,
-          "ImageViewBackgroundColor2": "#EAEAEA",
-          "ImageViewMargin": 8.0,
-          "ImageViewPadding": 8.0,
-          "ImageViewTitle": "Halloween",
-          "ImageViewDescription": "Holiday to celebrate indulgence and embrace the darkness and its aesthetic \n           Halloween is consistently described as evil, demonic, and satanic by those steeped in religious dogma. Costumes, candy, and facing fears are to be embraced."
-        }
-      }
-    },
-    {
-      "View": "ImageView",
-      "ImageViewData": {
-        "ImageViewViewType": "Full",
-        "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/thumb-img5_1eb84dea-722c-4c87-a045-0ebfd90f8e7c.jpg?v=1694783730",
-        "ImageViewRadius": 19.0,
-        "ImageViewContainerColor": "#171717",
-        "ImageViewBackgroundColor": "#171717",
-        "ImageViewMargin": 8.0,
-        "ImageViewPadding": 8.0,
-
-        "ImageViewTextView": {
-          "ImageViewTitleFontSize": 18.0,
-          "ImageViewDescriptionFontSize": 14.0,
-          "ImageViewFontColor": "#ffffff",
-          "ImageViewFontWeight": "normal",
-          "ImageViewFontType": "B",
-          "ImageViewNumberOfLines": 4,
-          "ImageViewBackgroundColor2": "#EAEAEA",
-          "ImageViewMargin": 8.0,
-          "ImageViewPadding": 8.0,
-          "ImageViewTitle": "Sol Invictus",
-          "ImageViewDescription": "Celebration of being unconquered by superstition and consistent in the pursuit and sharing of knowledge \n              The cult of Sol existed within Rome since its early days as a republic, and Invictus was an epithet used for Jupiter, Mars, and Apollo (among others). The festival celebrated these gods and may have also been used to celebrate the winter solstice."
-        }
-      }
     }
+},
+{
+  "View": "ImageView",
+  "ImageViewData": {
+      "ImageViewViewType": "Half",
+      "ImageSrc": "",
+      "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+      "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+      "StyleProperties": {
+          "TitleTextColor": "#ddddd",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ddddd",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#ddddd",
+          "Alignment": "",
+          "Margin": 15.0,
+          "Padding": 15.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 15.0,
+          "BackgroundPadding": 15.0,
+          "BackgroundRadius": 15.0,
+          "ImageSrc": ""
+      }
+  }
+},
+{
+  "View": "ImageView",
+  "ImageViewData": {
+      "ImageViewViewType": "Half",
+      "ImageSrc": "",
+      "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+      "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+      "StyleProperties": {
+          "TitleTextColor": "#ddddd",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ddddd",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#ddddd",
+          "Alignment": "",
+          "Margin": 15.0,
+          "Padding": 15.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 15.0,
+          "BackgroundPadding": 15.0,
+          "BackgroundRadius": 15.0,
+          "ImageSrc": ""
+      }
+  }
+},
+{
+  "View": "ImageView",
+  "ImageViewData": {
+      "ImageViewViewType": "Half",
+      "ImageSrc": "",
+      "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+      "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+      "StyleProperties": {
+          "TitleTextColor": "#ddddd",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ddddd",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#ddddd",
+          "Alignment": "",
+          "Margin": 15.0,
+          "Padding": 15.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 15.0,
+          "BackgroundPadding": 15.0,
+          "BackgroundRadius": 15.0,
+          "ImageSrc": ""
+      }
+  }
+},
+{
+  "View": "ImageView",
+  "ImageViewData": {
+      "ImageViewViewType": "Half",
+      "ImageSrc": "",
+      "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+      "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+      "StyleProperties": {
+          "TitleTextColor": "#ddddd",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ddddd",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#ddddd",
+          "Alignment": "",
+          "Margin": 15.0,
+          "Padding": 15.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 15.0,
+          "BackgroundPadding": 15.0,
+          "BackgroundRadius": 15.0,
+          "ImageSrc": ""
+      }
+  }
+}
     
   ]
 }

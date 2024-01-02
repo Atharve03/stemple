@@ -2,33 +2,57 @@
   "BackgroundColor": "#000000",
   "PageLayout": [
     {
-      "View": "TextView",
-      "TextViewData": {
-        "TextViewTitle": "ACCOUNTS OF TST CAMPAIGNS, CONGREGATIONS, AND OTHER GROUPS AND ASSOCIATED LEADERSHIP.",
-        "TextViewTitleFontSize": 24.0,
-        "TextAlignment": "left",
-        "TextViewDescription": "Fraudulent accounts are a common occurrence on social media.\nTST does not recruit or initiate new members.\nTST does not ask for personal or financial information through social media.\nMembership is, and always has always been, free.",
-        "TextViewDescriptionFontSize": 16.0,
-        "TextViewFontColor": "#ffffff",
-        "TextViewFontWeight": "normal",
-        "TextViewFontType": "",
-        "TextViewNumberOfLines": 4,
-        "TextViewBackgroundColor": "#171717",
-        "TextViewMargin": 8.0,
-        "TextViewPadding": 8.0,
-        "BackgroundImageSrc": "https://thesatanictemple.com/cdn/shop/files/header-img_1200x_ca6e809d-047f-49d8-8a82-bbee7bf3dbbb_800x389.jpg?v=1693907336",
-        "WholeViewRadius": 19.0
-      }
-    },
+        "View": "TextView",
+        "TextViewData": {
+            "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+            "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+            "StyleProperties": {
+                "TitleTextColor": "#ddddd",
+                "TitleTextFontName": "",
+                "TitleTextFontSize": 17.0,
+                "TitleTextFontWeight": "",
+                "TitleTextNoOfLines": 4,
+                "DescriptionTextColor": "#ddddd",
+                "DescriptionTextFontName": "",
+                "DescriptionTextFontSize": 15.0,
+                "DescriptionTextFontWeight": "",
+                "DescriptionTextNoOfLines": 4,
+                "BackgroundColor": "#ddddd",
+                "Alignment": "",
+                "Margin": 15.0,
+                "Padding": 15.0,
+                "Radius": 15.0,
+                "BackgroundMargin": 15.0,
+                "BackgroundPadding": 15.0,
+                "BackgroundRadius": 15.0,
+                "ImageSrc": ""
+            }
+        }
+      },
     {
       "View": "GridView",
       "GridViewData": {
-        "ContainerColor": "#c1c1c1",
-        "Margin": 8.0,
-        "Padding": 8.0,
-        "textFontSize": 12.0, 
-        "wholeViewRadius": 140.0,
-        "FontColor": "#171717",
+        "StyleProperties": {
+            "TitleTextColor": "#ddddd",
+            "TitleTextFontName": "",
+            "TitleTextFontSize": 17.0,
+            "TitleTextFontWeight": "",
+            "TitleTextNoOfLines": 4,
+            "DescriptionTextColor": "#ddddd",
+            "DescriptionTextFontName": "",
+            "DescriptionTextFontSize": 15.0,
+            "DescriptionTextFontWeight": "",
+            "DescriptionTextNoOfLines": 4,
+            "BackgroundColor": "#ddddd",
+            "Alignment": "",
+            "Margin": 15.0,
+            "Padding": 15.0,
+            "Radius": 15.0,
+            "BackgroundMargin": 15.0,
+            "BackgroundPadding": 15.0,
+            "BackgroundRadius": 15.0,
+            "ImageSrc": ""
+        },
   
         "GridViewItems": [
           {

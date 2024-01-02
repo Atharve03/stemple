@@ -4,50 +4,65 @@
     {
       "View": "TextView",
       "TextViewData": {
-        "TextViewTitle": "SATANIC MINISTRY",
-        "TextViewTitleFontSize": 24.0,
-        "TextAlignment": "left",
-        "TextViewDescription": "",
-        "TextViewDescriptionFontSize": 16.0,
-        "TextViewFontColor": "#ffffff",
-        "TextViewFontWeight": "normal",
-        "TextViewFontType": "",
-        "TextViewNumberOfLines": 4,
-        "TextViewBackgroundColor": "#171717",
-        "TextViewMargin": 8.0,
-        "TextViewPadding": 8.0,
-        "BackgroundImageSrc": "https://thesatanictemple.com/cdn/shop/files/join-us-banner_1200x_070d9ec1-db32-4c1d-8171-4e5b00e86150_1200x553.jpg?v=1694104786",
-        "WholeViewRadius": 0.0
+          "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+          "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+          "StyleProperties": {
+              "TitleTextColor": "#ddddd",
+              "TitleTextFontName": "",
+              "TitleTextFontSize": 17.0,
+              "TitleTextFontWeight": "",
+              "TitleTextNoOfLines": 4,
+              "DescriptionTextColor": "#ddddd",
+              "DescriptionTextFontName": "",
+              "DescriptionTextFontSize": 15.0,
+              "DescriptionTextFontWeight": "",
+              "DescriptionTextNoOfLines": 4,
+              "BackgroundColor": "#ddddd",
+              "Alignment": "",
+              "Margin": 15.0,
+              "Padding": 15.0,
+              "Radius": 15.0,
+              "BackgroundMargin": 15.0,
+              "BackgroundPadding": 15.0,
+              "BackgroundRadius": 15.0,
+              "ImageSrc": ""
+          }
       }
     },
     {
       "View": "DetailButtonView",
       "ButtonViewData": {
-        "ButtonViewViewType": "Top",
-        "BackgroundImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/ministry-w-bg_2880x1364_5c9bf389-4c51-4bd7-ae10-10697333c77c.jpg?v=1693312160%27",
-        "WholeViewRadius": 19.0,
-        "ContainerColor": "#171717",
-        "BackgroundImageViewColor": "#171717",
-        "Margin": 8.0,
-        "Padding": 8.0,
-        "TitleFontSize": 18.0,
-        "DescriptionFontSize": 14.0,
-        "FontColor": "#ffffff",
-        "Title": "WANT TO BE A MINISTER?",
-        "Description": "Would you like to be a Minister of Satan, ordained by The Satanic Temple? If you are a member of The Satanic Temple and an active participant in our community then you may be eligible to register for our online ordination program. At this time, registration for that program is by invitation only. You can find more information about who is eligible, and what the requirements and responsibilities are for our ordained members, on our Satanic Ministry website. If you are not eligible to be ordained by The Satanic Temple at this time, you can still register for the coursework to take the lessons and earn a Certificate of Satanic Scholarship.",
-        "NumberOfLines": 20,
-          
-        "ButtonView": {
-          "ButtonRadius": 15.0,
-          "ButtonRadiusColor":"ffffff",
-          "ButtonFontColor": "#000000",
-          "ButtonFontWeight": "normal",
-          "ButtonBackgroundColor": "#EAEAEA",
-          "ButtonMargin": 8.0,
-          "ButtonPadding": 8.0,
-          "ButtonText": "FIND OUT MORE"
-        }
+          "ActionType": "PAGE/PRODUCT/CATEOGRY",
+          "ActionId": "",
+          "ButtonText": "",
+          "ActionHandle": "",
+          "ButtonViewViewType": "Bottom",
+          "Title": "",
+          "Description": "",
+          "ButtonBackgoundColor": "#ddddd",
+          "ButtonFontColor": "#ddddd",
+          "StyleProperties": {
+              "TitleTextColor": "#ddddd",
+              "TitleTextFontName": "",
+              "TitleTextFontSize": 17.0,
+              "TitleTextFontWeight": "",
+              "TitleTextNoOfLines": 4,
+              "DescriptionTextColor": "#ddddd",
+              "DescriptionTextFontName": "",
+              "DescriptionTextFontSize": 15.0,
+              "DescriptionTextFontWeight": "",
+              "DescriptionTextNoOfLines": 4,
+              "BackgroundColor": "#ddddd",
+              "Alignment": "",
+              "Margin": 15.0,
+              "Padding": 15.0,
+              "Radius": 15.0,
+              "BackgroundMargin": 15.0,
+              "BackgroundPadding": 15.0,
+              "BackgroundRadius": 15.0,
+              "ImageSrc": ""
+          }
       }
-    }
+  }
   ]
 }

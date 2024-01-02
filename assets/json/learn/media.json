@@ -4,46 +4,60 @@
     {
       "View": "TextView",
       "TextViewData": {
-        "TextViewTitle": "IN THE MEDIA",
-        "TextViewTitleFontSize": 24.0,
-        "TextAlignment": "left",
-        "TextViewDescription": "The Satanic Temple was founded by Malcolm Jarry and  Lucien Greaves in 2013. Since, TST has been the focus of much media attention. Learn more about our mission by engaging with the content below.",
-        "TextViewDescriptionFontSize": 16.0,
-        "TextViewFontColor": "#ffffff",
-        "TextViewFontWeight": "normal",
-        "TextViewFontType": "",
-        "TextViewNumberOfLines": 4,
-        "TextViewBackgroundColor": "#171717",
-        "TextViewMargin": 8.0,
-        "TextViewPadding": 8.0,
-        "BackgroundImageSrc": "https://thesatanictemple.com/cdn/shop/files/join-us-banner_1200x_070d9ec1-db32-4c1d-8171-4e5b00e86150_1200x553.jpg?v=1694104786",
-        "WholeViewRadius": 0.0
+          "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+          "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+          "StyleProperties": {
+              "TitleTextColor": "#ddddd",
+              "TitleTextFontName": "",
+              "TitleTextFontSize": 17.0,
+              "TitleTextFontWeight": "",
+              "TitleTextNoOfLines": 4,
+              "DescriptionTextColor": "#ddddd",
+              "DescriptionTextFontName": "",
+              "DescriptionTextFontSize": 15.0,
+              "DescriptionTextFontWeight": "",
+              "DescriptionTextNoOfLines": 4,
+              "BackgroundColor": "#ddddd",
+              "Alignment": "",
+              "Margin": 15.0,
+              "Padding": 15.0,
+              "Radius": 15.0,
+              "BackgroundMargin": 15.0,
+              "BackgroundPadding": 15.0,
+              "BackgroundRadius": 15.0,
+              "ImageSrc": ""
+          }
       }
     },
     {
       "View": "ImageView",
       "ImageViewData": {
-        "ImageViewViewType": "Full",
-        "ImageViewSrc": "",
-        "ImageViewRadius": 19.0,
-        "ImageViewContainerColor": "#171717",
-        "ImageViewBackgroundColor": "#171717",
-        "ImageViewMargin": 8.0,
-        "ImageViewPadding": 8.0,
-        "ImageViewTextView": {
-          "ImageViewTitleFontSize": 18.0,
-          "ImageViewDescriptionFontSize": 14.0,
-          "ImageViewFontColor": "#ffffff",
-          "ImageViewFontWeight": "normal",
-          "ImageViewFontType": "B",
-          "ImageViewNumberOfLines": 4,
-          "ImageViewBackgroundColor2": "#171717",
-          "ImageViewMargin": 8.0,
-          "ImageViewPadding": 8.0,
-          "ImageViewTitle": "",
-          "ImageViewDescription": ""
-        }
+          "ImageViewViewType": "Half",
+          "ImageSrc": "",
+          "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+          "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+          "StyleProperties": {
+              "TitleTextColor": "#ddddd",
+              "TitleTextFontName": "",
+              "TitleTextFontSize": 17.0,
+              "TitleTextFontWeight": "",
+              "TitleTextNoOfLines": 4,
+              "DescriptionTextColor": "#ddddd",
+              "DescriptionTextFontName": "",
+              "DescriptionTextFontSize": 15.0,
+              "DescriptionTextFontWeight": "",
+              "DescriptionTextNoOfLines": 4,
+              "BackgroundColor": "#ddddd",
+              "Alignment": "",
+              "Margin": 15.0,
+              "Padding": 15.0,
+              "Radius": 15.0,
+              "BackgroundMargin": 15.0,
+              "BackgroundPadding": 15.0,
+              "BackgroundRadius": 15.0,
+              "ImageSrc": ""
+          }
       }
-    }
+  }
   ]
 }
