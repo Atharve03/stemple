@@ -28,7 +28,7 @@ class ItgeekWidgetBlog extends StatelessWidget {
               borderRadius:
                   BorderRadius.circular(style.radius!.toDouble()),
               child: Image.network(
-                style.imageSrc!,
+                blogViewItems.blogViewImagePath !,
                 fit: BoxFit.cover,
                 width: double.infinity,
               ),

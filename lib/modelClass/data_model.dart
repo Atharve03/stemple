@@ -244,6 +244,7 @@ class SliderData {
   double? sliderViewPortFraction;
   bool? sliderAutoPlay;
   double? sliderPadding;
+  double? sliderAspectRatio;
   String? sliderViewType;
   List<SliderItems>? sliderItems;
 
@@ -253,6 +254,7 @@ class SliderData {
       this.sliderViewPortFraction,
       this.sliderAutoPlay,
       this.sliderPadding,
+      this.sliderAspectRatio,
       this.sliderViewType,
       this.sliderItems});
 
@@ -262,6 +264,7 @@ class SliderData {
     sliderViewPortFraction = json['SliderViewPortFraction'];
     sliderAutoPlay = json['SliderAutoPlay'];
     sliderPadding = json['SliderPadding'];
+    sliderAspectRatio = json['SliderAspectRatio'];
     sliderViewType = json['SliderViewType'];
     if (json['SliderItems'] != null) {
       sliderItems = <SliderItems>[];
@@ -279,6 +282,7 @@ class SliderData {
     data['SliderViewPortFraction'] = this.sliderViewPortFraction;
     data['SliderAutoPlay'] = this.sliderAutoPlay;
     data['SliderPadding'] = this.sliderPadding;
+    data['SliderAspectRatio'] = this.sliderAspectRatio;
     data['SliderViewType'] = this.sliderViewType;
     if (this.sliderItems != null) {
       data['SliderItems'] = this.sliderItems!.map((v) => v.toJson()).toList();

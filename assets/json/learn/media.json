@@ -169,6 +169,81 @@
                 }
             ]
         }
+    },
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "Title": "TST LIBRARY",
+        "Description": "",
+        "StyleProperties": {
+          "TitleTextColor": "#171717",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 20.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ffffff",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 25.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#ffffff",
+          "Alignment": "",
+          "Margin": 15.0,
+          "Padding": 2.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 2.0,
+          "BackgroundPadding": 2.0,
+          "BackgroundRadius": 15.0,
+          "ImageSrc": ""
+        }
+      }
+    },
+    {
+        "View": "Sliders",
+        "SliderData": {
+            "SliderIndicatorSelectedColor": "#ffffff",
+            "SliderIndicatorUnSelectedColor": "#bcbcbc",
+            "SliderViewPortFraction": 0.8,
+            "SliderAutoPlay": false,
+            "SliderPadding": 5.0,
+            "SliderAspectRatio": 0.75,
+            "SliderViewType": "Enlarge",
+            "SliderItems": [
+                {
+                    "SliderType": "ImageWithText",
+                    "SliderText": "",
+                    "SliderLink": "https://thesatanictemple.com/cdn/shop/products/81Y2f8kgFeL_416x608.jpg?v=1639072912",
+                    "SliderButtonText": "My Button",
+                    "SliderButtonColor": "#000000",
+                    "SliderBackgroundColor": "#808080",
+                    "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
+                    "SliderBannerUID": 1,
+                    "SliderButtonClicked": ""
+                },
+                {
+                    "SliderType": "ImageWithText",
+                    "SliderText": "",
+                    "SliderLink": "https://thesatanictemple.com/cdn/shop/files/doug-mesner-rota-203x300_large_2ac5fab2-bd46-4c9b-ad2f-10f3b12c595f_203x300.jpg?v=1614314188",
+                    "SliderButtonText": "My Button",
+                    "SliderButtonColor": "#000000",
+                    "SliderBackgroundColor": "#808080",
+                    "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
+                    "SliderBannerUID": 1234,
+                    "SliderButtonClicked": ""
+                },
+                {
+                    "SliderType": "ImageWithText",
+                    "SliderText": "",
+                    "SliderLink": "https://thesatanictemple.com/cdn/shop/files/61CYksAhElL_416x672.jpg?v=1639072512",
+                    "SliderButtonText": "My Button",
+                    "SliderButtonColor": "#000000",
+                    "SliderBackgroundColor": "#808080",
+                    "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
+                    "SliderBannerUID": 2,
+                    "SliderButtonClicked": ""
+                } 
+            ]
+        }
     }
   ]
 }

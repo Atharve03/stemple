@@ -14,6 +14,7 @@ class WidgetImage extends StatelessWidget {
       child: Image.network(
         sliderItems.sliderLink!,
         fit: BoxFit.cover,
+        // height: MediaQuery.of(context).size.height * 0.8,
         width: double.infinity,
       ),
     );
