@@ -1,0 +1,132 @@
+{
+    "BackgroundColor": "#000000",
+    "AppBarBackColor": "#000000",
+    "AppBarIcon": "#000000",
+    "PageLayout": [
+        {
+            "View": "TextView",
+            "TextViewData": {
+                "Description": "",
+                "Title": "LEGAL ACTION",
+                "StyleProperties": {
+                    "TitleTextColor": "#ddddd",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ddddd",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ddddd",
+                    "Alignment": "",
+                    "Margin": 15.0,
+                    "Padding": 15.0,
+                    "Radius": 15.0,
+                    "BackgroundMargin": 15.0,
+                    "BackgroundPadding": 15.0,
+                    "BackgroundRadius": 15.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/legal-hero_2880x1364_be2884c0-edaf-40f0-9f4e-4717830deda9_960x288.jpg?v=1693837986"
+                }
+            }
+        },
+        {
+            "View": "ImageView",
+            "ImageViewData": {
+                "ImageViewViewType": "Full",
+                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/legal-lt-image_ed1e3794-5c51-4e2f-be4a-f9a2b70dae77.jpg?v=1693838188",
+                "Title": "THE SATANIC TEMPLE LAWSUITS",
+                "Description": "The Satanic Temple believes in the necessity of utilizing the courts to protect the rights of our members. The legal process has traditionally served as a vehicle for social change by establishing enduring precedents. If the courts abide by legal precedents, they are compelled to protect our religious rights as Satanists. While it is disappointing when judges fail to adhere to the laws they have sworn to uphold, we nevertheless expose their corrupt biases. In addition, as we have witnessed in the past, the justice system will not allow this kind of unfair treatment to persist indefinitely because it undermines the foundation of the entire legal system. However, this requires perseverance, and TST will continue to fight for the religious rights of our members and seek enduring precedents from the US court system.",
+                "StyleProperties": {
+                    "TitleTextColor": "#ddddd",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ddddd",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ddddd",
+                    "Alignment": "",
+                    "Margin": 15.0,
+                    "Padding": 15.0,
+                    "Radius": 15.0,
+                    "BackgroundMargin": 15.0,
+                    "BackgroundPadding": 15.0,
+                    "BackgroundRadius": 15.0,
+                    "ImageSrc": ""
+                }
+            }
+        },
+        {
+            "View": "FAQ",
+            "TextListWithDetailsData": {
+                "ViewType":"detail",
+                "IconSize":15.0,
+                "IconColor":"#FF0000",
+                "ArrowVisibility": true,
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ddddd",
+                    "Alignment": "",
+                    "Margin": 15.0,
+                    "Padding": 15.0,
+                    "Radius": 15.0,
+                    "BackgroundMargin": 15.0,
+                    "BackgroundPadding": 15.0,
+                    "BackgroundRadius": 15.0,
+                    "ImageSrc": ""
+                },
+                "QuestionAnswer": [
+                    {
+                        "Question": "The Satanic Temple v. Texas",
+                        "Expand": false,
+                        "Answer": "The Satanic Temple has filed a lawsuit in the United States District Court for the Southern District of Texas Houston Division alleging that certain state-mandated abortion restrictions violate TST members' religious beliefs.\n What is the case?\n On behalf of TST member 'Ann Doe,' TST is suing the state of Texas for imposing medically unnecessary abortion regulations including a sonogram, a forced decision to reject the 'opportunity' of seeing the sonogram results, the forced listening to a narrative of the sonogram results, and a mandatory waiting period between the sonogram and the abortion.\n Doe performed TST's abortion ritual, a ceremonial affirmation of self-worth and bodily autonomy that integrates the abortive process. Prior to filing the lawsuit, TST's attorney sent a letter to the Texas Health and Human Services Commission, which demanded an exemption from the abortion restrictions on behalf of Ann Doe. TST's attorney explained:\n 'The abortion ritual (1) requires an abortion; and (2) affirms her religious subscription to TST's Third and Fifth Tenets. But before Ms. Doe can get her abortion–and therefore participate in the abortion ritual–the government has required that she get a sonogram… [ These ] requirements substantially interfere with Ms. Doe's religious beliefs and practices for two reasons. First, the requirements are a precondition to Ms. Doe's ability to participate in a religious ceremony. It is a substantial interference per se for the state to place a regulatory hurdle–one that costs money–in front of a religious exercise. The state might as well tax and regulate Mass.' \n TST spokesperson Lucien Greaves says, 'I am sure Texas Attorney General Ken Paxton, who famously spends a good deal of his time composing press releases about Religious Liberty issues in other states, will be proud to see that Texas's robust Religious Liberty laws, which he so vociferously champions, will prevent future Abortion Rituals from being interrupted by superfluous government restrictions meant only to shame and harass those seeking an abortion.'\n this case matters?\n This lawsuit directly challenges restrictive abortion laws that violate TST’s religious beliefs in a state that champions religous liberty through their implementation of Texas’s Religious Freedom Restoration Act. This case serves as the basis for establishing our claims to religious exemptions from abortion restrictions in states across the nation. We expect that Texas will respect our claims to religious liberty and permit Satanists their religious exemptions from medically unnecessary and unscientific abortion procedures that are designed to guilt and shame patients when receiving reproductive care."
+                    },
+                    {
+                        "Question": "The Satanic Temple v. Texas II",
+                        "Expand": false,
+                        "Answer": "In response to the passing of Texas legislature SB-8 and its effect as of September 1, 2021 \n– The Satanic Temple expresses that SB-8 statute guidelines pertaining to the detection of embryonic or fetal cardiac activity at 6 weeks into a pregnancy is in direct violation of Temple members’ rights to the Satanic Abortion Ritual, and insist these rights be upheld. \n Violations:\nTRFRA (Texas’s Religious Freedom Restoration Act) precludes governmental interference with religious practices, regardless of neutrality and without need of expressive activity. The Abortion Ritual is a religious practice, yet is interfered with by the regulations at issue.\nProgress:\nService is complete and the State anticipates moving to stay Texas II for the same period as Texas I. We will object, because Texas II does not involve Roe v. Wade, so it is irrelevant what happens at the United States Supreme Court. "
+                    },
+                    {
+                        "Question": "The Satanic Temple v. Scottsdale",
+                        "Expand": false,
+                        "Answer": "Background \n Like many other cities, the City of Scottsdale, Arizona, holds legislative prayers before city council meetings. Scottsdale's prayers were (until mid-2016) given by a first-come-first-served all-comer selection policy. In early 2016, TST requested a prayer opportunity by a 3-5 minute phone call. At the end of that phone call, the scheduling clerk scheduled us.\nAn outcry happened. 15,267+ emails in objection to TST's equal participation were sent to the city. In addition to a mayor-approved response that called TST 'repulsive' and that he 'does not condone this group [TST], its belief, or its message,” multiple council members responded with animosity to TST’s request for a prayer. One councilmember stated to an objector, 'Personally, I want to keep the prayers, do NOT want the Satanists, and I think this is taking equality too far.' \n At some point, the City Manager got involved because of the 'controversy' and directed legal research 'into what we had done in the past.' An unnamed attorney opined that TST could be rejected because we lacked a 'substantial connection' to Scottsdale, and thus our invitation was revoked. It is important to note, however, that two months earlier, a councilmember wrote an opinion piece expressly stating that there was no qualification on who could participate in the prayer ceremony.\nWe sued the City for violations of the Establishment Clause and the Equal Protection Clause. During the litigation, the definition of 'substantial connection' shifted from 'physically located inside of Scottsdale city limits' to 'we made one exception for a particular Jesuit school' to 'you just have to be physically located inside the Phoenix metro area and have more than one or two members who are residents.'\n trial, the Judge ruled that we had failed to provide enough evidence that the City Manager was individually a bigot. We appealed. We assign error to overlooking that the constitution inspects the City's actions and not just the particular silent patsy assigned the task of determining how to exclude TST. We also assign error to the fact that the trial judge overlooked the changing definition of 'substantial connection.'\n Posture\nThe matter is fully briefed. The Ninth Circuit reviewed TST’s case and heard our oral arguments in San Francisco on March 18, 2021. After oral argument, the Court will make a decision whether to affirm or reverse the ruling.\nComments\nAnimosity from various Scottsdale local government members will not deter TST from demanding equal treatment in other invocation programs around the country. In 2021, TST will provide a streamlined support system for members who want to participate in their local public forums. Taking part will enable TST members to contribute to the religious diversity within their communities and promote genuine inclusivity."
+                    },
+                    {
+                        "Question": "The Satanic Temple v. Belle Plaine",
+                        "Expand": false,
+                        "Answer": "In August of 2016, a resident of Belle Plaine, Minnesota, installed a monument in Belle Plaine's Veterans Park depicting a soldier kneeling to a Latin Cross. In late-2016, the FFRF informed the City that they should remove the monument or the FFRF would sue over the Establishment Clause issue of hosting a pro-Christian message. The City removed the Cross from the memorial, which caused a political backlash among the local 'Veterans Group.'\n to the pro-Christian Veterans Group's demand, the City resolved to modify the Veterans Park to permit private donations of monuments. During that meeting, Councilmember Stier expressed concern that this would lead to the inclusion of a Satanic monument. Ultimately the City enacted a resolution to permit private monuments to be placed in the Veterans Park. Consequently, TST proposed the emplacement of a to-be-constructed cube display with an upturned helmet that featured inverted pentagrams. The City accepted our proposal and issued a permit, and the city responded with outrage. Still, we continued to construct our monument.\nAfter our monument was built, we coordinated with the City to place it. The City strung us along for about two weeks while they coordinated the removal of the Christian monument. Three days after the Christian monument was removed and three days before the coordinated date to place our Display, the City closed the Veterans Park to private monuments.\n We sued on a number of constitutional issues and promissory estoppel. On July 31, 2020, the constitutional issues were dismissed 'without prejudice' (meaning we can re-raise them later). The City has since refused to produce any internal documents about the case, any external communications about the case, and refused to permit any depositions of the City's witnesses.\nProcedural Posture\nThe matter was heard mid-December 2020. The City has moved for a seal of judicial approval on the City's refusal to permit depositions of City witnesses. We have moved for (1) extensions of discovery time; (2) leave to amend the complaint to correct the pleading deficiencies and re-raise the constitutional issues; and (3) order production of City witnesses for depositions and production of internal records and external communications.\nNext Steps\nIf the hearing goes our way, we will begin obtaining useful discovery from the City. If not, we will proceed with a motion for summary judgment based on what we know from the public record.\nComments\nWe consider our monument, which is currently housed at TST Headquarters in Salem, Massachusetts, to be a reverent tribute to Belle Plaine's veterans and a symbol of appreciation for the sacrifices that all veterans make to secure Constitutional freedoms. The city has shown that they would rather close down a forum that sincerely honors veterans than uphold our Constitutional guarantees of religious liberty. While we regret reporting instances of religious discrimination, we expect that this lawsuit will right the wrong that the city inflicted upon The Satanic Temple, and we hope to have the opportunity to publicly display our monument."
+                    },
+                    {
+                        "Question": "The Satanic Temple v. Arkansas",
+                        "Expand": false,
+                        "Answer": "In 2017, the State of Arkansas erected a Ten Commandments monument on the Capitol grounds. That monument was donated by the Arkansas History and Heritage Foundation, which is co-directed by State Sen. Rapert and State Rep. Hammer.\nIn response, we sought the emplacement of our Baphomet monument to contrast the distinctly pro-Christian messaging of the Ten Commandments monument.\nAfter we were granted approval to move forward by the Arts & Grounds Commission, State Rep. Hammer introduced a bill, which retroactively only applied to Baphomet, to require a legislative act before any proposals for new monuments to be heard by the public for comment. Before, an act was required after the public comment period.\nTwo days after the bill was introduced, State Sen. Rapert posted a Facebook video wherein he states that it will be a 'cold day in hell' before the State will be 'forced' to put up the Baphomet monument.\nIn 2018, we joined two preexisting suits that took issue with the Establishment Clause violation of placing a new Ten Commandments monument on public grounds. We added one count: an Equal Protection Clause violation for the State modifying its rules specifically to avoid being 'forced' to put up the Baphomet monument.\nWe are primarily seeking a court order to place the Baphomet monument. If the Court removes the Ten Commandments monument, we want to erect Baphomet for the same amount of time as the Ten Commandments monument and in the same place. Or, if the Court does not remove the Ten Commandments monument, we are seeking a court order to place Baphomet on Capitol grounds as well.\nProcedural Posture\nThe parties are still in the discovery stage. Right now, the Court is in the process of resolving our motion to require the State to produce about 15,000 pages of emails about the placement of our statue. The Court is also in the process of resolving the State's motion to require we produce all text messages between Arkansas TST leadership and TST HQ leadership.\nNext Steps\nIf we get the 15,000+ pages of emails about this case, we will need to review the materials. If not, we will need to begin briefing the motion for summary judgment. There is no deadline on the motion for summary judgment at this time.\nComments\nThe conditions of this case are all too familiar: Satanists are denied access to a limited public forum because city officials want to privilege certain religions over others and engage in viewpoint discrimination. It is disturbing that these situations arise with regularity. Still, as in our lawsuits in Belle Plaine, Scottsdale, Boston, and Missouri, this will not deter us from demanding our Constitutional rights and the fair and equal application of justice."
+                    },
+                    {
+                        "Question": "The Satanic Temple v. Boston",
+                        "Expand": false,
+                        "Answer": "TST is suing the city of Boston for denying its request to deliver an invocation at the start of City Council meetings. Currently, the Boston City Council permits invocations from representatives of other faiths by invitation only. This practice ensures that only faiths approved by council members are ever afforded the opportunity to speak.\nBoston’s City Council has a standing policy that each Council member is given two or three dates per year to invite a speaker of their choice to deliver the opening prayer before each meeting. Satanists have thrice asked the City Council to allow them the opportunity to give the opening invocation. In each instance, the Council has informed the Temple members that they do not accept requests.\nIn response, TST cofounder Malcolm Jarry has sued Boston’s City Council over allegations of religious discrimination. Jarry bases his lawsuit on the protections of Boston’s Public Accommodations statue, which states that any place serving a public function, such as “meeting place or hall, including the common halls of building,” is entitled to protection from discrimination. Additionally, the Constitution’s Equal Protection Clause guarantees that all religions have an equal opportunity to participate in free-speech forums. A publicly-hosted City Council meeting held on public property falls under the protection of these two laws.\nNext Steps\nWe next have to wait for a response from the courts.\nComments\nBy deciding which religious representatives may and may not speak in a public forum, the Council is openly engaging in discrimination. In fact, that is the very definition of discrimination. Whether the City Council actively disparages Satanism or The Satanic Temple is unknown and not relevant. What is relevant is the fact that the City Council does not permit prayer from every religious organization that wishes to deliver one and that is unconstitutional.\nThe people of Boston deserve better than to be represented by a City Council that either cannot comprehend the application of local and Constitutional law or willfully chooses to ignore those laws at their convenience. Either scenario is reprehensible. The rejection of our requests annihilates any notion that the City Council is capable of upholding its constituents’ basic legal rights. They openly engage in discrimination, and every citizen should rightly fear the Council's abuse of power, which threatens the civil liberties of the Bostonians they govern."
+                    },
+                    {
+                        "Question": "The Satanic Temple v. Missouri",
+                        "Expand": false,
+                        "Answer": "When TST member Judy Doe sought to terminate her pregnancy in the state of Missouri, she was faced with legal requirements that contravene her religious beliefs and were not medically necessary. Missouri mandated that she receive literature which asserts that “the life of each human being begins at conception,” and that “[a]bortion will terminate the life of a separate, unique, living human being.” Doe was also required to endure a 72-hour waiting period, designed so that the state’s position on life, which contradicts a prior legal ruling by the Eighth Circuit, will be thoroughly considered before undergoing the procedure.\nTST sued the state of Missouri for imposing its religious doctrine which is contrary to Doe’s deeply-held beliefs. TST believes that decisions regarding one’s health should adhere to the Third and Fifth Tenets, which assert bodily autonomy and decisions based on best scientific evidence. The First Amendment’s Establishment Clause and the state’s Religious Freedom Restoration Act protect Doe’s right to adopt her Satanic theory of when life begins.\nTST argued in their lawsuit that the mandated imposition of religious opinions upon Satanists seeking to terminate a pregnancy violates TST’s deeply-held beliefs of bodily autonomy and scientifically-reasoned personal choice. Forcing Doe to receive religious materials and presumably contemplate them for three days creates an unconstitutional undue burden.\nThe Eighth Circuit\nThe Eighth Circuit Court refused to consider TST’s arguments that the state’s informed consent laws violate the “undue burden” standard established in Planned Parenthood v. Casey and that the government has violated Doe’s right to the free exercise of religion. Although the Court openly acknowledged that those issues were raised, the Court said that those claims were not explicitly alleged in the initial complaint. After a request for a rehearing on June 9th, Missouri once again refused to consider TST’s arguments. After this dismissal, TST appealed the previous decision to the US Supreme Court.\nAdditionally, after Amy Coney Barrett was confirmed as the newest Justice on the US Supreme Court, TST filed a motion asking for the Supreme Court to disqualify her from deciding on TST’s case. TST questioned her ability to remain impartial based on her public statements she has made that condemn the legitimacy of abortion.\nDespite the efforts to rectify Missouri’s injustices, The Supreme Court has chosen not to hear The Satanic Temple’s case.\nComments\nWhile we are disappointed that the Supreme Court has passed on our case, we are nonetheless still empowered to demand that states honor Satanists’ religious rights when receiving reproductive care. This lawsuit’s progress of demonstrating the legal merits of our case is just one step in our fight to obtain reproductive care in accordance with our Tenets."
+                    }
+    ]
+    }
+}
+
+        ]}

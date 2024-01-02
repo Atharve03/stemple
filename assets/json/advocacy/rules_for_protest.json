@@ -1,0 +1,103 @@
+{
+    "BackgroundColor": "#000000",
+    "AppBarBackColor": "#000000",
+    "AppBarIcon": "#000000",
+    "PageLayout": [
+        {
+            "View": "TextView",
+            "TextViewData": {
+                "Description": "",
+                "Title": "TST’S GUIDE TO\nEFFECTIVE PROTEST",
+                "StyleProperties": {
+                    "TitleTextColor": "#ddddd",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ddddd",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ddddd",
+                    "Alignment": "",
+                    "Margin": 15.0,
+                    "Padding": 15.0,
+                    "Radius": 15.0,
+                    "BackgroundMargin": 15.0,
+                    "BackgroundPadding": 15.0,
+                    "BackgroundRadius": 15.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_3_1248x384.jpg?v=1693568892"
+                }
+            }
+        },
+        {
+            "View": "textTile",
+            "textTileData": {
+                "StyleProperties": {
+                    "TitleTextColor": "#ddddd",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ddddd",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ddddd",
+                    "Alignment": "",
+                    "Margin": 15.0,
+                    "Padding": 15.0,
+                    "Radius": 15.0,
+                    "BackgroundMargin": 15.0,
+                    "BackgroundPadding": 15.0,
+                    "BackgroundRadius": 15.0,
+                    "ImageSrc": ""
+                },
+                "textTileItems": [
+                    {
+                        "IconData": "I",
+                        "Text": "Protest is an act of free speech, and protesters must respect free speech."
+                    },
+                    {
+                        "IconData": "II",
+                        "Text": " Have a clearly articulated position with tenable demands and a practical well-defined statement for what constitutes achieving your goals."
+                    },
+                    {
+                        "IconData": "III",
+                        "Text": " Effective protest is founded on a legitimate theory of change that is exemplified by the structure of IF I do X, THEN Y will happen BECAUSE Z."
+                    },
+                    {
+                        "IconData": "IV",
+                        "Text": " Protest must be based on a principle as opposed to identity politics. Everyone benefits from the pursuit of well-conceived principles."
+                    },
+                    {
+                        "IconData": "V",
+                        "Text": " Stay focused on specific issues and do not adopt issues that you think are analogously related."
+                    },
+                    {
+                        "IconData": "VI",
+                        "Text": "Stand for issues and principles – do not reflexively support the entire agenda of parties, organizations, or individuals."
+                    },
+                    {
+                        "IconData": "VII",
+                        "Text": "Do not allow narratives to prevail over facts."
+                    },
+                    {
+                        "IconData": "VIII",
+                        "Text": "Restrict your movement to people who believe in the principles of your movement."
+                    },
+                    {
+                        "IconData": "IX",
+                        "Text": " If your protest calls for the deprivation of rights and liberties of others, intimidates others, harasses or threatens others, silences others, then you are an enemy of freedom no matter what the justification."
+                    },
+                    {
+                        "IconData": "X",
+                        "Text": "Engaging in, promoting, inciting, and/or celebrating physical violence that deliberately targets civilians is never justifiable."
+                    }
+                ]
+            }
+        }
+    ]
+}
