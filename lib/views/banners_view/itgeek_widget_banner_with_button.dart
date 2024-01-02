@@ -44,7 +44,7 @@ class BottomButton extends StatelessWidget {
           borderRadius: BorderRadius.circular(buttonViewData.styleProperties!.backgroundRadius!),
           color: bgColor,
           image: DecorationImage(
-            image: NetworkImage(buttonViewData.styleProperties!.imageSrc!),
+            image: NetworkImage(buttonViewData.styleProperties!.imageSrc!), fit: BoxFit.cover,
             // Padding(
             //   padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
             //   child: ClipRRect(
@@ -72,7 +72,7 @@ class BottomButton extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                   //   Row(mainAxisAlignment: MainAxisAlignment.center, children: [    
-                  Padding(
+                  buttonViewData.title != "" ? Padding(
                         padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
                         child: Text(
                           buttonViewData.title!,
@@ -82,9 +82,9 @@ class BottomButton extends StatelessWidget {
                               fontWeight: FontWeight.bold,
                               fontSize: buttonViewData.styleProperties!.titleTextFontSize!),
                         ),
-                      ),
+                      ) : Container(),
                     // ]),
-                    Padding(
+                     buttonViewData.description != "" ? Padding(
                       padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
                       child: Text(
                         buttonViewData.description!,
@@ -94,7 +94,7 @@ class BottomButton extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                             fontSize: buttonViewData.styleProperties!.descriptionTextFontSize!),
                       ),
-                    ),
+                    ) : Container(),
                     Padding(
                       padding: EdgeInsets.all(
                           buttonViewData.styleProperties!.padding!),
