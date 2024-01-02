@@ -1,23 +1,167 @@
 {
   "BackgroundColor": "#000000",
+  "AppBarBackColor": "#000000",
+  "AppBarIcon": "#000000",
   "PageLayout": [
     {
       "View": "TextView",
       "TextViewData": {
-        "TextViewTitle": "CONTACT TST",
-        "TextViewTitleFontSize": 24.0,
-        "TextAlignment": "left",
-        "TextViewDescription": "",
-        "TextViewDescriptionFontSize": 16.0,
-        "TextViewFontColor": "#ffffff",
-        "TextViewFontWeight": "normal",
-        "TextViewFontType": "",
-        "TextViewNumberOfLines": 4,
-        "TextViewBackgroundColor": "#171717",
-        "TextViewMargin": 8.0,
-        "TextViewPadding": 8.0,
-        "BackgroundImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_10a7b13c-5f7a-49d9-ab9d-32b5e64c6209_1664x512.jpg?v=1694017420",
-        "WholeViewRadius": 19.0
+        "Title": "CONTACT TST",
+        "Description": "",
+        "StyleProperties": {
+          "TitleTextColor": "#000000",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 24.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ddddd",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 24.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#171717",
+          "Alignment": "",
+          "Margin": 15.0,
+          "Padding": 15.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 8.0,
+          "BackgroundPadding": 8.0,
+          "BackgroundRadius": 15.0,
+          "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_10a7b13c-5f7a-49d9-ab9d-32b5e64c6209_1664x512.jpg?v=1694017420"
+        }
+      }
+    },
+    {
+      "FrequentlyAskedQuestions": {
+        "ViewType": "#ffffff",
+        "IconSize": "#ffffff",
+        "ArrowVisibility": true,
+        "IconColor": "#FF0000",
+        "StyleProperties": {
+          "TitleTextColor": "#000000",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 24.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ddddd",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 24.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#171717",
+          "Alignment": "",
+          "Margin": 15.0,
+          "Padding": 15.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 8.0,
+          "BackgroundPadding": 8.0,
+          "BackgroundRadius": 15.0,
+          "ImageSrc": ""
+        },
+        "QuestionAnswer": [
+          {
+            "Question": "CONTACT THE SATANIC TEMPLE ",
+            "Expand": false,
+            "Answer": {
+              "View": "WebView",
+              "WebViewData": {
+                "ContentType": "Html",
+                "ScaleSize": 0.8,
+                "HtmlContent": "",
+                "Link": "",
+                "StyleProperties": {
+                  "TitleTextColor": "#ffffff",
+                  "TitleTextFontName": "",
+                  "TitleTextFontSize": 18.0,
+                  "TitleTextFontWeight": "",
+                  "TitleTextNoOfLines": 4,
+                  "DescriptionTextColor": "#ffffff",
+                  "DescriptionTextFontName": "",
+                  "DescriptionTextFontSize": 14.0,
+                  "DescriptionTextFontWeight": "",
+                  "DescriptionTextNoOfLines": 4,
+                  "BackgroundColor": "#171717",
+                  "Alignment": "",
+                  "Margin": 8.0,
+                  "Padding": 8.0,
+                  "Radius": 15.0,
+                  "BackgroundMargin": 8.0,
+                  "BackgroundPadding": 8.0,
+                  "BackgroundRadius": 15.0,
+                  "ImageSrc": ""
+                }
+              }
+            }
+          },
+          {
+            "Question": "CONTACT THE SHOP ",
+            "Expand": false,
+            "Answer": {
+              "View": "WebView",
+              "WebViewData": {
+                "ContentType": "Html",
+                "ScaleSize": 0.8,
+                "HtmlContent": "",
+                "Link": "",
+                "StyleProperties": {
+                  "TitleTextColor": "#ffffff",
+                  "TitleTextFontName": "",
+                  "TitleTextFontSize": 18.0,
+                  "TitleTextFontWeight": "",
+                  "TitleTextNoOfLines": 4,
+                  "DescriptionTextColor": "#ffffff",
+                  "DescriptionTextFontName": "",
+                  "DescriptionTextFontSize": 14.0,
+                  "DescriptionTextFontWeight": "",
+                  "DescriptionTextNoOfLines": 4,
+                  "BackgroundColor": "#171717",
+                  "Alignment": "",
+                  "Margin": 8.0,
+                  "Padding": 8.0,
+                  "Radius": 15.0,
+                  "BackgroundMargin": 8.0,
+                  "BackgroundPadding": 8.0,
+                  "BackgroundRadius": 15.0,
+                  "ImageSrc": ""
+                }
+              }
+            }
+          },
+          {
+            "Question": "MEDIA REQUESTS",
+            "Expand": false,
+            "Answer": {
+              "View": "WebView",
+              "WebViewData": {
+                "ContentType": "Html",
+                "ScaleSize": 0.8,
+                "HtmlContent": "",
+                "Link": "",
+                "StyleProperties": {
+                  "TitleTextColor": "#ffffff",
+                  "TitleTextFontName": "",
+                  "TitleTextFontSize": 18.0,
+                  "TitleTextFontWeight": "",
+                  "TitleTextNoOfLines": 4,
+                  "DescriptionTextColor": "#ffffff",
+                  "DescriptionTextFontName": "",
+                  "DescriptionTextFontSize": 14.0,
+                  "DescriptionTextFontWeight": "",
+                  "DescriptionTextNoOfLines": 4,
+                  "BackgroundColor": "#171717",
+                  "Alignment": "",
+                  "Margin": 8.0,
+                  "Padding": 8.0,
+                  "Radius": 15.0,
+                  "BackgroundMargin": 8.0,
+                  "BackgroundPadding": 8.0,
+                  "BackgroundRadius": 15.0,
+                  "ImageSrc": ""
+                }
+              }
+            }
+          }
+        ]
       }
     }
   ]
