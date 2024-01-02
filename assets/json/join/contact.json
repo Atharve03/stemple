@@ -1,0 +1,24 @@
+{
+  "BackgroundColor": "#000000",
+  "PageLayout": [
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "TextViewTitle": "CONTACT TST",
+        "TextViewTitleFontSize": 24.0,
+        "TextAlignment": "left",
+        "TextViewDescription": "",
+        "TextViewDescriptionFontSize": 16.0,
+        "TextViewFontColor": "#ffffff",
+        "TextViewFontWeight": "normal",
+        "TextViewFontType": "",
+        "TextViewNumberOfLines": 4,
+        "TextViewBackgroundColor": "#171717",
+        "TextViewMargin": 8.0,
+        "TextViewPadding": 8.0,
+        "BackgroundImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_10a7b13c-5f7a-49d9-ab9d-32b5e64c6209_1664x512.jpg?v=1694017420",
+        "WholeViewRadius": 19.0
+      }
+    }
+  ]
+}

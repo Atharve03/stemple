@@ -31,6 +31,6 @@ class MyDashboard extends StatelessWidget {
           backgroundColor: Colors.amber,
           title: const Text("Slider Example"),
         ),
-        body: Container(child: WidgetFrequentlyAskedQuestions()));
+        body: Container(child: Dashboard()));
   }
 }

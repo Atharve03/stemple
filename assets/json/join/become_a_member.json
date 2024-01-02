@@ -1,0 +1,90 @@
+{
+  "BackgroundColor": "#000000",
+  "PageLayout": [
+    {
+      "View": "ImageView",
+      "ImageViewData": {
+        "ImageViewViewType": "Half",
+        "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/news-satanic-temple-rally-utah-capitol-22-mcancio_52a47a9d-5770-4056-be02-afc9ad7a62c0.jpg?v=1692870503",
+        "ImageViewRadius": 19.0,
+        "ImageViewContainerColor": "#171717",
+        "ImageViewBackgroundColor": "#171717",
+        "ImageViewMargin": 8.0,
+        "ImageViewPadding": 8.0,
+        "ImageViewTextView": {
+          "ImageViewTitleFontSize": 18.0,
+          "ImageViewDescriptionFontSize": 14.0,
+          "ImageViewFontColor": "#ffffff",
+          "ImageViewFontWeight": "normal",
+          "ImageViewFontType": "B",
+          "ImageViewNumberOfLines": 4,
+          "ImageViewBackgroundColor2": "#171717",
+          "ImageViewMargin": 8.0,
+          "ImageViewPadding": 8.0,
+          "ImageViewTitle": "MEMBERSHIP",
+          "ImageViewDescription": "Membership is open to individuals dedicated, in action and/or by identity, to the tenets of The Satanic Temple.\nMembership is a privilege, subject to termination for failure to uphold the spirit of The Satanic Temple and its tenets.\nMembership does not grant authority to act as an organizational spokesperson for The Satanic Temple.\nMembership is free; however, official membership cards can be purchased with a non-refundable $35 fee."
+        }
+      }
+    },
+    {
+      "View": "WebView",
+      "WebViewData": {
+        "ContentType": "link",
+        "ScaleSize" : 0.8,
+        "HtmlContent": "",
+        "BackgroundColor": "#EAEAEA",
+        "Link": "",
+        "Padding" : 0.0,
+        "Margin" : 0.0
+      }
+    },
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "TextViewTitle": "If you do not see a form to submit, please disable all ad blocking software , javascript blocking software, or load the page in Chrome or Firefox. If problems still persist please SUBMIT A REQUEST HERE.",
+        "TextViewTitleFontSize": 24.0,
+        "TextAlignment": "left",
+        "TextViewDescription": "",
+        "TextViewDescriptionFontSize": 16.0,
+        "TextViewFontColor": "#000000",
+        "TextViewFontWeight": "normal",
+        "TextViewFontType": "",
+        "TextViewNumberOfLines": 4,
+        "TextViewBackgroundColor": "#ffffff",
+        "TextViewMargin": 8.0,
+        "TextViewPadding": 8.0,
+        "BackgroundImageSrc": "",
+        "WholeViewRadius": 19.0
+      }
+    },
+    {
+      "View": "DetailButtonView",
+      "ButtonViewData": {
+        "ButtonViewViewType": "Top",
+        "BackgroundImageViewSrc": "",
+        "WholeViewRadius": 19.0,
+        "ContainerColor": "#171717",
+        "BackgroundImageViewColor": "#171717",
+        "Margin": 8.0,
+        "Padding": 8.0,
+        "TitleFontSize": 18.0,
+        "DescriptionFontSize": 14.0,
+        "FontColor": "#ffffff",
+        "Title": "MEMBERSHIP",
+        "Description": "Get Your Personalized Membership Card.",
+        "NumberOfLines": 20,
+          
+        "ButtonView": {
+          "ButtonRadius": 15.0,
+          "ButtonRadiusColor":"ffffff",
+          "ButtonFontColor": "#000000",
+          "ButtonFontWeight": "normal",
+          "ButtonBackgroundColor": "#EAEAEA",
+          "ButtonMargin": 8.0,
+          "ButtonPadding": 8.0,
+          "ButtonText": "CHOOSE AND PERSONLIZE CARD"
+        }
+      }
+    }
+  ]
+}

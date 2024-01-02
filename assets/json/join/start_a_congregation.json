@@ -1,0 +1,107 @@
+{
+  "BackgroundColor": "#000000",
+  "PageLayout": [
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "TextViewTitle": "START A CONGREGATION",
+        "TextViewTitleFontSize": 24.0,
+        "TextAlignment": "left",
+        "TextViewDescription": "",
+        "TextViewDescriptionFontSize": 16.0,
+        "TextViewFontColor": "#ffffff",
+        "TextViewFontWeight": "normal",
+        "TextViewFontType": "",
+        "TextViewNumberOfLines": 4,
+        "TextViewBackgroundColor": "#171717",
+        "TextViewMargin": 8.0,
+        "TextViewPadding": 8.0,
+        "BackgroundImageSrc": "",
+        "WholeViewRadius": 19.0
+      }
+    },
+    {
+      "View": "DetailButtonView",
+      "ButtonViewData": {
+        "ButtonViewViewType": "Top",
+        "BackgroundImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/start-content-bg_2880x1364_40b10178-a2c8-4917-b7ac-33c2ee7bd2db_1600x896.jpg?v=1693593141",
+        "WholeViewRadius": 19.0,
+        "ContainerColor": "#171717",
+        "BackgroundImageViewColor": "#171717",
+        "Margin": 8.0,
+        "Padding": 8.0,
+        "TitleFontSize": 18.0,
+        "DescriptionFontSize": 14.0,
+        "FontColor": "#ffffff",
+        "Title": "",
+        "Description": "Congregations are built by local members working under the supervision of the Recognition and Onboarding Committee (RoC). Starting a new congregation of The Satanic Temple can be very rewarding. It also requires substantial time and effort as well as a thorough understanding of the mission, values, and history of The Satanic Temple. Familiarize yourself with TST’s tenets, mission statement, and frequently asked questions, all of which are on our website, prior to contacting the RoC.\n\nWrite to the RoC and express your desire to create a new congregation in your area. In your email, please include your full name and the precise location where you would like to start a congregation.",
+        "NumberOfLines": 20,
+          
+        "ButtonView": {
+          "ButtonRadius": 15.0,
+          "ButtonRadiusColor":"ffffff",
+          "ButtonFontColor": "#000000",
+          "ButtonFontWeight": "normal",
+          "ButtonBackgroundColor": "#EAEAEA",
+          "ButtonMargin": 8.0,
+          "ButtonPadding": 8.0,
+          "ButtonText": "CONTACT THE ROC"
+        }
+      }
+    },
+    {
+      "View": "DetailButtonView",
+      "ButtonViewData": {
+        "ButtonViewViewType": "Top",
+        "BackgroundImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/TST_BG_Wht_5_bbc5ad05-228b-483f-929f-d11572de049a.png?v=1693586407",
+        "WholeViewRadius": 19.0,
+        "ContainerColor": "#171717",
+        "BackgroundImageViewColor": "#171717",
+        "Margin": 8.0,
+        "Padding": 8.0,
+        "TitleFontSize": 18.0,
+        "DescriptionFontSize": 14.0,
+        "FontColor": "#ffffff",
+        "Title": "LOOKING TO JOIN\nA CONGREGATION NEAR YOU?",
+        "Description": "",
+        "NumberOfLines": 20,
+          
+        "ButtonView": {
+          "ButtonRadius": 15.0,
+          "ButtonRadiusColor":"ffffff",
+          "ButtonFontColor": "#000000",
+          "ButtonFontWeight": "normal",
+          "ButtonBackgroundColor": "#EAEAEA",
+          "ButtonMargin": 8.0,
+          "ButtonPadding": 8.0,
+          "ButtonText": "FIND A CONGREGATION"
+        }
+      }
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
+        "ImageViewViewType": "Full",
+        "ImageViewSrc": "",
+        "ImageViewRadius": 19.0,
+        "ImageViewContainerColor": "#171717",
+        "ImageViewBackgroundColor": "#171717",
+        "ImageViewMargin": 8.0,
+        "ImageViewPadding": 8.0,
+        "ImageViewTextView": {
+          "ImageViewTitleFontSize": 18.0,
+          "ImageViewDescriptionFontSize": 14.0,
+          "ImageViewFontColor": "#ffffff",
+          "ImageViewFontWeight": "normal",
+          "ImageViewFontType": "B",
+          "ImageViewNumberOfLines": 4,
+          "ImageViewBackgroundColor2": "#171717",
+          "ImageViewMargin": 8.0,
+          "ImageViewPadding": 8.0,
+          "ImageViewTitle": "",
+          "ImageViewDescription": ""
+        }
+      }
+    }
+  ]
+}
