@@ -6,67 +6,67 @@
     {
       "View": "TextView",
       "TextViewData": {
-          "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
-          "Title": "About US",
-          "StyleProperties": {
-              "TitleTextColor": "#ffffff",
-              "TitleTextFontName": "",
-              "TitleTextFontSize": 17.0,
-              "TitleTextFontWeight": "",
-              "TitleTextNoOfLines": 4,
-              "DescriptionTextColor": "#ffffff",
-              "DescriptionTextFontName": "",
-              "DescriptionTextFontSize": 15.0,
-              "DescriptionTextFontWeight": "",
-              "DescriptionTextNoOfLines": 4,
-              "BackgroundColor": "#171717",
-              "Alignment": "",
-              "Margin": 15.0,
-              "Padding": 2.0,
-              "Radius": 15.0,
-              "BackgroundMargin": 0.0,
-            "BackgroundPadding": 2.0,
-              "BackgroundRadius": 0.0,
-              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/join-us-banner_1200x_070d9ec1-db32-4c1d-8171-4e5b00e86150_1200x553.jpg?v=1694104786"
-          }
+        "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+        "Title": "About US",
+        "StyleProperties": {
+          "TitleTextColor": "#ffffff",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ffffff",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#171717",
+          "Alignment": "",
+          "Margin": 15.0,
+          "Padding": 2.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 2.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/join-us-banner_1200x_070d9ec1-db32-4c1d-8171-4e5b00e86150_1200x553.jpg?v=1694104786"
+        }
       }
-  },
-  {
-    "View": "ImageView",
-    "ImageViewData": {
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
         "ImageViewViewType": "Full",
         "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/The-Satanic-temple_de242aac-3486-4537-b801-ab5e5d10bd9a_1.jpg?v=1694429082",
         "Title": "THE SATANIC TEMPLE",
         "Description": "We have publicly confronted hate groups, fought for the abolition of corporal punishment in public schools, applied for equal representation when religious installations are placed on public property, provided religious exemption and legal protection against laws that unscientifically restrict people's reproductive autonomy, exposed harmful pseudo-scientific practitioners in mental health care, organized clubs alongside other religious after-school clubs in schools besieged by proselytizing organizations, and engaged in other advocacy in accordance with our tenets.",
         "StyleProperties": {
-            "TitleTextColor": "#ffffff",
-            "TitleTextFontName": "",
-            "TitleTextFontSize": 17.0,
-            "TitleTextFontWeight": "",
-            "TitleTextNoOfLines": 4,
-            "DescriptionTextColor": "#ffffff",
-            "DescriptionTextFontName": "",
-            "DescriptionTextFontSize": 15.0,
-            "DescriptionTextFontWeight": "",
-            "DescriptionTextNoOfLines": 4,
-            "BackgroundColor": "#171717",
-            "Alignment": "",
-            "Margin": 15.0,
-            "Padding": 10.0,
-            "Radius": 15.0,
-            "BackgroundMargin": 0.0,
+          "TitleTextColor": "#ffffff",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ffffff",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#171717",
+          "Alignment": "",
+          "Margin": 15.0,
+          "Padding": 10.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 0.0,
           "BackgroundPadding": 2.0,
-            "BackgroundRadius": 0.0,
-            "ImageSrc": ""
+          "BackgroundRadius": 0.0,
+          "ImageSrc": ""
         }
-    }
-},
-{
-  "View": "TextView",
-  "TextViewData": {
-      "Description": "FUNDAMENTAL TENETS",
-      "Title": "THERE ARE SEVEN",
-      "StyleProperties": {
+      }
+    },
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "Description": "FUNDAMENTAL TENETS",
+        "Title": "THERE ARE SEVEN",
+        "StyleProperties": {
           "TitleTextColor": "#ff0000",
           "TitleTextFontName": "",
           "TitleTextFontSize": 20.0,
@@ -83,16 +83,16 @@
           "Padding": 2.0,
           "Radius": 15.0,
           "BackgroundMargin": 2.0,
-        "BackgroundPadding": 2.0,
+          "BackgroundPadding": 2.0,
           "BackgroundRadius": 15.0,
           "ImageSrc": ""
+        }
       }
-  }
-},
-{
-  "View": "textTile",
-  "textTileData": {
-      "StyleProperties": {
+    },
+    {
+      "View": "textTile",
+      "textTileData": {
+        "StyleProperties": {
           "TitleTextColor": "#000000",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,
@@ -109,48 +109,48 @@
           "Padding": 2.0,
           "Radius": 15.0,
           "BackgroundMargin": 2.0,
-        "BackgroundPadding": 2.0,
+          "BackgroundPadding": 2.0,
           "BackgroundRadius": 15.0,
           "ImageSrc": ""
-      },
-      "textTileItems": [
+        },
+        "textTileItems": [
           {
-              "IconData": "I",
-              "Text": "One should strive to act with compassion and empathy toward all creatures in accordance with reason."
+            "IconData": "I",
+            "Text": "One should strive to act with compassion and empathy toward all creatures in accordance with reason."
           },
           {
-              "IconData": "II",
-              "Text": "The struggle for justice is an ongoing and necessary pursuit that should prevail over laws and institutions."
+            "IconData": "II",
+            "Text": "The struggle for justice is an ongoing and necessary pursuit that should prevail over laws and institutions."
           },
           {
-              "IconData": "III",
-              "Text": "One’s body is inviolable, subject to one’s own will alone."
+            "IconData": "III",
+            "Text": "One’s body is inviolable, subject to one’s own will alone."
           },
           {
-              "IconData": "IV",
-              "Text": "The freedoms of others should be respected, including the freedom to offend. To willfully and unjustly encroach upon the freedoms of another is to forgo one's own."
+            "IconData": "IV",
+            "Text": "The freedoms of others should be respected, including the freedom to offend. To willfully and unjustly encroach upon the freedoms of another is to forgo one's own."
           },
           {
-              "IconData": "V",
-              "Text": "Beliefs should conform to one's best scientific understanding of the world. One should take care never to distort scientific facts to fit one's beliefs."
+            "IconData": "V",
+            "Text": "Beliefs should conform to one's best scientific understanding of the world. One should take care never to distort scientific facts to fit one's beliefs."
           },
           {
-              "IconData": "VI",
-              "Text": "People are fallible. If one makes a mistake, one should do one's best to rectify it and resolve any harm that might have been caused."
+            "IconData": "VI",
+            "Text": "People are fallible. If one makes a mistake, one should do one's best to rectify it and resolve any harm that might have been caused."
           },
           {
-              "IconData": "VII",
-              "Text": "Every tenet is a guiding principle designed to inspire nobility in action and thought. The spirit of compassion, wisdom, and justice should always prevail over the written or spoken word."
+            "IconData": "VII",
+            "Text": "Every tenet is a guiding principle designed to inspire nobility in action and thought. The spirit of compassion, wisdom, and justice should always prevail over the written or spoken word."
           }
-      ]
-  }
-},
-{
-  "View": "TextView",
-  "TextViewData": {
-      "Description": "",
-      "Title": "THE SATANIC TEMPLE VS. CHURCH OF SATAN",
-      "StyleProperties": {
+        ]
+      }
+    },
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "Description": "",
+        "Title": "THE SATANIC TEMPLE VS. CHURCH OF SATAN",
+        "StyleProperties": {
           "TitleTextColor": "#ffffff",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,
@@ -167,20 +167,20 @@
           "Padding": 2.0,
           "Radius": 15.0,
           "BackgroundMargin": 0.0,
-        "BackgroundPadding": 0.0,
+          "BackgroundPadding": 0.0,
           "BackgroundRadius": 0.0,
           "ImageSrc": ""
+        }
       }
-  }
-},
-{
-  "View": "ImageView",
-  "ImageViewData": {
-      "ImageViewViewType": "Full",
-      "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/statue_5ada61de-0bea-451e-b385-8481106e9d1c.jpg?v=1694177819",
-      "Title": "",
-      "Description": "The Satanic Temple has become the primary religious Satanic organization in the world with congregations internationally, and a number of high-profile public campaigns designed to preserve and advance secularism and individual liberties. The rise of The Satanic Temple has been met with an increase in commentary regarding what Satanism is as media outlets struggle to grasp how this upstart religion has begun to shift religious liberty debates with claims of equal access.",
-      "StyleProperties": {
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
+        "ImageViewViewType": "Full",
+        "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/statue_5ada61de-0bea-451e-b385-8481106e9d1c.jpg?v=1694177819",
+        "Title": "",
+        "Description": "The Satanic Temple has become the primary religious Satanic organization in the world with congregations internationally, and a number of high-profile public campaigns designed to preserve and advance secularism and individual liberties. The rise of The Satanic Temple has been met with an increase in commentary regarding what Satanism is as media outlets struggle to grasp how this upstart religion has begun to shift religious liberty debates with claims of equal access.",
+        "StyleProperties": {
           "TitleTextColor": "#ffffff",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,
@@ -197,20 +197,20 @@
           "Padding": 15.0,
           "Radius": 15.0,
           "BackgroundMargin": 0.0,
-        "BackgroundPadding": 2.0,
+          "BackgroundPadding": 2.0,
           "BackgroundRadius": 0.0,
           "ImageSrc": ""
+        }
       }
-  }
-},
-{
-  "View": "ImageView",
-  "ImageViewData": {
-      "ImageViewViewType": "Full",
-      "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/church-img-2_9ad7322c-c7ba-427a-89c9-c1af082a10fa.jpg?v=1694177770",
-      "Title": "",
-      "Description": "With unfortunate regularity - and much to our chagrin - The Satanic Temple is confused with an earlier organization, the Church of Satan, founded by Anton Szandor LaVey in the 1960s. The Church of Satan expresses vehement opposition to the campaigns and activities of The Satanic Temple, asserting themselves as the only “true” arbiters of Satanism, while The Satanic Temple dismisses the Church of Satan as irrelevant and inactive.",
-      "StyleProperties": {
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
+        "ImageViewViewType": "Full",
+        "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/church-img-2_9ad7322c-c7ba-427a-89c9-c1af082a10fa.jpg?v=1694177770",
+        "Title": "",
+        "Description": "With unfortunate regularity - and much to our chagrin - The Satanic Temple is confused with an earlier organization, the Church of Satan, founded by Anton Szandor LaVey in the 1960s. The Church of Satan expresses vehement opposition to the campaigns and activities of The Satanic Temple, asserting themselves as the only “true” arbiters of Satanism, while The Satanic Temple dismisses the Church of Satan as irrelevant and inactive.",
+        "StyleProperties": {
           "TitleTextColor": "#ffffff",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,
@@ -227,13 +227,11 @@
           "Padding": 15.0,
           "Radius": 15.0,
           "BackgroundMargin": 0.0,
-        "BackgroundPadding": 2.0,
+          "BackgroundPadding": 2.0,
           "BackgroundRadius": 0.0,
           "ImageSrc": ""
+        }
       }
-  }
-}
-
-
+    }
   ]
 }

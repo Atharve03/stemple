@@ -72,7 +72,8 @@ class _WidgetSliderState extends State<ItgeekWidgetSlider> {
               options: CarouselOptions(
                   enlargeCenterPage: myBool,
                   autoPlay: widget.sliderData.sliderAutoPlay!,
-                  aspectRatio: 16 / 9,
+                  // aspectRatio: 16 / 9,
+                  aspectRatio: widget.sliderData.sliderAspectRatio!,
                   // autoPlayCurve: Curves.linear,
                   enlargeStrategy: CenterPageEnlargeStrategy.zoom,
                   enableInfiniteScroll: true,

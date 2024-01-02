@@ -33,7 +33,7 @@ class _WidgetCallPositionState extends State<ItgeekWidgetBlogPosition> {
               color: Colors.transparent,
               image: DecorationImage(
                 image: NetworkImage(
-                    widget.blogViewItems.blogViewImagePath.toString()),
+                    widget.blogViewItems.blogViewImagePath!),
                 fit: BoxFit.cover,
               ),
             ),
