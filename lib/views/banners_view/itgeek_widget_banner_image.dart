@@ -1,6 +1,5 @@
-
-
 import 'package:flutter/material.dart';
+import 'package:stemple/views/faq_view/full_view.dart';
 
 import '../../modelClass/data_model.dart';
 import '../utils/util.dart';
@@ -35,16 +34,19 @@ class FullImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var titleTextColor = Util.getColorFromHex(
-        imageViewData.styleProperties!.titleTextColor!);
+    var titleTextColor =
+        Util.getColorFromHex(imageViewData.styleProperties!.titleTextColor!);
     var descriptionTextColor = Util.getColorFromHex(
         imageViewData.styleProperties!.descriptionTextColor!);
-    var bgColor = Util.getColorFromHex(imageViewData.styleProperties!.backgroundColor!);
+    var bgColor =
+        Util.getColorFromHex(imageViewData.styleProperties!.backgroundColor!);
 
     return Container(
-        margin: EdgeInsets.all(imageViewData.styleProperties!.backgroundMargin!),
+        margin:
+            EdgeInsets.all(imageViewData.styleProperties!.backgroundMargin!),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(imageViewData.styleProperties!.backgroundRadius!),
+          borderRadius: BorderRadius.circular(
+              imageViewData.styleProperties!.backgroundRadius!),
           color: bgColor,
         ),
         width: double.infinity,
@@ -52,27 +54,33 @@ class FullImage extends StatelessWidget {
           Padding(
             padding: EdgeInsets.all(imageViewData.styleProperties!.padding!),
             child: ClipRRect(
-              borderRadius:
-                  BorderRadius.circular(imageViewData.styleProperties!.radius!),
-              child:  imageViewData.imageSrc!.isNotEmpty?    Image.network(
-                imageViewData.imageSrc!,
-                fit: BoxFit.cover,
-                width: double.infinity,
-              ):Image.asset("assets/placeholder-image.jpg",fit: BoxFit.cover,width: double.infinity,)
-            ),
+                borderRadius: BorderRadius.circular(
+                    imageViewData.styleProperties!.radius!),
+                child: imageViewData.imageSrc!.isNotEmpty
+                    ? Image.network(
+                        imageViewData.imageSrc!,
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                      )
+                    : Image.asset(
+                        "assets/placeholder-image.jpg",
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                      )),
           ),
           imageViewData.title != ""
               ? Padding(
-                  padding: EdgeInsets.all(
-                      imageViewData.styleProperties!.padding!),
+                  padding:
+                      EdgeInsets.all(imageViewData.styleProperties!.padding!),
                   child: Text(
                     imageViewData.title!,
                     style: TextStyle(
                         color: titleTextColor,
                         fontWeight: FontWeight.bold,
-                        fontSize: imageViewData
-                            .styleProperties!.titleTextFontSize!),
-                              maxLines: imageViewData.styleProperties!.titleTextNoOfLines!,
+                        fontSize:
+                            imageViewData.styleProperties!.titleTextFontSize!),
+                    maxLines:
+                        imageViewData.styleProperties!.titleTextNoOfLines!,
                   ),
                 )
               : Container(),
@@ -81,8 +89,8 @@ class FullImage extends StatelessWidget {
           ),
           imageViewData.description != ""
               ? Padding(
-                  padding: EdgeInsets.all(
-                      imageViewData.styleProperties!.padding!),
+                  padding:
+                      EdgeInsets.all(imageViewData.styleProperties!.padding!),
                   child: Text(
                     imageViewData.description!,
                     style: TextStyle(
@@ -90,10 +98,25 @@ class FullImage extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                         fontSize: imageViewData
                             .styleProperties!.descriptionTextFontSize!),
-                              maxLines: imageViewData.styleProperties!.descriptionTextNoOfLines!,
+                    maxLines: imageViewData
+                        .styleProperties!.descriptionTextNoOfLines!,
                   ),
                 )
-              : Container()
+              : Container(),
+          imageViewData.description!.length > 100
+              ? Padding(
+                  padding:
+                      EdgeInsets.all(imageViewData.styleProperties!.padding!),
+                  child: Text(
+                    "More",
+                    style: TextStyle(
+                        color: descriptionTextColor,
+                        fontWeight: FontWeight.bold,
+                        fontSize: imageViewData
+                            .styleProperties!.descriptionTextFontSize!),
+                  ),
+                )
+              : Container(),
         ]));
   }
 }
@@ -105,21 +128,23 @@ class HalfImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var titleTextColor = Util.getColorFromHex(
-        imageViewData.styleProperties!.titleTextColor!);
+    var titleTextColor =
+        Util.getColorFromHex(imageViewData.styleProperties!.titleTextColor!);
     var descriptionTextColor = Util.getColorFromHex(
         imageViewData.styleProperties!.descriptionTextColor!);
-    var bgColor = Util.getColorFromHex(imageViewData.styleProperties!.backgroundColor!);
-
+    var bgColor =
+        Util.getColorFromHex(imageViewData.styleProperties!.backgroundColor!);
 
     return Container(
       margin: EdgeInsets.all(imageViewData.styleProperties!.backgroundMargin!),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(imageViewData.styleProperties!.backgroundRadius!),
+        borderRadius: BorderRadius.circular(
+            imageViewData.styleProperties!.backgroundRadius!),
         color: bgColor,
       ),
-      padding: EdgeInsets.all(imageViewData.styleProperties!.backgroundPadding!),
-        child: Row(
+      padding:
+          EdgeInsets.all(imageViewData.styleProperties!.backgroundPadding!),
+      child: Row(
         children: [
           Expanded(
             child: Container(
@@ -145,11 +170,12 @@ class HalfImage extends StatelessWidget {
             child: Container(
                 // height: double.infinity,
                 decoration: BoxDecoration(
-                  borderRadius:
-                      BorderRadius.circular(imageViewData.styleProperties!.radius!),
+                  borderRadius: BorderRadius.circular(
+                      imageViewData.styleProperties!.radius!),
                   color: bgColor.withOpacity(0.5),
                 ),
-                padding: EdgeInsets.all(imageViewData.styleProperties!.padding!),
+                padding:
+                    EdgeInsets.all(imageViewData.styleProperties!.padding!),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -160,9 +186,11 @@ class HalfImage extends StatelessWidget {
                               imageViewData.title!,
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  fontSize: imageViewData.styleProperties!.titleTextFontSize!,
+                                  fontSize: imageViewData
+                                      .styleProperties!.titleTextFontSize!,
                                   color: titleTextColor),
-                              maxLines: imageViewData.styleProperties!.titleTextNoOfLines!,
+                              maxLines: imageViewData
+                                  .styleProperties!.titleTextNoOfLines!,
                               textAlign: TextAlign.center,
                             ),
                           )
@@ -175,13 +203,30 @@ class HalfImage extends StatelessWidget {
                             child: Text(
                               imageViewData.description!,
                               style: TextStyle(
-                                  fontSize: imageViewData.styleProperties!.descriptionTextFontSize!,
+                                  fontSize: imageViewData.styleProperties!
+                                      .descriptionTextFontSize!,
                                   color: descriptionTextColor),
-                              maxLines: imageViewData.styleProperties!.descriptionTextNoOfLines!,
+                              maxLines: imageViewData
+                                  .styleProperties!.descriptionTextNoOfLines!,
                               textAlign: TextAlign.center,
                             ),
                           )
-                        : Container()
+                        : Container(),
+                    imageViewData.description!.length > 100
+                        ? InkWell(
+                          onTap: () {
+                            print("more clicked");
+                            ItgeekWidgetFullView(imageViewData.imageSrc!, imageViewData.title!, imageViewData.description!);
+                          },
+                            child: Text(
+                              "More",
+                              style: TextStyle(
+                                  fontSize: imageViewData.styleProperties!
+                                      .descriptionTextFontSize!,
+                                  color: descriptionTextColor),
+                            ),
+                          )
+                        : Container(),
                   ],
                 )),
           )

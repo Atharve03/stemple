@@ -68,7 +68,8 @@ bool isExpanded=false;
                   {
 
                     
-Navigator.push(context, MaterialPageRoute(builder: (context)=>ItgeekWidgetFullView(listQuestionAnswer[index])));
+// Navigator.push(context, MaterialPageRoute(builder: (context)=>ItgeekWidgetFullView(listQuestionAnswer[index])));
+Navigator.push(context, MaterialPageRoute(builder: (context)=>ItgeekWidgetFullView("", listQuestionAnswer[index].question, listQuestionAnswer[index].answer)));
                   }
                   else
                   {
