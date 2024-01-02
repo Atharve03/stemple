@@ -1,6 +1,10 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:stemple/views/banners_view/itgeek_widget_banner_image.dart';
+import 'package:stemple/views/banners_view/itgeek_widget_banner_text.dart';
+import 'package:stemple/views/faq_view/itgeek_widget_faq.dart';
+import 'package:stemple/views/textlist_view/itgeek_text_list_view.dart';
 
 import 'modelClass/page_layout_model.dart';
 import 'views/banners_view/itgeek_widget_banner_video.dart';
@@ -21,18 +25,26 @@ class _DashboardState extends State<Dashboard> {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-        future: rootBundle.loadString("assets/json/new.json"),
+        future: rootBundle.loadString("assets/json/learn/aboutUs.json"),
         builder: (context, snapshot) {
           if (snapshot.hasData) {
             var list = json.decode(snapshot.data!);
+            print("ddcdfjcnbw ckjdfhvnekjcjscn dkvkdhvn${list}");
             PageLayoutModel myList = PageLayoutModel.fromJson(list);
-
+print("my list is nnnnnnnnnnnnnnnnnnnn ${myList}");
             return SingleChildScrollView(
               child: Column(
                   children: myList.pageLayout!.map((element) {
 
                     // return WidgetFrequentlyAskedQuestions();
 
+                if (element.view == "FAQ") {
+                  return ItgeekWidgetFaq(element.textListWithDetailsData!);
+                }
+                
+                if (element.view == "textTile") {
+                  return ItgeekWidgetTextTile(element.textTileData!);
+                }
                 if (element.view == "Sliders") {
                   return ItgeekWidgetSlider(element.sliderData!, (item) {
                     (element.sliderData);
@@ -51,18 +63,18 @@ class _DashboardState extends State<Dashboard> {
                     print("itemProduct $item");
                   });
                 }
-                // if (element.view == "TextView") {
-                //   return WidgetBannerText(element.textViewData!, (item) {
-                //     (element.textViewData);
-                //     print("itemTextView $item");
-                //   });
-                // }
-                // if (element.view == "ImageView") {
-                //   return WidgetBannerImage(element.imageViewData!, (item) {
-                //     (element.imageViewData);
-                //     print("itemImageView $item");
-                //   });
-                // }
+                if (element.view == "TextView") {
+                  return ItgeekWidgetBannerText(element.textViewData!, (item) {
+                    (element.textViewData);
+                    print("itemTextView $item");
+                  });
+                }
+                if (element.view == "ImageView") {
+                  return ItgeekWidgetBannerImage(element.imageViewData!, (item) {
+                    (element.imageViewData);
+                    print("itemImageView $item");
+                  });
+                }
                 if (element.view == "DetailButtonView") {
                   return ItgeekWidgetBannerImageButton(element.buttonViewData!, (item) {
                     (element.buttonViewData);

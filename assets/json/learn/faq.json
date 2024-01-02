@@ -1,7 +1,13 @@
 {
+    "BackgroundColor": "#000000",
+    "AppBarBackColor": "#000000",
+    "AppBarIcon": "#000000",
+    "PageLayout": [
+      
+{
     "View": "FAQ",
     "TextListWithDetailsData": {
-        "ViewType":"detail",
+        "ViewType":"expand",
         "IconSize":15.0,
         "IconColor":"#FF0000",
         "ArrowVisibility": true,
@@ -214,4 +220,6 @@
             }
         ]
     }
+}
+    ]
 }

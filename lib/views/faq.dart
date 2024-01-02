@@ -24,7 +24,7 @@ class WidgetFrequentlyAskedQuestions extends StatelessWidget {
           var list = json.decode(snapshot.data!);
           PageLayoutModel pageLayoutModel = PageLayoutModel.fromJson(list);
           print("faq $pageLayoutModel");
-           return ItgeekWidgetFaq(pageLayoutModel.pageLayout!.last.textListWithDetailsData!);
+           return ItgeekWidgetFaq(pageLayoutModel.pageLayout!.first.textListWithDetailsData!);
            
         } else if (snapshot.hasError) {
           return Text('Error loading JSON'); // Handle error
