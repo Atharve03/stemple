@@ -4,60 +4,171 @@
     {
       "View": "TextView",
       "TextViewData": {
-          "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
-          "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
-          "StyleProperties": {
-              "TitleTextColor": "#ddddd",
-              "TitleTextFontName": "",
-              "TitleTextFontSize": 17.0,
-              "TitleTextFontWeight": "",
-              "TitleTextNoOfLines": 4,
-              "DescriptionTextColor": "#ddddd",
-              "DescriptionTextFontName": "",
-              "DescriptionTextFontSize": 15.0,
-              "DescriptionTextFontWeight": "",
-              "DescriptionTextNoOfLines": 4,
-              "BackgroundColor": "#ddddd",
-              "Alignment": "",
-              "Margin": 15.0,
-              "Padding": 15.0,
-              "Radius": 15.0,
-              "BackgroundMargin": 15.0,
-              "BackgroundPadding": 15.0,
-              "BackgroundRadius": 15.0,
-              "ImageSrc": ""
-          }
+        "Title": "IN THE MEDIA",
+        "Description": "The Satanic Temple was founded by Malcolm Jarry and  Lucien Greaves in 2013. Since, TST has been the focus of much media attention. Learn more about our mission by engaging with the content below.",
+        "StyleProperties": {
+          "TitleTextColor": "#ffffff",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ffffff",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#171717",
+          "Alignment": "",
+          "Margin": 10.0,
+          "Padding": 10.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 5.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/join-us-banner_1200x_070d9ec1-db32-4c1d-8171-4e5b00e86150_1200x553.jpg?v=1694104786"
+        }
       }
     },
     {
       "View": "ImageView",
       "ImageViewData": {
-          "ImageViewViewType": "Half",
-          "ImageSrc": "",
-          "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
-          "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
-          "StyleProperties": {
-              "TitleTextColor": "#ddddd",
-              "TitleTextFontName": "",
-              "TitleTextFontSize": 17.0,
-              "TitleTextFontWeight": "",
-              "TitleTextNoOfLines": 4,
-              "DescriptionTextColor": "#ddddd",
-              "DescriptionTextFontName": "",
-              "DescriptionTextFontSize": 15.0,
-              "DescriptionTextFontWeight": "",
-              "DescriptionTextNoOfLines": 4,
-              "BackgroundColor": "#ddddd",
-              "Alignment": "",
-              "Margin": 15.0,
-              "Padding": 15.0,
-              "Radius": 15.0,
-              "BackgroundMargin": 15.0,
-              "BackgroundPadding": 15.0,
-              "BackgroundRadius": 15.0,
-              "ImageSrc": ""
-          }
+        "ImageViewViewType": "Full",
+        "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/91W7w27s1PL._SL1500.jpg?v=1639071923",
+        "Title": "HAIL SATAN?",
+        "Description": "A Documentary by Penny Lane \n\nChronicling the extraordinary rise of one of the most colorful and controversial religious movements in American history,Hail Satan?is an inspiring and entertaining new-feature documentary from acclaimed director Penny Lane(Nuts!, Our Nixon). When media-savvy members of The Satanic Temple organize a series of public actions designed to advocate for religious freedom and challenge corrupt authority, they prove that with little more than a clever idea, a mischievous sense of humor, and a few rebellious friends, you can speak truth to power in some truly profound ways. As charming and funny as it is thought-provoking,Hail Satan?offers a timely look at a group of often misunderstood outsiders whose unwavering commitment to social and political justice has empowered thousands of people around the world.",
+        "StyleProperties": {
+          "TitleTextColor": "#ffffff",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ffffff",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 10,
+          "BackgroundColor": "#000000",
+          "Alignment": "",
+          "Margin": 10.0,
+          "Padding": 10.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 5.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc": ""
+        }
       }
-  }
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
+        "ImageViewViewType": "Full",
+        "ImageSrc": "https://thesatanictemple.com/cdn/shop/products/81Y2f8kgFeL.jpg?v=1639072912",
+        "Title": "Speak of the devil",
+        "Description": "Academic Book About The Satanic Temple \n\nSpeak of the Devil is the first book-length study of The Satanic Temple. Joseph Laycock, a scholar of new religious movements, contends that the emergence of 'spolitical Satanism' marks a significant moment in American religious history that will have a lasting impact on how Americans frame debates about religious freedom. Though the group gained attention for its strategic deployment of outrage, it claims to have developed beyond politics into a genuine religious movement. Equal parts history and ethnography, Speak of the Devil is Laycock's attempt to take seriously The Satanic Temple's work to redefine religion, the nature of pluralism and religious tolerance, and what 'religious freedom' means in America.",
+        "StyleProperties": {
+          "TitleTextColor": "#ffffff",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ffffff",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 10,
+          "BackgroundColor": "#000000",
+          "Alignment": "",
+          "Margin": 10.0,
+          "Padding": 10.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 5.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc": ""
+        }
+      }
+    },
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "Title": "SELECTED ARTICLES",
+        "Description": "",
+        "StyleProperties": {
+          "TitleTextColor": "#ffffff",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 20.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ffffff",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 25.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#171717",
+          "Alignment": "",
+          "Margin": 15.0,
+          "Padding": 2.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 2.0,
+          "BackgroundPadding": 2.0,
+          "BackgroundRadius": 15.0,
+          "ImageSrc": ""
+        }
+      }
+    },
+    {
+        "View": "BlogView",
+        "BlogViewData": {
+            "BlogViewAutoPlay": false,
+            "BlogViewAspectRatio": 1.142857142857143,
+            "BlogViewEnableInfiniteScroll": true,
+            "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
+            "BlogViewViewportFraction": 1.0,
+            "BlogViewViewType": "View2",
+            "BlogViewActiveColor": "#ffbf00",
+            "BlogViewColorDots": "#0000FF",
+            "Blog_Handle": "",
+            "BlogFromItem": false,
+            "StyleProperties": {
+                "TitleTextColor": "#ddddd",
+                "TitleTextFontName": "",
+                "TitleTextFontSize": 17.0,
+                "TitleTextFontWeight": "",
+                "TitleTextNoOfLines": 4,
+                "DescriptionTextColor": "#ddddd",
+                "DescriptionTextFontName": "",
+                "DescriptionTextFontSize": 15.0,
+                "DescriptionTextFontWeight": "",
+                "DescriptionTextNoOfLines": 4,
+                "BackgroundColor": "#ddddd",
+                "Alignment": "",
+                "Margin": 15.0,
+                "Padding": 15.0,
+                "Radius": 15.0,
+                "BackgroundMargin": 15.0,
+                "BackgroundPadding": 15.0,
+                "BackgroundRadius": 15.0,
+                "ImageSrc": ""
+            },
+            "BlogViewItems": [
+                {
+                    "BlogViewTitle": "title1",
+                    "BlogViewDescription": "cvbxcvbnfdsfbgfdsdfgbfdfbvvcv",
+                    "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/article-image-1.jpg?v=1614314194"
+                },
+                {
+                    "BlogViewTitle": "title2",
+                    "BlogViewDescription": "dfxcvxxvbbnbvfdsadfghjgfdsfghjgfdsdfghjjhgfdsaszdxfcgvhbjnhgfdsazdxfcgvhgfdsdzxfcgvcxcvfcbvfbvgb",
+                    "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/article-image-1.jpg?v=1614314194"
+                },
+                {
+                    "BlogViewTitle": "title3",
+                    "BlogViewDescription": "cxgvnbfcgvbccvbnvcgvbvvvfdsfvxbcxjndbjsmndfbsnvdbv jhxfnfgdbd ncvbvbcc",
+                    "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/article-image-1.jpg?v=1614314194"
+                }
+            ]
+        }
+    }
   ]
 }
