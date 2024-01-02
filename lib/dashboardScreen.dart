@@ -25,7 +25,11 @@ class _DashboardState extends State<Dashboard> {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
+<<<<<<< HEAD
         future: rootBundle.loadString("assets/json/advocacy/ongoing_campaign.json"),
+=======
+        future: rootBundle.loadString("assets/json/learn/visit_us.json"),
+>>>>>>> 51bee37b662cf78099ee8998aec4d9d4245dc8cd
         builder: (context, snapshot) {
           if (snapshot.hasData) {
             var list = json.decode(snapshot.data!);

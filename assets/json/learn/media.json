@@ -121,7 +121,7 @@
         "View": "BlogView",
         "BlogViewData": {
             "BlogViewAutoPlay": false,
-            "BlogViewAspectRatio": 1.142857142857143,
+            "BlogViewAspectRatio": 0.82857142857143,
             "BlogViewEnableInfiniteScroll": true,
             "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
             "BlogViewViewportFraction": 1.0,
@@ -131,17 +131,17 @@
             "Blog_Handle": "",
             "BlogFromItem": false,
             "StyleProperties": {
-                "TitleTextColor": "#ddddd",
+                "TitleTextColor": "#ffffff",
                 "TitleTextFontName": "",
                 "TitleTextFontSize": 17.0,
                 "TitleTextFontWeight": "",
                 "TitleTextNoOfLines": 4,
-                "DescriptionTextColor": "#ddddd",
+                "DescriptionTextColor": "#ffffff",
                 "DescriptionTextFontName": "",
                 "DescriptionTextFontSize": 15.0,
                 "DescriptionTextFontWeight": "",
                 "DescriptionTextNoOfLines": 4,
-                "BackgroundColor": "#ddddd",
+                "BackgroundColor": "#171717",
                 "Alignment": "",
                 "Margin": 15.0,
                 "Padding": 15.0,
@@ -206,7 +206,7 @@
             "SliderViewPortFraction": 0.8,
             "SliderAutoPlay": false,
             "SliderPadding": 5.0,
-            "SliderAspectRatio": 0.75,
+            "SliderAspectRatio": 0.79,
             "SliderViewType": "Enlarge",
             "SliderItems": [
                 {
