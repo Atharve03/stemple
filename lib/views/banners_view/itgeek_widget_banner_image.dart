@@ -54,11 +54,11 @@ class FullImage extends StatelessWidget {
             child: ClipRRect(
               borderRadius:
                   BorderRadius.circular(imageViewData.styleProperties!.radius!),
-              child: Image.network(
+              child:  imageViewData.imageSrc!.isNotEmpty?    Image.network(
                 imageViewData.imageSrc!,
                 fit: BoxFit.cover,
                 width: double.infinity,
-              ),
+              ):Image.asset("assets/placeholder-image.jpg",fit: BoxFit.cover,width: double.infinity,)
             ),
           ),
           imageViewData.title != ""
