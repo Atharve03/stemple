@@ -22,10 +22,10 @@
               "BackgroundColor": "#171717",
               "Alignment": "",
               "Margin": 0.0,
-              "Padding": 0.0,
+              "Padding": 20.0,
               "Radius": 0.0,
               "BackgroundMargin": 0.0,
-            "BackgroundPadding": 2.0,
+            "BackgroundPadding": 0.0,
               "BackgroundRadius": 0.0,
               "ImageSrc": ""
           }
@@ -38,7 +38,7 @@
           "ActionId": "",
           "ButtonText": "FIND OUT MORE",
           "ActionHandle": "",
-          "ButtonViewViewType": "Top",
+          "ButtonViewViewType": "Bottom",
           "Title": " WANT TO BE A MINISTER?",
           "Description": "Would you like to be a Minister of Satan, ordained by The Satanic Temple? If you are a member of The Satanic Temple and an active participant in our community then you may be eligible to register for our online ordination program. At this time, registration for that program is by invitation only. You can find more information about who is eligible, and what the requirements and responsibilities are for our ordained members, on our Satanic Ministry website. If you are not eligible to be ordained by The Satanic Temple at this time, you can still register for the coursework to take the lessons and earn a Certificate of Satanic Scholarship.",
           "ButtonBackgroundColor": "#ff0000",
@@ -49,7 +49,7 @@
               "TitleTextFontSize": 17.0,
               "TitleTextFontWeight": "",
               "TitleTextNoOfLines": 4,
-              "DescriptionTextColor": "#ddddd",
+              "DescriptionTextColor": "#000000",
               "DescriptionTextFontName": "",
               "DescriptionTextFontSize": 15.0,
               "DescriptionTextFontWeight": "",
@@ -57,14 +57,15 @@
               "BackgroundColor": "#ffffff",
               "Alignment": "Center",
               "Margin": 0.0,
-              "Padding": 10.0,
+              "Padding": 18.0,
               "Radius": 0.0,
               "BackgroundMargin": 0.0,
               "BackgroundPadding": 0.0,
               "BackgroundRadius": 0.0,
-              "ImageSrc": ""
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/ministry-w-bg_2880x1364_5c9bf389-4c51-4bd7-ae10-10697333c77c.jpg?v=1693312160"
           }
       }
   }
+  
   ]
 }
