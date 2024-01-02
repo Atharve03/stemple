@@ -1,0 +1,61 @@
+{
+    "BackgroundColor": "#000000",
+    "AppBarBackColor": "#000000",
+    "AppBarIcon": "#000000",
+    "PageLayout": [
+        {
+            "View": "TextView",
+            "TextViewData": {
+                "Description": "",
+                "Title": "THE SATANIC TEMPLE \n MEMBER SERVICES",
+                "StyleProperties": {
+                    "TitleTextColor": "#ddddd",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ddddd",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ddddd",
+                    "Alignment": "",
+                    "Margin": 15.0,
+                    "Padding": 15.0,
+                    "Radius": 15.0,
+                    "BackgroundMargin": 15.0,
+                    "BackgroundPadding": 15.0,
+                    "BackgroundRadius": 15.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_1_1920x608.jpg?v=1692726011"
+                }
+            }
+        },{
+            "View": "TextView",
+            "TextViewData": {
+                "Description": "",
+                "Title": "GOOD WORKS AND SUPPORT",
+                "StyleProperties": {
+                    "TitleTextColor": "#ddddd",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ddddd",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ddddd",
+                    "Alignment": "",
+                    "Margin": 15.0,
+                    "Padding": 15.0,
+                    "Radius": 15.0,
+                    "BackgroundMargin": 15.0,
+                    "BackgroundPadding": 15.0,
+                    "BackgroundRadius": 15.0,
+                    "ImageSrc": ""
+                }
+            }
+        }
+    ]}

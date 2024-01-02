@@ -4,6 +4,7 @@
         "ViewType":"detail",
         "IconSize":15.0,
         "IconColor":"#FF0000",
+        "ArrowVisibility": true,
         "StyleProperties": {
             "TitleTextColor": "#ffffff",
             "TitleTextFontName": "",
@@ -25,7 +26,6 @@
             "BackgroundRadius": 15.0,
             "ImageSrc": ""
         },
-        "ArrowVisibility": true,
         "QuestionAnswer": [
             {
                 "Question": "MEMBERSHIP HOW CAN I JOIN?",
