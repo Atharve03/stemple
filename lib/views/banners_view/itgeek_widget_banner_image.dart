@@ -90,6 +90,24 @@ class _FullImageState extends State<FullImage> {
               ):Container()
             ),
           ),
+           widget.imageViewData.title != ""
+              ? Padding(
+                  padding: EdgeInsets.all(
+                      widget.imageViewData.styleProperties!.padding!),
+                  child: Text(
+                    widget.imageViewData.title!,
+                    style: TextStyle(
+                        color: titleTextColor,
+                        fontWeight: FontWeight.bold,
+                        fontSize: widget.imageViewData
+                            .styleProperties!.titleTextFontSize!),
+                              maxLines: widget.imageViewData.styleProperties!.titleTextNoOfLines!,
+                  ),
+                )
+              : Container(),
+          SizedBox(
+            height: 5,
+          ),
           LayoutBuilder(builder: (context,size)
           {
   var span = TextSpan(
@@ -112,24 +130,7 @@ class _FullImageState extends State<FullImage> {
             var exceeded = tp.maxLines;
    print("cjvgffmdf ${exceeded}");
           
-          widget.imageViewData.title != ""
-              ? Padding(
-                  padding: EdgeInsets.all(
-                      widget.imageViewData.styleProperties!.padding!),
-                  child: Text(
-                    widget.imageViewData.title!,
-                    style: TextStyle(
-                        color: titleTextColor,
-                        fontWeight: FontWeight.bold,
-                        fontSize: widget.imageViewData
-                            .styleProperties!.titleTextFontSize!),
-                              maxLines: widget.imageViewData.styleProperties!.titleTextNoOfLines!,
-                  ),
-                )
-              : Container();
-          SizedBox(
-            height: 5,
-          );
+         
          return widget.imageViewData.description != ""
               ? Column(
                 children: [
@@ -263,6 +264,22 @@ int maxLines = widget.imageViewData.styleProperties!.descriptionTextNoOfLines!;
           SizedBox(
             width: 5,
           ),
+          widget.imageViewData.title != ""
+                        ? Container(
+                            child: Text(
+                              widget.imageViewData.title!,
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: widget.imageViewData.styleProperties!.titleTextFontSize!,
+                                  color: titleTextColor),
+                              maxLines: widget.imageViewData.styleProperties!.titleTextNoOfLines!,
+                              textAlign: TextAlign.center,
+                            ),
+                          )
+                        : Container(),
+                    SizedBox(
+                      height: 5,
+                    ),
            LayoutBuilder(builder: (context,size)
           {
  var span = TextSpan(
@@ -297,22 +314,7 @@ int maxLines = widget.imageViewData.styleProperties!.descriptionTextNoOfLines!;
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    widget.imageViewData.title != ""
-                        ? Container(
-                            child: Text(
-                              widget.imageViewData.title!,
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: widget.imageViewData.styleProperties!.titleTextFontSize!,
-                                  color: titleTextColor),
-                              maxLines: widget.imageViewData.styleProperties!.titleTextNoOfLines!,
-                              textAlign: TextAlign.center,
-                            ),
-                          )
-                        : Container(),
-                    SizedBox(
-                      height: 5,
-                    ),
+                    
                     widget.imageViewData.description != ""
                         ? Column(
                           children: [
