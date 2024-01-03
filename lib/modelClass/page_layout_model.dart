@@ -49,6 +49,7 @@ class PageLayout {
   CategoryData? categoryData;
   ProductData? productData;
   TextListWithDetailsData? textListWithDetailsData;
+  GridViewData? gridViewData;
 
   PageLayout(
       {this.view,
@@ -62,7 +63,8 @@ class PageLayout {
       this.videoViewData,
       this.categoryData,
       this.productData,
-      this.textListWithDetailsData});
+      this.textListWithDetailsData,
+      this.gridViewData});
 
   PageLayout.fromJson(Map<String, dynamic> json) {
     view = json['View'];
@@ -98,6 +100,9 @@ class PageLayout {
         : null;
     textListWithDetailsData = json['TextListWithDetailsData'] != null
         ? new TextListWithDetailsData.fromJson(json['TextListWithDetailsData'])
+        : null;
+    gridViewData = json['GridViewData'] != null
+        ? new GridViewData.fromJson(json['GridViewData'])
         : null;
   }
 
@@ -136,6 +141,9 @@ class PageLayout {
     }
     if (this.textListWithDetailsData != null) {
       data['TextListWithDetailsData'] = this.textListWithDetailsData!.toJson();
+    }
+    if (this.gridViewData != null) {
+      data['GridViewData'] = this.gridViewData!.toJson();
     }
     return data;
   }

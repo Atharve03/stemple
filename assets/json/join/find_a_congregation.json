@@ -4,312 +4,341 @@
   "AppBarIcon": "#000000",
   "PageLayout": [
     {
-      "View": "GridView",
-      "GridViewData": {
+      "View": "TextView",
+      "TextViewData": {
+        "Description": "",
+        "Title": "FIND A CONGREGATION",
         "StyleProperties": {
-          "TitleTextColor": "#ddddd",
+          "TitleTextColor": "#ffffff",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,
           "TitleTextFontWeight": "",
           "TitleTextNoOfLines": 4,
-          "DescriptionTextColor": "#ddddd",
+          "DescriptionTextColor": "#ffffff",
           "DescriptionTextFontName": "",
           "DescriptionTextFontSize": 15.0,
           "DescriptionTextFontWeight": "",
           "DescriptionTextNoOfLines": 4,
-          "BackgroundColor": "#ddddd",
+          "BackgroundColor": "#000000",
           "Alignment": "",
-          "Margin": 15.0,
-          "Padding": 15.0,
-          "Radius": 15.0,
-          "BackgroundMargin": 15.0,
-          "BackgroundPadding": 15.0,
-          "BackgroundRadius": 15.0,
-          "ImageSrc": ""
-      },
-        "GridViewItems": [
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTAK_Logo_-_BW_-_Miracle_88852a69-39d3-454d-a889-9ed170746d17.png?v=1693832482",
-            "Title": "The Satanic Temple Alaska",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTALBlogo_9cc7f598-702a-4105-89fb-a135c2cbad93.jpg?v=1693832481",
-            "Title": "The Satanic Temple Albany, NY",
-            "Description": "thesatanictemplealbany.com"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_alberta_fa34ad5c-cf41-4cd0-9e02-49c68669efe9.jpg?v=1693850492",
-            "Title": "THE SATANIC TEMPLE ALBERTA",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_arizona-2_ecd730b2-8d74-472a-91ea-aa1459a7390c.png?v=1693832482",
-            "Title": "The Satanic Temple Arizona",
-            "Description": "thesatanictemplearizona.com"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-3_7340c7f1-c33d-4a79-8db6-06637102f266.png?v=1693835758",
-            "Title": "The Satanic Temple Atlanta, GA",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTAC_Logo.jpg?v=1614323126",
-            "Title": "The Satanic Temple Atlantic Canada",
-            "Description": "thesatanictempleatlanticcanada.ca"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Satanic_Temple_Austin_-_Lucy_Morningstar_b606d28d-f444-4812-998b-041c5cdbccd9.png?v=1693835759",
-            "Title": "The Satanic Temple Austin, TX",
-            "Description": "thesatanictempleaustin.com"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Australia_35104fc5-69f6-4e79-8e65-e71bc656a1a2.png?v=1693835759",
-            "Title": "The Satanic Temple Australia",
-            "Description": "thesatanictempleaustralia.com.au"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_BENELUX_LOGO_4095db0e-df04-4f27-9ac2-79af0425a343.png?v=1693835759",
-            "Title": "The Satanic Temple BeNeLux",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-6_fbf6fd1a-92f9-46a8-b253-c6dc67778b5b.png?v=1693835758",
-            "Title": "THE SATANIC TEMPLE COLORADO",
-            "Description": "thesatanictemplecolorado.org"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-7_009405ae-bb8c-4fac-ab96-3b2b0598787f.png?v=1693835759",
-            "Title": "The Satanic Temple Dallas-Fort Worth, TX",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTDELogo_64eb2232-26c9-4844-a0ae-e3bead47b995.jpg?v=1693836240",
-            "Title": "The Satanic Temple Delaware",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design-224_-_Riley_Phoebus_2_4c00f0ad-acae-4255-ae34-3f3902592f08.png?v=1693836387",
-            "Title": "THE SATANIC TEMPLE HOUSTON TX",
-            "Description": "www.satanictemplehouston.org"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/ger111_51842208-46bf-43c8-b1be-fa7cf6af0073.png?v=1693850494",
-            "Title": "The Satanic Temple Germany",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-9_4f0c6cdd-033b-4e9d-bb53-01759746a81d.png?v=1693836386",
-            "Title": "THE SATANIC TEMPLE HOUSTON",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/tst-idaho-web-icon-500px_0026c4bf-90a8-4a70-979b-6da6d0735c24.png?v=1693836385",
-            "Title": "The Satanic Temple Idaho ",
-            "Description": "thesatanictempleidaho.com "
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Logo_Final_TSTIN_01-02_-_Riley_Phoebus_95a594d9-6bba-4114-8aeb-145299a7df76.png?v=1693836386",
-            "Title": " The Satanic Temple Indiana",
-            "Description": "tstindiana.com"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-11_33108f96-4e53-4039-94e4-c19ec1b2940a.png?v=1693836385",
-            "Title": " The Satanic Temple Louisiana",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Maine_Logo_-_Verity_Fell_15bd570d-bdd7-4c9e-901c-9de65d8013f7.jpg?v=1693836385",
-            "Title": " The Satanic Temple Maine",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-12_2c51a2f2-70df-4d61-b7a5-9409316ac2a3.png?v=1693836385",
-            "Title": " The Satanic Temple West Michigan",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-13_9875ecf6-65db-40b2-85f4-43fd71e559e5.png?v=1693836385",
-            "Title": " The Satanic Temple Minnesota",
-            "Description": "thesatanictempleminnesota.com"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_MO_w_BG_BLK_1000px_-_Nevin_Morrow_27692504-7a48-44b2-8ed1-8e9b8b305963.jpg?v=1693836386",
-            "Title": " The Satanic Temple Missouri",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/tstnv_500px_transparent_-_Jonathan_Crowson_ecfbfb22-b209-4204-a39d-a56b5a97ce9e.png?v=1693837249",
-            "Title": "The Satanic Temple Nevada",
-            "Description": "tstnv.com "
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TheSatanicTemple_NHandVT_-_Michael_Bartleby_4fcecf1b-6d21-4eec-9a14-30f956f9b90e.jpg?v=1693849182",
-            "Title": " The Satanic Temple New Hampshire & Vermont ",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Color_LOGO_1_-_Paimon_Cernunnos_073df59f-6bb4-4cad-af5c-30a0e7fe8d5c.png?v=1693849450",
-            "Title": " The Satanic Temple New Mexico",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Screen_Shot_2022-04-28_at_12.54.47_PM_97a853de-1bd8-41cd-a1a0-c63c44717f62.png?v=1693836387",
-            "Title": " The Satanic Temple - North-East Gulf Coast",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/image_16_e29e514b-9470-4df6-872d-4cdd9c790f57.png?v=1693849181",
-            "Title": " The Satanic Temple Western New York",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/NYC_Logo_White_-_Verity_Fell_b176c5dc-ea28-47a3-aee2-c124c938e9a2.png?v=1693849182",
-            "Title": " The Satanic Temple NYC, NY",
-            "Description": " thesatanictemplenyc.com"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTOR-CC_3d30e316-6f30-415e-9fcb-62ac1faa8e4d.png?v=1693849182",
-            "Title": "The Satanic Temple Oregon",
-            "Description": " thesatanictempleoregon.com"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-15_643728d3-11d8-456a-9973-ef8a98813f12.png?v=1693835758",
-            "Title": " The Satanic Temple Ottawa Canada ",
-            "Description": "thesatanictempleottawa.ca"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-17_a18b30be-5f80-4d72-bc35-7471db341ece.png?v=1693849957",
-            "Title": " The Satanic Temple San Antonio, TX",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-19_994a3fc8-1ea7-42b5-8aff-ee86d36c1c68.png?v=1693849181",
-            "Title": " THE SATANIC TEMPLE SOUTHERN CALIFORNIA",
-            "Description": " tstsocal.org"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTUtahLogoWeb_5f4a976e-e46d-444b-922b-57b2ff83b1e4.png?v=1693849181",
-            "Title": " The Satanic Temple Utah",
-            "Description": "thesatanictempleutah.com"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_WV_Logo-modified_1_f41ed88c-80a9-4fae-a9a1-1a7b1bd99818.png?v=1693849182",
-            "Title": " The Satanic Temple West Virginia",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Nebraska_9e7e6ba1-7959-44a7-84f6-2541bb476b42.png?v=1693849181",
-            "Title": " The Satanic Temple Nebraska",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Florida_e3627d43-d84b-4238-986e-249a5dae9885.png?v=1693850495",
-            "Title": " The Satanic Temple Florida",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_illinois_93a31db1-c4fb-4778-8fd6-685c45ce98c7.png?v=1693850493",
-            "Title": " THE SATANIC TEMPLE ILLINOIS",
-            "Description": " tstfl.com"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/tst-norco-generic-logo__1_f5ad6a47-5765-411e-a9e3-b18faee9fbf2.png?v=1693850494",
-            "Title": " THE SATANIC TEMPLE NORTHERN CALIFORNIA",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_Ohio_8b13e091-3c96-4fca-a4ae-971977c6e9d4.png?v=1693850492",
-            "Title": " THE SATANIC TEMPLE OHIO",
-            "Description": " thesatanictempleillinois.com"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/tst_wa_logo_03-01-1_2_bc7d7055-58c4-4462-ae0b-719275a4816c.png?v=1693850492",
-            "Title": " THE SATANIC TEMPLE WASHINGTON",
-            "Description": "www.satanictemplewashington.com"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/B8BD1DCA-6248-4062-A6A3-CA88A7FE94EC_-_Abraxas_Murmur_e5d4840a-ee04-488f-b4de-877ee5802d92.png?v=1693850495",
-            "Title": " The Satanic Temple Pittsburgh",
-            "Description": " tstpgh.com "
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/received_334805441871115_-_Jason_Lloyd_b0653e2e-e482-453a-a265-bf93b77adaf6.png?v=1693850494",
-            "Title": " The Satanic Temple Kentucky",
-            "Description": "thesatanictemplekentucky.com"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo_orange2_-_Eyrie_Twilight_a027f65c-ca89-49a5-937e-2da862199492.png?v=1693850492",
-            "Title": " The Satanic Temple Philadelphia and Eastern Pennsylvania",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_OK__Logo_-_Attar_B_alam_3d3e6e93-d2ea-41ed-8308-de96d426c967.png?v=1693850492",
-            "Title": " The Satanic Temple Oklahoma",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTNC_1200x1200_82ec9db1-d2dd-42f5-bba4-707b471641f2.png?v=1693851026",
-            "Title": "The Satanic Temple Alabama The Satanic Temple North Carolina",
-            "Description": "www.thesatanictemplenc.org"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTAL-Logo_48cbe9ba-0598-4195-81a8-afead12866f1.png?v=1693851775",
-            "Title": "",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_Artwork_bf3a0651-1cc8-4539-8904-50bdccdf9e84.png?v=1693851643",
-            "Title": " The Satanic Temple Finland",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/B3277DD0-3987-4027-8EC2-6DD8FFD1C8D5_-_Potens_Leviathan_dafa69ff-2596-4358-a86d-f12029b7fbdb.png?v=1693851642",
-            "Title": " The Satanic Temple New Jersey",
-            "Description": "https://thesatanictempleofnj.com/"
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/335384306_964875388006173_5176854899448961282_n_b52bfbe2-9736-438e-b3bd-d507225d93f8.jpg?v=1693851642",
-            "Title": " The Satanic Temple Iowa",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_CT_and_RI_Finished_black_bg-01_1_92677471-926f-4377-ace4-a6205d31d5e8.png?v=1693851642",
-            "Title": " The Satanic Temple Connecticut & Rhode Island",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Instagram_Square_31.png?v=1701709594",
-            "Title": " The Satanic Temple South Carolina",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/BCTST_interim_Logo_circle_942567fd-c74a-4e89-a2c7-8ef8a2ad8291.png?v=1693851643",
-            "Title": " The Satanic Temple British Columbia",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/380242533_146228511895326_8785413484881568954_n.png?v=1696343589",
-            "Title": " The Satanic Temple San Diego",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/png_20220928_075421_0000_32df27ca-383d-4bda-9b90-74e486a75b24.png?v=1693851643",
-            "Title": " The Satanic Temple Tennessee",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Instagram_Square_7.png?v=1699655216",
-            "Title": " The Satanic Temple Toronto",
-            "Description": ""
-          },
-          {
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Logo_1_2_-_Riley_Phoebus_c5bd48a7-eb95-4ddd-be77-94be84cb56f2.png?v=1693851642",
-            "Title": " THE SATANIC TEMPLE WISCONSIN",
-            "Description": "thesatanictempleofwisconsin.com"
-          }
-        ]
+          "Margin": 5.0,
+          "Padding": 25.0,
+          "Radius": 5.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 0.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/chapter-hero_2880x1364_0439ba49-eb6f-42fe-9746-66e95e8a4735_1472x384.jpg?v=1693831317"
+        }
       }
-    }
+    },
+    {
+      "View": "GridView",
+      "GridViewData": {
+        "StyleProperties": {
+          "TitleTextColor": "#ffffff",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ffffff",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 10.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#000000",
+          "Alignment": "",
+          "Margin": 5.0,
+          "Padding": 5.0,
+          "Radius": 75.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 0.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc":""
+        },
+          "GridViewItems": [
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTAK_Logo_-_BW_-_Miracle_88852a69-39d3-454d-a889-9ed170746d17.png?v=1693832482",
+              "Title": "The Satanic Temple Alaska",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTALBlogo_9cc7f598-702a-4105-89fb-a135c2cbad93.jpg?v=1693832481",
+              "Title": "The Satanic Temple Albany, NY",
+              "Description": "thesatanictemplealbany.com"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_alberta_fa34ad5c-cf41-4cd0-9e02-49c68669efe9.jpg?v=1693850492",
+              "Title": "THE SATANIC TEMPLE ALBERTA",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_arizona-2_ecd730b2-8d74-472a-91ea-aa1459a7390c.png?v=1693832482",
+              "Title": "The Satanic Temple Arizona",
+              "Description": "thesatanictemplearizona.com"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-3_7340c7f1-c33d-4a79-8db6-06637102f266.png?v=1693835758",
+              "Title": "The Satanic Temple Atlanta, GA",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTAC_Logo.jpg?v=1614323126",
+              "Title": "The Satanic Temple Atlantic Canada",
+              "Description": "thesatanictempleatlanticcanada.ca"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Satanic_Temple_Austin_-_Lucy_Morningstar_b606d28d-f444-4812-998b-041c5cdbccd9.png?v=1693835759",
+              "Title": "The Satanic Temple Austin, TX",
+              "Description": "thesatanictempleaustin.com"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Australia_35104fc5-69f6-4e79-8e65-e71bc656a1a2.png?v=1693835759",
+              "Title": "The Satanic Temple Australia",
+              "Description": "thesatanictempleaustralia.com.au"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_BENELUX_LOGO_4095db0e-df04-4f27-9ac2-79af0425a343.png?v=1693835759",
+              "Title": "The Satanic Temple BeNeLux",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-6_fbf6fd1a-92f9-46a8-b253-c6dc67778b5b.png?v=1693835758",
+              "Title": "THE SATANIC TEMPLE COLORADO",
+              "Description": "thesatanictemplecolorado.org"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-7_009405ae-bb8c-4fac-ab96-3b2b0598787f.png?v=1693835759",
+              "Title": "The Satanic Temple Dallas-Fort Worth, TX",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTDELogo_64eb2232-26c9-4844-a0ae-e3bead47b995.jpg?v=1693836240",
+              "Title": "The Satanic Temple Delaware",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design-224_-_Riley_Phoebus_2_4c00f0ad-acae-4255-ae34-3f3902592f08.png?v=1693836387",
+              "Title": "THE SATANIC TEMPLE HOUSTON TX",
+              "Description": "www.satanictemplehouston.org"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/ger111_51842208-46bf-43c8-b1be-fa7cf6af0073.png?v=1693850494",
+              "Title": "The Satanic Temple Germany",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-9_4f0c6cdd-033b-4e9d-bb53-01759746a81d.png?v=1693836386",
+              "Title": "THE SATANIC TEMPLE HOUSTON",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/tst-idaho-web-icon-500px_0026c4bf-90a8-4a70-979b-6da6d0735c24.png?v=1693836385",
+              "Title": "The Satanic Temple Idaho ",
+              "Description": "thesatanictempleidaho.com "
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Logo_Final_TSTIN_01-02_-_Riley_Phoebus_95a594d9-6bba-4114-8aeb-145299a7df76.png?v=1693836386",
+              "Title": " The Satanic Temple Indiana",
+              "Description": "tstindiana.com"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-11_33108f96-4e53-4039-94e4-c19ec1b2940a.png?v=1693836385",
+              "Title": " The Satanic Temple Louisiana",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Maine_Logo_-_Verity_Fell_15bd570d-bdd7-4c9e-901c-9de65d8013f7.jpg?v=1693836385",
+              "Title": " The Satanic Temple Maine",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-12_2c51a2f2-70df-4d61-b7a5-9409316ac2a3.png?v=1693836385",
+              "Title": " The Satanic Temple West Michigan",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-13_9875ecf6-65db-40b2-85f4-43fd71e559e5.png?v=1693836385",
+              "Title": " The Satanic Temple Minnesota",
+              "Description": "thesatanictempleminnesota.com"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_MO_w_BG_BLK_1000px_-_Nevin_Morrow_27692504-7a48-44b2-8ed1-8e9b8b305963.jpg?v=1693836386",
+              "Title": " The Satanic Temple Missouri",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/tstnv_500px_transparent_-_Jonathan_Crowson_ecfbfb22-b209-4204-a39d-a56b5a97ce9e.png?v=1693837249",
+              "Title": "The Satanic Temple Nevada",
+              "Description": "tstnv.com "
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TheSatanicTemple_NHandVT_-_Michael_Bartleby_4fcecf1b-6d21-4eec-9a14-30f956f9b90e.jpg?v=1693849182",
+              "Title": " The Satanic Temple New Hampshire & Vermont ",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Color_LOGO_1_-_Paimon_Cernunnos_073df59f-6bb4-4cad-af5c-30a0e7fe8d5c.png?v=1693849450",
+              "Title": " The Satanic Temple New Mexico",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Screen_Shot_2022-04-28_at_12.54.47_PM_97a853de-1bd8-41cd-a1a0-c63c44717f62.png?v=1693836387",
+              "Title": " The Satanic Temple - North-East Gulf Coast",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/image_16_e29e514b-9470-4df6-872d-4cdd9c790f57.png?v=1693849181",
+              "Title": " The Satanic Temple Western New York",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/NYC_Logo_White_-_Verity_Fell_b176c5dc-ea28-47a3-aee2-c124c938e9a2.png?v=1693849182",
+              "Title": " The Satanic Temple NYC, NY",
+              "Description": " thesatanictemplenyc.com"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTOR-CC_3d30e316-6f30-415e-9fcb-62ac1faa8e4d.png?v=1693849182",
+              "Title": "The Satanic Temple Oregon",
+              "Description": " thesatanictempleoregon.com"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-15_643728d3-11d8-456a-9973-ef8a98813f12.png?v=1693835758",
+              "Title": " The Satanic Temple Ottawa Canada ",
+              "Description": "thesatanictempleottawa.ca"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-17_a18b30be-5f80-4d72-bc35-7471db341ece.png?v=1693849957",
+              "Title": " The Satanic Temple San Antonio, TX",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-19_994a3fc8-1ea7-42b5-8aff-ee86d36c1c68.png?v=1693849181",
+              "Title": " THE SATANIC TEMPLE SOUTHERN CALIFORNIA",
+              "Description": " tstsocal.org"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTUtahLogoWeb_5f4a976e-e46d-444b-922b-57b2ff83b1e4.png?v=1693849181",
+              "Title": " The Satanic Temple Utah",
+              "Description": "thesatanictempleutah.com"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_WV_Logo-modified_1_f41ed88c-80a9-4fae-a9a1-1a7b1bd99818.png?v=1693849182",
+              "Title": " The Satanic Temple West Virginia",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Nebraska_9e7e6ba1-7959-44a7-84f6-2541bb476b42.png?v=1693849181",
+              "Title": " The Satanic Temple Nebraska",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Florida_e3627d43-d84b-4238-986e-249a5dae9885.png?v=1693850495",
+              "Title": " The Satanic Temple Florida",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_illinois_93a31db1-c4fb-4778-8fd6-685c45ce98c7.png?v=1693850493",
+              "Title": " THE SATANIC TEMPLE ILLINOIS",
+              "Description": " tstfl.com"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/tst-norco-generic-logo__1_f5ad6a47-5765-411e-a9e3-b18faee9fbf2.png?v=1693850494",
+              "Title": " THE SATANIC TEMPLE NORTHERN CALIFORNIA",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_Ohio_8b13e091-3c96-4fca-a4ae-971977c6e9d4.png?v=1693850492",
+              "Title": " THE SATANIC TEMPLE OHIO",
+              "Description": " thesatanictempleillinois.com"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/tst_wa_logo_03-01-1_2_bc7d7055-58c4-4462-ae0b-719275a4816c.png?v=1693850492",
+              "Title": " THE SATANIC TEMPLE WASHINGTON",
+              "Description": "www.satanictemplewashington.com"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/B8BD1DCA-6248-4062-A6A3-CA88A7FE94EC_-_Abraxas_Murmur_e5d4840a-ee04-488f-b4de-877ee5802d92.png?v=1693850495",
+              "Title": " The Satanic Temple Pittsburgh",
+              "Description": " tstpgh.com "
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/received_334805441871115_-_Jason_Lloyd_b0653e2e-e482-453a-a265-bf93b77adaf6.png?v=1693850494",
+              "Title": " The Satanic Temple Kentucky",
+              "Description": "thesatanictemplekentucky.com"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo_orange2_-_Eyrie_Twilight_a027f65c-ca89-49a5-937e-2da862199492.png?v=1693850492",
+              "Title": " The Satanic Temple Philadelphia and Eastern Pennsylvania",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_OK__Logo_-_Attar_B_alam_3d3e6e93-d2ea-41ed-8308-de96d426c967.png?v=1693850492",
+              "Title": " The Satanic Temple Oklahoma",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTNC_1200x1200_82ec9db1-d2dd-42f5-bba4-707b471641f2.png?v=1693851026",
+              "Title": "The Satanic Temple Alabama The Satanic Temple North Carolina",
+              "Description": "www.thesatanictemplenc.org"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTAL-Logo_48cbe9ba-0598-4195-81a8-afead12866f1.png?v=1693851775",
+              "Title": "",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_Artwork_bf3a0651-1cc8-4539-8904-50bdccdf9e84.png?v=1693851643",
+              "Title": " The Satanic Temple Finland",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/B3277DD0-3987-4027-8EC2-6DD8FFD1C8D5_-_Potens_Leviathan_dafa69ff-2596-4358-a86d-f12029b7fbdb.png?v=1693851642",
+              "Title": " The Satanic Temple New Jersey",
+              "Description": "https://thesatanictempleofnj.com/"
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/335384306_964875388006173_5176854899448961282_n_b52bfbe2-9736-438e-b3bd-d507225d93f8.jpg?v=1693851642",
+              "Title": " The Satanic Temple Iowa",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_CT_and_RI_Finished_black_bg-01_1_92677471-926f-4377-ace4-a6205d31d5e8.png?v=1693851642",
+              "Title": " The Satanic Temple Connecticut & Rhode Island",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Instagram_Square_31.png?v=1701709594",
+              "Title": " The Satanic Temple South Carolina",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/BCTST_interim_Logo_circle_942567fd-c74a-4e89-a2c7-8ef8a2ad8291.png?v=1693851643",
+              "Title": " The Satanic Temple British Columbia",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/380242533_146228511895326_8785413484881568954_n.png?v=1696343589",
+              "Title": " The Satanic Temple San Diego",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/png_20220928_075421_0000_32df27ca-383d-4bda-9b90-74e486a75b24.png?v=1693851643",
+              "Title": " The Satanic Temple Tennessee",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Instagram_Square_7.png?v=1699655216",
+              "Title": " The Satanic Temple Toronto",
+              "Description": ""
+            },
+            {
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Logo_1_2_-_Riley_Phoebus_c5bd48a7-eb95-4ddd-be77-94be84cb56f2.png?v=1693851642",
+              "Title": " THE SATANIC TEMPLE WISCONSIN",
+              "Description": "thesatanictempleofwisconsin.com"
+            }
+          ]
+        }
+      }
+    
   ]
 }

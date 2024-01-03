@@ -770,3 +770,58 @@ class QuestionAnswer {
     return data;
   }
 }
+
+class GridViewData {
+  StyleProperties? styleProperties;
+  List<GridViewItems>? gridViewItems;
+
+  GridViewData({this.styleProperties, this.gridViewItems});
+
+  GridViewData.fromJson(Map<String, dynamic> json) {
+    styleProperties = json['StyleProperties'] != null
+        ? new StyleProperties.fromJson(json['StyleProperties'])
+        : null;
+    if (json['GridViewItems'] != null) {
+      gridViewItems = <GridViewItems>[];
+      json['GridViewItems'].forEach((v) {
+        gridViewItems!.add(new GridViewItems.fromJson(v));
+      });
+    }
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    if (this.styleProperties != null) {
+      data['StyleProperties'] = this.styleProperties!.toJson();
+    }
+    if (this.gridViewItems != null) {
+      data['GridViewItems'] =
+          this.gridViewItems!.map((v) => v.toJson()).toList();
+    }
+    return data;
+  }
+}
+
+class GridViewItems {
+  String? imageSrc;
+  String? title;
+  String? description;
+
+  GridViewItems({this.imageSrc, this.title, this.description});
+
+  GridViewItems.fromJson(Map<String, dynamic> json) {
+    imageSrc = json['ImageSrc'];
+    title = json['Title'];
+    description = json['Description'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['ImageSrc'] = this.imageSrc;
+    data['Title'] = this.title;
+    data['Description'] = this.description;
+    return data;
+  }
+}
+
+

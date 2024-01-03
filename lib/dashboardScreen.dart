@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:stemple/grid_view.dart';
 import 'package:stemple/views/banners_view/itgeek_widget_banner_image.dart';
 import 'package:stemple/views/banners_view/itgeek_widget_banner_text.dart';
 import 'package:stemple/views/faq_view/full_view.dart';
@@ -27,7 +28,7 @@ class _DashboardState extends State<Dashboard> {
   Widget build(BuildContext context) {
     return FutureBuilder(
 
-        future: rootBundle.loadString("assets/json/learn/holiday.json"),
+        future: rootBundle.loadString("assets/json/join/find_a_congregation.json"),
 
 
 
@@ -45,6 +46,9 @@ print("my list is nnnnnnnnnnnnnnnnnnnn ${myList}");
 
                 if (element.view == "FAQ") {
                   return ItgeekWidgetFaq(element.textListWithDetailsData!);
+                }
+                if (element.view == "GridView") {
+                  return WidgetGridView(element.gridViewData!);
                 }
                
                 if (element.view == "textTile") {
