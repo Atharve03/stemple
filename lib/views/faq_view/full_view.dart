@@ -8,12 +8,12 @@ import '../utils/util.dart';
 class ItgeekWidgetFullView extends StatelessWidget {
   // QuestionAnswer questionAnswer;
   // ItgeekWidgetFullView(this.questionAnswer);
-  String? imageSrc, title, description, titleTextColor, descriptionTextColor, backgroundColor, appBarColor;
+  String? imageSrc, title, description, textAlignment, titleTextColor, descriptionTextColor, backgroundColor, appBarColor;
   double  titleTextFontSize, descriptionTextFontSize, padding, margin;
   // ImageViewData imageViewData;
   // TextListWithDetailsData textListWithDetailsData;
  
-  ItgeekWidgetFullView(this.imageSrc, this.title, this.description, this.titleTextColor, this.descriptionTextColor, this.titleTextFontSize, this.descriptionTextFontSize, this.padding, this.margin, this.backgroundColor, this.appBarColor);
+  ItgeekWidgetFullView(this.imageSrc, this.title, this.description, this.textAlignment, this.titleTextColor, this.descriptionTextColor, this.titleTextFontSize, this.descriptionTextFontSize, this.padding, this.margin, this.backgroundColor, this.appBarColor);
 
   @override
   Widget build(BuildContext context) {
@@ -52,8 +52,10 @@ class ItgeekWidgetFullView extends StatelessWidget {
               ),
             ) : Container(),
             title != ""
-                ? Padding(
-                    padding: EdgeInsets.all(5),
+                ? Container(
+                                    alignment:  textAlignment == "left" ? Alignment.centerLeft : textAlignment == "right" ? Alignment.centerRight : Alignment.center,
+
+                    padding: EdgeInsets.all(padding),
                     child: Text(
                       title!,
                       style: TextStyle(
@@ -61,6 +63,7 @@ class ItgeekWidgetFullView extends StatelessWidget {
                           fontWeight: FontWeight.bold,
                           fontSize: titleTextFontSize
                           ),
+                      
                     ),
                   )
                 : Container(),
@@ -68,7 +71,9 @@ class ItgeekWidgetFullView extends StatelessWidget {
               height: 5,
             ),
            description != ""
-                ? Padding(
+                ? Container(
+                                    alignment:  textAlignment == "left" ? Alignment.centerLeft : textAlignment == "right" ? Alignment.centerRight : Alignment.center,
+
                     padding: EdgeInsets.all(5),
                     child: Text(
                       description!,
@@ -78,8 +83,9 @@ class ItgeekWidgetFullView extends StatelessWidget {
                           fontWeight: FontWeight.bold,
                           fontSize: descriptionTextFontSize
                           )
-                          ,
+                      
                     ),
+                    
                   )
                 : Container()
           ])),

@@ -100,7 +100,9 @@ class _FullImageState extends State<FullImage> {
             // Use a textpainter to determine if it will exceed max lines
             var tp = TextPainter(
               maxLines: maxLines,
-              textAlign: TextAlign.left,
+              // textAlign: TextAlign.left,
+              // textAlign: widget.imageViewData.styleProperties!.alignment! == "left" ? TextAlign.left : widget.imageViewData.styleProperties!.alignment == "right" ? TextAlign.right : TextAlign.center,
+
               textDirection: TextDirection.ltr,
               text: span,
             );
@@ -113,7 +115,9 @@ class _FullImageState extends State<FullImage> {
    print("cjvgffmdf ${exceeded}");
           
           widget.imageViewData.title != ""
-              ? Padding(
+              ? Container(
+                                                            alignment:  widget.imageViewData.styleProperties!.alignment! == "left" ? Alignment.centerLeft : widget.imageViewData.styleProperties!.alignment! == "right" ? Alignment.centerRight : Alignment.center,
+
                   padding: EdgeInsets.all(
                       widget.imageViewData.styleProperties!.padding!),
                   child: Text(
@@ -133,7 +137,9 @@ class _FullImageState extends State<FullImage> {
          return widget.imageViewData.description != ""
               ? Column(
                 children: [
-                  Padding(
+                  Container(
+                                                                alignment:  widget.imageViewData.styleProperties!.alignment! == "left" ? Alignment.centerLeft : widget.imageViewData.styleProperties!.alignment! == "right" ? Alignment.centerRight : Alignment.center,
+
                       padding: EdgeInsets.all(
                           widget.imageViewData.styleProperties!.padding!),
                       child: Text.rich(
@@ -143,8 +149,7 @@ class _FullImageState extends State<FullImage> {
                         style: TextStyle(
                             color: descriptionTextColor,
                             fontWeight: FontWeight.bold,
-                            fontSize: widget.imageViewData
-                                .styleProperties!.descriptionTextFontSize!),
+                            fontSize: widget.imageViewData.styleProperties!.descriptionTextFontSize!),
                                   maxLines: maxLines,
                       ),
                       
@@ -160,6 +165,7 @@ class _FullImageState extends State<FullImage> {
                                       widget.imageViewData.imageSrc!,
                                       widget.imageViewData.title!,
                                       widget.imageViewData.description!,
+                                      widget.imageViewData.styleProperties!.alignment,
                                       widget.imageViewData.styleProperties!.titleTextColor,
                                       widget.imageViewData.styleProperties!.descriptionTextColor,
                                       widget.imageViewData.styleProperties!.titleTextFontSize!,
@@ -251,6 +257,8 @@ class HalfImage extends StatelessWidget {
                   children: [
                     imageViewData.title != ""
                         ? Container(
+                                            alignment:  imageViewData.styleProperties!.alignment! == "left" ? Alignment.centerLeft : imageViewData.styleProperties!.alignment! == "right" ? Alignment.centerRight : Alignment.center,
+
                             child: Text(
                               imageViewData.title!,
                               style: TextStyle(
@@ -258,7 +266,7 @@ class HalfImage extends StatelessWidget {
                                   fontSize: imageViewData.styleProperties!.titleTextFontSize!,
                                   color: titleTextColor),
                               maxLines: imageViewData.styleProperties!.titleTextNoOfLines!,
-                              textAlign: TextAlign.center,
+                              // textAlign: imageViewData.styleProperties!.alignment! == "left" ? TextAlign.left : imageViewData.styleProperties!.alignment == "right" ? TextAlign.right : TextAlign.center,
                             ),
                           )
                         : Container(),
@@ -267,13 +275,17 @@ class HalfImage extends StatelessWidget {
                     ),
                     imageViewData.description != ""
                         ? Container(
+                                                                      alignment:  imageViewData.styleProperties!.alignment! == "left" ? Alignment.centerLeft : imageViewData.styleProperties!.alignment! == "right" ? Alignment.centerRight : Alignment.center,
+
                             child: Text(
                               imageViewData.description!,
                               style: TextStyle(
                                   fontSize: imageViewData.styleProperties!.descriptionTextFontSize!,
                                   color: descriptionTextColor),
                               maxLines: imageViewData.styleProperties!.descriptionTextNoOfLines!,
-                              textAlign: TextAlign.center,
+                              // textAlign: TextAlign.center,
+                              textAlign: imageViewData.styleProperties!.alignment! == "left" ? TextAlign.left : imageViewData.styleProperties!.alignment == "right" ? TextAlign.right : TextAlign.center,
+
                             ),
                           )
                         : Container()

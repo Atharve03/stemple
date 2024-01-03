@@ -74,6 +74,7 @@ class _FAQState extends State<ItgeekWidgetFaq> {
                                   "",
                                   listQuestionAnswer[index].question!,
                                   listQuestionAnswer[index].answer,
+                                      widget.frequentlyAskedQuestions.styleProperties!.alignment,
                                      widget.frequentlyAskedQuestions.styleProperties!.titleTextColor,
                                       widget.frequentlyAskedQuestions.styleProperties!.descriptionTextColor,
                                       widget.frequentlyAskedQuestions.styleProperties!.titleTextFontSize!,

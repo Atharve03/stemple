@@ -1,187 +1,185 @@
 {
-    "BackgroundColor": "#ffffff",
-    "AppBarBackColor": "#000000",
-    "AppBarIcon": "#000000",
-    "PageLayout": [
-      {
-        "View": "TextView",
-        "TextViewData": {
-          "Title": "BLESSED BE THE SATANIC HOLIDAYS",
-          "Description": "",
-  
-          "StyleProperties": {
-            "TitleTextColor": "#ffffff",
-            "TitleTextFontName": "",
-            "TitleTextFontSize": 17.0,
-            "TitleTextFontWeight": "",
-            "TitleTextNoOfLines": 4,
-            "DescriptionTextColor": "#000000",
-            "DescriptionTextFontName": "",
-            "DescriptionTextFontSize": 15.0,
-            "DescriptionTextFontWeight": "",
-                    "DescriptionTextNoOfLines": 6,
-      "BackgroundColor": "#000000",
-            "Alignment": "center",
-                   "Margin": 0.0,
-            "Padding": 20.0,
-            "Radius": 0.0,
-            "BackgroundMargin": 0.0,
-            "BackgroundPadding": 20.0,
-            "BackgroundRadius": 0.0,
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/hero-bg_2880x1364_35a16d2e-1e15-4e4f-b051-b2f896813149_2336x608.jpg?v=1694778750"
+  "BackgroundColor": "#ffffff",
+  "AppBarBackColor": "#000000",
+  "AppBarIcon": "#000000",
+  "PageLayout": [
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "Title": "BLESSED BE THE SATANIC HOLIDAYS",
+        "Description": "",
+        "StyleProperties": {
+          "TitleTextColor": "#ffffff",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#000000",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 6,
+          "BackgroundColor": "#000000",
+          "Alignment": "left",
+          "Margin": 0.0,
+          "Padding": 20.0,
+          "Radius": 0.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 20.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/hero-bg_2880x1364_35a16d2e-1e15-4e4f-b051-b2f896813149_2336x608.jpg?v=1694778750"
         }
-        }
-      },
-      {
-        "View": "ImageView",
-        "ImageViewData": {
-            "ImageViewViewType": "Full",
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/thumb-img1.jpg?v=1614315165",
-            "Title": "Lupercalia",
-            "Description": " February 15 : \n Celebration of bodily autonomy, sexual liberation, and reproduction \n Based on the Roman festival of the same name, Lupercalia falls on February 15. In keeping with the ancient tradition, February 13th and 14th are observed as feast days leading up to the actual holiday. What we are translating this to in TST is a hail yourself day. This idea offers a parallel to the others-centered traditions of Sol Invictus",
-            "StyleProperties": {
-                "TitleTextColor": "#ff0000",
-                "TitleTextFontName": "",
-                "TitleTextFontSize": 17.0,
-                "TitleTextFontWeight": "",
-                "TitleTextNoOfLines": 4,
-                "DescriptionTextColor": "#000000",
-                "DescriptionTextFontName": "",
-                "DescriptionTextFontSize": 15.0,
-                "DescriptionTextFontWeight": "",
-                        "DescriptionTextNoOfLines": 6,
-          "BackgroundColor": "#ffffff",
-                "Alignment": "",
-                           "Margin": 0.0,
-            "Padding": 10.0,
-            "Radius": 0.0,
-                "BackgroundMargin": 0.0,
-                "BackgroundPadding": 0.0,
-                "BackgroundRadius": 0.0,
-                "ImageSrc": ""
-            }
-        }
+      }
     },
     {
       "View": "ImageView",
       "ImageViewData": {
-          "ImageViewViewType": "Full",
-          "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/thumb-img2_92f1ce8d-0c65-4e6b-821f-8049065eb6d4.jpg?v=1694783731",
-          "Title": "Hexennacht",
-          "Description": " April 30 : \n Occasion honoring those who fell victim to superstition and pseudoscience, whether by witch hunt, Satanic panic, or other injustices \n  In Johann Wolfgang von Goethe's Faust: a Tragedy (1808), Mephisto and Faust attend the Walpurgisnacht revelry atop Mount Brocken. TST's Hexenacht is a solemn holiday to honor those who were victimized by superstition.",
-          "StyleProperties": {
-              "TitleTextColor": "#ff0000",
-              "TitleTextFontName": "",
-              "TitleTextFontSize": 17.0,
-              "TitleTextFontWeight": "",
-              "TitleTextNoOfLines": 4,
-              "DescriptionTextColor": "#000000",
-              "DescriptionTextFontName": "",
-              "DescriptionTextFontSize": 15.0,
-              "DescriptionTextFontWeight": "",
-                      "DescriptionTextNoOfLines": 6,
-        "BackgroundColor": "#ffffff",
-              "Alignment": "center",
-              "Margin": 0.0,
-              "Padding": 10.0,
-              "Radius": 0.0,
-              "BackgroundMargin": 0.0,
-              "BackgroundPadding": 0.0,
-              "BackgroundRadius": 0.0,
-              "ImageSrc": ""
-          }
+        "ImageViewViewType": "Full",
+        "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/thumb-img1.jpg?v=1614315165",
+        "Title": "Lupercalia",
+        "Description": " February 15 : \n Celebration of bodily autonomy, sexual liberation, and reproduction \n Based on the Roman festival of the same name, Lupercalia falls on February 15. In keeping with the ancient tradition, February 13th and 14th are observed as feast days leading up to the actual holiday. What we are translating this to in TST is a hail yourself day. This idea offers a parallel to the others-centered traditions of Sol Invictus",
+        "StyleProperties": {
+          "TitleTextColor": "#ff0000",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#000000",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 6,
+          "BackgroundColor": "#ffffff",
+          "Alignment": "left",
+          "Margin": 0.0,
+          "Padding": 10.0,
+          "Radius": 0.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 0.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc": ""
+        }
       }
-  },
-  {
-    "View": "ImageView",
-    "ImageViewData": {
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
+        "ImageViewViewType": "Full",
+        "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/thumb-img2_92f1ce8d-0c65-4e6b-821f-8049065eb6d4.jpg?v=1694783731",
+        "Title": "Hexennacht",
+        "Description": " April 30 : \n Occasion honoring those who fell victim to superstition and pseudoscience, whether by witch hunt, Satanic panic, or other injustices \n  In Johann Wolfgang von Goethe's Faust: a Tragedy (1808), Mephisto and Faust attend the Walpurgisnacht revelry atop Mount Brocken. TST's Hexenacht is a solemn holiday to honor those who were victimized by superstition.",
+        "StyleProperties": {
+          "TitleTextColor": "#ff0000",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#000000",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 6,
+          "BackgroundColor": "#ffffff",
+          "Alignment": "center",
+          "Margin": 0.0,
+          "Padding": 10.0,
+          "Radius": 0.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 0.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc": ""
+        }
+      }
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
         "ImageViewViewType": "Full",
         "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/thumb-img3_2282d700-64ab-41eb-9dbd-87812ec298ac.jpg?v=1694783730",
         "Title": "Unveiling Day",
         "Description": "July 25 : \n Celebration of religious plurality and shedding archaic superstition \n A centerpiece of our religious movement and icon of modern Satanism, the Baphomet with Children statue was commissioned by The Satanic Temple in 2014 and created by Mark Porter with respect for diversity and religious minorities in mind. On July 25, 2015, The Satanic Temple unveiled Baphomet to a large crowd of devotees in Detroit, signaling the beginning of the new Satanic era. We observe this milestone in Satanic history by celebrating Unveiling Day.",
         "StyleProperties": {
-            "TitleTextColor": "#ff0000",
-            "TitleTextFontName": "",
-            "TitleTextFontSize": 17.0,
-            "TitleTextFontWeight": "",
-            "TitleTextNoOfLines": 4,
-            "DescriptionTextColor": "#000000",
-            "DescriptionTextFontName": "",
-            "DescriptionTextFontSize": 15.0,
-            "DescriptionTextFontWeight": "",
-                    "DescriptionTextNoOfLines": 6,
-      "BackgroundColor": "#ffffff",
-            "Alignment": "center",
-            "Margin": 0.0,
-            "Padding": 10.0,
-            "Radius": 0.0,
-            "BackgroundMargin": 0.0,
-            "BackgroundPadding": 0.0,
-            "BackgroundRadius": 0.0,
-            "ImageSrc": ""
+          "TitleTextColor": "#ff0000",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#000000",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 6,
+          "BackgroundColor": "#ffffff",
+          "Alignment": "right",
+          "Margin": 0.0,
+          "Padding": 10.0,
+          "Radius": 0.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 0.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc": ""
         }
-    }
-  },
-  {
-    "View": "ImageView",
-    "ImageViewData": {
+      }
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
         "ImageViewViewType": "Full",
         "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/thumb-img4_4e24d7a4-7396-4b43-922f-879a8d0f8816.jpg?v=1694783730",
         "Title": "Halloween",
         "Description": "October 31 : \n Holiday to celebrate indulgence and embrace the darkness and its aesthetic \n Halloween is consistently described as evil, demonic, and satanic by those steeped in religious dogma. Costumes, candy, and facing fears are to be embraced.",
         "StyleProperties": {
-            "TitleTextColor": "#ff0000",
-            "TitleTextFontName": "",
-            "TitleTextFontSize": 17.0,
-            "TitleTextFontWeight": "",
-            "TitleTextNoOfLines": 4,
-            "DescriptionTextColor": "#000000",
-            "DescriptionTextFontName": "",
-            "DescriptionTextFontSize": 15.0,
-            "DescriptionTextFontWeight": "",
-                    "DescriptionTextNoOfLines": 6,
-      "BackgroundColor": "#ffffff",
-            "Alignment": "center",
-                   "Margin": 0.0,
-            "Padding": 10.0,
-            "Radius": 0.0,
-            "BackgroundMargin": 0.0,
-            "BackgroundPadding": 0.0,
-            "BackgroundRadius": 0.0,
-            "ImageSrc": ""
+          "TitleTextColor": "#ff0000",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#000000",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 6,
+          "BackgroundColor": "#ffffff",
+          "Alignment": "center",
+          "Margin": 0.0,
+          "Padding": 10.0,
+          "Radius": 0.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 0.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc": ""
         }
-    }
-  },
-  {
-    "View": "ImageView",
-    "ImageViewData": {
+      }
+    },
+    {
+      "View": "ImageView",
+      "ImageViewData": {
         "ImageViewViewType": "Full",
         "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/thumb-img5_1eb84dea-722c-4c87-a045-0ebfd90f8e7c.jpg?v=1694783730",
         "Title": "Sol Invictus",
         "Description": "December 25 : \n Celebration of being unconquered by superstition and consistent in the pursuit and sharing of knowledge \n The cult of Sol existed within Rome since its early days as a republic, and Invictus was an epithet used for Jupiter, Mars, and Apollo (among others). The festival celebrated these gods and may have also been used to celebrate the winter solstice.",
         "StyleProperties": {
-            "TitleTextColor": "#ff0000",
-            "TitleTextFontName": "",
-            "TitleTextFontSize": 17.0,
-            "TitleTextFontWeight": "",
-            "TitleTextNoOfLines": 4,
-            "DescriptionTextColor": "#000000",
-            "DescriptionTextFontName": "",
-            "DescriptionTextFontSize": 15.0,
-            "DescriptionTextFontWeight": "",
-                    "DescriptionTextNoOfLines": 6,
-      "BackgroundColor": "#ffffff",
-            "Alignment": "center",
-                   "Margin": 0.0,
-            "Padding": 10.0,
-            "Radius": 0.0,
-            "BackgroundMargin": 0.0,
-            "BackgroundPadding": 0.0,
-            "BackgroundRadius": 0.0,
-            "ImageSrc": ""
+          "TitleTextColor": "#ff0000",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#000000",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 6,
+          "BackgroundColor": "#ffffff",
+          "Alignment": "center",
+          "Margin": 0.0,
+          "Padding": 10.0,
+          "Radius": 0.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 0.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc": ""
         }
+      }
     }
-  }
-  
-    ]
-  }
+  ]
+}
