@@ -193,27 +193,54 @@ class _FullImageState extends State<FullImage> {
   }
 }
 
-class HalfImage extends StatelessWidget {
+class HalfImage extends StatefulWidget {
   ImageViewData imageViewData;
 
   HalfImage(this.imageViewData);
 
   @override
+  State<HalfImage> createState() => _HalfImageState();
+}
+
+class _HalfImageState extends State<HalfImage> {
+  var controller = TextEditingController();
+
+  @override
+  void initState() {
+    controller.addListener(() {
+      setState(() {
+        mytext = controller.text;
+      });
+    });
+    controller.text = widget.imageViewData.description!;
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  String mytext = "";
+
+  @override
   Widget build(BuildContext context) {
     var titleTextColor = Util.getColorFromHex(
-        imageViewData.styleProperties!.titleTextColor!);
+        widget.imageViewData.styleProperties!.titleTextColor!);
     var descriptionTextColor = Util.getColorFromHex(
-        imageViewData.styleProperties!.descriptionTextColor!);
-    var bgColor = Util.getColorFromHex(imageViewData.styleProperties!.backgroundColor!);
-
+        widget.imageViewData.styleProperties!.descriptionTextColor!);
+    var bgColor = Util.getColorFromHex(widget.imageViewData.styleProperties!.backgroundColor!);
+int maxLines = widget.imageViewData.styleProperties!.descriptionTextNoOfLines!;
+    double fontSize = widget.imageViewData.styleProperties!.descriptionTextFontSize!;
 
     return Container(
-      margin: EdgeInsets.all(imageViewData.styleProperties!.backgroundMargin!),
+      margin: EdgeInsets.all(widget.imageViewData.styleProperties!.backgroundMargin!),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(imageViewData.styleProperties!.backgroundRadius!),
+        borderRadius: BorderRadius.circular(widget.imageViewData.styleProperties!.backgroundRadius!),
         color: bgColor,
       ),
-      padding: EdgeInsets.all(imageViewData.styleProperties!.backgroundPadding!),
+      padding: EdgeInsets.all(widget.imageViewData.styleProperties!.backgroundPadding!),
         child: Row(
         children: [
           Expanded(
@@ -226,7 +253,7 @@ class HalfImage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10.0),
                 image: DecorationImage(
                   image: NetworkImage(
-                    imageViewData.imageSrc!,
+                    widget.imageViewData.imageSrc!,
                   ),
                   fit: BoxFit.cover,
                 ),
@@ -236,28 +263,49 @@ class HalfImage extends StatelessWidget {
           SizedBox(
             width: 5,
           ),
-          Expanded(
+           LayoutBuilder(builder: (context,size)
+          {
+ var span = TextSpan(
+              text: mytext,
+              style: TextStyle(fontSize: fontSize),
+            );
+
+            // Use a textpainter to determine if it will exceed max lines
+            var tp = TextPainter(
+              maxLines: maxLines,
+              textAlign: TextAlign.left,
+              textDirection: TextDirection.ltr,
+              text: span,
+            );
+
+            // trigger it to layout
+            tp.layout(maxWidth: size.maxWidth);
+
+            // whether the text overflowed or not
+            var exceeded = tp.maxLines;
+   print("cjvgffmdf ${exceeded}");
+          return Expanded(
             child: Container(
                 // height: double.infinity,
                 decoration: BoxDecoration(
                   borderRadius:
-                      BorderRadius.circular(imageViewData.styleProperties!.radius!),
+                      BorderRadius.circular(widget.imageViewData.styleProperties!.radius!),
                   color: bgColor.withOpacity(0.5),
                 ),
-                padding: EdgeInsets.all(imageViewData.styleProperties!.padding!),
+                padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    imageViewData.title != ""
+                    widget.imageViewData.title != ""
                         ? Container(
                             child: Text(
-                              imageViewData.title!,
+                              widget.imageViewData.title!,
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  fontSize: imageViewData.styleProperties!.titleTextFontSize!,
+                                  fontSize: widget.imageViewData.styleProperties!.titleTextFontSize!,
                                   color: titleTextColor),
-                              maxLines: imageViewData.styleProperties!.titleTextNoOfLines!,
+                              maxLines: widget.imageViewData.styleProperties!.titleTextNoOfLines!,
                               textAlign: TextAlign.center,
                             ),
                           )
@@ -265,21 +313,59 @@ class HalfImage extends StatelessWidget {
                     SizedBox(
                       height: 5,
                     ),
-                    imageViewData.description != ""
-                        ? Container(
-                            child: Text(
-                              imageViewData.description!,
-                              style: TextStyle(
-                                  fontSize: imageViewData.styleProperties!.descriptionTextFontSize!,
-                                  color: descriptionTextColor),
-                              maxLines: imageViewData.styleProperties!.descriptionTextNoOfLines!,
-                              textAlign: TextAlign.center,
-                            ),
-                          )
+                    widget.imageViewData.description != ""
+                        ? Column(
+                          children: [
+                            Container(
+                                child: Text.rich(
+                            span,
+                            overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                      fontSize: widget.imageViewData.styleProperties!.descriptionTextFontSize!,
+                                      color: Util.getColorFromHex(widget.imageViewData.styleProperties!.descriptionTextColor!)),
+                                  maxLines: maxLines,
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                                   InkWell(
+            onTap: () {
+                            print("more clicked");
+                            
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ItgeekWidgetFullView(
+                                      widget.imageViewData.imageSrc!,
+                                      widget.imageViewData.title!,
+                                      widget.imageViewData.description!,
+                                      widget.imageViewData.styleProperties!.titleTextColor,
+                                      widget.imageViewData.styleProperties!.descriptionTextColor,
+                                      widget.imageViewData.styleProperties!.titleTextFontSize!,
+                                      widget.imageViewData.styleProperties!.descriptionTextFontSize!,
+                                      widget.imageViewData.styleProperties!.padding!,
+                                      widget.imageViewData.styleProperties!.margin!,
+                                      widget.imageViewData.styleProperties!.backgroundColor,
+                                      widget.imageViewData.styleProperties!.backgroundColor
+                                      
+                                      
+                                      )));
+             
+                          },
+            child: Text(
+              exceeded != null ? 'Read More' : '',
+              style: TextStyle(
+                color: Colors.blue,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+                          ],
+                        )
                         : Container()
                   ],
                 )),
-          )
+          );
+          })
         ],
       ),
     );
