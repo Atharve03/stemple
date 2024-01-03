@@ -64,6 +64,7 @@ class ItgeekWidgetFullView extends StatelessWidget {
                   padding: EdgeInsets.all(5),
                   child: Text(
                     description!,
+                    // questionAnswer.answer!.toString(),
                     style: TextStyle(
                         // color: textColor,
                         fontWeight: FontWeight.bold,

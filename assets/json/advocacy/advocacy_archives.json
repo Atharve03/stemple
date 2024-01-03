@@ -9,12 +9,42 @@
                 "Description": "A Collection Of TST’s Past Initiatives Rooted In Religious Representation And Expressing Our Religious Beliefs.",
                 "Title": "ADVOCACY\nARCHIVES",
                 "StyleProperties": {
-                    "TitleTextColor": "#ddddd",
+                    "TitleTextColor": "#ffffff",
                     "TitleT  extFontName": "",
                     "TitleTextFontSize": 17.0,
                     "TitleTextFontWeight": "",
                     "TitleTextNoOfLines": 4,
-                    "DescriptionTextColor": "#ddddd",
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#000000",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 20.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 20.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/legal-hero_2880x1364_be2884c0-edaf-40f0-9f4e-4717830deda9_960x288.jpg?v=1693837986"
+                }
+            }
+        },
+        {
+            "View": "FAQ",
+            "TextListWithDetailsData": {
+                "ViewType": "detail",
+                "IconSize": 15.0,
+                "IconColor": "#FF0000",
+                "ArrowVisibility": true,
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
                     "DescriptionTextFontName": "",
                     "DescriptionTextFontSize": 15.0,
                     "DescriptionTextFontWeight": "",
@@ -27,8 +57,253 @@
                     "BackgroundMargin": 15.0,
                     "BackgroundPadding": 15.0,
                     "BackgroundRadius": 15.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/legal-hero_2880x1364_be2884c0-edaf-40f0-9f4e-4717830deda9_960x288.jpg?v=1693837986"
-                }
+                    "ImageSrc": ""
+                },
+                "QuestionAnswer": [
+                    {
+                        "Question": "2021 Devil's Advocate Scholarship",
+                        "Expand": false,
+                        "Answer": {
+                            "View": "ImageView",
+                            "ImageViewData": {
+                                "ImageViewViewType": "Full",
+                                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/tst-2021_c8b300f3-8bba-4c86-8f42-a3ea06aa8aab.jpg?v=1693920828",
+                                "Title": "",
+                                "Description": "The Devil’s Advocate Scholarship awards students who champion individualism, free-thought, empathy, and other noble aspects of TST's mission to better society. In 2021, TST expanded its submission categories to three eligibility tiers to encompass a wide variety of learners. The tiers related to level of education along with two categories of media (written and audio/visual) in which applicants chose to express themselves. Three scholarships in accordance with the three educational tiers were intended to be awarded, however, the submissions were so outstanding that TST's Scholarship Committee decided to award a fourth.",
+                                "StyleProperties": {
+                                    "TitleTextColor": "#ddddd",
+                                    "TitleTextFontName": "",
+                                    "TitleTextFontSize": 17.0,
+                                    "TitleTextFontWeight": "",
+                                    "TitleTextNoOfLines": 4,
+                                    "DescriptionTextColor": "#ddddd",
+                                    "DescriptionTextFontName": "",
+                                    "DescriptionTextFontSize": 15.0,
+                                    "DescriptionTextFontWeight": "",
+                                    "DescriptionTextNoOfLines": 4,
+                                    "BackgroundColor": "#ddddd",
+                                    "Alignment": "",
+                                    "Margin": 15.0,
+                                    "Padding": 15.0,
+                                    "Radius": 15.0,
+                                    "BackgroundMargin": 15.0,
+                                    "BackgroundPadding": 15.0,
+                                    "BackgroundRadius": 15.0,
+                                    "ImageSrc": ""
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Question": "Rally for Governor Rick Scott",
+                        "Expand": false,
+                        "Answer": {
+                            "View": "ImageView",
+                            "ImageViewData": {
+                                "ImageViewViewType": "Full",
+                                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Rick-Scott-Rally_5f045dc9-ac36-4965-992c-2d9ca65d948a.jpg?v=1693920889",
+                                "Title": "",
+                                "Description": "January 25, 2013. With the enactment of SB-96, a bill that permits student led prayer at school assemblies for schools who wish to participate, The Satanic Temple staged a rally in support on the steps of the Florida capital building in Tallahassee Florida.",
+                                "StyleProperties": {
+                                    "TitleTextColor": "#ddddd",
+                                    "TitleTextFontName": "",
+                                    "TitleTextFontSize": 17.0,
+                                    "TitleTextFontWeight": "",
+                                    "TitleTextNoOfLines": 4,
+                                    "DescriptionTextColor": "#ddddd",
+                                    "DescriptionTextFontName": "",
+                                    "DescriptionTextFontSize": 15.0,
+                                    "DescriptionTextFontWeight": "",
+                                    "DescriptionTextNoOfLines": 4,
+                                    "BackgroundColor": "#ddddd",
+                                    "Alignment": "",
+                                    "Margin": 15.0,
+                                    "Padding": 15.0,
+                                    "Radius": 15.0,
+                                    "BackgroundMargin": 15.0,
+                                    "BackgroundPadding": 15.0,
+                                    "BackgroundRadius": 15.0,
+                                    "ImageSrc": ""
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Question": "Pink Mass",
+                        "Expand": false,
+                        "Answer": {
+                            "View": "ImageView",
+                            "ImageViewData": {
+                                "ImageViewViewType": "Full",
+                                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Phelps2-F_b4900279-69b0-426a-996b-7dede2f23422.jpg?v=1693920973",
+                                "Title": "",
+                                "Description": "July 14, 2013. After the Boston Marathon bombings claimed the lives of three people, the Westboro Baptists announced their plans to picket the funerals of the victims to draw attention to their loathsome anti-gay agenda. In response, The Satanic Temple went to Meridian, Mississippi to perform a Pink Mass at the gravesite of the mother of Westboro Baptist founder, Fred Phelps. The ritual was conceived to make Fred Phelps believe that The Satanic Temple had turned his mother gay in the afterlife and succeeded in invoking the ire of the Westboro Baptists.",
+                                "StyleProperties": {
+                                    "TitleTextColor": "#ddddd",
+                                    "TitleTextFontName": "",
+                                    "TitleTextFontSize": 17.0,
+                                    "TitleTextFontWeight": "",
+                                    "TitleTextNoOfLines": 4,
+                                    "DescriptionTextColor": "#ddddd",
+                                    "DescriptionTextFontName": "",
+                                    "DescriptionTextFontSize": 15.0,
+                                    "DescriptionTextFontWeight": "",
+                                    "DescriptionTextNoOfLines": 4,
+                                    "BackgroundColor": "#ddddd",
+                                    "Alignment": "",
+                                    "Margin": 15.0,
+                                    "Padding": 15.0,
+                                    "Radius": 15.0,
+                                    "BackgroundMargin": 15.0,
+                                    "BackgroundPadding": 15.0,
+                                    "BackgroundRadius": 15.0,
+                                    "ImageSrc": ""
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Question": "Black Mass",
+                        "Expand": false,
+                        "Answer": {
+                            "View": "ImageView",
+                            "ImageViewData": {
+                                "ImageViewViewType": "Full",
+                                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/black-mass_3f62d7c9-4ff9-44db-a35b-895538da98dd.jpg?v=1693921028",
+                                "Title": "",
+                                "Description": "May 12, 2014. The Cultural Studies Club, a student organization at Harvard University, invited the Satanic Temple to perform a Black Mass in Harvard’s Memorial Hall. The script for the ceremony was taken from the pages of Joris-Karl Huysmans’ 1891 novel, Là-Bas. A worldwide controversy erupted when Catholics insisted that the performance would constitute hate speech because they believe the Black Mass mocks Catholic rituals and they erroneously argued the ceremony promotes evil. Due to the overwhelming demand to see the Black Mass, the event was moved to a location that could accommodate more people. Several Christian organizations have made false claims that the event was cancelled.",
+                                "StyleProperties": {
+                                    "TitleTextColor": "#ddddd",
+                                    "TitleTextFontName": "",
+                                    "TitleTextFontSize": 17.0,
+                                    "TitleTextFontWeight": "",
+                                    "TitleTextNoOfLines": 4,
+                                    "DescriptionTextColor": "#ddddd",
+                                    "DescriptionTextFontName": "",
+                                    "DescriptionTextFontSize": 15.0,
+                                    "DescriptionTextFontWeight": "",
+                                    "DescriptionTextNoOfLines": 4,
+                                    "BackgroundColor": "#ddddd",
+                                    "Alignment": "",
+                                    "Margin": 15.0,
+                                    "Padding": 15.0,
+                                    "Radius": 15.0,
+                                    "BackgroundMargin": 15.0,
+                                    "BackgroundPadding": 15.0,
+                                    "BackgroundRadius": 15.0,
+                                    "ImageSrc": ""
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Question": "Right to Accurate Medical Information",
+                        "Expand": false,
+                        "Answer": "July 30, 2014. A number of states require that abortion providers give inaccurate or misleading information to patients. The Satanic Temple demands that its members, and those who share our beliefs, not be subjected to anything but the best scientific understanding, as this is a violation of our religious beliefs. Thanks to rulings such as Burwell v. Hobby Lobby, which exempt corporations from some laws they find religiously objectionable, The Satanic Temple began a campaign against practices it finds offensive."
+                    },
+                    {
+                        "Question": "Florida Capitol Holiday Display",
+                        "Expand": false,
+                        "Answer": {
+                            "View": "ImageView",
+                            "ImageViewData": {
+                                "ImageViewViewType": "Full",
+                                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Florida-Nativty-Display_f2fe6b59-255b-415f-b2c3-dbf33786e826.jpg?v=1693921183",
+                                "Title": "",
+                                "Description": "December 2, 2014. The Satanic Temple applied for a display to be included in the 2013 collection of religious displays shown in the Florida State capitol during the winter holidays. The request was unlawfully rejected on the grounds that it was “grossly offensive.” However, no component of the display was cited as violating community standards, suggesting that the offense was founded on religious viewpoint. The same display was re-submitted the following year along with a legal threat from Americans United for the Separation of Church and State, and the display was accepted. After a mentally unbalanced woman attacked the holiday diorama, the district attorney filed misdemeanor charges of criminal mischief that were later dismissed.",
+                                "StyleProperties": {
+                                    "TitleTextColor": "#ddddd",
+                                    "TitleTextFontName": "",
+                                    "TitleTextFontSize": 17.0,
+                                    "TitleTextFontWeight": "",
+                                    "TitleTextNoOfLines": 4,
+                                    "DescriptionTextColor": "#ddddd",
+                                    "DescriptionTextFontName": "",
+                                    "DescriptionTextFontSize": 15.0,
+                                    "DescriptionTextFontWeight": "",
+                                    "DescriptionTextNoOfLines": 4,
+                                    "BackgroundColor": "#ddddd",
+                                    "Alignment": "",
+                                    "Margin": 15.0,
+                                    "Padding": 15.0,
+                                    "Radius": 15.0,
+                                    "BackgroundMargin": 15.0,
+                                    "BackgroundPadding": 15.0,
+                                    "BackgroundRadius": 15.0,
+                                    "ImageSrc": ""
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Question": "Oklahoma Ten Commandments and Baphomet ",
+                        "Expand": false,
+                        "Answer": {
+                            "View": "ImageView",
+                            "ImageViewData": {
+                                "ImageViewViewType": "Full",
+                                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/satan2_1_8e02ea8c-cc5f-42ab-bda0-08c6ec2d2925.jpg?v=1693921288",
+                                "Title": "",
+                                "Description": "August 31, 2015. Modeled after Oklahoma’s bill that was struck down by their State Supreme Court, the Arkansas Legislature passed a bill introduced by State Senator Jason Rapert to install a Ten Commandments statue on State Capitol grounds. Because this violates the First Amendment by allowing the State to privilege one religion over others when the grounds are not open to other religious organizations, The Satanic Temple offered to donate its statue of Baphomet to be erected directly in front of the Ten Commandments. TST’s application was blocked by an emergency-session bill that requires all monuments to have legislative sponsorship. Because the purpose of the bill is to affirm the legislature’s intent to act in defiance of the Constitution, a lawsuit is pending.",
+                                "StyleProperties": {
+                                    "TitleTextColor": "#ddddd",
+                                    "TitleTextFontName": "",
+                                    "TitleTextFontSize": 17.0,
+                                    "TitleTextFontWeight": "",
+                                    "TitleTextNoOfLines": 4,
+                                    "DescriptionTextColor": "#ddddd",
+                                    "DescriptionTextFontName": "",
+                                    "DescriptionTextFontSize": 15.0,
+                                    "DescriptionTextFontWeight": "",
+                                    "DescriptionTextNoOfLines": 4,
+                                    "BackgroundColor": "#ddddd",
+                                    "Alignment": "",
+                                    "Margin": 15.0,
+                                    "Padding": 15.0,
+                                    "Radius": 15.0,
+                                    "BackgroundMargin": 15.0,
+                                    "BackgroundPadding": 15.0,
+                                    "BackgroundRadius": 15.0,
+                                    "ImageSrc": ""
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Question": "Religious Literature for Schools",
+                        "Expand": false,
+                        "Answer": {
+                            "View": "ImageView",
+                            "ImageViewData": {
+                                "ImageViewViewType": "Full",
+                                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/os-satanic-temple-coloring-book-20141030_1_28e28402-ef1b-43f8-9981-ea21b4d5c3ce.jpg?v=1693921385",
+                                "Title": "",
+                                "Description": "April 1, 2016. When the Orange County school system allowed an evangelical Christian group to distribute Bibles on Religious Freedom Day, The Satanic Temple asked to participate by passing out their Satanic Children’s Big Book of Activities. The school board postponed Religious Freedom Day while they sought a way to legally discriminate against TST. When the school board’s attorney affirmed that they could not, they opted to prohibit the distribution of all religious material.\nHowever, the following year, in response to the ongoing distribution of Gideons’ Bibles in Delta County Public Schools in Colorado, The Satanic Temple was permitted to distribute its activity books. These actions have put other districts on notice that if they opt to permit the distribution of religious material to children in their schools, that all religious organizations must be allowed to hand out religious texts.",
+                                "StyleProperties": {
+                                    "TitleTextColor": "#ddddd",
+                                    "TitleTextFontName": "",
+                                    "TitleTextFontSize": 17.0,
+                                    "TitleTextFontWeight": "",
+                                    "TitleTextNoOfLines": 4,
+                                    "DescriptionTextColor": "#ddddd",
+                                    "DescriptionTextFontName": "",
+                                    "DescriptionTextFontSize": 15.0,
+                                    "DescriptionTextFontWeight": "",
+                                    "DescriptionTextNoOfLines": 4,
+                                    "BackgroundColor": "#ddddd",
+                                    "Alignment": "",
+                                    "Margin": 15.0,
+                                    "Padding": 15.0,
+                                    "Radius": 15.0,
+                                    "BackgroundMargin": 15.0,
+                                    "BackgroundPadding": 15.0,
+                                    "BackgroundRadius": 15.0,
+                                    "ImageSrc": ""
+                                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     ]
