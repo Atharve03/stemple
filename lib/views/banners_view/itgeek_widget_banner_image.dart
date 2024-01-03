@@ -152,7 +152,25 @@ class _FullImageState extends State<FullImage> {
                      InkWell(
             onTap: () {
                             print("more clicked");
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>ItgeekWidgetFullView(widget.imageViewData.imageSrc!, widget.imageViewData.title!,widget.imageViewData.description!)));
+                            
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ItgeekWidgetFullView(
+                                      widget.imageViewData.imageSrc!,
+                                      widget.imageViewData.title!,
+                                      widget.imageViewData.description!,
+                                      widget.imageViewData.styleProperties!.titleTextColor,
+                                      widget.imageViewData.styleProperties!.descriptionTextColor,
+                                      widget.imageViewData.styleProperties!.titleTextFontSize!,
+                                      widget.imageViewData.styleProperties!.descriptionTextFontSize!,
+                                      widget.imageViewData.styleProperties!.padding!,
+                                      widget.imageViewData.styleProperties!.margin!,
+                                      widget.imageViewData.styleProperties!.backgroundColor,
+                                      widget.imageViewData.styleProperties!.backgroundColor
+                                      
+                                      
+                                      )));
              
                           },
             child: Text(
