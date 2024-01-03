@@ -1,31 +1,33 @@
 {
-  "BackgroundColor": "#000000",
+    "BackgroundColor": "#000000",
+    "AppBarBackColor": "#000000",
+    "AppBarIcon": "#000000",
   "PageLayout": [
     {
         "View": "TextView",
         "TextViewData": {
-            "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
-            "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
+            "Title": "ACCOUNTS OF TST CAMPAIGNS,\nCONGREGATIONS, AND OTHER GROUPS AND ASSOCIATED LEADERSHIP.",
+            "Description": "Fraudulent accounts are a common occurrence on social media.\n\nTST does not recruit or initiate new members.\n\nTST does not ask for personal or financial information through social media.\n\nMembership is, and always has always been, free.",
             "StyleProperties": {
-                "TitleTextColor": "#ddddd",
-                "TitleTextFontName": "",
-                "TitleTextFontSize": 17.0,
-                "TitleTextFontWeight": "",
-                "TitleTextNoOfLines": 4,
-                "DescriptionTextColor": "#ddddd",
-                "DescriptionTextFontName": "",
-                "DescriptionTextFontSize": 15.0,
-                "DescriptionTextFontWeight": "",
-                "DescriptionTextNoOfLines": 4,
-                "BackgroundColor": "#ddddd",
-                "Alignment": "",
-                "Margin": 15.0,
-                "Padding": 15.0,
-                "Radius": 15.0,
-                "BackgroundMargin": 15.0,
-                "BackgroundPadding": 15.0,
-                "BackgroundRadius": 15.0,
-                "ImageSrc": ""
+                  "TitleTextColor": "#ffffff",
+                  "TitleTextFontName": "",
+                  "TitleTextFontSize": 17.0,
+                  "TitleTextFontWeight": "",
+                  "TitleTextNoOfLines": 4,
+                  "DescriptionTextColor": "#ffffff",
+                  "DescriptionTextFontName": "",
+                  "DescriptionTextFontSize": 15.0,
+                  "DescriptionTextFontWeight": "",
+                  "DescriptionTextNoOfLines": 4,
+                  "BackgroundColor": "#000000",
+                  "Alignment": "",
+                  "Margin": 5.0,
+                  "Padding": 25.0,
+                  "Radius": 5.0,
+                  "BackgroundMargin": 0.0,
+                  "BackgroundPadding": 0.0,
+                  "BackgroundRadius": 0.0,
+                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/header-img_1200x_ca6e809d-047f-49d8-8a82-bbee7bf3dbbb_1200x583.jpg?v=1693907336"
             }
         }
       },
@@ -33,248 +35,289 @@
       "View": "GridView",
       "GridViewData": {
         "StyleProperties": {
-            "TitleTextColor": "#ddddd",
-            "TitleTextFontName": "",
-            "TitleTextFontSize": 17.0,
-            "TitleTextFontWeight": "",
-            "TitleTextNoOfLines": 4,
-            "DescriptionTextColor": "#ddddd",
-            "DescriptionTextFontName": "",
-            "DescriptionTextFontSize": 15.0,
-            "DescriptionTextFontWeight": "",
-            "DescriptionTextNoOfLines": 4,
-            "BackgroundColor": "#ddddd",
-            "Alignment": "",
-            "Margin": 15.0,
-            "Padding": 15.0,
-            "Radius": 15.0,
-            "BackgroundMargin": 15.0,
-            "BackgroundPadding": 15.0,
-            "BackgroundRadius": 15.0,
-            "ImageSrc": ""
-        },
+              "TitleTextColor": "#ffffff",
+              "TitleTextFontName": "",
+              "TitleTextFontSize": 17.0,
+              "TitleTextFontWeight": "",
+              "TitleTextNoOfLines": 4,
+              "DescriptionTextColor": "#ffffff",
+              "DescriptionTextFontName": "",
+              "DescriptionTextFontSize": 10.0,
+              "DescriptionTextFontWeight": "",
+              "DescriptionTextNoOfLines": 4,
+              "BackgroundColor": "#000000",
+              "Alignment": "",
+              "Margin": 5.0,
+              "Padding": 5.0,
+              "Radius": 75.0,
+              "BackgroundMargin": 0.0,
+              "BackgroundPadding": 0.0,
+              "BackgroundRadius": 0.0,
+              "ImageSrc":""
+            },
   
         "GridViewItems": [
           {
             "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-35.png?v=1650458835",
-            "Title": "The Satanic Temple"
+            "Title": "The Satanic Temple",
+            "Description" : ""
             
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-2_48c3f877-e4da-4345-8941-2a91c27c9bd8.png?v=1650442612",
-              "Title": "Malcolm Jarry"
+              "Title": "Malcolm Jarry",
+              "Description" : ""
           
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-3_352ffd6e-9a64-42a6-bc19-632480f2ee6a.png?v=1650442612",
-              "Title": "Lucien Greaves"
+              "Title": "Lucien Greaves",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/MinistryCandleLogo-BlackBg-512.webp?v=1685965571",
-              "Title": "The Satanic Ministry"
+              "Title": "The Satanic Ministry",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-5_fe1f1e0c-7d91-4ed5-8b28-8d5bdd2344fc.png?v=1650455111",
-              "Title": "TST Shop"
+              "Title": "TST Shop",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_Sober_Faction_Color_A-01_da8889b3-fa77-4122-bb6e-3b841fd4ea29.png?v=1692798772",
-              "Title": "The Satanic Temple Sober Faction"
+              "Title": "The Satanic Temple Sober Faction",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/grey-faction.jpg?v=1614315073",
-              "Title": "Grey Faction"
+              "Title": "Grey Faction",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-8_844b29a8-20e4-4459-8def-1616bc285582.png?v=1650455112",
-              "Title": "The Satanic Temple Albany, NY"
+              "Title": "The Satanic Temple Albany, NY",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-9_29c4a024-7ef7-4753-9d6b-cb4c129b3023.png?v=1650455618",
-              "Title": "The Satanic Temple Alberta"
+              "Title": "The Satanic Temple Alberta",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_arizona-2_ecd730b2-8d74-472a-91ea-aa1459a7390c.png?v=1693832482",
-              "Title": "The Satanic Temple Arizona"
+              "Title": "The Satanic Temple Arizona",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-3_7340c7f1-c33d-4a79-8db6-06637102f266.png?v=1693835758",
-              "Title": "The Satanic Temple Atlanta, GA"
+              "Title": "The Satanic Temple Atlanta, GA",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-12_b2e8f761-7d61-4193-8ba1-28428fdaaa00.png?v=1650455618",
-              "Title": "The Satanic Temple Atlantic Canada"
+              "Title": "The Satanic Temple Atlantic Canada",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Satanic_Temple_Austin_-_Lucy_Morningstar_b606d28d-f444-4812-998b-041c5cdbccd9.png?v=1693835759",
-              "Title": "The Satanic Temple Austin, TX"
+              "Title": "The Satanic Temple Austin, TX",
+              "Description" : ""
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Australia_35104fc5-69f6-4e79-8e65-e71bc656a1a2.png?v=1693835759",
-              "Title": "The Satanic Temple Australia"
+              "Title": "The Satanic Temple Australia",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-6_fbf6fd1a-92f9-46a8-b253-c6dc67778b5b.png?v=1693835758",
-              "Title": "The Satanic Temple Colorado"
+              "Title": "The Satanic Temple Colorado",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-7_009405ae-bb8c-4fac-ab96-3b2b0598787f.png?v=1693835759",
-              "Title": "The Satanic Temple Dallas-Fort Worth, TX"
+              "Title": "The Satanic Temple Dallas-Fort Worth, TX",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Florida_e3627d43-d84b-4238-986e-249a5dae9885.png?v=1693850495",
-              "Title": "The Satanic Temple Florida"
+              "Title": "The Satanic Temple Florida",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Florida_e3627d43-d84b-4238-986e-249a5dae9885.png?v=1693850495",
-              "Title": "The Satanic Temple Florida - North Florida Division"
+              "Title": "The Satanic Temple Florida - North Florida Division",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Florida_e3627d43-d84b-4238-986e-249a5dae9885.png?v=1693850495",
-              "Title": "The Satanic Temple Florida - South Florida Division"
+              "Title": "The Satanic Temple Florida - South Florida Division",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Florida_e3627d43-d84b-4238-986e-249a5dae9885.png?v=1693850495",
-              "Title": "The Satanic Temple Florida - Orlando Division"
+              "Title": "The Satanic Temple Florida - Orlando Division",
+              "Description" : ""              
           
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Florida_e3627d43-d84b-4238-986e-249a5dae9885.png?v=1693850495",
-              "Title": "The Satanic Temple Florida - Space Coast Division"
+              "Title": "The Satanic Temple Florida - Space Coast Division",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Florida_e3627d43-d84b-4238-986e-249a5dae9885.png?v=1693850495",
-              "Title": "The Satanic Temple Florida - Gulf Coast Division"
+              "Title": "The Satanic Temple Florida - Gulf Coast Division",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-9_4f0c6cdd-033b-4e9d-bb53-01759746a81d.png?v=1693836386",
-              "Title": "The Satanic Temple Houston Tx"
+              "Title": "The Satanic Temple Houston Tx",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/tst-idaho-web-icon-500px_0026c4bf-90a8-4a70-979b-6da6d0735c24.png?v=1693836385",
-              "Title": "The Satanic Temple Idaho"
+              "Title": "The Satanic Temple Idaho",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_illinois_93a31db1-c4fb-4778-8fd6-685c45ce98c7.png?v=1693850493",
-              "Title": "The Satanic Temple Illinois"
+              "Title": "The Satanic Temple Illinois",
+              "Description" : ""
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Logo_Final_TSTIN_01-02_-_Riley_Phoebus_95a594d9-6bba-4114-8aeb-145299a7df76.png?v=1693836386",
-              "Title": "The Satanic Temple Indiana"
+              "Title": "The Satanic Temple Indiana",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-11_33108f96-4e53-4039-94e4-c19ec1b2940a.png?v=1693836385",
-              "Title": "The Satanic Temple Louisiana"
+              "Title": "The Satanic Temple Louisiana",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-13_9875ecf6-65db-40b2-85f4-43fd71e559e5.png?v=1693836385",
-              "Title": "The Satanic Temple Minnesota"
+              "Title": "The Satanic Temple Minnesota",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-35.png?v=1650458835",
-              "Title": "The Satanic Temple Missouri "
+              "Title": "The Satanic Temple Missouri ",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Nebraska_9e7e6ba1-7959-44a7-84f6-2541bb476b42.png?v=1693849181",
-              "Title": " The Satanic Temple Nebraska "
+              "Title": " The Satanic Temple Nebraska ",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-26.png?v=1650457976",
-              "Title": " The Satanic Temple Northern California"
+              "Title": " The Satanic Temple Northern California",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-27.png?v=1650457976",
-              "Title": " The Satanic Temple NYC"
+              "Title": " The Satanic Temple NYC",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/tst-ohio__1.png?v=1626960972",
-              "Title": " The Satanic Temple Ohio"
+              "Title": " The Satanic Temple Ohio",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-29.png?v=1650458324",
-              "Title": " The Satanic Temple Oregon"
+              "Title": " The Satanic Temple Oregon",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-15_643728d3-11d8-456a-9973-ef8a98813f12.png?v=1693835758",
-              "Title": "The Satanic Temple Ottawa"
+              "Title": "The Satanic Temple Ottawa",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-17_a18b30be-5f80-4d72-bc35-7471db341ece.png?v=1693849957",
-              "Title": "The Satanic Temple San Antonio, Tx"
+              "Title": "The Satanic Temple San Antonio, Tx",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-19_994a3fc8-1ea7-42b5-8aff-ee86d36c1c68.png?v=1693849181",
-              "Title": "The Satanic Temple Southern California "
+              "Title": "The Satanic Temple Southern California ",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTUtahLogoWeb_5f4a976e-e46d-444b-922b-57b2ff83b1e4.png?v=1693849181",
-              "Title": "The Satanic Temple Utah "
+              "Title": "The Satanic Temple Utah ",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-35.png?v=1650458835",
-              "Title": " The Satanic Temple Washington "
+              "Title": " The Satanic Temple Washington ",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-36.png?v=1650458910",
-              "Title": " The Satanic Temple North-East Gulf Coast"
+              "Title": " The Satanic Temple North-East Gulf Coast",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo-12_2c51a2f2-70df-4d61-b7a5-9409316ac2a3.png?v=1693836385",
-              "Title": " The Satanic Temple West Michigan"
+              "Title": " The Satanic Temple West Michigan",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/WV_-_West_Virginia_a296e38f-0afc-480b-93ce-190b858af030.jpg?v=1614291759",
-              "Title": "The Satanic Temple West Virginia"
+              "Title": "The Satanic Temple West Virginia",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Purple_Salem_Wingeafsdafsdfasdd_Skull_Black_3x3_0fb5d3c9-fb5d-472a-b734-a78eeb881204.jpg?v=1662184454",
-              "Title": "Salem Art Gallery "
+              "Title": "Salem Art Gallery ",
+              "Description" : ""
               
           },
           {
               "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TSTTV_400x400_c224b462-44b7-4c54-99e5-eb1323922306.png?v=1687282801",
-              "Title": "Salem Art Gallery "
-              
-          }
-          
-          
+              "Title": "TST TV (Affiliate)",
+              "Description" : ""
+          } 
         ]
       }
     }

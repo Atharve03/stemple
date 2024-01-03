@@ -73,7 +73,7 @@ class ItgeekWidgetGridView extends StatelessWidget {
                 // SizedBox(
                 //   height: 2,
                 // ),
-                listItems[index].description != ""
+                listItems[index].description! != ""
                     ? Padding(
                         padding: EdgeInsets.all(
                             gridViewData.styleProperties!.padding!),

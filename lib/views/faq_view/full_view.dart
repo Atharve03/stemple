@@ -23,7 +23,7 @@ class ItgeekWidgetFullView extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(title!),
+        title: Text(title!, style: TextStyle(color: Util.getColorFromHex(titleTextColor!)),),
         backgroundColor: Util.getColorFromHex(appBarColor!),
       ),
       body: Container(

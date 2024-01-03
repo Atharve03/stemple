@@ -31,15 +31,15 @@ class ItgeekWebView extends StatelessWidget {
 
       // Load content based on the content type
       if (webViewData.contentType == 'html') {
-        String htmlContent = '''
-                  <html>
-                  <head><meta name="viewport" content="width=device-width, initial-scale=${webViewData.scaleSize}"></head>
-                 <body> ${webViewData.htmlContent!} </body>
-                  </html>
-                  ''';
+        // String htmlContent = '''
+        //           <html>
+        //           <head><meta name="viewport" content="width=device-width, initial-scale=${webViewData.scaleSize}"></head>
+        //          <body> ${webViewData.htmlContent!} </body>
+        //           </html>
+        //           ''';
 
         _webViewController.loadData(
-          data: htmlContent,
+          data: webViewData.htmlContent!,
           mimeType: 'text/html',
           encoding: 'utf8',
         );
