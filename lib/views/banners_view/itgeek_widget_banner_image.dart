@@ -9,6 +9,7 @@ class ItgeekWidgetBannerImage extends StatelessWidget {
   Function(ImageViewData) OnClick;
   ImageViewData imageViewData;
   ItgeekWidgetBannerImage(this.imageViewData, this.OnClick);
+  
 
   @override
   Widget build(BuildContext context) {
@@ -28,73 +29,147 @@ class ItgeekWidgetBannerImage extends StatelessWidget {
   }
 }
 
-class FullImage extends StatelessWidget {
+class FullImage extends StatefulWidget {
   ImageViewData imageViewData;
 
   FullImage(this.imageViewData);
 
   @override
+  State<FullImage> createState() => _FullImageState();
+}
+
+class _FullImageState extends State<FullImage> {
+    var controller = TextEditingController();
+
+  @override
+  void initState() {
+    controller.addListener(() {
+      setState(() {
+        mytext = controller.text;
+      });
+    });
+    controller.text = widget.imageViewData.description!;
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  String mytext = "";
+
+  @override
   Widget build(BuildContext context) {
     var titleTextColor = Util.getColorFromHex(
-        imageViewData.styleProperties!.titleTextColor!);
+        widget.imageViewData.styleProperties!.titleTextColor!);
     var descriptionTextColor = Util.getColorFromHex(
-        imageViewData.styleProperties!.descriptionTextColor!);
-    var bgColor = Util.getColorFromHex(imageViewData.styleProperties!.backgroundColor!);
-
+        widget.imageViewData.styleProperties!.descriptionTextColor!);
+    var bgColor = Util.getColorFromHex(widget.imageViewData.styleProperties!.backgroundColor!);
+    int maxLines = widget.imageViewData.styleProperties!.descriptionTextNoOfLines!;
+    double fontSize = widget.imageViewData.styleProperties!.descriptionTextFontSize!;
     return Container(
-        margin: EdgeInsets.all(imageViewData.styleProperties!.backgroundMargin!),
+        margin: EdgeInsets.all(widget.imageViewData.styleProperties!.backgroundMargin!),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(imageViewData.styleProperties!.backgroundRadius!),
+          borderRadius: BorderRadius.circular(widget.imageViewData.styleProperties!.backgroundRadius!),
           color: bgColor,
         ),
         width: double.infinity,
-        child: Column(children: [
+        child: Column(children: <Widget>[
+          LayoutBuilder(builder: (context,size)
+          {
+  var span = TextSpan(
+              text: mytext,
+              style: TextStyle(fontSize: fontSize),
+            );
+
+            // Use a textpainter to determine if it will exceed max lines
+            var tp = TextPainter(
+              maxLines: maxLines,
+              textAlign: TextAlign.left,
+              textDirection: TextDirection.ltr,
+              text: span,
+            );
+
+            // trigger it to layout
+            tp.layout(maxWidth: size.maxWidth);
+
+            // whether the text overflowed or not
+            var exceeded = tp.didExceedMaxLines;
+   print("cjvgffmdf ${exceeded}");
           Padding(
-            padding: EdgeInsets.all(imageViewData.styleProperties!.padding!),
+            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
             child: ClipRRect(
               borderRadius:
-                  BorderRadius.circular(imageViewData.styleProperties!.radius!),
-              child:  imageViewData.imageSrc!.isNotEmpty?    Image.network(
-                imageViewData.imageSrc!,
+                  BorderRadius.circular(widget.imageViewData.styleProperties!.radius!),
+              child:  widget.imageViewData.imageSrc!.isNotEmpty?    Image.network(
+                widget.imageViewData.imageSrc!,
                 fit: BoxFit.cover,
                 width: double.infinity,
               ):Image.asset("assets/placeholder-image.jpg",fit: BoxFit.cover,width: double.infinity,)
             ),
-          ),
-          imageViewData.title != ""
+          );
+          widget.imageViewData.title != ""
               ? Padding(
                   padding: EdgeInsets.all(
-                      imageViewData.styleProperties!.padding!),
+                      widget.imageViewData.styleProperties!.padding!),
                   child: Text(
-                    imageViewData.title!,
+                    widget.imageViewData.title!,
                     style: TextStyle(
                         color: titleTextColor,
                         fontWeight: FontWeight.bold,
-                        fontSize: imageViewData
+                        fontSize: widget.imageViewData
                             .styleProperties!.titleTextFontSize!),
-                              maxLines: imageViewData.styleProperties!.titleTextNoOfLines!,
+                              maxLines: widget.imageViewData.styleProperties!.titleTextNoOfLines!,
                   ),
                 )
-              : Container(),
+              : Container();
           SizedBox(
             height: 5,
+          );
+         return widget.imageViewData.description != ""
+              ? Column(
+                children: [
+                  Padding(
+                      padding: EdgeInsets.all(
+                          widget.imageViewData.styleProperties!.padding!),
+                      child: Text.rich(
+                        span,
+                        overflow: TextOverflow.ellipsis,
+                        
+                        style: TextStyle(
+                            color: descriptionTextColor,
+                            fontWeight: FontWeight.bold,
+                            fontSize: widget.imageViewData
+                                .styleProperties!.descriptionTextFontSize!),
+                                  maxLines: maxLines,
+                      ),
+                      
+                    ),
+                     InkWell(
+            onTap: () {
+              setState(() {
+                //  Navigator.push(context, MaterialPageRoute(builder: (context)=>));
+              });
+            },
+            child: Text(
+              exceeded ? 'Read More' : '',
+              style: TextStyle(
+                color: Colors.blue,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ),
-          imageViewData.description != ""
-              ? Padding(
-                  padding: EdgeInsets.all(
-                      imageViewData.styleProperties!.padding!),
-                  child: Text(
-                    imageViewData.description!,
-                    style: TextStyle(
-                        color: descriptionTextColor,
-                        fontWeight: FontWeight.bold,
-                        fontSize: imageViewData
-                            .styleProperties!.descriptionTextFontSize!),
-                              maxLines: imageViewData.styleProperties!.descriptionTextNoOfLines!,
-                  ),
-                )
-              : Container()
-        ]));
+                ],
+              )
+              : Container();
+               
+           
+  })
+        ])
+
+        );
   }
 }
 
