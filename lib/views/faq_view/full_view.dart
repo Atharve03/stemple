@@ -6,9 +6,11 @@ import '../utils/util.dart';
 
 
 class ItgeekWidgetFullView extends StatelessWidget {
-  QuestionAnswer questionAnswer;
+  // QuestionAnswer questionAnswer;
+  // ItgeekWidgetFullView(this.questionAnswer);
+  String? imageSrc, title, description;
  
-  ItgeekWidgetFullView(this.questionAnswer);
+  ItgeekWidgetFullView(this.imageSrc, this.title, this.description);
 
   @override
   Widget build(BuildContext context) {
@@ -26,24 +28,26 @@ class ItgeekWidgetFullView extends StatelessWidget {
         width: double.infinity,
         child: Column(children: [
          
-          // imageViewData.imageViewTextView!.imageViewTitle != ""
-          //     ? Padding(
-          //   padding: EdgeInsets.all(imageViewData.imageViewPadding!),
-          //   child: ClipRRect(
-          //     borderRadius:
-          //         BorderRadius.circular(imageViewData.imageViewRadius!),
-          //     child: Image.network(
-          //       imageViewData.imageViewSrc!,
-          //       fit: BoxFit.cover,
-          //       width: double.infinity,
-          //     ),
-          //   ),
-          // ) : Container(),
-          questionAnswer.question != ""
+          imageSrc != ""
+              ? 
+              // Padding(
+            // padding: EdgeInsets.all(imageViewData.imageViewPadding!),
+            // child: 
+            ClipRRect(
+              // borderRadius:
+                  // BorderRadius.circular(imageViewData.imageViewRadius!),
+              child: Image.network(
+                imageSrc!,
+                fit: BoxFit.cover,
+                width: double.infinity,
+              ),
+            // ),
+          ) : Container(),
+          title != ""
               ? Padding(
                   padding: EdgeInsets.all(5),
                   child: Text(
-                    questionAnswer.question!,
+                    title!,
                     style: TextStyle(
                         // color: textColor,
                         fontWeight: FontWeight.bold,
@@ -55,11 +59,12 @@ class ItgeekWidgetFullView extends StatelessWidget {
           SizedBox(
             height: 5,
           ),
-         questionAnswer.answer != ""
+         description != ""
               ? Padding(
                   padding: EdgeInsets.all(5),
                   child: Text(
-                    questionAnswer.answer!.toString(),
+                    description!,
+                    // questionAnswer.answer!.toString(),
                     style: TextStyle(
                         // color: textColor,
                         fontWeight: FontWeight.bold,

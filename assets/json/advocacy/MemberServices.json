@@ -6,56 +6,491 @@
         {
             "View": "TextView",
             "TextViewData": {
+                "Title": "THE SATANIC TEMPLE\nMEMBER SERVICES",
                 "Description": "",
-                "Title": "THE SATANIC TEMPLE \n MEMBER SERVICES",
                 "StyleProperties": {
-                    "TitleTextColor": "#ddddd",
-                    "TitleT  extFontName": "",
+                    "TitleTextColor": "#ffffff",
+                    "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
                     "TitleTextFontWeight": "",
                     "TitleTextNoOfLines": 4,
-                    "DescriptionTextColor": "#ddddd",
+                    "DescriptionTextColor": "#ffffff",
                     "DescriptionTextFontName": "",
-                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontSize": 24.0,
                     "DescriptionTextFontWeight": "",
                     "DescriptionTextNoOfLines": 4,
-                    "BackgroundColor": "#ddddd",
+                    "BackgroundColor": "#000000",
                     "Alignment": "",
-                    "Margin": 15.0,
-                    "Padding": 15.0,
-                    "Radius": 15.0,
-                    "BackgroundMargin": 15.0,
-                    "BackgroundPadding": 15.0,
-                    "BackgroundRadius": 15.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_1_1920x608.jpg?v=1692726011"
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/header-img_2880x1364_9cd9ae6d-11a1-4ff7-8ced-be037e3c0fc9_800x325.jpg?v=1695722879"
                 }
             }
-        },{
+        },
+        {
             "View": "TextView",
             "TextViewData": {
-                "Description": "",
+                "Description": "The Satanic Good Works (SGW) facilitates charitable activities and provides community support.",
                 "Title": "GOOD WORKS AND SUPPORT",
                 "StyleProperties": {
-                    "TitleTextColor": "#ddddd",
+                    "TitleTextColor": "#ff0000",
                     "TitleT  extFontName": "",
                     "TitleTextFontSize": 17.0,
                     "TitleTextFontWeight": "",
                     "TitleTextNoOfLines": 4,
-                    "DescriptionTextColor": "#ddddd",
+                    "DescriptionTextColor": "#000000",
                     "DescriptionTextFontName": "",
                     "DescriptionTextFontSize": 15.0,
                     "DescriptionTextFontWeight": "",
                     "DescriptionTextNoOfLines": 4,
-                    "BackgroundColor": "#ddddd",
+                    "BackgroundColor": "#ffffff",
                     "Alignment": "",
-                    "Margin": 15.0,
-                    "Padding": 15.0,
-                    "Radius": 15.0,
-                    "BackgroundMargin": 15.0,
-                    "BackgroundPadding": 15.0,
-                    "BackgroundRadius": 15.0,
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin":0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
                     "ImageSrc": ""
                 }
             }
+        },
+        {
+            "View": "FAQ",
+            "TextListWithDetailsData": {
+                "ViewType": "expand",
+                "IconSize": 15.0,
+                "IconColor": "#FF0000",
+                "ArrowVisibility": false,
+                "StyleProperties": {
+                    "TitleTextColor": "#000000",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#000000",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin":0.0,
+                     "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                },
+                "QuestionAnswer": [
+                    {
+                        "Question": "MENSTRUATIN’ WITH SATAN (MWS)",
+                        "Expand": true,
+                        "Answer": "A charitable drive in the collection of sanitary supplies to be distributed at women’s shelters."
+                    },
+                    {
+                        "Question": "CLOTHING / SOCKS DRIVES",
+                        "Expand": true,
+                        "Answer": "Collections of articles of clothing/socks, distributed at local homeless shelters or directly in person."
+                    },
+                    {
+                        "Question": "VETERANS ASSISTANCE | SATAN’S GOT YOUR 6(66)",
+                        "Expand": true,
+                        "Answer": "Toiletries/Household supply drive for Veterans, often in conjunction with a local Department of Veterans Affairs."
+                    },
+                    {
+                        "Question": "ANIMAL SHELTER SUPPORT",
+                        "Expand": true,
+                        "Answer": "Collecting Pet food and Supply Donations for local animal shelters."
+                    },
+                    {
+                        "Question": "OTHER GOOD WORKS SERVICES",
+                        "Expand": true,
+                        "Answer": "City / Highway Cleanup | Trash Removal Services. Distribution of monetary donations for TST members and congregations who have experienced financial hardship."
+                    }
+                ]
+            }
+        },
+        {
+            "View": "TextView",
+            "TextViewData": {
+                "Description": "A scholarship program is available to students who exemplify ideals embraced by The Satanic Temple.\nThe Devil’s Advocate Scholarship awards students who champion individualism, free thought, empathy, and other aspects of TST’s ethos to better society.\n*Award subject to eligibility. For more information visit The Devil’s Advocate Scholarship page.",
+                "Title": "Devil’s Advocate Scholarship Award",
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#000000",
+                    "Alignment": "",
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin":0.0,
+                     "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_1_1920x608.jpg?v=1692726011"
+                }
+            }
+        },
+        {
+            "View": "DetailButtonView",
+            "ButtonViewData": {
+                "ActionType": "PAGE/PRODUCT/CATEOGRY",
+                "ActionId": "",
+                "ButtonText": "ONLINE MEETINGS SCHEDULE",
+                "ActionHandle": "",
+                "ButtonViewViewType": "Bottom",
+                "Title": "Substance Abuse Support",
+                "Description": "Sober Faction(SF) provides weekly peer support meetings for recovery from addictions, as well as other therapeutic and educational outreach services for TST members.",
+                "ButtonBackgroundColor": "#ff0000",
+                "ButtonFontColor": "#ffffff",
+                "StyleProperties": {
+                    "TitleTextColor": "#171717",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#171717",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin":0.0,
+                     "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                }
+            }
+        },
+        {
+            "View": "FAQ",
+            "TextListWithDetailsData": {
+                "ViewType": "expand",
+                "IconSize": 15.0,
+                "IconColor": "#FF0000",
+                "ArrowVisibility": false,
+                "StyleProperties": {
+                    "TitleTextColor": "#000000",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#000000",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin":0.0,
+                     "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                },
+                "QuestionAnswer": [
+                    {
+                        "Question": "CAMPUS OUTREACH",
+                        "Expand": true,
+                        "Answer": "Working towards spreading knowledge about issues of substance abuse and sexual assault as well as provide Sober Faction meetings on college campuses that also host AA meetings."
+                    },
+                    {
+                        "Question": "HEALTH & WELLNESS",
+                        "Expand": true,
+                        "Answer": "Peer support meetings for needs outside of substance use such as friends and family meetings,mental health, grief support, and process addictions."
+                    },
+                    {
+                        "Question": "EDUCATIONAL PANELS",
+                        "Expand": true,
+                        "Answer": "Panels led by licensed professionals to help educate and enlighten on topics such as Substance Use Disorder (SUD), Anxiety, Depression, and overall Holistic Health & Wellness from a scientific perspective."
+                    },
+                    {
+                        "Question": "FACILITATOR TRAINING",
+                        "Expand": true,
+                        "Answer": "Training program for those who would like to become facilitators, to be knowledgeable so that they are able to host online and in-person group Sober Faction meetings with confidence."
+                    }
+                ]
+            }
+        },
+        {
+            "View": "TextView",
+            "TextViewData": {
+                "Description": "The Satanic Temple offers services in the defense of students’ rights through the Satanic Representation Campaign (SRC) and the Protect Children Project(PCP).\nThese include legal responses to:",
+                "Title": "DEFENSE OF RELIGIOUS RIGHTS FOR STUDENTS",
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#000000",
+                    "Alignment": "",
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin":0.0,
+                     "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_1_1920x608.jpg?v=1692726011"
+                }
+            }
+        },
+        {
+            "View": "textTile",
+            "textTileData": {
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#000000",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 5.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin":0.0,
+                     "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                },
+                "textTileItems": [
+                    {
+                        "IconData": "*",
+                        "Text": "Freedom from religious discrimination at school"
+                    },
+                    {
+                        "IconData": "*",
+                        "Text": "Unrestricted bathroom access"
+                    },
+                    {
+                        "IconData": "*",
+                        "Text": "The right to wear religious clothing and jewelry of one’s choice"
+                    },
+                    {
+                        "IconData": "*",
+                        "Text": "The right not to be subjected to solitary confinement"
+                    },
+                    {
+                        "IconData": "*",
+                        "Text": "Religious holiday observance"
+                    },
+                    {
+                        "IconData": "*",
+                        "Text": "Access to TST Website in school"
+                    },
+                    {
+                        "IconData": "*",
+                        "Text": "Freedom of prayer at school in the manner of one’s choosing"
+                    },
+                    {
+                        "IconData": "*",
+                        "Text": "The right not to be subjected to corporal punishment and restraints"
+                    }
+                ]
+            }
+        },
+        {
+            "View": "TextView",
+            "TextViewData": {
+                "Title": "DEFENSE OF REPRODUCTIVE RIGHTS",
+                "Description": "The Satanic Temple provides its members with religious exemptions from regulations that interfere with bodily autonomy.",
+                "StyleProperties": {
+                    "TitleTextColor": "#ff0000",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#000000",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin":0.0,
+                     "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                }
+            }
+        },
+        {
+            "View": "FAQ",
+            "TextListWithDetailsData": {
+                "ViewType": "expand",
+                "IconSize": 15.0,
+                "IconColor": "#FF0000",
+                "ArrowVisibility": false,
+                "StyleProperties": {
+                    "TitleTextColor": "#000000",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#000000",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin":0.0,
+                     "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                },
+                "QuestionAnswer": [
+                    {
+                        "Question": "RELIGIOUS REPRODUCTIVE RIGHTS EXEMPTS",
+                        "Expand": true,
+                        "Answer": "Forced fetal burial, coercive interpretations of medical examinations, and scientifically unnecessary medical procedures. Coercive Interpretations of Medical Examinations. Scientifically Unnecessary Medical Procedures"
+                    },
+                    {
+                        "Question": "OTHER REPRODUCTIVE RIGHTS SERVICES",
+                        "Expand": true,
+                        "Answer": "Support for access to abortion services for members in states with severe restrictions, alternative mandatory counseling literature, and database of informed consent."
+                    }
+                ]
+            }
+        },
+        {
+            "View": "TextView",
+            "TextViewData": {
+                "Description": "Grey Faction(GF) is a campaign dedicated to ending the ongoing Satanic Panic in the mental health field. In addition, they provide educational resources on harmful forms of therapy and warning signs of a bad therapist. Grey Faction offers private watch-party group meetings to spread awareness about mental health in the wake of satanic panic hysteria.",
+                "Title": "MENTAL HEALTH ADVOCACY",
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#000000",
+                    "Alignment": "",
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin":0.0,
+                     "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/header-img_2880x1364_9cd9ae6d-11a1-4ff7-8ced-be037e3c0fc9_800x325.jpg?v=1695722879"
+                }
+            }
+        },
+        {
+            "View": "TextView",
+            "TextViewData": {
+                "Description": "",
+                "Title": "RELIGIOUS ACTIVITIES",
+                "StyleProperties": {
+                    "TitleTextColor": "#ff0000",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#000000",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin":0.0,
+                     "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                }
+            }
+        },
+        {
+            "View": "FAQ",
+            "TextListWithDetailsData": {
+                "ViewType": "expand",
+                "IconSize": 15.0,
+                "IconColor": "#FF0000",
+                "ArrowVisibility": false,
+                "StyleProperties": {
+                    "TitleTextColor": "#000000",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#000000",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin":0.0,
+                     "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                },
+                "QuestionAnswer": [
+                    {
+                        "Question": "WEEKLY TEMPLE SERVICES (ONLINE)",
+                        "Expand": true,
+                        "Answer": "*Temple services are free to attend and open to all regardless of membership. \n Tuesdays: 9 PM (ET) \n Saturdays: 10 AM (UTC) For more information on our Online Services: services.satanicministry.com  *In-person services are Congregation specific, for more information: find-a-congregation"
+                    },
+                    {
+                        "Question": "PUBLIC CEREMONIES",
+                        "Expand": true,
+                        "Answer": "The Satanic Ministry is available to lead ritual ceremonies. These include, but are not limited to: Weddings, Funerary Rights, Un-Baptisms, etc. Our community of Ministers has access to a network of resources to assist members in need."
+                    },
+                    {
+                        "Question": "SATANIC MINISTRY TRAINING",
+                        "Expand": true,
+                        "Answer": "Members can earn their Satanic Scholarship Certificate by successfully completing the online coursework created by The Satanic Temple Ministry. Registration costs $99, and any member may register online here: ordained.satanicministry.com/courses/non-ordination-track\nThe lessons of this coursework have been selected from the online ordination program. However, ordination registration is not currently open to all members. To find out more about eligibility for ordination, please visit the Satanic Ministry ordination page."
+                    }
+                ]
+            }
         }
-    ]}
+    ]
+}
