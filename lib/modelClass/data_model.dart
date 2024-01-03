@@ -751,7 +751,8 @@ String? iconColor;
 class QuestionAnswer {
   String? question;
   bool? expand;
-  String? answer;
+  // String? answer;
+  dynamic answer;
 
   QuestionAnswer({this.question, this.expand, this.answer});
 

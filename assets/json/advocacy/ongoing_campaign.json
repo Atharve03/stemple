@@ -21,16 +21,48 @@
                     "DescriptionTextNoOfLines": 4,
                     "BackgroundColor": "#000000",
                     "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 0.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_1_1920x608.jpg?v=1692726011"
+                }
+            }
+        },
+        {
+            "View": "ImageView",
+            "ImageViewData": {
+                "ImageViewViewType": "Full",
+                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_Salem_1_56cc04a1-cdfa-4a98-a55a-585ddec38792.png?v=1692795105",
+                "Title": "",
+                "Description": "The Satanic Temple initiates various campaigns in accordance with our mission. TST’s campaigns are responsible for coordinating TST community events and spearheading activism that protect TST members’ religious rights. When necessary, TST takes legal action against parties who do not respect those rights. Information about TST's active campaigns can be found here.",
+                "StyleProperties": {
+                     "TitleTextColor": "#000000",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#000000",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
                     "Margin": 15.0,
                     "Padding": 15.0,
                     "Radius": 15.0,
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 10.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_1_1920x608.jpg?v=1692726011"
+                    "ImageSrc": ""
                 }
             }
         },
+
+
         {
             "View": "ImageView",
             "ImageViewData": {
@@ -133,7 +165,7 @@
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
-                "ButtonText": "FIND OUT MORE",
+                "ButtonText": "LEARN MORE",
                 "ActionHandle": "",
                 "ButtonViewViewType": "Bottom",
                 "Title": " GREY FACTION",
@@ -200,7 +232,7 @@
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
-                "ButtonText": "FIND OUT MORE",
+                "ButtonText": "LEARN MORE",
                 "ActionHandle": "",
                 "ButtonViewViewType": "Bottom",
                 "Title": "PROTECT CHILDREN PROJECT",
@@ -267,7 +299,7 @@
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
-                "ButtonText": "FIND OUT MORE",
+                "ButtonText": "LEARN MORE",
                 "ActionHandle": "",
                 "ButtonViewViewType": "Bottom",
                 "Title": "AFTER SCHOOL SATAN",
@@ -333,7 +365,7 @@
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
-                "ButtonText": "FIND OUT MORE",
+                "ButtonText": "LEARN MORE",
                 "ActionHandle": "",
                 "ButtonViewViewType": "Bottom",
                 "Title": "SOBER FACTION",
@@ -398,7 +430,7 @@
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
-                "ButtonText": "FIND OUT MORE",
+                "ButtonText": "LEARN MORE",
                 "ActionHandle": "",
                 "ButtonViewViewType": "Bottom",
                 "Title": "SATANIC REPRESENTATION CAMPAIGN",
@@ -463,7 +495,7 @@
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
-                "ButtonText": "FIND OUT MORE",
+                "ButtonText": "LEARN MORE",
                 "ActionHandle": "",
                 "ButtonViewViewType": "Bottom",
                 "Title": "SATANIC GOOD WORKS",
@@ -528,7 +560,7 @@
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
-                "ButtonText": "FIND OUT MORE",
+                "ButtonText": "LEARN MORE",
                 "ActionHandle": "",
                 "ButtonViewViewType": "Bottom",
                 "Title": "COLLEGIATE AFFILIATE PROGRAM",

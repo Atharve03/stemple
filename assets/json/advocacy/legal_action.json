@@ -9,7 +9,7 @@
                 "Description": "",
                 "Title": "LEGAL ACTION",
                 "StyleProperties": {
-                    "TitleTextColor": "#ddddd",
+                    "TitleTextColor": "#ffffff",
                     "TitleT  extFontName": "",
                     "TitleTextFontSize": 17.0,
                     "TitleTextFontWeight": "",
@@ -19,14 +19,14 @@
                     "DescriptionTextFontSize": 15.0,
                     "DescriptionTextFontWeight": "",
                     "DescriptionTextNoOfLines": 4,
-                    "BackgroundColor": "#ddddd",
+                    "BackgroundColor": "#000000",
                     "Alignment": "",
-                    "Margin": 15.0,
-                    "Padding": 15.0,
-                    "Radius": 15.0,
-                    "BackgroundMargin": 15.0,
-                    "BackgroundPadding": 15.0,
-                    "BackgroundRadius": 15.0,
+                    "Margin": 0.0,
+                    "Padding": 20.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 20.0,
+                    "BackgroundRadius": 0.0,
                     "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/legal-hero_2880x1364_be2884c0-edaf-40f0-9f4e-4717830deda9_960x288.jpg?v=1693837986"
                 }
             }
@@ -39,36 +39,6 @@
                 "Title": "THE SATANIC TEMPLE LAWSUITS",
                 "Description": "The Satanic Temple believes in the necessity of utilizing the courts to protect the rights of our members. The legal process has traditionally served as a vehicle for social change by establishing enduring precedents. If the courts abide by legal precedents, they are compelled to protect our religious rights as Satanists. While it is disappointing when judges fail to adhere to the laws they have sworn to uphold, we nevertheless expose their corrupt biases. In addition, as we have witnessed in the past, the justice system will not allow this kind of unfair treatment to persist indefinitely because it undermines the foundation of the entire legal system. However, this requires perseverance, and TST will continue to fight for the religious rights of our members and seek enduring precedents from the US court system.",
                 "StyleProperties": {
-                    "TitleTextColor": "#ddddd",
-                    "TitleTextFontName": "",
-                    "TitleTextFontSize": 17.0,
-                    "TitleTextFontWeight": "",
-                    "TitleTextNoOfLines": 4,
-                    "DescriptionTextColor": "#ddddd",
-                    "DescriptionTextFontName": "",
-                    "DescriptionTextFontSize": 15.0,
-                    "DescriptionTextFontWeight": "",
-                    "DescriptionTextNoOfLines": 4,
-                    "BackgroundColor": "#ddddd",
-                    "Alignment": "",
-                    "Margin": 15.0,
-                    "Padding": 15.0,
-                    "Radius": 15.0,
-                    "BackgroundMargin": 15.0,
-                    "BackgroundPadding": 15.0,
-                    "BackgroundRadius": 15.0,
-                    "ImageSrc": ""
-                }
-            }
-        },
-        {
-            "View": "FAQ",
-            "TextListWithDetailsData": {
-                "ViewType":"detail",
-                "IconSize":15.0,
-                "IconColor":"#FF0000",
-                "ArrowVisibility": true,
-                "StyleProperties": {
                     "TitleTextColor": "#ffffff",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -79,14 +49,44 @@
                     "DescriptionTextFontSize": 15.0,
                     "DescriptionTextFontWeight": "",
                     "DescriptionTextNoOfLines": 4,
-                    "BackgroundColor": "#ddddd",
+                    "BackgroundColor": "#000000",
+                    "Alignment": "center",
+                    "Margin": 0.0,
+                    "Padding": 10.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                }
+            }
+        },
+        {
+            "View": "FAQ",
+            "TextListWithDetailsData": {
+                "ViewType":"Expand",
+                "IconSize":15.0,
+                "IconColor":"#000000",
+                "ArrowVisibility": true,
+                "StyleProperties": {
+                    "TitleTextColor": "#0000000",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#000000",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
                     "Alignment": "",
                     "Margin": 15.0,
                     "Padding": 15.0,
                     "Radius": 15.0,
-                    "BackgroundMargin": 15.0,
+                    "BackgroundMargin": 0.0,
                     "BackgroundPadding": 15.0,
-                    "BackgroundRadius": 15.0,
+                    "BackgroundRadius": 0.0,
                     "ImageSrc": ""
                 },
                 "QuestionAnswer": [
