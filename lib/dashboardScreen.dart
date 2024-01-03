@@ -7,6 +7,7 @@ import 'package:stemple/views/faq_view/full_view.dart';
 import 'package:stemple/views/faq_view/itgeek_widget_faq.dart';
 import 'package:stemple/views/grid_view/itgeek_widget_grid_view.dart';
 import 'package:stemple/views/textlist_view/itgeek_text_list_view.dart';
+import 'package:stemple/views/web_view/itgeek_webview.dart';
 
 import 'modelClass/page_layout_model.dart';
 import 'views/banners_view/itgeek_widget_banner_video.dart';
@@ -28,7 +29,7 @@ class _DashboardState extends State<Dashboard> {
   Widget build(BuildContext context) {
     return FutureBuilder(
 
-        future: rootBundle.loadString("assets/json/join/contact.json"),
+        future: rootBundle.loadString("assets/json/join/social_media.json"),
 
 
 
@@ -46,6 +47,10 @@ print("my list is nnnnnnnnnnnnnnnnnnnn ${myList}");
 
                 if (element.view == "FAQ") {
                   return ItgeekWidgetFaq(element.textListWithDetailsData!);
+                }
+                if (element.view == "WebView") {
+                  print("mywebbb");
+                  return ItgeekWebView(element.webViewData!);
                 }
                 if (element.view == "GridView") {
                   return ItgeekWidgetGridView(element.gridViewData!);
@@ -75,7 +80,7 @@ print("my list is nnnnnnnnnnnnnnnnnnnn ${myList}");
                 if (element.view == "TextView") {
                   return ItgeekWidgetBannerText(element.textViewData!, (item) {
                     (element.textViewData);
-                    print("itemTextView $item");
+                    print("myitemTextView $item");
                   });
                 }
                 if (element.view == "ImageView") {

@@ -10,7 +10,8 @@
                 "Title": "ADVOCACY\nARCHIVES",
                 "StyleProperties": {
                     "TitleTextColor": "#ffffff",
-                    "TitleT  extFontName": "",
+                    "AspectRatio" : 1.0,
+                    "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
                     "TitleTextFontWeight": "",
                     "TitleTextNoOfLines": 4,

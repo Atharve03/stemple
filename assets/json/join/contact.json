@@ -1,0 +1,125 @@
+{
+  "BackgroundColor": "#000000",
+  "AppBarBackColor": "#000000",
+  "AppBarIcon": "#000000",
+  "PageLayout": [
+    {
+      "View": "TextView",
+      "TextViewData": {
+        "Title": "CONTACT TST",
+        "Description": "",
+        "StyleProperties": {
+          "TitleTextColor": "#ffffff",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 24.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ddddd",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 24.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#171717",
+          "Alignment": "",
+          "Margin": 15.0,
+          "Padding": 15.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 8.0,
+          "BackgroundPadding": 8.0,
+          "BackgroundRadius": 15.0,
+          "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_10a7b13c-5f7a-49d9-ab9d-32b5e64c6209_1664x512.jpg?v=1694017420"
+        }
+      }
+    },
+    {
+      "View": "WebView",
+      "WebViewData": {
+        "ContentType": "html",
+        "ScaleSize": 0.8,
+        "HtmlContent": "<!DOCTYPE html><html><body><h1>The iframe element</h1></body></html>",
+        "Link": "",
+        "StyleProperties": {
+          "TitleTextColor": "#ffffff",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 18.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ffffff",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 14.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#171717",
+          "Alignment": "",
+          "Margin": 8.0,
+          "Padding": 8.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 8.0,
+          "BackgroundPadding": 8.0,
+          "BackgroundRadius": 15.0,
+          "ImageSrc": ""
+        }
+      }
+    },
+    {
+      "View": "WebView",
+      "WebViewData": {
+        "ContentType": "link",
+        "ScaleSize": 0.8,
+        "HtmlContent": "",
+        "Link": "https://thesatanictemple.com/pages/social-media-accounts",
+        "StyleProperties": {
+          "TitleTextColor": "#ffffff",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 18.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ffffff",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 14.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#171717",
+          "Alignment": "",
+          "Margin": 8.0,
+          "Padding": 8.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 8.0,
+          "BackgroundPadding": 8.0,
+          "BackgroundRadius": 15.0,
+          "ImageSrc": ""
+        }
+      }
+    },
+    {
+      "View": "WebView",
+      "WebViewData": {
+        "ContentType": "html",
+        "ScaleSize": 0.8,
+        "HtmlContent": "<!DOCTYPE html><html><body><iframe allow='join-ad-interest-group' data-tagging-id='AW-11164325863' data-load-time='1704281214937' height='0' width='0' style='display: none; visibility: hidden;' src='https://td.doubleclick.net/td/rul/11164325863?random=1704281214924&amp;cv=11&amp;fst=1704281214924&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be3bt0&amp;gcd=11l1l1l1l1&amp;dma=0&amp;u_w=1366&amp;u_h=768&amp;url=file%3A%2F%2F%2FC%3A%2FUsers%2Fwin%252010%2FDownloads%2Fcontact.html&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Document&amp;fledge=1&amp;uaa=x86&amp;uab=64&amp;uafvl=Not_A%2520Brand%3B8.0.0.0%7CChromium%3B120.0.6099.130%7CGoogle%2520Chrome%3B120.0.6099.130&amp;uamb=0&amp;uap=Windows&amp;uapv=10.0.0&amp;uaw=0&amp;data=event%3Dgtag.config'></iframe></body></html>",
+        "Link": "",
+        "StyleProperties": {
+          "TitleTextColor": "#ffffff",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 18.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#ffffff",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 14.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#171717",
+          "Alignment": "",
+          "Margin": 8.0,
+          "Padding": 8.0,
+          "Radius": 15.0,
+          "BackgroundMargin": 8.0,
+          "BackgroundPadding": 8.0,
+          "BackgroundRadius": 15.0,
+          "ImageSrc": ""
+        }
+      }
+    }
+  ]
+}

@@ -33,7 +33,7 @@ class ItgeekWidgetGridView extends StatelessWidget {
         itemCount: listItems.length,
         physics: NeverScrollableScrollPhysics(),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, childAspectRatio: 1 / 1.8),
+            crossAxisCount: 2, childAspectRatio: 1 / 1.2),
         itemBuilder: (context, index) {
           return Container(
               // height: 380,
@@ -42,7 +42,8 @@ class ItgeekWidgetGridView extends StatelessWidget {
               // padding: EdgeInsets.all(gridViewData.styleProperties!.padding!),
 
               child: Column(children: [
-                Padding(
+                Container(
+                  height: MediaQuery.of(context).size.width *40/100,
                   padding:
                       EdgeInsets.all(gridViewData.styleProperties!.padding!),
                   child: ClipRRect(

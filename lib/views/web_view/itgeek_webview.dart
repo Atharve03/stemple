@@ -14,6 +14,7 @@ class ItgeekWebView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+      print('my webview');
     return Container(
         margin: EdgeInsets.all(data.styleProperties!.margin!),
         padding: EdgeInsets.all(data.styleProperties!.padding!),
@@ -43,12 +44,13 @@ class ItgeekWebView extends StatelessWidget {
           mimeType: 'text/html',
           encoding: 'utf8',
         );
+      print('my webview2${webViewData.contentType}');
       } else if (webViewData.contentType == 'link') {
         _webViewController.loadUrl(
             urlRequest: URLRequest(url: WebUri(webViewData.link!)));
       }
     } catch (e) {
-      print('Error loading content: $e');
+      print('myError loading content: $e');
     }
   }
 }
