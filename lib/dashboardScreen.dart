@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:stemple/grid_view.dart';
 import 'package:stemple/views/banners_view/itgeek_widget_banner_image.dart';
 import 'package:stemple/views/banners_view/itgeek_widget_banner_text.dart';
 import 'package:stemple/views/faq_view/full_view.dart';
 import 'package:stemple/views/faq_view/itgeek_widget_faq.dart';
+import 'package:stemple/views/grid_view/itgeek_widget_grid_view.dart';
 import 'package:stemple/views/textlist_view/itgeek_text_list_view.dart';
 
 import 'modelClass/page_layout_model.dart';
@@ -48,7 +48,7 @@ print("my list is nnnnnnnnnnnnnnnnnnnn ${myList}");
                   return ItgeekWidgetFaq(element.textListWithDetailsData!);
                 }
                 if (element.view == "GridView") {
-                  return WidgetGridView(element.gridViewData!);
+                  return ItgeekWidgetGridView(element.gridViewData!);
                 }
                
                 if (element.view == "textTile") {
