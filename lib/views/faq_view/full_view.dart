@@ -72,7 +72,7 @@ class ItgeekWidgetFullView extends StatelessWidget {
             ),
            description != ""
                 ? Container(
-                                    alignment:  textAlignment == "left" ? Alignment.centerLeft : textAlignment == "right" ? Alignment.centerRight : Alignment.center,
+                    alignment:  textAlignment == "left" ? Alignment.centerLeft : textAlignment == "right" ? Alignment.centerRight : Alignment.center,
 
                     padding: EdgeInsets.all(5),
                     child: Text(
