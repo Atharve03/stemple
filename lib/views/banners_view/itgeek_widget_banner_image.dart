@@ -107,13 +107,22 @@ class FullImage extends StatelessWidget {
               ? Padding(
                   padding:
                       EdgeInsets.all(imageViewData.styleProperties!.padding!),
-                  child: Text(
-                    "More",
-                    style: TextStyle(
-                        color: descriptionTextColor,
-                        fontWeight: FontWeight.bold,
-                        fontSize: imageViewData
-                            .styleProperties!.descriptionTextFontSize!),
+                  child: InkWell(
+                          onTap: () {
+                            print("more clicked");
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>ItgeekWidgetFullView(imageViewData.imageSrc!, imageViewData.title!, imageViewData.description!)));
+                          },
+                    child: Text(
+                      "More",
+                      textAlign: TextAlign.right,
+                      style: TextStyle(
+                          color: Colors.blue,
+                          fontWeight: FontWeight.bold,
+                          
+                          fontSize: imageViewData
+                              .styleProperties!.descriptionTextFontSize!),
+                    ),
+                    
                   ),
                 )
               : Container(),
@@ -223,7 +232,7 @@ class HalfImage extends StatelessWidget {
                               style: TextStyle(
                                   fontSize: imageViewData.styleProperties!
                                       .descriptionTextFontSize!,
-                                  color: descriptionTextColor),
+                                  color: Colors.blue),
                             ),
                           )
                         : Container(),
