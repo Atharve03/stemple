@@ -78,6 +78,18 @@ class _FullImageState extends State<FullImage> {
         ),
         width: double.infinity,
         child: Column(children: <Widget>[
+          Padding(
+            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
+            child: ClipRRect(
+              borderRadius:
+                  BorderRadius.circular(widget.imageViewData.styleProperties!.radius!),
+              child:  widget.imageViewData.imageSrc!.isNotEmpty?    Image.network(
+                widget.imageViewData.imageSrc!,
+                fit: BoxFit.cover,
+                width: double.infinity,
+              ):Container()
+            ),
+          ),
           LayoutBuilder(builder: (context,size)
           {
   var span = TextSpan(
@@ -99,18 +111,7 @@ class _FullImageState extends State<FullImage> {
             // whether the text overflowed or not
             var exceeded = tp.maxLines;
    print("cjvgffmdf ${exceeded}");
-          Padding(
-            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
-            child: ClipRRect(
-              borderRadius:
-                  BorderRadius.circular(widget.imageViewData.styleProperties!.radius!),
-              child:  widget.imageViewData.imageSrc!.isNotEmpty?    Image.network(
-                widget.imageViewData.imageSrc!,
-                fit: BoxFit.cover,
-                width: double.infinity,
-              ):Image.asset("assets/placeholder-image.jpg",fit: BoxFit.cover,width: double.infinity,)
-            ),
-          );
+          
           widget.imageViewData.title != ""
               ? Padding(
                   padding: EdgeInsets.all(
@@ -152,6 +153,7 @@ class _FullImageState extends State<FullImage> {
             onTap: () {
                             print("more clicked");
                             Navigator.push(context, MaterialPageRoute(builder: (context)=>ItgeekWidgetFullView(widget.imageViewData.imageSrc!, widget.imageViewData.title!,widget.imageViewData.description!)));
+             
                           },
             child: Text(
               exceeded != null ? 'Read More' : '',

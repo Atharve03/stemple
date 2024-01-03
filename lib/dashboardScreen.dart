@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:stemple/views/banners_view/itgeek_widget_banner_image.dart';
 import 'package:stemple/views/banners_view/itgeek_widget_banner_text.dart';
+import 'package:stemple/views/faq_view/full_view.dart';
 import 'package:stemple/views/faq_view/itgeek_widget_faq.dart';
 import 'package:stemple/views/textlist_view/itgeek_text_list_view.dart';
 
@@ -45,7 +46,7 @@ print("my list is nnnnnnnnnnnnnnnnnnnn ${myList}");
                 if (element.view == "FAQ") {
                   return ItgeekWidgetFaq(element.textListWithDetailsData!);
                 }
-                
+               
                 if (element.view == "textTile") {
                   return ItgeekWidgetTextTile(element.textTileData!);
                 }
