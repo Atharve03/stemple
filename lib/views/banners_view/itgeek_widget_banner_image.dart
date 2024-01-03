@@ -97,7 +97,7 @@ class _FullImageState extends State<FullImage> {
             tp.layout(maxWidth: size.maxWidth);
 
             // whether the text overflowed or not
-            var exceeded = tp.didExceedMaxLines;
+            var exceeded = tp.maxLines;
    print("cjvgffmdf ${exceeded}");
           Padding(
             padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
@@ -154,7 +154,7 @@ class _FullImageState extends State<FullImage> {
                             Navigator.push(context, MaterialPageRoute(builder: (context)=>ItgeekWidgetFullView(widget.imageViewData.imageSrc!, widget.imageViewData.title!,widget.imageViewData.description!)));
                           },
             child: Text(
-              exceeded ? 'Read More' : '',
+              exceeded != null ? 'Read More' : '',
               style: TextStyle(
                 color: Colors.blue,
                 fontWeight: FontWeight.bold,

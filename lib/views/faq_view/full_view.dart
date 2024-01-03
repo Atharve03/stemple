@@ -8,7 +8,7 @@ import '../utils/util.dart';
 class ItgeekWidgetFullView extends StatelessWidget {
   // QuestionAnswer questionAnswer;
   // ItgeekWidgetFullView(this.questionAnswer);
-  String? imageSrc, title, description;
+  String imageSrc, title, description;
  
   ItgeekWidgetFullView(this.imageSrc, this.title, this.description);
 
@@ -26,23 +26,25 @@ class ItgeekWidgetFullView extends StatelessWidget {
         // ),
         ,
         width: double.infinity,
+  
         child: Column(children: [
-         
-          imageSrc != ""
-              ? 
+     
               // Padding(
             // padding: EdgeInsets.all(imageViewData.imageViewPadding!),
             // child: 
-            ClipRRect(
-              // borderRadius:
-                  // BorderRadius.circular(imageViewData.imageViewRadius!),
-              child: Image.network(
-                imageSrc!,
-                fit: BoxFit.cover,
-                width: double.infinity,
-              ),
-            // ),
-          ) : Container(),
+            SizedBox(
+             
+              child: ClipRRect(
+                // borderRadius:
+                    // BorderRadius.circular(imageViewData.imageViewRadius!),
+                child: Image.network(
+                  imageSrc,
+                  fit: BoxFit.cover,
+                  width: double.infinity,
+                ),
+              // ),
+                        ),
+            ) ,
           title != ""
               ? Padding(
                   padding: EdgeInsets.all(5),
