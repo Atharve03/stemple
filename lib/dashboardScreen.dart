@@ -28,7 +28,7 @@ class _DashboardState extends State<Dashboard> {
   Widget build(BuildContext context) {
     return FutureBuilder(
 
-        future: rootBundle.loadString("assets/json/join/contact.json"),
+        future: rootBundle.loadString("assets/json/join/start_a_congregation.json"),
 
 
 
