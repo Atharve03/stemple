@@ -30,7 +30,7 @@ class _DashboardState extends State<Dashboard> {
     return FutureBuilder(
 
 
-        future: rootBundle.loadString("assets/json/learn/aboutUs.json"),
+        future: rootBundle.loadString("assets/json/learn/dashboard_main.json"),
 
 
 
