@@ -45,6 +45,7 @@ class StyleProperties {
   double? backgroundPadding;
   double? backgroundRadius;
   String? imageSrc;
+  double? aspectRatio;
 
   StyleProperties(
       {this.titleTextColor,
@@ -65,7 +66,8 @@ class StyleProperties {
       this.backgroundMargin,
       this.backgroundPadding,
       this.backgroundRadius,
-      this.imageSrc});
+      this.imageSrc,
+      this.aspectRatio});
 
   StyleProperties.fromJson(Map<String, dynamic> json) {
     titleTextColor = json['TitleTextColor'];
@@ -87,6 +89,7 @@ class StyleProperties {
     backgroundPadding = json['BackgroundPadding'];
     backgroundRadius = json['BackgroundRadius'];
     imageSrc = json['ImageSrc'];
+    aspectRatio = json['AspectRatio'];
   }
 
   Map<String, dynamic> toJson() {
@@ -110,6 +113,7 @@ class StyleProperties {
     data['BackgroundPadding'] = this.backgroundPadding;
     data['BackgroundRadius'] = this.backgroundRadius;
     data['ImageSrc'] = this.imageSrc;
+    data['AspectRatio'] = this.aspectRatio;
     return data;
   }
 }
