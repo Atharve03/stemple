@@ -3,25 +3,55 @@ import 'package:flutter/material.dart';
 
 import '../../modelClass/data_model.dart';
 
+import '../faq_view/full_view.dart';
 import '../utils/util.dart';
 
-class ItgeekWidgetBlogHalfImage extends StatelessWidget {
+class ItgeekWidgetBlogHalfImage extends StatefulWidget {
  
 StyleProperties style;
 BlogViewItems items;
   ItgeekWidgetBlogHalfImage(this.style,this.items, {super.key});
 
   @override
+  State<ItgeekWidgetBlogHalfImage> createState() => _ItgeekWidgetBlogHalfImageState();
+}
+
+class _ItgeekWidgetBlogHalfImageState extends State<ItgeekWidgetBlogHalfImage> {
+ var controller = TextEditingController();
+
+  @override
+  void initState() {
+    controller.addListener(() {
+      setState(() {
+        mytext = controller.text;
+      });
+    });
+    controller.text = widget.items.blogViewDescription!;
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  String mytext = "";
+
+  @override
   Widget build(BuildContext context) {
-    var textColor = Util.getColorFromHex(style!.titleTextColor!);
+    var textColor = Util.getColorFromHex(widget.style.titleTextColor!);
     // var bgColor = Util.getColorFromHex(blogViewItems.blogViewBackgroundColor!);
     var descriptionTextColor =
-        Util.getColorFromHex(style!.descriptionTextColor!);
-
+        Util.getColorFromHex(widget.style.descriptionTextColor!);
+  int maxLines =
+        widget.style.descriptionTextNoOfLines!;
+    double fontSize =
+        widget.style.descriptionTextFontSize!;
     return Container(
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(style!.radius!.toDouble()),
-        color: Util.getColorFromHex(style!.backgroundColor!),
+        borderRadius: BorderRadius.circular(widget.style.radius!),
+        color: Util.getColorFromHex(widget.style.backgroundColor!),
       ),
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
@@ -40,7 +70,7 @@ BlogViewItems items;
                 color: Colors.purple,
                 borderRadius: BorderRadius.circular(10.0),
                 image: DecorationImage(
-                  image: NetworkImage(style.imageSrc!),
+                  image: NetworkImage(widget.style.imageSrc!),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -54,9 +84,9 @@ BlogViewItems items;
             child: Container(
                 decoration: BoxDecoration(
                   borderRadius:
-                      BorderRadius.circular(style.radius!.toDouble()),
+                      BorderRadius.circular(widget.style.radius!.toDouble()),
                   color: Util.getColorFromHex(
-                          style!.backgroundColor!)
+                          widget.style.backgroundColor!)
                       .withOpacity(0.5),
                 ),
                 padding: EdgeInsets.all(15),
@@ -69,11 +99,11 @@ BlogViewItems items;
                       //  color: Color.fromARGB(95, 34, 66, 79),
                       // margin: EdgeInsets.only(top: 8.0, bottom: 8.0, right: 8.0, left: 8.0),
                       child: Text(
-                        items.blogViewTitle!,
+                        widget.items.blogViewTitle!,
                         style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 18,
-                            color: textColor),
+                            color: Util.getColorFromHex(widget.style.titleTextColor!)),
                         maxLines: 2,
                         textAlign: TextAlign.start,
                       ),
@@ -81,19 +111,86 @@ BlogViewItems items;
                     SizedBox(
                       height: 10,
                     ),
-                    Container(
-                      // width: 250,
-                      //  color: Color.fromARGB(95, 34, 66, 79),
+                         LayoutBuilder(builder: (context, size) {
+                              var span = TextSpan(
+              text: mytext,
+              style: TextStyle(fontSize: fontSize),
+            );
 
-                      // margin: EdgeInsets.only(top: 8.0, bottom: 8.0, right: 20.0, left: 20.0),
-                      child: Text(
-                       items.blogViewDescription! ,
-                        style: TextStyle(
-                            fontSize: 14, color: descriptionTextColor),
-                        maxLines: 2,
-                        textAlign: TextAlign.center,
+            // Use a textpainter to determine if it will exceed max lines
+            var tp = TextPainter(
+              maxLines: maxLines,
+              // textAlign: TextAlign.left,
+              // textAlign: widget.imageViewData.styleProperties!.alignment! == "left" ? TextAlign.left : widget.imageViewData.styleProperties!.alignment == "right" ? TextAlign.right : TextAlign.center,
+
+              textDirection: TextDirection.ltr,
+              text: span,
+            );
+
+            // trigger it to layout
+            tp.layout(maxWidth: size.maxWidth);
+
+            // whether the text overflowed or not
+            var exceeded = tp.maxLines;
+            print("cjvgffmdf ${exceeded}");
+                  return  Column(
+                    children: [
+                      Container(
+                          // width: 250,
+                          //  color: Color.fromARGB(95, 34, 66, 79),
+                      
+                          // margin: EdgeInsets.only(top: 8.0, bottom: 8.0, right: 20.0, left: 20.0),
+                          child: Text.rich(
+                        span ,
+                        overflow: TextOverflow.ellipsis,
+                        
+                            style: TextStyle(
+                                fontSize: 14, color: Util.getColorFromHex(widget.style.descriptionTextColor!)),
+                            maxLines: maxLines,
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                        InkWell(
+                        onTap: () {
+                          print("more clicked");
+
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ItgeekWidgetFullView(
+                                      widget.items.blogViewImagePath!,
+                                      widget.items.blogViewTitle,
+                                      widget.items.blogViewDescription,
+                                      widget.style
+                                          .alignment,
+                                      widget.style
+                                          .titleTextColor,
+                                      widget.style
+                                          .descriptionTextColor,
+                                      widget.style
+                                          .titleTextFontSize!,
+                                      widget.style
+                                          .descriptionTextFontSize!,
+                                      widget.style
+                                          .padding!,
+                                      widget.style
+                                          .margin!,
+                                      widget.style
+                                          .backgroundColor,
+                                      widget.style
+                                          .backgroundColor)));
+                        },
+                        child: Text(
+                          exceeded != null ? 'Read More' : '',
+                          style: TextStyle(
+                            color: Colors.blue,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                       ),
-                    )
+                    ],
+                  );
+                         })
                   ],
                 )),
           )

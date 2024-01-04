@@ -27,7 +27,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 30.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_3_1248x384.jpg?v=1693568892"
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_3_1248x384.jpg?v=1693568892",
+                    "AspectRatio" : 1.0
                 }
             }
         },
@@ -53,7 +54,8 @@
                     "BackgroundMargin": 15.0,
                     "BackgroundPadding": 15.0,
                     "BackgroundRadius": 15.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 },
                 "textTileItems": [
                     {

@@ -27,7 +27,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_1_1920x608.jpg?v=1692726011"
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_1_1920x608.jpg?v=1692726011",
+                    "AspectRatio" : 1.0
                 }
             }
         },
@@ -57,7 +58,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 10.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -89,7 +91,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 10.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -124,7 +127,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -156,7 +160,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 10.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -191,7 +196,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -223,7 +229,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 10.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -258,7 +265,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -290,7 +298,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 10.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -325,7 +334,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -356,7 +366,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 10.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -391,7 +402,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -421,7 +433,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 10.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -456,7 +469,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -486,7 +500,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 10.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -521,7 +536,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -551,7 +567,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 10.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -586,7 +603,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         }
