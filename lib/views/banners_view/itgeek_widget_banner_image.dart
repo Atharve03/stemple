@@ -292,28 +292,34 @@ class _HalfImageState extends State<HalfImage> {
       padding: EdgeInsets.all(
           widget.imageViewData.styleProperties!.backgroundPadding!),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Expanded(
-            child: Container(
-              width: 220,
-              height: 220,
-              // margin: EdgeInsets.only( top: 30.0, bottom: 8.0, right: 8.0, left: 4.0),
-              padding: EdgeInsets.only(top: 20.0),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10.0),
-                image: DecorationImage(
-                  image: NetworkImage(
-                    widget.imageViewData.imageSrc!,
+  
+              Container(
+                  width: 220,
+                  height: 220,
+                  // margin: EdgeInsets.only( top: 30.0, bottom: 8.0, right: 8.0, left: 4.0),
+                  padding: EdgeInsets.only(top: 20.0),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10.0),
+                    image: DecorationImage(
+                      image: NetworkImage(
+                        widget.imageViewData.imageSrc!,
+                      ),
+                      fit: BoxFit.cover,
+                    ),
                   ),
-                  fit: BoxFit.cover,
                 ),
-              ),
-            ),
-          ),
-          // SizedBox(
-          //   width: 5,
-          // ),
-          widget.imageViewData.title != ""
+  
+              
+              Flexible(
+         
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                     widget.imageViewData.title != ""
               ? Container(
                   alignment:
                       widget.imageViewData.styleProperties!.alignment! == "left"
@@ -335,129 +341,130 @@ class _HalfImageState extends State<HalfImage> {
                   ),
                 )
               : Container(),
-          // SizedBox(
-          //   height: 5,
-          // ),
-          LayoutBuilder(builder: (context, size) {
-            var span = TextSpan(
-              text: mytext,
-              style: TextStyle(fontSize: fontSize),
-            );
-
-            // Use a textpainter to determine if it will exceed max lines
-            var tp = TextPainter(
-              maxLines: maxLines,
-              textAlign: TextAlign.left,
-              textDirection: TextDirection.ltr,
-              text: span,
-            );
-
-            // trigger it to layout
-            tp.layout(maxWidth: size.maxWidth);
-
-            // whether the text overflowed or not
-            var exceeded = tp.maxLines;
-            print("cjvgffmdf ${exceeded}");
-            return Expanded(
-              child: Container(
-                  // height: double.infinity,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(
-                        widget.imageViewData.styleProperties!.radius!),
-                    color: bgColor.withOpacity(0.5),
-                  ),
-                  padding: EdgeInsets.all(
-                      widget.imageViewData.styleProperties!.padding!),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      widget.imageViewData.description != ""
-                          ? Column(
+                    LayoutBuilder(builder: (context, size) {
+                      var span = TextSpan(
+                        text: mytext,
+                        style: TextStyle(fontSize: fontSize),
+                      );
+                    
+                      // Use a textpainter to determine if it will exceed max lines
+                      var tp = TextPainter(
+                        maxLines: maxLines,
+                        textAlign: TextAlign.left,
+                        textDirection: TextDirection.ltr,
+                        text: span,
+                      );
+                    
+                      // trigger it to layout
+                      tp.layout(maxWidth: size.maxWidth);
+                    
+                      // whether the text overflowed or not
+                      var exceeded = tp.maxLines;
+                      print("cjvgffmdf ${exceeded}");
+                      return Expanded(
+                        child: Container(
+                            // height: double.infinity,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(
+                                  widget.imageViewData.styleProperties!.radius!),
+                              color: bgColor.withOpacity(0.5),
+                            ),
+                            padding: EdgeInsets.all(
+                                widget.imageViewData.styleProperties!.padding!),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Container(
-                                  child: Text.rich(
-                                    span,
-                                    overflow: TextOverflow.ellipsis,
-                                    style: TextStyle(
-                                        fontSize: widget
-                                            .imageViewData
-                                            .styleProperties!
-                                            .descriptionTextFontSize!,
-                                        color: Util.getColorFromHex(widget
-                                            .imageViewData
-                                            .styleProperties!
-                                            .descriptionTextColor!)),
-                                    maxLines: maxLines,
-                                    textAlign: TextAlign.center,
-                                  ),
-                                ),
-                                InkWell(
-                                  onTap: () {
-                                    print("more clicked");
-
-                                    Navigator.push(
-                                        context,
-                                        MaterialPageRoute(
-                                            builder: (context) =>
-                                                ItgeekWidgetFullView(
-                                                    widget.imageViewData
-                                                        .imageSrc!,
-                                                    widget.imageViewData.title!,
-                                                    widget.imageViewData
-                                                        .description!,
-                                                    widget
-                                                        .imageViewData
-                                                        .styleProperties!
-                                                        .titleTextColor,
-                                                    widget
-                                                        .imageViewData
-                                                        .styleProperties!
-                                                        .alignment,
-                                                    widget
-                                                        .imageViewData
-                                                        .styleProperties!
-                                                        .descriptionTextColor,
-                                                    widget
-                                                        .imageViewData
-                                                        .styleProperties!
-                                                        .titleTextFontSize!,
-                                                    widget
-                                                        .imageViewData
-                                                        .styleProperties!
-                                                        .descriptionTextFontSize!,
-                                                    widget
-                                                        .imageViewData
-                                                        .styleProperties!
-                                                        .padding!,
-                                                    widget
-                                                        .imageViewData
-                                                        .styleProperties!
-                                                        .margin!,
-                                                    widget
-                                                        .imageViewData
-                                                        .styleProperties!
-                                                        .backgroundColor,
-                                                    widget
-                                                        .imageViewData
-                                                        .styleProperties!
-                                                        .backgroundColor)));
-                                  },
-                                  child: Text(
-                                    exceeded != null ? 'Read More' : '',
-                                    style: TextStyle(
-                                      color: Colors.blue,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                ),
+                                widget.imageViewData.description != ""
+                                    ? Column(
+                                        children: [
+                                          Container(
+                                            child: Text.rich(
+                                              span,
+                                              overflow: TextOverflow.ellipsis,
+                                              style: TextStyle(
+                                                  fontSize: widget
+                                                      .imageViewData
+                                                      .styleProperties!
+                                                      .descriptionTextFontSize!,
+                                                  color: Util.getColorFromHex(widget
+                                                      .imageViewData
+                                                      .styleProperties!
+                                                      .descriptionTextColor!)),
+                                              maxLines: maxLines,
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ),
+                                          InkWell(
+                                            onTap: () {
+                                              print("more clicked");
+                    
+                                              Navigator.push(
+                                                  context,
+                                                  MaterialPageRoute(
+                                                      builder: (context) =>
+                                                          ItgeekWidgetFullView(
+                                                              widget.imageViewData
+                                                                  .imageSrc!,
+                                                              widget.imageViewData.title!,
+                                                              widget.imageViewData
+                                                                  .description!,
+                                                              widget
+                                                                  .imageViewData
+                                                                  .styleProperties!
+                                                                  .titleTextColor,
+                                                              widget
+                                                                  .imageViewData
+                                                                  .styleProperties!
+                                                                  .alignment,
+                                                              widget
+                                                                  .imageViewData
+                                                                  .styleProperties!
+                                                                  .descriptionTextColor,
+                                                              widget
+                                                                  .imageViewData
+                                                                  .styleProperties!
+                                                                  .titleTextFontSize!,
+                                                              widget
+                                                                  .imageViewData
+                                                                  .styleProperties!
+                                                                  .descriptionTextFontSize!,
+                                                              widget
+                                                                  .imageViewData
+                                                                  .styleProperties!
+                                                                  .padding!,
+                                                              widget
+                                                                  .imageViewData
+                                                                  .styleProperties!
+                                                                  .margin!,
+                                                              widget
+                                                                  .imageViewData
+                                                                  .styleProperties!
+                                                                  .backgroundColor,
+                                                              widget
+                                                                  .imageViewData
+                                                                  .styleProperties!
+                                                                  .backgroundColor)));
+                                            },
+                                            child: Text(
+                                              exceeded != null ? 'Read More' : '',
+                                              style: TextStyle(
+                                                color: Colors.blue,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      )
+                                    : Container()
                               ],
-                            )
-                          : Container()
-                    ],
-                  )),
-            );
-          })
+                            )),
+                      );
+                    }),
+                  ],
+                ),
+              ),
+            
         ],
       ),
     );

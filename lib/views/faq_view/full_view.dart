@@ -27,69 +27,90 @@ class ItgeekWidgetFullView extends StatelessWidget {
         title: Text(title!, style: TextStyle(color: Util.getColorFromHex(titleTextColor!)),),
         backgroundColor: Util.getColorFromHex(appBarColor!),
       ),
-      body: Container(
-          margin: EdgeInsets.all(margin),
-          // decoration: BoxDecoration(
-          //   // borderRadius: BorderRadius.circular(imageViewData.imageViewRadius!),
-          //   color: bgColor,
-          // ),
-          color: Util.getColorFromHex(backgroundColor!),
-          width: double.infinity,
-          child: Column(children: [
-           
-            imageSrc != ""
-                ? 
-                Padding(
-              padding: EdgeInsets.all(padding!),
-              child: 
-              ClipRRect(
-                // borderRadius:
-                    // BorderRadius.circular(imageViewData.imageViewRadius!),
-                child: Image.network(
-                  imageSrc!,
-                  fit: BoxFit.cover,
-                  width: double.infinity,
+      
+      body: SingleChildScrollView(
+      scrollDirection: Axis.vertical,
+        child: Container(
+          
+            margin: EdgeInsets.all(margin),
+            // decoration: BoxDecoration(
+            //   // borderRadius: BorderRadius.circular(imageViewData.imageViewRadius!),
+            //   color: bgColor,
+            // ),
+            color: Util.getColorFromHex(backgroundColor!),
+            width: double.infinity,
+            child: Column(children: [
+             
+              imageSrc != ""
+                  ? 
+                  Padding(
+                padding: EdgeInsets.all(padding!),
+                child: 
+                ClipRRect(
+                  // borderRadius:
+                      // BorderRadius.circular(imageViewData.imageViewRadius!),
+                  child: Image.network(
+                    imageSrc!,
+                    fit: BoxFit.cover,
+                    width: double.infinity,
+                  ),
                 ),
+              ) : Container(),
+              title != ""
+                  ? Container(
+                                      alignment:  textAlignment == "left" ? Alignment.centerLeft : textAlignment == "right" ? Alignment.centerRight : Alignment.center,
+        
+                      padding: EdgeInsets.all(padding),
+                      child: Text(
+                        title!,
+                        style: TextStyle(
+                            color: Util.getColorFromHex(titleTextColor!),
+                            fontWeight: FontWeight.bold,
+                            fontSize: titleTextFontSize
+                            ),
+                        
+                      ),
+                    )
+                  : Container(),
+              SizedBox(
+                height: 5,
               ),
-            ) : Container(),
-            title != ""
-                ? Container(
-                                    alignment:  textAlignment == "left" ? Alignment.centerLeft : textAlignment == "right" ? Alignment.centerRight : Alignment.center,
-
-                    padding: EdgeInsets.all(padding),
-                    child: Text(
-                      title!,
-                      style: TextStyle(
-                          color: Util.getColorFromHex(titleTextColor!),
-                          fontWeight: FontWeight.bold,
-                          fontSize: titleTextFontSize
-                          ),
+             description != ""
+                  ? Container(
+                      alignment:  textAlignment == "left" ? Alignment.centerLeft : textAlignment == "right" ? Alignment.centerRight : Alignment.center,
+        
+                      padding: EdgeInsets.all(5),
+                      child: Text(
+                        description!,
+                        // questionAnswer.answer!.toString(),
+                        style: TextStyle(
+                            color: Util.getColorFromHex(descriptionTextColor!),
+                            fontWeight: FontWeight.bold,
+                            fontSize: descriptionTextFontSize
+                            )
+                        
+                      ),
                       
-                    ),
-                  )
-                : Container(),
-            SizedBox(
-              height: 5,
-            ),
-           description != ""
-                ? Container(
-                    alignment:  textAlignment == "left" ? Alignment.centerLeft : textAlignment == "right" ? Alignment.centerRight : Alignment.center,
+                    )
+                  : Container()
+            ])),
+      ),
+    );
+  }
+}
 
-                    padding: EdgeInsets.all(5),
-                    child: Text(
-                      description!,
-                      // questionAnswer.answer!.toString(),
-                      style: TextStyle(
-                          color: Util.getColorFromHex(descriptionTextColor!),
-                          fontWeight: FontWeight.bold,
-                          fontSize: descriptionTextFontSize
-                          )
-                      
-                    ),
-                    
-                  )
-                : Container()
-          ])),
+
+
+
+class test extends StatelessWidget {
+  const test({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        
+      ),
     );
   }
 }
