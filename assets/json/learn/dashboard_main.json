@@ -21,15 +21,15 @@
             "DescriptionTextFontSize": 15.0,
             "DescriptionTextFontWeight": "",
             "DescriptionTextNoOfLines": 4,
-            "BackgroundColor": "#000000",
+            "BackgroundColor": "##89CFF0",
             "Alignment": "",
             "Margin": 0.0,
-            "Padding": 30.0,
+            "Padding": 20.0,
             "Radius": 0.0,
             "BackgroundMargin": 0.0,
             "BackgroundPadding": 0.0,
             "BackgroundRadius": 0.0,
-            "ImageSrc": ""
+            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/SAMSAC_Homepage_Banners_16.png?v=1696529906"
         }
     }
 },
@@ -56,10 +56,10 @@
             "DescriptionTextFontSize": 15.0,
             "DescriptionTextFontWeight": "",
             "DescriptionTextNoOfLines": 4,
-            "BackgroundColor": "#5F70ED",
+            "BackgroundColor": "#89CFF0",
             "Alignment": "",
             "Margin": 0.0,
-            "Padding": 30.0,
+            "Padding": 0.0,
             "Radius": 0.0,
             "BackgroundMargin": 0.0,
             "BackgroundPadding": 0.0,
@@ -88,12 +88,12 @@
             "DescriptionTextNoOfLines": 4,
             "BackgroundColor": "#000000",
             "Alignment": "",
-            "Margin": 15.0,
+            "Margin": 0.0,
             "Padding": 15.0,
-            "Radius": 15.0,
-            "BackgroundMargin": 15.0,
-            "BackgroundPadding": 15.0,
-            "BackgroundRadius": 15.0,
+            "Radius": 0.0,
+            "BackgroundMargin": 0.0,
+            "BackgroundPadding": 0.0,
+            "BackgroundRadius": 0.0,
             "ImageSrc": ""
         }
     }
@@ -123,12 +123,12 @@
             "DescriptionTextNoOfLines": 4,
             "BackgroundColor": "#000000",
             "Alignment": "",
-            "Margin": 15.0,
+            "Margin": 0.0,
             "Padding": 15.0,
-            "Radius": 15.0,
-            "BackgroundMargin": 15.0,
-            "BackgroundPadding": 15.0,
-            "BackgroundRadius": 15.0,
+            "Radius": 0.0,
+            "BackgroundMargin": 0.0,
+            "BackgroundPadding": 0.0,
+            "BackgroundRadius": 0.0,
             "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_36_2048x2048_7c74b227-3372-47e0-9b26-72c9317c4a13_800x450.png?v=1691586965"
         }
     }
@@ -150,12 +150,12 @@
             "DescriptionTextNoOfLines": 4,
             "BackgroundColor": "#9A1515",
             "Alignment": "",
-            "Margin": 15.0,
+            "Margin": 0.0,
             "Padding": 15.0,
-            "Radius": 15.0,
-            "BackgroundMargin": 15.0,
-            "BackgroundPadding": 15.0,
-            "BackgroundRadius": 15.0,
+            "Radius": 0.0,
+            "BackgroundMargin": 0.0,
+            "BackgroundPadding": 0.0,
+            "BackgroundRadius": 0.0,
             "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_BG_Red_2_f5ffe150-8d07-4ffc-9bce-a99d81b13f08.png?v=1691673410);"
         }
     }
@@ -274,12 +274,12 @@
                     "DescriptionTextNoOfLines": 4,
                     "BackgroundColor": "#303d3d",
                     "Alignment": "",
-                    "Margin": 15.0,
+                    "Margin": 5.0,
                     "Padding": 15.0,
-                    "Radius": 15.0,
-                    "BackgroundMargin": 15.0,
-                    "BackgroundPadding": 15.0,
-                    "BackgroundRadius": 15.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
                     "ImageSrc": ""
                 }
             }
@@ -301,12 +301,12 @@
                     "DescriptionTextNoOfLines": 4,
                     "BackgroundColor": "#303d3d",
                     "Alignment": "",
-                    "Margin": 15.0,
+                    "Margin": 5.0,
                     "Padding": 15.0,
-                    "Radius": 15.0,
-                    "BackgroundMargin": 15.0,
-                    "BackgroundPadding": 15.0,
-                    "BackgroundRadius": 15.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
                     "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_BG_Wht_4_2880x1364_ae068c6a-467c-4715-b300-4d205548cea5_2880x1364.png?v=1691749247"
                 }
             }
@@ -322,7 +322,7 @@
                 "BlogViewViewportFraction": 1.0,
                 "BlogViewViewType": "View2",
                 "BlogViewActiveColor": "#ffbf00",
-                "BlogViewColorDots": "#FFFFFF",
+                "BlogViewColorDots": "#000000",
                 "Blog_Handle": "",
                 "BlogFromItem": false,
                 "StyleProperties": {
@@ -340,10 +340,10 @@
                     "Alignment": "",
                     "Margin": 15.0,
                     "Padding": 15.0,
-                    "Radius": 15.0,
+                    "Radius": 0.0,
                     "BackgroundMargin": 15.0,
                     "BackgroundPadding": 15.0,
-                    "BackgroundRadius": 15.0,
+                    "BackgroundRadius": 0.0,
                     "ImageSrc": ""
                 },
                 "BlogViewItems": [
