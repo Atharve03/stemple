@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
 
+import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
 import '../faq_view/full_view.dart';
 import '../utils/util.dart';

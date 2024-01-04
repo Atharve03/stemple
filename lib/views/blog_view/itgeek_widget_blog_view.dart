@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 
+import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
 import '../../modelClass/page_layout_model.dart';
 import '../utils/util.dart';
@@ -67,9 +68,9 @@ class _WidgetBlogViewState extends State<ItgeekWidgetBlogView> {
             },
           ),
         ),
-        SizedBox(
-          height: 1,
-        ),
+        // SizedBox(
+        //   height: 1,
+        // ),
         DotsIndicator(
           decorator: DotsDecorator(
               activeColor: Util.getColorFromHex(

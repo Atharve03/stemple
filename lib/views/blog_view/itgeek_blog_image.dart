@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
 import '../../modelClass/page_layout_model.dart';
 import '../faq_view/full_view.dart';
@@ -53,6 +54,7 @@ class _ItgeekWidgetBlogState extends State<ItgeekWidgetBlog> {
           color: bgColor,
         ),
         width: double.infinity,
+        height: double.infinity,
         child: Column(children: [
              ClipRRect(
               borderRadius:
@@ -64,9 +66,9 @@ class _ItgeekWidgetBlogState extends State<ItgeekWidgetBlog> {
               ),
           ),
           
-        SizedBox(
-          height: 5,
-        ),
+        // SizedBox(
+        //   height: 5,
+        // ),
           Text(
             widget.blogViewItems.blogViewTitle!,
             style: TextStyle(

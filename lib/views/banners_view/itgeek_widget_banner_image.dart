@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stemple/helper/util.dart';
 import 'package:stemple/views/faq_view/full_view.dart';
 
 import '../../modelClass/data_model.dart';
@@ -110,9 +111,9 @@ class _FullImageState extends State<FullImage> {
                   ),
                 )
               : Container(),
-          SizedBox(
-            height: 5,
-          ),
+          // SizedBox(
+          //   height: 5,
+          // ),
           LayoutBuilder(builder: (context, size) {
             var span = TextSpan(
               text: mytext,
@@ -160,9 +161,9 @@ class _FullImageState extends State<FullImage> {
                     ),
                   )
                 : Container();
-            SizedBox(
-              height: 5,
-            );
+            // SizedBox(
+            //   height: 5,
+            // );
 
             return widget.imageViewData.description != ""
                 ? Column(
@@ -309,9 +310,9 @@ class _HalfImageState extends State<HalfImage> {
               ),
             ),
           ),
-          SizedBox(
-            width: 5,
-          ),
+          // SizedBox(
+          //   width: 5,
+          // ),
           widget.imageViewData.title != ""
               ? Container(
                   alignment:
@@ -334,9 +335,9 @@ class _HalfImageState extends State<HalfImage> {
                   ),
                 )
               : Container(),
-          SizedBox(
-            height: 5,
-          ),
+          // SizedBox(
+          //   height: 5,
+          // ),
           LayoutBuilder(builder: (context, size) {
             var span = TextSpan(
               text: mytext,
