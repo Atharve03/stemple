@@ -14,6 +14,7 @@
           "ButtonBackgroundColor": "#FF0000",
           "ButtonFontColor": "#ffffff",
           "StyleProperties": {
+               "AspectRatio" : 1.0,
               "TitleTextColor": "#ffffff",
               "TitleTextFontName": "",
               "TitleTextFontSize": 17.0,
@@ -42,6 +43,7 @@
         "Description": "",
         "Title": "MEMBERSHIP",
         "StyleProperties": {
+          "AspectRatio" : 1.0,
             "TitleTextColor": "#ffffff",
             "TitleTextFontName": "",
             "TitleTextFontSize": 17.0,
@@ -93,6 +95,7 @@
         "View": "textTile",
         "textTileData": {
             "StyleProperties": {
+              "AspectRatio" : 1.0,
                 "TitleTextColor": "#ddddd",
                 "TitleTextFontName": "",
                 "TitleTextFontSize": 17.0,
@@ -136,6 +139,7 @@
                   "HtmlContent": "",
                   "Link": "",
                   "StyleProperties": {
+                    "AspectRatio" : 1.0,
                       "TitleTextColor": "#ddddd",
                       "TitleTextFontName": "",
                       "TitleTextFontSize": 17.0,
@@ -196,6 +200,7 @@
                 "ButtonBackgroundColor": "#FF0000",
                 "ButtonFontColor": "#ffffff",
                 "StyleProperties": {
+                  "AspectRatio" : 1.0,
                     "TitleTextColor": "#ffffff",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,

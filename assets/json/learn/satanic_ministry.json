@@ -9,6 +9,7 @@
         "Title": "SATANIC MINISTRY",
         "Description": "",
         "StyleProperties": {
+          "AspectRatio" : 1.0,
           "TitleTextColor": "#ffffff",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,
@@ -44,6 +45,7 @@
         "ButtonBackgroundColor": "#ff0000",
         "ButtonFontColor": "#ffffff",
         "StyleProperties": {
+          "AspectRatio" : 1.0,
           "TitleTextColor": "#000000",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,

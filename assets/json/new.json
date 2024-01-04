@@ -9,6 +9,7 @@
                 "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
                 "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
                 "StyleProperties": {
+          "AspectRatio" : 1.0,
                     "TitleTextColor": "#ddddd",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -39,6 +40,7 @@
                 "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
                 "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
                 "StyleProperties": {
+          "AspectRatio" : 1.0,
                     "TitleTextColor": "#ddddd",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -65,6 +67,7 @@
             "View": "textTile",
             "textTileData": {
                 "StyleProperties": {
+          "AspectRatio" : 1.0,
                     "TitleTextColor": "#ddddd",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -125,6 +128,7 @@
                 "HtmlContent": "",
                 "Link": "",
                 "StyleProperties": {
+          "AspectRatio" : 1.0,
                     "TitleTextColor": "#ddddd",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -206,6 +210,7 @@
                 "ButtonBackgoundColor": "#ddddd",
                 "ButtonFontColor": "#ddddd",
                 "StyleProperties": {
+          "AspectRatio" : 1.0,
                     "TitleTextColor": "#ddddd",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -242,6 +247,7 @@
                 "Blog_Handle": "",
                 "BlogFromItem": false,
                 "StyleProperties": {
+          "AspectRatio" : 1.0,
                     "TitleTextColor": "#ddddd",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -292,6 +298,7 @@
                 "VideoViewSrc": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
                 
                 "StyleProperties": {
+          "AspectRatio" : 1.0,
                     "TitleTextColor": "#ddddd",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -318,6 +325,7 @@
             "View": "Category",
             "CategoryData": {
                 "StyleProperties": {
+          "AspectRatio" : 1.0,
                     "TitleTextColor": "#ddddd",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -379,6 +387,7 @@
             "View": "Product",
             "ProductData": {
                 "StyleProperties": {
+          "AspectRatio" : 1.0,
                     "TitleTextColor": "#ddddd",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -444,6 +453,7 @@
                 "IconSize":15.0,
                 "IconColor":"#FF0000",
                 "StyleProperties": {
+          "AspectRatio" : 1.0,
                     "TitleTextColor": "#ffffff",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,

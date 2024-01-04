@@ -9,6 +9,7 @@
         "Description": "",
         "Title": "FIND A CONGREGATION",
         "StyleProperties": {
+          "AspectRatio" : 1.0,
           "TitleTextColor": "#ffffff",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,
@@ -35,6 +36,7 @@
       "View": "GridView",
       "GridViewData": {
         "StyleProperties": {
+          "AspectRatio" : 1.0,
           "TitleTextColor": "#ffffff",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,

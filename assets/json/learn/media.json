@@ -7,6 +7,7 @@
         "Title": "IN THE MEDIA",
         "Description": "The Satanic Temple was founded by Malcolm Jarry and  Lucien Greaves in 2013. Since, TST has been the focus of much media attention. Learn more about our mission by engaging with the content below.",
         "StyleProperties": {
+          "AspectRatio" : 1.0,
           "TitleTextColor": "#ffffff",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,
@@ -37,6 +38,7 @@
         "Title": "HAIL SATAN?",
         "Description": "A Documentary by Penny Lane \n\nChronicling the extraordinary rise of one of the most colorful and controversial religious movements in American history,Hail Satan?is an inspiring and entertaining new-feature documentary from acclaimed director Penny Lane(Nuts!, Our Nixon). When media-savvy members of The Satanic Temple organize a series of public actions designed to advocate for religious freedom and challenge corrupt authority, they prove that with little more than a clever idea, a mischievous sense of humor, and a few rebellious friends, you can speak truth to power in some truly profound ways. As charming and funny as it is thought-provoking,Hail Satan?offers a timely look at a group of often misunderstood outsiders whose unwavering commitment to social and political justice has empowered thousands of people around the world.",
         "StyleProperties": {
+          "AspectRatio" : 1.0,
           "TitleTextColor": "#ffffff",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,
@@ -67,6 +69,7 @@
         "Title": "Speak of the devil",
         "Description": "Academic Book About The Satanic Temple \n\nSpeak of the Devil is the first book-length study of The Satanic Temple. Joseph Laycock, a scholar of new religious movements, contends that the emergence of 'spolitical Satanism' marks a significant moment in American religious history that will have a lasting impact on how Americans frame debates about religious freedom. Though the group gained attention for its strategic deployment of outrage, it claims to have developed beyond politics into a genuine religious movement. Equal parts history and ethnography, Speak of the Devil is Laycock's attempt to take seriously The Satanic Temple's work to redefine religion, the nature of pluralism and religious tolerance, and what 'religious freedom' means in America.",
         "StyleProperties": {
+          "AspectRatio" : 1.0,
           "TitleTextColor": "#ffffff",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,
@@ -95,6 +98,7 @@
         "Title": "SELECTED ARTICLES",
         "Description": "",
         "StyleProperties": {
+          "AspectRatio" : 1.0,
           "TitleTextColor": "#ffffff",
           "TitleTextFontName": "",
           "TitleTextFontSize": 20.0,
@@ -131,6 +135,7 @@
             "Blog_Handle": "",
             "BlogFromItem": false,
             "StyleProperties": {
+          "AspectRatio" : 1.0,
                 "TitleTextColor": "#ffffff",
                 "TitleTextFontName": "",
                 "TitleTextFontSize": 17.0,
@@ -176,6 +181,7 @@
         "Title": "TST LIBRARY",
         "Description": "",
         "StyleProperties": {
+          "AspectRatio" : 1.0,
           "TitleTextColor": "#171717",
           "TitleTextFontName": "",
           "TitleTextFontSize": 20.0,

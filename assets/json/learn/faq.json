@@ -11,6 +11,7 @@
                 "IconColor": "#FF0000",
                 "ArrowVisibility": true,
                 "StyleProperties": {
+                    "AspectRatio" : 1.0,
                     "TitleTextColor": "#ffffff",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,

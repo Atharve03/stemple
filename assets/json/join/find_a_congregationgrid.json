@@ -7,6 +7,7 @@
       "View": "GridView",
       "GridViewData": {
         "StyleProperties": {
+          "AspectRatio" : 1.0,
           "TitleTextColor": "#ddddd",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,
