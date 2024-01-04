@@ -70,7 +70,7 @@ class _ItgeekWebViewState extends State<ItgeekWebView> {
             urlRequest: URLRequest(url: WebUri(webViewData.link!)));
       }
     } catch (e) {
-      print('myError loading content: $e');
+      print('Error loading content: $e');
     }
   }
 }

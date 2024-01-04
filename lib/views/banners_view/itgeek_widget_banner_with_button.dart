@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
+import '../faq_view/full_view.dart';
 import '../utils/util.dart';
 
 class ItgeekWidgetBannerImageButton extends StatelessWidget {
@@ -26,25 +28,55 @@ class ItgeekWidgetBannerImageButton extends StatelessWidget {
   }
 }
 
-class BottomButton extends StatelessWidget {
+class BottomButton extends StatefulWidget {
   ButtonViewData buttonViewData;
   BottomButton(this.buttonViewData);
+
+  @override
+  State<BottomButton> createState() => _BottomButtonState();
+}
+
+class _BottomButtonState extends State<BottomButton> {
+   var controller = TextEditingController();
+
+  @override
+  void initState() {
+    controller.addListener(() {
+      setState(() {
+        mytext = controller.text;
+      });
+    });
+    controller.text = widget.buttonViewData.description!;
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  String mytext = "";
+
   @override
   Widget build(BuildContext context) {
-    var titleTextColor = Util.getColorFromHex(buttonViewData.styleProperties!.titleTextColor!);
-    var descriptionTextColor = Util.getColorFromHex(buttonViewData.styleProperties!.descriptionTextColor!);
-    var bgColor = Util.getColorFromHex(buttonViewData.styleProperties!.backgroundColor!);
-    var buttonTextColor = Util.getColorFromHex(buttonViewData.buttonFontColor!);
-    var buttonBackgroundColor = Util.getColorFromHex(buttonViewData.buttonBackgroundColor!);
-  
+    var titleTextColor = Util.getColorFromHex(widget.buttonViewData.styleProperties!.titleTextColor!);
+    var descriptionTextColor = Util.getColorFromHex(widget.buttonViewData.styleProperties!.descriptionTextColor!);
+    var bgColor = Util.getColorFromHex(widget.buttonViewData.styleProperties!.backgroundColor!);
+    var buttonTextColor = Util.getColorFromHex(widget.buttonViewData.buttonFontColor!);
+    var buttonBackgroundColor = Util.getColorFromHex(widget.buttonViewData.buttonBackgroundColor!);
+    int maxLines =
+        widget.buttonViewData.styleProperties!.descriptionTextNoOfLines!;
+    double fontSize =
+        widget.buttonViewData.styleProperties!.descriptionTextFontSize!;
     return Expanded(
       child: Container(
-        margin: EdgeInsets.all(buttonViewData.styleProperties!.margin!),
+        margin: EdgeInsets.all(widget.buttonViewData.styleProperties!.margin!),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(buttonViewData.styleProperties!.backgroundRadius!),
+          borderRadius: BorderRadius.circular(widget.buttonViewData.styleProperties!.backgroundRadius!),
           color: bgColor,
           image: DecorationImage(
-            image: NetworkImage(buttonViewData.styleProperties!.imageSrc!), fit: BoxFit.cover,
+            image: NetworkImage(widget.buttonViewData.styleProperties!.imageSrc!), fit: BoxFit.cover,
             // Padding(
             //   padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
             //   child: ClipRRect(
@@ -72,32 +104,97 @@ class BottomButton extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                   //   Row(mainAxisAlignment: MainAxisAlignment.center, children: [    
-                  buttonViewData.title != "" ? Padding(
-                        padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
+                  widget.buttonViewData.title != "" ? Padding(
+                        padding: EdgeInsets.all(widget.buttonViewData.styleProperties!.padding!),
                         child: Text(
-                          buttonViewData.title!,
-                        maxLines: buttonViewData.styleProperties!.titleTextNoOfLines!,
+                          widget.buttonViewData.title!,
+                        maxLines: widget.buttonViewData.styleProperties!.titleTextNoOfLines!,
                           style: TextStyle(
                               color: titleTextColor,
                               fontWeight: FontWeight.bold,
-                              fontSize: buttonViewData.styleProperties!.titleTextFontSize!),
+                              fontSize: widget.buttonViewData.styleProperties!.titleTextFontSize!),
                         ),
                       ) : Container(),
                     // ]),
-                     buttonViewData.description != "" ? Padding(
-                      padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
-                      child: Text(
-                        buttonViewData.description!,
-                        maxLines: buttonViewData.styleProperties!.descriptionTextNoOfLines!,
-                        style: TextStyle(
-                            color: descriptionTextColor,
+                         LayoutBuilder(builder: (context, size) {
+                              var span = TextSpan(
+              text: mytext,
+              style: TextStyle(fontSize: fontSize),
+            );
+
+            // Use a textpainter to determine if it will exceed max lines
+            var tp = TextPainter(
+              maxLines: maxLines,
+              // textAlign: TextAlign.left,
+              // textAlign: widget.imageViewData.styleProperties!.alignment! == "left" ? TextAlign.left : widget.imageViewData.styleProperties!.alignment == "right" ? TextAlign.right : TextAlign.center,
+
+              textDirection: TextDirection.ltr,
+              text: span,
+            );
+
+            // trigger it to layout
+            tp.layout(maxWidth: size.maxWidth);
+
+            // whether the text overflowed or not
+            var exceeded = tp.maxLines;
+            print("cjvgffmdf ${exceeded}");
+                    return widget.buttonViewData.description != "" ? Column(
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.all(widget.buttonViewData.styleProperties!.padding!),
+                          child: Text.rich(
+                          span,
+                            maxLines: maxLines,
+                            style: TextStyle(
+                                color: descriptionTextColor,
+                                fontWeight: FontWeight.bold,
+                                fontSize: fontSize),
+                          ),
+                        ),
+                        InkWell(
+                        onTap: () {
+                          print("more clicked");
+
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ItgeekWidgetFullView(
+                                      widget.buttonViewData.styleProperties!.imageSrc!,
+                                      widget.buttonViewData.title!,
+                                      widget.buttonViewData.description!,
+                                      widget.buttonViewData.styleProperties!
+                                          .alignment,
+                                      widget.buttonViewData.styleProperties!
+                                          .titleTextColor,
+                                      widget.buttonViewData.styleProperties!
+                                          .descriptionTextColor,
+                                      widget.buttonViewData.styleProperties!
+                                          .titleTextFontSize!,
+                                      widget.buttonViewData.styleProperties!
+                                          .descriptionTextFontSize!,
+                                      widget.buttonViewData.styleProperties!
+                                          .padding!,
+                                      widget.buttonViewData.styleProperties!
+                                          .margin!,
+                                      widget.buttonViewData.styleProperties!
+                                          .backgroundColor,
+                                      widget.buttonViewData.styleProperties!
+                                          .backgroundColor)));
+                        },
+                        child: Text(
+                          exceeded != null ? 'Read More' : '',
+                          style: TextStyle(
+                            color: Colors.blue,
                             fontWeight: FontWeight.bold,
-                            fontSize: buttonViewData.styleProperties!.descriptionTextFontSize!),
+                          ),
+                        ),
                       ),
-                    ) : Container(),
+                      ],
+                    ) : Container();
+                         }),
                     Padding(
                       padding: EdgeInsets.all(
-                          buttonViewData.styleProperties!.padding!),
+                          widget.buttonViewData.styleProperties!.padding!),
                       child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -106,7 +203,7 @@ class BottomButton extends StatelessWidget {
                                 print("button banner clicked");
                               },
                               child: Text(
-                                buttonViewData.buttonText!,
+                                widget.buttonViewData.buttonText!,
                                 style: TextStyle(
                                   color: buttonTextColor,
                                   fontWeight: FontWeight.bold,
@@ -127,25 +224,55 @@ class BottomButton extends StatelessWidget {
   }
 }
 
-class TopButton extends StatelessWidget {
+class TopButton extends StatefulWidget {
   ButtonViewData buttonViewData;
   TopButton(this.buttonViewData);
+
+  @override
+  State<TopButton> createState() => _TopButtonState();
+}
+
+class _TopButtonState extends State<TopButton> {
+   var controller = TextEditingController();
+
+  @override
+  void initState() {
+    controller.addListener(() {
+      setState(() {
+        mytext = controller.text;
+      });
+    });
+    controller.text = widget.buttonViewData.description!;
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  String mytext = "";
+
   @override
   Widget build(BuildContext context) {
-    var titleTextColor = Util.getColorFromHex(buttonViewData.styleProperties!.titleTextColor!);
-    var descriptionTextColor = Util.getColorFromHex(buttonViewData.styleProperties!.descriptionTextColor!);
-    var bgColor = Util.getColorFromHex(buttonViewData.styleProperties!.backgroundColor!);
-    var buttonTextColor = Util.getColorFromHex(buttonViewData.buttonFontColor!);
-    var buttonBackgroundColor = Util.getColorFromHex(buttonViewData.buttonBackgroundColor!);
-  
+    var titleTextColor = Util.getColorFromHex(widget.buttonViewData.styleProperties!.titleTextColor!);
+    var descriptionTextColor = Util.getColorFromHex(widget.buttonViewData.styleProperties!.descriptionTextColor!);
+    var bgColor = Util.getColorFromHex(widget.buttonViewData.styleProperties!.backgroundColor!);
+    var buttonTextColor = Util.getColorFromHex(widget.buttonViewData.buttonFontColor!);
+    var buttonBackgroundColor = Util.getColorFromHex(widget.buttonViewData.buttonBackgroundColor!);
+    int maxLines =
+        widget.buttonViewData.styleProperties!.descriptionTextNoOfLines!;
+    double fontSize =
+        widget.buttonViewData.styleProperties!.descriptionTextFontSize!;
     return Expanded(
       child: Container(
-        margin: EdgeInsets.all(buttonViewData.styleProperties!.margin!),
+        margin: EdgeInsets.all(widget.buttonViewData.styleProperties!.margin!),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(buttonViewData.styleProperties!.backgroundRadius!),
+          borderRadius: BorderRadius.circular(widget.buttonViewData.styleProperties!.backgroundRadius!),
           color: bgColor,
           image: DecorationImage(
-            image: NetworkImage(buttonViewData.styleProperties!.imageSrc!),
+            image: NetworkImage(widget.buttonViewData.styleProperties!.imageSrc!),
             // Padding(
             //   padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
             //   child: ClipRRect(
@@ -175,7 +302,7 @@ class TopButton extends StatelessWidget {
                   //   Row(mainAxisAlignment: MainAxisAlignment.center, children: [    
                    Padding(
                       padding: EdgeInsets.all(
-                          buttonViewData.styleProperties!.padding!),
+                          widget.buttonViewData.styleProperties!.padding!),
                       child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -184,7 +311,7 @@ class TopButton extends StatelessWidget {
                                 print("button banner clicked");
                               },
                               child: Text(
-                                buttonViewData.buttonText!,
+                                widget.buttonViewData.buttonText!,
                                 style: TextStyle(
                                   color: buttonTextColor,
                                   fontWeight: FontWeight.bold,
@@ -197,28 +324,94 @@ class TopButton extends StatelessWidget {
                           ]),
                     ),
                   Padding(
-                        padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
+                        padding: EdgeInsets.all(widget.buttonViewData.styleProperties!.padding!),
                         child: Text(
-                          buttonViewData.title!,
-                        maxLines: buttonViewData.styleProperties!.titleTextNoOfLines!,
+                          widget.buttonViewData.title!,
+                        maxLines: widget.buttonViewData.styleProperties!.titleTextNoOfLines!,
                           style: TextStyle(
                               color: titleTextColor,
                               fontWeight: FontWeight.bold,
-                              fontSize: buttonViewData.styleProperties!.titleTextFontSize!),
+                              fontSize: widget.buttonViewData.styleProperties!.titleTextFontSize!),
                         ),
                       ),
                     // ]),
-                    Padding(
-                      padding: EdgeInsets.all(buttonViewData.styleProperties!.padding!),
-                      child: Text(
-                        buttonViewData.description!,
-                        maxLines: buttonViewData.styleProperties!.descriptionTextNoOfLines!,
-                        style: TextStyle(
-                            color: descriptionTextColor,
+                         LayoutBuilder(builder: (context, size) {
+                              var span = TextSpan(
+              text: mytext,
+              style: TextStyle(fontSize: fontSize),
+            );
+
+            // Use a textpainter to determine if it will exceed max lines
+            var tp = TextPainter(
+              maxLines: maxLines,
+              // textAlign: TextAlign.left,
+              // textAlign: widget.imageViewData.styleProperties!.alignment! == "left" ? TextAlign.left : widget.imageViewData.styleProperties!.alignment == "right" ? TextAlign.right : TextAlign.center,
+
+              textDirection: TextDirection.ltr,
+              text: span,
+            );
+
+            // trigger it to layout
+            tp.layout(maxWidth: size.maxWidth);
+
+            // whether the text overflowed or not
+            var exceeded = tp.maxLines;
+            print("cjvgffmdf ${exceeded}");
+                  return  Column(
+                    children: [
+                      Padding(
+                          padding: EdgeInsets.all(widget.buttonViewData.styleProperties!.padding!),
+                          child: Text.rich(
+                           span,
+                           overflow: TextOverflow.ellipsis,
+                            maxLines: maxLines,
+                            style: TextStyle(
+                                color: descriptionTextColor,
+                                fontWeight: FontWeight.bold,
+                                fontSize: fontSize),
+                          ),
+                        ),
+                        InkWell(
+                        onTap: () {
+                          print("more clicked");
+
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ItgeekWidgetFullView(
+                                      widget.buttonViewData.styleProperties!.imageSrc,
+                                      widget.buttonViewData.title!,
+                                      widget.buttonViewData.description!,
+                                      widget.buttonViewData.styleProperties!
+                                          .alignment,
+                                      widget.buttonViewData.styleProperties!
+                                          .titleTextColor,
+                                      widget.buttonViewData.styleProperties!
+                                          .descriptionTextColor,
+                                      widget.buttonViewData.styleProperties!
+                                          .titleTextFontSize!,
+                                      widget.buttonViewData.styleProperties!
+                                          .descriptionTextFontSize!,
+                                      widget.buttonViewData.styleProperties!
+                                          .padding!,
+                                      widget.buttonViewData.styleProperties!
+                                          .margin!,
+                                      widget.buttonViewData.styleProperties!
+                                          .backgroundColor,
+                                      widget.buttonViewData.styleProperties!
+                                          .backgroundColor)));
+                        },
+                        child: Text(
+                          exceeded != null ? 'Read More' : '',
+                          style: TextStyle(
+                            color: Colors.blue,
                             fontWeight: FontWeight.bold,
-                            fontSize: buttonViewData.styleProperties!.descriptionTextFontSize!),
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
+                  );
+                         })
                    ],
                 ))
           // ],

@@ -200,7 +200,7 @@
         {
             "View": "DetailButtonView",
             "ButtonViewData": {
-                "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
+                "ActionType": "PAGE/PRODUCT/CATEOGRY",
                 "ActionId": "",
                 "ButtonText": "",
                 "ActionHandle": "",

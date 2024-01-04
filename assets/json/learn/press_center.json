@@ -55,7 +55,11 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
+<<<<<<< HEAD
                     "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/hero-bg_2880x1364_cbd844df-a621-463a-8715-77153a6edb29_2880x748.jpg?v=1695300481"
+=======
+                    "ImageSrc": ""
+>>>>>>> 49c698be441f710add95caa4f7de31c3c6dfe232
                 }
             }
         },
@@ -81,7 +85,11 @@
                     "Margin": 0.0,
                     "Padding": 20.0,
                     "Radius": 0.0,
+<<<<<<< HEAD
                     "BackgroundMargin": 0.0,
+=======
+                    "BackgroundMargin": 10.0,
+>>>>>>> 49c698be441f710add95caa4f7de31c3c6dfe232
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": ""
@@ -218,7 +226,11 @@
                     "Margin": 0.0,
                     "Padding": 20.0,
                     "Radius": 0.0,
+<<<<<<< HEAD
                     "BackgroundMargin": 0.0,
+=======
+                    "BackgroundMargin": 10.0,
+>>>>>>> 49c698be441f710add95caa4f7de31c3c6dfe232
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": ""
@@ -643,7 +655,11 @@
                     "Margin": 0.0,
                     "Padding": 20.0,
                     "Radius": 0.0,
+<<<<<<< HEAD
                     "BackgroundMargin": 0.0,
+=======
+                    "BackgroundMargin": 10.0,
+>>>>>>> 49c698be441f710add95caa4f7de31c3c6dfe232
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": ""
@@ -852,7 +868,11 @@
                     "Margin": 0.0,
                     "Padding": 20.0,
                     "Radius": 0.0,
+<<<<<<< HEAD
                     "BackgroundMargin": 0.0,
+=======
+                    "BackgroundMargin": 10.0,
+>>>>>>> 49c698be441f710add95caa4f7de31c3c6dfe232
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": ""
@@ -1205,7 +1225,11 @@
                     "Margin": 0.0,
                     "Padding": 20.0,
                     "Radius": 0.0,
+<<<<<<< HEAD
                     "BackgroundMargin": 0.0,
+=======
+                    "BackgroundMargin": 10.0,
+>>>>>>> 49c698be441f710add95caa4f7de31c3c6dfe232
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": ""

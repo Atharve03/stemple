@@ -27,7 +27,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/header-img_2880x1364_9cd9ae6d-11a1-4ff7-8ced-be037e3c0fc9_800x325.jpg?v=1695722879"
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/header-img_2880x1364_9cd9ae6d-11a1-4ff7-8ced-be037e3c0fc9_800x325.jpg?v=1695722879",
+                    "AspectRatio" : 1.0
                 }
             }
         },
@@ -55,7 +56,8 @@
                     "BackgroundMargin":0.0,
                     "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -85,7 +87,8 @@
                     "BackgroundMargin":0.0,
                      "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 },
                 "QuestionAnswer": [
                     {
@@ -140,7 +143,8 @@
                     "BackgroundMargin":0.0,
                      "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_1_1920x608.jpg?v=1692726011"
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_1_1920x608.jpg?v=1692726011",
+                    "AspectRatio" : 1.0
                 }
             }
         },
@@ -175,7 +179,8 @@
                     "BackgroundMargin":0.0,
                      "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -205,7 +210,8 @@
                     "BackgroundMargin":0.0,
                      "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 },
                 "QuestionAnswer": [
                     {
@@ -255,7 +261,8 @@
                     "BackgroundMargin":0.0,
                      "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_1_1920x608.jpg?v=1692726011"
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_1_1920x608.jpg?v=1692726011",
+                    "AspectRatio" : 1.0
                 }
             }
         },
@@ -281,7 +288,8 @@
                     "BackgroundMargin":0.0,
                      "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 },
                 "textTileItems": [
                     {
@@ -343,7 +351,8 @@
                     "BackgroundMargin":0.0,
                      "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -373,7 +382,8 @@
                     "BackgroundMargin":0.0,
                      "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 },
                 "QuestionAnswer": [
                     {
@@ -413,7 +423,8 @@
                     "BackgroundMargin":0.0,
                      "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/header-img_2880x1364_9cd9ae6d-11a1-4ff7-8ced-be037e3c0fc9_800x325.jpg?v=1695722879"
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/header-img_2880x1364_9cd9ae6d-11a1-4ff7-8ced-be037e3c0fc9_800x325.jpg?v=1695722879",
+                    "AspectRatio" : 1.0
                 }
             }
         },
@@ -441,7 +452,8 @@
                     "BackgroundMargin":0.0,
                      "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 }
             }
         },
@@ -471,7 +483,8 @@
                     "BackgroundMargin":0.0,
                      "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
+                   "ImageSrc": "",
+                   "AspectRatio" : 1.0
                 },
                 "QuestionAnswer": [
                     {

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
+import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
 import '../../modelClass/page_layout_model.dart';
+import '../faq_view/full_view.dart';
 import '../utils/util.dart';
 
 class ItgeekWidgetBlogPosition extends StatefulWidget {
@@ -14,8 +16,33 @@ StyleProperties style;
 }
 
 class _WidgetCallPositionState extends State<ItgeekWidgetBlogPosition> {
+   var controller = TextEditingController();
+
+  @override
+  void initState() {
+    controller.addListener(() {
+      setState(() {
+        mytext = controller.text;
+      });
+    });
+    controller.text = widget.blogViewItems.blogViewDescription!;
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  String mytext = "";
+
   @override
   Widget build(BuildContext context) {
+      int maxLines =
+        widget.style.descriptionTextNoOfLines!;
+    double fontSize =
+        widget.style.descriptionTextFontSize!;
     return Container(
       decoration: BoxDecoration(
           borderRadius:
@@ -58,32 +85,98 @@ class _WidgetCallPositionState extends State<ItgeekWidgetBlogPosition> {
                       widget.blogViewItems.blogViewTitle.toString(),
                       style: TextStyle(
                           fontWeight: FontWeight.w500,
-                          fontSize: 18,
+                          fontSize: widget.style.titleTextFontSize,
                           color: Util.getColorFromHex(widget
                               .style.titleTextColor
                               .toString())),
-                      maxLines: 2,
+                      maxLines: widget.style.titleTextNoOfLines,
                       textAlign: TextAlign.start,
                     ),
                   ),
-                  Container(
-                    // width: 100,
-                    decoration: BoxDecoration(
-                      color: Util.getColorFromHex(
-                              widget.style.backgroundColor!)
-                          .withOpacity(0.5),
-                    ),
-                    child: Text(
-                      widget.blogViewItems.blogViewDescription.toString(),
-                      style: TextStyle(
-                          fontSize: 14,
-                          color: Util.getColorFromHex(widget
-                              .style.descriptionTextColor
-                              .toString())),
-                      maxLines: 2,
-                      textAlign: TextAlign.start,
-                    ),
-                  ),
+                       LayoutBuilder(builder: (context, size) {
+                            var span = TextSpan(
+              text: mytext,
+              style: TextStyle(fontSize: fontSize),
+            );
+
+            // Use a textpainter to determine if it will exceed max lines
+            var tp = TextPainter(
+              maxLines: maxLines,
+              // textAlign: TextAlign.left,
+              // textAlign: widget.imageViewData.styleProperties!.alignment! == "left" ? TextAlign.left : widget.imageViewData.styleProperties!.alignment == "right" ? TextAlign.right : TextAlign.center,
+
+              textDirection: TextDirection.ltr,
+              text: span,
+            );
+
+            // trigger it to layout
+            tp.layout(maxWidth: size.maxWidth);
+
+            // whether the text overflowed or not
+            var exceeded = tp.maxLines;
+            print("cjvgffmdf ${exceeded}");
+                 return Column(
+                    children: [
+                      Container(
+                        // width: 100,
+                        decoration: BoxDecoration(
+                          color: Util.getColorFromHex(
+                                  widget.style.backgroundColor!)
+                              .withOpacity(0.5),
+                        ),
+                        child: Text.rich(
+                         span,
+                         overflow: TextOverflow.ellipsis,
+                          style: TextStyle(
+                              fontSize: fontSize,
+                              color: Util.getColorFromHex(widget
+                                  .style.descriptionTextColor
+                                  .toString())),
+                          maxLines: maxLines,
+                          textAlign: TextAlign.start,
+                        ),
+                      ),
+                      InkWell(
+                        onTap: () {
+                          print("more clicked");
+
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ItgeekWidgetFullView(
+                                      widget.blogViewItems.blogViewImagePath!,
+                                      widget.blogViewItems. blogViewTitle!,
+                                      widget.blogViewItems.blogViewDescription!,
+                                      widget.style
+                                          .alignment,
+                                      widget.style
+                                          .titleTextColor,
+                                      widget.style
+                                          .descriptionTextColor,
+                                      widget.style
+                                          .titleTextFontSize!,
+                                      widget.style
+                                          .descriptionTextFontSize!,
+                                      widget.style
+                                          .padding!,
+                                      widget.style
+                                          .margin!,
+                                      widget.style
+                                          .backgroundColor,
+                                      widget.style
+                                          .backgroundColor)));
+                        },
+                        child: Text(
+                          exceeded != null ? 'Read More' : '',
+                          style: TextStyle(
+                            color: Colors.blue,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ],
+                  );
+                       })
                 ],
               ),
             ),

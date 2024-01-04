@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:stemple/views/slider_view/widget_image.dart';
 
 
+import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
 import '../../modelClass/page_layout_model.dart';
 import '../utils/util.dart';

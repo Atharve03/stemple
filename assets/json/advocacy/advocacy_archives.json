@@ -10,8 +10,7 @@
                 "Title": "ADVOCACY\nARCHIVES",
                 "StyleProperties": {
                     "TitleTextColor": "#ffffff",
-                    "AspectRatio" : 1.0,
-                    "TitleTextFontName": "",
+                    "TitleT  extFontName": "",
                     "TitleTextFontSize": 17.0,
                     "TitleTextFontWeight": "",
                     "TitleTextNoOfLines": 4,
@@ -28,7 +27,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/legal-hero_2880x1364_be2884c0-edaf-40f0-9f4e-4717830deda9_960x288.jpg?v=1693837986"
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/legal-hero_2880x1364_be2884c0-edaf-40f0-9f4e-4717830deda9_960x288.jpg?v=1693837986",
+                    "AspectRatio" : 1.0
                 }
             }
         },
@@ -59,8 +59,8 @@
                                     "BackgroundMargin": 0.0,
                                     "BackgroundPadding": 0.0,
                                     "BackgroundRadius": 0.0,
-                                    "ImageSrc": "",
-                                    "AspectRatio" : 1.0
+                                "ImageSrc": "", 
+                                "AspectRatio" : 1.0
                                 }
                             }
                         },
@@ -91,13 +91,12 @@
                                     "BackgroundMargin": 15.0,
                                     "BackgroundPadding": 15.0,
                                     "BackgroundRadius": 15.0,
-                                    "ImageSrc": "",
-                                    "AspectRatio" : 1.0
-                                }
+                                "ImageSrc": "",
+                                 "AspectRatio" : 1.0
                             }
-                        },
-                   
-                    {
+                        }
+                    },
+                          {
                        
                             "View": "ImageView",
                             "ImageViewData": {
@@ -124,8 +123,8 @@
                                     "BackgroundMargin": 15.0,
                                     "BackgroundPadding": 15.0,
                                     "BackgroundRadius": 15.0,
-                                    "ImageSrc": "",
-                                    "AspectRatio" : 1.0
+                                "ImageSrc": "",
+                                 "AspectRatio" : 1.0
                                 }
                             }
                         },
@@ -157,8 +156,8 @@
                                     "BackgroundMargin": 15.0,
                                     "BackgroundPadding": 15.0,
                                     "BackgroundRadius": 15.0,
-                                    "ImageSrc": "",
-                                    "AspectRatio" : 1.0
+                               "ImageSrc": "",
+                                "AspectRatio" : 1.0
                                 }
                             }
                         },
@@ -191,7 +190,8 @@
                                     "BackgroundMargin": 15.0,
                                     "BackgroundPadding": 15.0,
                                     "BackgroundRadius": 15.0,
-                                    "ImageSrc": ""
+                               "ImageSrc": "",
+                                "AspectRatio" : 1.0
                                 }
                             }
                         },
@@ -223,7 +223,8 @@
                                     "BackgroundMargin": 15.0,
                                     "BackgroundPadding": 15.0,
                                     "BackgroundRadius": 15.0,
-                                    "ImageSrc": ""
+                               "ImageSrc": "",
+                                "AspectRatio" : 1.0
                                 }
                             }
                         },
@@ -255,7 +256,8 @@
                                     "BackgroundMargin": 15.0,
                                     "BackgroundPadding": 15.0,
                                     "BackgroundRadius": 15.0,
-                                    "ImageSrc": ""
+                               "ImageSrc": "",
+                                "AspectRatio" : 1.0
                                 }
                             }
                         },
@@ -286,7 +288,8 @@
                                     "BackgroundMargin": 15.0,
                                     "BackgroundPadding": 15.0,
                                     "BackgroundRadius": 15.0,
-                                    "ImageSrc": ""
+                                "ImageSrc": "",
+                                 "AspectRatio" : 1.0
                                 }
                             }
                         }

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
+import '../faq_view/full_view.dart';
 import '../utils/util.dart';
 
 class ItgeekWidgetBannerText extends StatelessWidget {
@@ -18,24 +20,54 @@ class ItgeekWidgetBannerText extends StatelessWidget {
   }
 }
 
-class TextView extends StatelessWidget {
+class TextView extends StatefulWidget {
   TextViewData textViewData;
   TextView(this.textViewData);
+
+  @override
+  State<TextView> createState() => _TextViewState();
+}
+
+class _TextViewState extends State<TextView> {
+   var controller = TextEditingController();
+
+  @override
+  void initState() {
+    controller.addListener(() {
+      setState(() {
+        mytext = controller.text;
+      });
+    });
+    controller.text = widget.textViewData.description!;
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  String mytext = "";
+
   @override
   Widget build(BuildContext context) {
-    var titleTextColor = Util.getColorFromHex(textViewData.styleProperties!.titleTextColor!);
-    var descriptionTextColor = Util.getColorFromHex(textViewData.styleProperties!.descriptionTextColor!);
-    var bgColor = Util.getColorFromHex(textViewData.styleProperties!.backgroundColor!);
-
+    var titleTextColor = Util.getColorFromHex(widget.textViewData.styleProperties!.titleTextColor!);
+    var descriptionTextColor = Util.getColorFromHex(widget.textViewData.styleProperties!.descriptionTextColor!);
+    var bgColor = Util.getColorFromHex(widget.textViewData.styleProperties!.backgroundColor!);
+  int maxLines =
+        widget.textViewData.styleProperties!.descriptionTextNoOfLines!;
+    double fontSize =
+        widget.textViewData.styleProperties!.descriptionTextFontSize!;
     return Container(
-      margin: EdgeInsets.all(textViewData.styleProperties!.backgroundMargin!),
-      padding: EdgeInsets.all(textViewData.styleProperties!.backgroundPadding!),
+      margin: EdgeInsets.all(widget.textViewData.styleProperties!.backgroundMargin!),
+      padding: EdgeInsets.all(widget.textViewData.styleProperties!.backgroundPadding!),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(textViewData.styleProperties!.backgroundRadius!),
+        borderRadius: BorderRadius.circular(widget.textViewData.styleProperties!.backgroundRadius!),
         color: bgColor,
         image: DecorationImage(
           image: NetworkImage(
-            textViewData.styleProperties!.imageSrc!,
+            widget.textViewData.styleProperties!.imageSrc!,
           ),
           fit: BoxFit.cover,
         )
@@ -46,34 +78,101 @@ class TextView extends StatelessWidget {
         // crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           //   Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-          textViewData.title != "" ?
+          widget.textViewData.title != "" ?
           Container(
-            margin: EdgeInsets.all(textViewData.styleProperties!.margin!),
-            padding: EdgeInsets.all(textViewData.styleProperties!.padding!),
+            margin: EdgeInsets.all(widget.textViewData.styleProperties!.margin!),
+            padding: EdgeInsets.all(widget.textViewData.styleProperties!.padding!),
             child: Text(
               textAlign: TextAlign.center,
-              textViewData.title!,
-              maxLines: textViewData.styleProperties!.titleTextNoOfLines!,
+              widget.textViewData.title!,
+              maxLines: widget.textViewData.styleProperties!.titleTextNoOfLines!,
               style: TextStyle(
                 color: titleTextColor,
                 fontWeight: FontWeight.bold,
-                fontSize: textViewData.styleProperties!.titleTextFontSize!),
+                fontSize: widget.textViewData.styleProperties!.titleTextFontSize!),
             ),
           ):Container(),
-          textViewData.description!="" ?
-          Container(
-            margin: EdgeInsets.all(textViewData.styleProperties!.margin!),
-            padding: EdgeInsets.all(textViewData.styleProperties!.padding!),
-            child: Text(
-              textAlign: TextAlign.center,
-              textViewData.description!,
-              maxLines: textViewData.styleProperties!.descriptionTextNoOfLines!,
-              style: TextStyle(
-                color: descriptionTextColor,
-                fontWeight: FontWeight.bold,
-                fontSize: textViewData.styleProperties!.descriptionTextFontSize!),
-            ),
-          ):Container()
+               LayoutBuilder(builder: (context, size) {
+                    var span = TextSpan(
+              text: mytext,
+              style: TextStyle(fontSize: fontSize),
+            );
+
+            // Use a textpainter to determine if it will exceed max lines
+            var tp = TextPainter(
+              maxLines: maxLines,
+              // textAlign: TextAlign.left,
+              // textAlign: widget.imageViewData.styleProperties!.alignment! == "left" ? TextAlign.left : widget.imageViewData.styleProperties!.alignment == "right" ? TextAlign.right : TextAlign.center,
+
+              textDirection: TextDirection.ltr,
+              text: span,
+            );
+
+            // trigger it to layout
+            tp.layout(maxWidth: size.maxWidth);
+
+            // whether the text overflowed or not
+            var exceeded = tp.maxLines;
+            print("cjvgffmdf ${exceeded}");
+         return widget.textViewData.description!="" ?
+          Column(
+            children: [
+              Container(
+                margin: EdgeInsets.all(widget.textViewData.styleProperties!.margin!),
+                padding: EdgeInsets.all(widget.textViewData.styleProperties!.padding!),
+                child: Text.rich(
+                  span,
+                  textAlign: TextAlign.center,
+                  overflow: TextOverflow.ellipsis,
+                  maxLines: maxLines,
+                  style: TextStyle(
+                    color: descriptionTextColor,
+                    fontWeight: FontWeight.bold,
+                    fontSize: widget.textViewData.styleProperties!.descriptionTextFontSize!),
+                ),
+                
+              ),
+              InkWell(
+                        onTap: () {
+                          print("more clicked");
+
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ItgeekWidgetFullView(
+                                      widget.textViewData.styleProperties!.imageSrc,
+                                      widget.textViewData.title!,
+                                      widget.textViewData.description!,
+                                      widget.textViewData.styleProperties!
+                                          .alignment,
+                                      widget.textViewData.styleProperties!
+                                          .titleTextColor,
+                                      widget.textViewData.styleProperties!
+                                          .descriptionTextColor,
+                                      widget.textViewData.styleProperties!
+                                          .titleTextFontSize!,
+                                      widget.textViewData.styleProperties!
+                                          .descriptionTextFontSize!,
+                                      widget.textViewData.styleProperties!
+                                          .padding!,
+                                      widget.textViewData.styleProperties!
+                                          .margin!,
+                                      widget.textViewData.styleProperties!
+                                          .backgroundColor,
+                                      widget.textViewData.styleProperties!
+                                          .backgroundColor)));
+                        },
+                        child: Text(
+                          exceeded != null ? 'Read More' : '',
+                          style: TextStyle(
+                            color: Colors.blue,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+            ],
+          ):Container();
+               })
         ],
       ));
   }

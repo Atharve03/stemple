@@ -2,45 +2,143 @@ import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
 
+import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
+import '../faq_view/full_view.dart';
 import '../utils/util.dart';
 
-class ItgeekWidgetBannerVideo extends StatelessWidget {
+class ItgeekWidgetBannerVideo extends StatefulWidget {
   Function(VideoViewData) OnClick;
   VideoViewData videoViewData;
   ItgeekWidgetBannerVideo(this.videoViewData, this.OnClick);
 
   @override
-  Widget build(BuildContext context) {
-    var descriptionTextColor = Util.getColorFromHex(videoViewData.styleProperties!.descriptionTextColor!);
-    var bgColor = Util.getColorFromHex(videoViewData.styleProperties!.backgroundColor!);
+  State<ItgeekWidgetBannerVideo> createState() => _ItgeekWidgetBannerVideoState();
+}
 
+class _ItgeekWidgetBannerVideoState extends State<ItgeekWidgetBannerVideo> {
+   var controller = TextEditingController();
+
+  @override
+  void initState() {
+    controller.addListener(() {
+      setState(() {
+        mytext = controller.text;
+      });
+    });
+    controller.text = widget.videoViewData.description!;
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  String mytext = "";
+
+  @override
+  Widget build(BuildContext context) {
+    var descriptionTextColor = Util.getColorFromHex(widget.videoViewData.styleProperties!.descriptionTextColor!);
+    var bgColor = Util.getColorFromHex(widget.videoViewData.styleProperties!.backgroundColor!);
+  int maxLines =
+        widget.videoViewData.styleProperties!.descriptionTextNoOfLines!;
+    double fontSize =
+        widget.videoViewData.styleProperties!.descriptionTextFontSize!;
     return InkWell(
         onTap: () {
-          OnClick(videoViewData);
+          widget.OnClick(widget.videoViewData);
         },
         child: Container(
-          margin: EdgeInsets.all(videoViewData.styleProperties!.backgroundMargin!),
+          margin: EdgeInsets.all(widget.videoViewData.styleProperties!.backgroundMargin!),
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(videoViewData.styleProperties!.backgroundRadius!),
+            borderRadius: BorderRadius.circular(widget.videoViewData.styleProperties!.backgroundRadius!),
             color: bgColor,
           ),
           width: double.infinity,
           // color: bgColor,
           child: Column(
             children: [
-              MyVideo(videoViewData),
-              Padding(
-                padding: EdgeInsets.all(videoViewData.styleProperties!.padding!),
-                child: Text(
-                  videoViewData.description!,
-                  style: TextStyle(
-                      color: descriptionTextColor,
-                      fontWeight: FontWeight.bold,
-                      fontSize: videoViewData.styleProperties!
-                          .descriptionTextFontSize),
-                ),
-              ),
+              MyVideo(widget.videoViewData),
+                   LayoutBuilder(builder: (context, size) {
+                        var span = TextSpan(
+              text: mytext,
+              style: TextStyle(fontSize: fontSize),
+            );
+
+            // Use a textpainter to determine if it will exceed max lines
+            var tp = TextPainter(
+              maxLines: maxLines,
+              // textAlign: TextAlign.left,
+              // textAlign: widget.imageViewData.styleProperties!.alignment! == "left" ? TextAlign.left : widget.imageViewData.styleProperties!.alignment == "right" ? TextAlign.right : TextAlign.center,
+
+              textDirection: TextDirection.ltr,
+              text: span,
+            );
+
+            // trigger it to layout
+            tp.layout(maxWidth: size.maxWidth);
+
+            // whether the text overflowed or not
+            var exceeded = tp.maxLines;
+            print("cjvgffmdf ${exceeded}");
+            return  Column(
+              children: [
+                Padding(
+                    padding: EdgeInsets.all(widget.videoViewData.styleProperties!.padding!),
+                    child: Text.rich(
+                      span,
+                      overflow: TextOverflow.ellipsis,
+                      maxLines: maxLines,
+                      style: TextStyle(
+                          color: descriptionTextColor,
+                          fontWeight: FontWeight.bold,
+                          fontSize: widget.videoViewData.styleProperties!
+                              .descriptionTextFontSize),
+                    ),
+                  ),
+                  InkWell(
+                        onTap: () {
+                          print("more clicked");
+
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ItgeekWidgetFullView(
+                                      widget.videoViewData.styleProperties!.imageSrc,
+                                      widget.videoViewData.title!,
+                                      widget.videoViewData.description!,
+                                      widget.videoViewData.styleProperties!
+                                          .alignment,
+                                      widget.videoViewData.styleProperties!
+                                          .titleTextColor,
+                                      widget.videoViewData.styleProperties!
+                                          .descriptionTextColor,
+                                      widget.videoViewData.styleProperties!
+                                          .titleTextFontSize!,
+                                      widget.videoViewData.styleProperties!
+                                          .descriptionTextFontSize!,
+                                      widget.videoViewData.styleProperties!
+                                          .padding!,
+                                      widget.videoViewData.styleProperties!
+                                          .margin!,
+                                      widget.videoViewData.styleProperties!
+                                          .backgroundColor,
+                                      widget.videoViewData.styleProperties!
+                                          .backgroundColor)));
+                        },
+                        child: Text(
+                          exceeded != null ? 'Read More' : '',
+                          style: TextStyle(
+                            color: Colors.blue,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+              ],
+            );
+                   })
             ],
           ),
         ));
@@ -52,7 +150,7 @@ class MyVideo extends StatefulWidget {
   Future<void>? _initializeVideoPlayerFuture;
   VideoViewData videoViewData;
   MyVideo(this.videoViewData);
-
+  
   @override
   State<MyVideo> createState() => _MyVideoState();
 }
