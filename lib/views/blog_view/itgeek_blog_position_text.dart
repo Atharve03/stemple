@@ -50,17 +50,28 @@ class _WidgetCallPositionState extends State<ItgeekWidgetBlogPosition> {
         children: [
           Container(
             margin:
-                EdgeInsets.only(top: 8.0, bottom: 8.0, right: 8.0, left: 8.0),
-            padding: EdgeInsets.only(top: 20.0),
+                EdgeInsets.all(widget.style.margin!),
+            padding: EdgeInsets.all(widget.style.padding!),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10.0),
               color: Colors.transparent,
-              image: DecorationImage(
-                image: NetworkImage(
-                    widget.blogViewItems.blogViewImagePath!),
-                fit: BoxFit.cover,
-              ),
+              // image: DecorationImage(
+              //   image:
+              //    NetworkImage(
+              //       widget.blogViewItems.blogViewImagePath!),
+              //   fit: BoxFit.cover,
+              // )
+              
+              
             ),
+             
+              child: ClipRRect(
+                  borderRadius: BorderRadius.circular(widget.style.radius!),
+                  child: FadeInImage.assetNetwork(
+                    placeholder: "assets/images/placeholder-image.jpg",
+                    image: widget.blogViewItems.blogViewImagePath!,
+                    fit: BoxFit.cover,
+                  )),
           ),
           Positioned(
             bottom: 20,

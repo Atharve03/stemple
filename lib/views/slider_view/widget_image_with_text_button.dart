@@ -13,11 +13,18 @@ class WidgetImageWithTextButton extends StatelessWidget {
     return Container(
       child: Stack(
         children: [
-          Image.network(
-            sliderItems.sliderLink!,
-            fit: BoxFit.cover,
-            width: double.infinity,
-          ),
+          // Image.network(
+          //   sliderItems.sliderLink!,
+          //   fit: BoxFit.cover,
+          //   width: double.infinity,
+          // ),
+          
+              FadeInImage.assetNetwork(
+                    placeholder: "assets/images/placeholder-image.jpg",
+                    image: sliderItems.sliderLink!,
+                    fit: BoxFit.cover,
+                    width: double.infinity,
+                  ),
           Positioned(
               bottom: 70,
               left: 0,

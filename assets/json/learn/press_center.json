@@ -91,8 +91,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Protect_Children_Project_Press_Release_-_Round_Rock_ISD.docx.pdf?v=1673386209",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -127,8 +127,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/TST_Telehealth_Clinic_Press_Release_Feb_1_-_FINAL.pdf?v=1675268235",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -163,8 +163,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Protect_Children_Project_Press_Release_-_Cassville.pdf?v=1678738827",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -228,8 +228,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Baltimore_Religious_Leave_Press_Release.docx.pdf?v=1651780629",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -264,8 +264,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Ukraine_Refugees_Rental_Issues_Press_Release-2-FINAL_1_.docx.pdf?v=1651780627",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -300,8 +300,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/New_Texas_Lawsuit_Press_Release-FINAL.docx.pdf?v=1651780627",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -336,8 +336,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Bladensburg_2nd_Annual_Ritual_Press_Release_edited_.docx.pdf?v=1652798204",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -372,8 +372,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Minnesota_Abortion_Counseling-Final_5-22_1_1.pdf?v=1652973430",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -408,8 +408,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/700k_Members_Recognition_Press_Release_-_Final.docx.pdf?v=1655327867",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -444,8 +444,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/700k_Members_Recognition_Press_Release_-_Final.docx.pdf?v=1655327867",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -480,8 +480,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Updated_-_SRC_Hays_School_District_PR_-_FINAL2_1-1.pdf?v=1661434683",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -516,8 +516,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Indiana_Lawsuit_PR.pdf?v=1664903632",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -552,8 +552,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Idaho_Lawsuit_Press_Release.docx.pdf?v=1664978403",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -588,8 +588,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Hellions_Academy_of_Independent_Learning_Press_Release.docx.pdf?v=1668618169",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -653,8 +653,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Ohio_Burial_and_Cremations_Response_Press_Release.pdf?v=1609956376",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -689,8 +689,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/TST_v_Texas_PR.pdf?v=1617028711",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -725,8 +725,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Devil_s_Advocate_Scholarship_Press_Release_2021.pdf?v=1623763231",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -761,8 +761,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Mahanoy_Religious_Ritual.pdf?v=1623763231",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -797,8 +797,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/John_S._Hall_Press_Release_Updated.pdf?v=1623763231",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -862,8 +862,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/THE_SATANIC_TEMPLE_APPEALS_DISMISSAL_OF_MISSOURI_ABORTION_LAWSUIT.pdf?v=1602699329",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -898,8 +898,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/THE_SATANIC_TEMPLE_CALLS_ON_MISSISSIPPI_STATE_OFFICIALS_TO_RECONSIDER_a36e207a-db62-4f20-9f2d-0ca827dbb5df.pdf?v=1602732313",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -934,8 +934,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Press_Release.pdf?v=1602731082",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -970,8 +970,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Supreme_Court_Press_Release.pdf?v=1602728444",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -1006,8 +1006,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Press_Release_Bill_Board_Lawsuit_LG_quotes_need_approval.pdf?v=1602727727",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -1042,8 +1042,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Scholarships.pdf?v=1602947316",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -1078,8 +1078,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Devil_s_Advocate_Scholarship.pdf?v=1602902849",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -1114,8 +1114,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Barrett_Recusal_Press_Release.pdf?v=1603977700",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -1150,8 +1150,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Press_Release_Billboards_in_TX_and_FL.pdf?v=1608234083",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -1215,8 +1215,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/Massachusetts_Commission_Against_Discrimination_Investigating_Claim_Against_Boston_City_Council_Brought_by_The_Satanic_Temple.pdf?v=1602699330",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -1251,8 +1251,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/The_Satanic_Temple_Files_Appeal_in_Federal_Court_with_the_US_Eighth_Circuit.pdf?v=1602699329",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -1287,8 +1287,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/SATANIC_TEMPLE_TO_HOLD_REPRODUCTIVE_RIGHTS_RALLY.pdf?v=1602699329",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -1323,8 +1323,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/The_US_Naval_Academy_Will_Host_Satanic_Services.pdf?v=1602699330",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -1359,8 +1359,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/The_Satanic_Temple_is_Officially_Recognized_as_a_Church_by_IRS_a0ab9753-6562-4c79-95f2-5e61a6371442.pdf?v=1602728845",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -1395,8 +1395,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "",
-                "ActionId": "",
+                "ActionType": "LINK",
+                "ActionId": "https://cdn.shopify.com/s/files/1/0428/0465/files/The_Satanic_Temple_to_Host_a94678f3-dded-4b7f-9993-82e15a60742c.pdf?v=1602728197",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",

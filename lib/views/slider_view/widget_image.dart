@@ -11,12 +11,19 @@ class WidgetImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Image.network(
-        sliderItems.sliderLink!,
-        fit: BoxFit.cover,
-        // height: MediaQuery.of(context).size.height * 0.8,
-        width: double.infinity,
-      ),
+      // child: Image.network(
+      //   sliderItems.sliderLink!,
+      //   fit: BoxFit.cover,
+      //   // height: MediaQuery.of(context).size.height * 0.8,
+      //   width: double.infinity,
+      // ),
+      child: 
+              FadeInImage.assetNetwork(
+                    placeholder: "assets/images/placeholder-image.jpg",
+                    image: sliderItems.sliderLink!,
+                    fit: BoxFit.cover,
+                    width: double.infinity,
+                  ),
     );
   }
 }

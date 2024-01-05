@@ -57,11 +57,15 @@ class _ItgeekWidgetBlogState extends State<ItgeekWidgetBlog> {
              ClipRRect(
               borderRadius:
                   BorderRadius.circular(widget.style.radius!.toDouble()),
-              child: Image.network(
-                widget.blogViewItems.blogViewImagePath !,
-                fit: BoxFit.cover,
-                width: double.infinity,
-              ),
+              child: 
+              FadeInImage.assetNetwork(placeholder: "assets/images/placeholder-image.jpg", image: widget.blogViewItems.blogViewImagePath!, fit: BoxFit.cover,)
+
+
+              // Image.network(
+              //   widget.blogViewItems.blogViewImagePath !,
+              //   fit: BoxFit.cover,
+              //   width: double.infinity,
+              // ),
           ),
           
         // SizedBox(
