@@ -125,7 +125,7 @@
         "View": "BlogView",
         "BlogViewData": {
             "BlogViewAutoPlay": false,
-            "BlogViewAspectRatio": 0.82857142857143,
+            "BlogViewAspectRatio": 0.72857142857143,
             "BlogViewEnableInfiniteScroll": true,
             "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
             "BlogViewViewportFraction": 1.0,
@@ -216,7 +216,7 @@
             "SliderViewType": "Enlarge",
             "SliderItems": [
                 {
-                    "SliderType": "ImageWithText",
+                    "SliderType": "SliderImageWithTextView",
                     "SliderText": "",
                     "SliderLink": "https://thesatanictemple.com/cdn/shop/products/81Y2f8kgFeL_416x608.jpg?v=1639072912",
                     "SliderButtonText": "My Button",
@@ -227,7 +227,7 @@
                     "SliderButtonClicked": ""
                 },
                 {
-                    "SliderType": "ImageWithText",
+                    "SliderType": "SliderImageWithTextView",
                     "SliderText": "",
                     "SliderLink": "https://thesatanictemple.com/cdn/shop/files/doug-mesner-rota-203x300_large_2ac5fab2-bd46-4c9b-ad2f-10f3b12c595f_203x300.jpg?v=1614314188",
                     "SliderButtonText": "My Button",
@@ -238,7 +238,7 @@
                     "SliderButtonClicked": ""
                 },
                 {
-                    "SliderType": "ImageWithText",
+                    "SliderType": "SliderImageWithTextView",
                     "SliderText": "",
                     "SliderLink": "https://thesatanictemple.com/cdn/shop/files/61CYksAhElL_416x672.jpg?v=1639072512",
                     "SliderButtonText": "My Button",
