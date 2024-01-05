@@ -48,8 +48,9 @@ class ItgeekWidgetGridView extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(
                         gridViewData.styleProperties!.radius!),
-                    child: Image.network(
-                      listItems[index].imageSrc!,
+                    child: FadeInImage.assetNetwork(
+                      placeholder: "assets/images/placeholder-image.jpg",
+                      image: listItems[index].imageSrc!,
                       fit: BoxFit.cover,
                       // width: double.infinity,
                     ),

@@ -91,11 +91,7 @@ class _ItgeekWidgetBannerVideoState extends State<ItgeekWidgetBannerVideo> {
                 return Column(
                   children: [
                     Container(
-                      margin: EdgeInsets.all(
-                          widget.videoViewData.styleProperties!.margin!),
-                      padding: EdgeInsets.all(
-                          widget.videoViewData.styleProperties!.padding!),
-                      child: Text.rich(
+                     child: Text.rich(
                         span,
                         overflow: TextOverflow.ellipsis,
                         maxLines: maxLines,

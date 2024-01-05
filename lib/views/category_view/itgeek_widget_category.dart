@@ -48,20 +48,20 @@ class ItgeekWidgetCategory extends StatelessWidget {
 
 class PopulorCategoryView extends StatelessWidget {
   Function(CategoryItems) OnClick;
-  CategoryData category;
+  CategoryData categoryData;
  
-  PopulorCategoryView(this.category, this.OnClick);
+  PopulorCategoryView(this.categoryData, this.OnClick);
 
   @override
   Widget build(BuildContext context) {
     List<CategoryItems> listItems = [];
-    category.categoryItems!.map((item) => {listItems.add(item)}).toList();
+    categoryData.categoryItems!.map((item) => {listItems.add(item)}).toList();
 
     Color imageBackgroundColor =
-        Util.getColorFromHex(category.styleProperties!.backgroundColor!);
-    Color textColor = Util.getColorFromHex(category.styleProperties!.titleTextColor!);
+        Util.getColorFromHex(categoryData.styleProperties!.backgroundColor!);
+    Color textColor = Util.getColorFromHex(categoryData.styleProperties!.titleTextColor!);
     Color viewBackgroundColor =
-        Util.getColorFromHex(category.categoryViewBackgroundColor!);
+        Util.getColorFromHex(categoryData.categoryViewBackgroundColor!);
 
     return Container(
         padding: EdgeInsets.fromLTRB(12, 0, 0, 12),
@@ -70,7 +70,7 @@ class PopulorCategoryView extends StatelessWidget {
             physics: ClampingScrollPhysics(),
             shrinkWrap: true,
             scrollDirection: Axis.horizontal,
-            itemCount: category.categoryItems!.length,
+            itemCount: categoryData.categoryItems!.length,
             itemBuilder: (BuildContext context, int index) {
               return InkWell(
                 onTap: () {OnClick(listItems[index]);},
@@ -80,7 +80,7 @@ class PopulorCategoryView extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: viewBackgroundColor,
                       borderRadius:
-                          BorderRadius.circular(category.styleProperties!.radius!.toDouble()),
+                          BorderRadius.circular(categoryData.styleProperties!.radius!.toDouble()),
                       border: Border.all(width: 1, color: Colors.blue)),
                   margin: EdgeInsets.all(5),
                   child: Padding(
@@ -96,7 +96,7 @@ class PopulorCategoryView extends StatelessWidget {
                                   listItems[index].categoryImageLink!),
                               fit: BoxFit.cover),
                           borderRadius: BorderRadius.circular(
-                              category.styleProperties!.radius!.toDouble()),
+                              categoryData.styleProperties!.radius!.toDouble()),
                         ),
                       ),
                       Container(
@@ -108,7 +108,7 @@ class PopulorCategoryView extends StatelessWidget {
                             textAlign: TextAlign.center,
                             style: TextStyle(
                                 color: textColor,
-                                fontSize: category.styleProperties!.titleTextFontSize!.toDouble())),
+                                fontSize: categoryData.styleProperties!.titleTextFontSize!.toDouble())),
                       )
                     ]),
                   ),

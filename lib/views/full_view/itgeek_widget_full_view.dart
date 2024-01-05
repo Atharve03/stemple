@@ -45,8 +45,9 @@ class ItgeekWidgetFullView extends StatelessWidget {
                 ClipRRect(
                   // borderRadius:
                       // BorderRadius.circular(imageViewData.imageViewRadius!),
-                  child: Image.network(
-                    imageSrc!,
+                  child: FadeInImage.assetNetwork(
+                    placeholder: "assets/images/placeholder-image.jpg",
+                    image : imageSrc!,
                     fit: BoxFit.cover,
                     width: double.infinity,
                   ),
