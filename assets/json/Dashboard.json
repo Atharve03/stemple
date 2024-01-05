@@ -23,7 +23,7 @@
     {
       "View": "BannerImageView",
       "ImageViewData": {
-        "ImageViewViewType": "ImageViewHalf",
+        "ImageViewViewType": "ImageViewFull",
         "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/The-Satanic-temple_de242aac-3486-4537-b801-ab5e5d10bd9a_1.jpg?v=1694429082",
         "ImageViewRadius": 0,
         "ImageViewContainerColor": "#171717",

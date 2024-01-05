@@ -4,225 +4,226 @@
     "AppBarIcon": "#000000",
     "PageLayout": [
         {
-    "View": "BannerImageView",
-    "ImageViewData": {
-        "ImageViewViewType": "ImageViewFull",
-        "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/SAMSAC_Homepage_Banners_2ebab9d1-970a-4142-bcfe-b4f9ae20af60.png?v=1696883905",
-        "Title": "",
-        "Description": "",
-        "StyleProperties": {
-            "TitleTextColor": "#ffffff",
-            "TitleTextFontName": "",
-            "TitleTextFontSize": 17.0,
-            "TitleTextFontWeight": "",
-            "TitleTextNoOfLines": 4,
-            "DescriptionTextColor": "#ffffff",
-            "DescriptionTextFontName": "",
-            "DescriptionTextFontSize": 15.0,
-            "DescriptionTextFontWeight": "",
-            "DescriptionTextNoOfLines": 4,
-            "BackgroundColor": "##89CFF0",
-            "Alignment": "",
-            "Margin": 0.0,
-            "Padding": 20.0,
-            "Radius": 0.0,
-            "BackgroundMargin": 0.0,
-            "BackgroundPadding": 0.0,
-            "BackgroundRadius": 0.0,
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/SAMSAC_Homepage_Banners_16.png?v=1696529906"
-        }
-    }
-},
-{
-    "View": "BannerButtonTextView",
-    "ButtonViewData": {
-        "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
-        "ActionId": "",
-        "ButtonText": "RED BUTTON",
-        "ActionHandle": "",
-        "ButtonViewViewType": "ButtonViewBottom",
-        "Title": "",
-        "Description": "",
-        "ButtonBackgroundColor": "#ff0000",
-        "ButtonFontColor": "#ffffff",
-        "StyleProperties": {
-            "TitleTextColor": "#ffffff",
-            "TitleTextFontName": "",
-            "TitleTextFontSize": 17.0,
-            "TitleTextFontWeight": "",
-            "TitleTextNoOfLines": 4,
-            "DescriptionTextColor": "#ffffff",
-            "DescriptionTextFontName": "",
-            "DescriptionTextFontSize": 15.0,
-            "DescriptionTextFontWeight": "",
-            "DescriptionTextNoOfLines": 4,
-            "BackgroundColor": "#89CFF0",
-            "Alignment": "",
-            "Margin": 0.0,
-            "Padding": 0.0,
-            "Radius": 0.0,
-            "BackgroundMargin": 0.0,
-            "BackgroundPadding": 0.0,
-            "BackgroundRadius": 0.0,
-            "ImageSrc": ""
-        }
-    }
-},
-{
-    "View": "BannerImageView",
-    "ImageViewData": {
-        "ImageViewViewType": "FuImageViewFullll",
-        "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_22.png?v=1704083495",
-        "Title": "",
-        "Description": "",
-        "StyleProperties": {
-            "TitleTextColor": "#ffffff",
-            "TitleTextFontName": "",
-            "TitleTextFontSize": 17.0,
-            "TitleTextFontWeight": "",
-            "TitleTextNoOfLines": 4,
-            "DescriptionTextColor": "#ffffff",
-            "DescriptionTextFontName": "",
-            "DescriptionTextFontSize": 15.0,
-            "DescriptionTextFontWeight": "",
-            "DescriptionTextNoOfLines": 4,
-            "BackgroundColor": "#000000",
-            "Alignment": "",
-            "Margin": 0.0,
-            "Padding": 15.0,
-            "Radius": 0.0,
-            "BackgroundMargin": 0.0,
-            "BackgroundPadding": 0.0,
-            "BackgroundRadius": 0.0,
-            "ImageSrc": ""
-        }
-    }
-},
-{
-    "View": "BannerButtonTextView",
-    "ButtonViewData": {
-        "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
-        "ActionId": "",
-        "ButtonText": "Donate",
-        "ActionHandle": "",
-        "ButtonViewViewType": "ButtonViewBottom",
-        "Title": "THE SATANIC\nTEMPLE",
-        "Description": "Empathy. Reason. Advocacy.",
-        "ButtonBackgroundColor": "#ff0000",
-        "ButtonFontColor": "#ffffff",
-        "StyleProperties": {
-            "TitleTextColor": "#ffffff",
-            "TitleT  extFontName": "",
-            "TitleTextFontSize": 17.0,
-            "TitleTextFontWeight": "",
-            "TitleTextNoOfLines": 4,
-            "DescriptionTextColor": "#ffffff",
-            "DescriptionTextFontName": "",
-            "DescriptionTextFontSize": 15.0,
-            "DescriptionTextFontWeight": "",
-            "DescriptionTextNoOfLines": 4,
-            "BackgroundColor": "#000000",
-            "Alignment": "",
-            "Margin": 0.0,
-            "Padding": 15.0,
-            "Radius": 0.0,
-            "BackgroundMargin": 0.0,
-            "BackgroundPadding": 0.0,
-            "BackgroundRadius": 0.0,
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_36_2048x2048_7c74b227-3372-47e0-9b26-72c9317c4a13_800x450.png?v=1691586965"
-        }
-    }
-},{
-    "View": "BannerTextView",
-    "TextViewData": {
-        "Description": "TST has petitioned the state of Texas to allow Satanic Temple members the ability to continue receiving voluntary abortions as part of a religious ritual. Texas’s trigger ban on abortions took effect after the reversal of Roe v. Wade, which prohibited all abortions for any reason, including instances of rape or incest. TST claims that this ban infringes upon its members’ right to practice their religion and requests Texas recognize its members’ religious rights.\nOn September 1, 2021, Texas passed S.B. 8, which prohibited anyone from getting an abortion after a detectable fetal tone. The law also allows citizens to sue people who obtained, performed, or helped to perform an abortion. TST filed a lawsuit against Texas, stating that this law prohibits TST members from performing a religious ritual to remove nonviable fetal tissue up to 24 weeks of pregnancy.  \nThis motion was made prior to the reversal of Roe v. Wade in late June 2022. After the Supreme Court ruling, Texas enforced its“trigger ban” on abortions, whereby abortion procedures became illegal within Texas state lines. TST is requesting an immediate injunction because the law inhibits TST members’ ability to practice their religion freely.\nCLAIMS WE ASSERT\nTST holds that Texas’s abortion ban is inspired by a religious dogma that asserts that life begins at conception, which contravenes TST’s belief that non-viable fetal tissue is part of the pregnant person and is free to be voluntarily removed. TST claims that this law violates the Establishment Clause and Free Exercise Clause of the First Amendment in that it legislates a religious viewpoint that prohibits TST members’ ability to perform their religious practices freely.\nLOOKING BEYOND TEXAS\nWith the reversal of Roe, it becomes even more imperative that we assert our claim that Texas inhibits our members’ access to protect religious reproductive care. However, Texas is not the only state to impede members’ abortion access. Nearly half the country has enforced anti-abortion policies or trigger bans. Texas is only the first of many states in which we must defend our constitutional rights. \nYou can support TST’s mission to protect reproductive rights by donating to our Religious Reproductive Rights campaign. Each donation will go towards legal work in all 50 states to protect TST members’ reproductive care access.",
-        "Title": "TST DEMANDS TEXAS RECOGNIZE RELIGIOUS RIGHT TO PERFORM ABORTION POST-ROE",
-        "StyleProperties": {
-            "TitleTextColor": "#ffffff",
-            "TitleT  extFontName": "",
-            "TitleTextFontSize": 17.0,
-            "TitleTextFontWeight": "",
-            "TitleTextNoOfLines": 4,
-            "DescriptionTextColor": "#ffffff",
-            "DescriptionTextFontName": "",
-            "DescriptionTextFontSize": 15.0,
-            "DescriptionTextFontWeight": "",
-            "DescriptionTextNoOfLines": 4,
-            "BackgroundColor": "#9A1515",
-            "Alignment": "",
-            "Margin": 0.0,
-            "Padding": 15.0,
-            "Radius": 0.0,
-            "BackgroundMargin": 0.0,
-            "BackgroundPadding": 0.0,
-            "BackgroundRadius": 0.0,
-            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_BG_Red_2_f5ffe150-8d07-4ffc-9bce-a99d81b13f08.png?v=1691673410);"
-        }
-    }
-},
-{
-    "View": "BlogView",
-    "BlogViewData": {
-        "BlogViewAutoPlay": false,
-        "BlogViewAspectRatio": 0.6,
-        "BlogViewEnableInfiniteScroll": true,
-        "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
-        "BlogViewViewportFraction": 1.0,
-        "BlogViewViewType": "BlogViewFullImage",
-        "BlogViewActiveColor": "#ffbf00",
-        "BlogViewColorDots": "#0000FF",
-        "Blog_Handle": "",
-        "BlogFromItem": false,
-        "StyleProperties": {
-            "TitleTextColor": "#9A1515",
-            "TitleTextFontName": "",
-            "TitleTextFontSize": 17.0,
-            "TitleTextFontWeight": "",
-            "TitleTextNoOfLines": 4,
-            "DescriptionTextColor": "#000000",
-            "DescriptionTextFontName": "",
-            "DescriptionTextFontSize": 15.0,
-            "DescriptionTextFontWeight": "",
-            "DescriptionTextNoOfLines": 4,
-            "BackgroundColor": "#ffffff",
-            "Alignment": "",
-            "Margin": 15.0,
-            "Padding": 15.0,
-            "Radius": 15.0,
-            "BackgroundMargin": 15.0,
-            "BackgroundPadding": 15.0,
-            "BackgroundRadius": 15.0,
-            "ImageSrc": ""
-        },
-        "BlogViewItems": [
-            {
-                "BlogViewTitle": "Legal Update:The Satanic Temple V. Indiana",
-                "BlogViewDescription": "Our reproductive rights lawsuit against the state of Indiana has been halted, and we need to establish standing to file our appeal. The legal question as to whether the state can restrict abortion access for TST members is still unsettled.",
-                "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/Instagram_Square_10.png?v=1701882768"
-            },
-            {
-                "BlogViewTitle": "AASR Artical highlihts PCP Efforts To Protect Students' Bodily Autonomy",
-                "BlogViewDescription": "Writer For AASR and Director of The Satanic Temple's Protect Children Project,Eliphaz Costus ,explains the nationwide initiative to tckle widespred abuse in US public schools",
-                "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/Can_Religious_Beliefs_Protect_Your_Child_From_2.png?v=1700684949"
-            },
-            {
-                "BlogViewTitle": "TST Protect Children Project Visits Dumas high School To Educate On Students Rights",
-                "BlogViewDescription": "Members of The Satanic Temple's Protect Children Project (PCP) visited Dumas High School in Texas today to engage with students whose beliefs align with the Tenets of The Satanic Temple (TST) and provide information on how they can exempt themselves from corporal punishment and other abusive disciplinary measures",
-                "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/Instagram_Square_26.png?v=1700275101"
-            },
-            {
-                "BlogViewTitle": "Saucon Vally School District Settels After School Satan Club Ban Lawsuit",
-                "BlogViewDescription": "The announcement comes in the wake of School Board election losses tied to the Board's 'financially wasteful,ego-driven legal melodramas.'",
-                "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/Instagram_Square_22.png?v=1700235315"
-            },
-            {
-                "BlogViewTitle": "TST Health First Clinic Graces The Cover of Cosmopolitan Magazine",
-                "BlogViewDescription": "TST health's inaugural clinic recieved the honor of being featured on the cover of Cosmopolitan magazine's November/December issue, a publication that reaches millions world wide",
-                "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/Instagram_Square_18.png?v=1700016010"
+            "View": "BannerImageView",
+            "ImageViewData": {
+                "ImageViewViewType": "ImageViewFull",
+                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/SAMSAC_Homepage_Banners_2ebab9d1-970a-4142-bcfe-b4f9ae20af60.png?v=1696883905",
+                "Title": "",
+                "Description": "",
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "##89CFF0",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 20.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/SAMSAC_Homepage_Banners_16.png?v=1696529906"
+                }
             }
-        ]
-        }},
-        
+        },
+        {
+            "View": "BannerButtonTextView",
+            "ButtonViewData": {
+                "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
+                "ActionId": "",
+                "ButtonText": "RED BUTTON",
+                "ActionHandle": "",
+                "ButtonViewViewType": "ButtonViewBottom",
+                "Title": "",
+                "Description": "",
+                "ButtonBackgroundColor": "#ff0000",
+                "ButtonFontColor": "#ffffff",
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#89CFF0",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 0.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                }
+            }
+        },
+        {
+            "View": "BannerImageView",
+            "ImageViewData": {
+                "ImageViewViewType": "ImageViewFull",
+                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_22.png?v=1704083495",
+                "Title": "",
+                "Description": "",
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#000000",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 15.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                }
+            }
+        },
+        {
+            "View": "BannerButtonTextView",
+            "ButtonViewData": {
+                "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
+                "ActionId": "",
+                "ButtonText": "Donate",
+                "ActionHandle": "",
+                "ButtonViewViewType": "ButtonViewBottom",
+                "Title": "THE SATANIC\nTEMPLE",
+                "Description": "Empathy. Reason. Advocacy.",
+                "ButtonBackgroundColor": "#ff0000",
+                "ButtonFontColor": "#ffffff",
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#000000",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 15.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_36_2048x2048_7c74b227-3372-47e0-9b26-72c9317c4a13_800x450.png?v=1691586965"
+                }
+            }
+        },
+        {
+            "View": "BannerTextView",
+            "TextViewData": {
+                "Description": "TST has petitioned the state of Texas to allow Satanic Temple members the ability to continue receiving voluntary abortions as part of a religious ritual. Texas’s trigger ban on abortions took effect after the reversal of Roe v. Wade, which prohibited all abortions for any reason, including instances of rape or incest. TST claims that this ban infringes upon its members’ right to practice their religion and requests Texas recognize its members’ religious rights.\nOn September 1, 2021, Texas passed S.B. 8, which prohibited anyone from getting an abortion after a detectable fetal tone. The law also allows citizens to sue people who obtained, performed, or helped to perform an abortion. TST filed a lawsuit against Texas, stating that this law prohibits TST members from performing a religious ritual to remove nonviable fetal tissue up to 24 weeks of pregnancy.  \nThis motion was made prior to the reversal of Roe v. Wade in late June 2022. After the Supreme Court ruling, Texas enforced its“trigger ban” on abortions, whereby abortion procedures became illegal within Texas state lines. TST is requesting an immediate injunction because the law inhibits TST members’ ability to practice their religion freely.\nCLAIMS WE ASSERT\nTST holds that Texas’s abortion ban is inspired by a religious dogma that asserts that life begins at conception, which contravenes TST’s belief that non-viable fetal tissue is part of the pregnant person and is free to be voluntarily removed. TST claims that this law violates the Establishment Clause and Free Exercise Clause of the First Amendment in that it legislates a religious viewpoint that prohibits TST members’ ability to perform their religious practices freely.\nLOOKING BEYOND TEXAS\nWith the reversal of Roe, it becomes even more imperative that we assert our claim that Texas inhibits our members’ access to protect religious reproductive care. However, Texas is not the only state to impede members’ abortion access. Nearly half the country has enforced anti-abortion policies or trigger bans. Texas is only the first of many states in which we must defend our constitutional rights. \nYou can support TST’s mission to protect reproductive rights by donating to our Religious Reproductive Rights campaign. Each donation will go towards legal work in all 50 states to protect TST members’ reproductive care access.",
+                "Title": "TST DEMANDS TEXAS RECOGNIZE RELIGIOUS RIGHT TO PERFORM ABORTION POST-ROE",
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#9A1515",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 15.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_BG_Red_2_f5ffe150-8d07-4ffc-9bce-a99d81b13f08.png?v=1691673410);"
+                }
+            }
+        },
+        {
+            "View": "BlogView",
+            "BlogViewData": {
+                "BlogViewAutoPlay": false,
+                "BlogViewAspectRatio": 0.6,
+                "BlogViewEnableInfiniteScroll": true,
+                "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
+                "BlogViewViewportFraction": 1.0,
+                "BlogViewViewType": "BlogViewFullImage",
+                "BlogViewActiveColor": "#ffbf00",
+                "BlogViewColorDots": "#0000FF",
+                "Blog_Handle": "",
+                "BlogFromItem": false,
+                "StyleProperties": {
+                    "TitleTextColor": "#9A1515",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#000000",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
+                    "Margin": 15.0,
+                    "Padding": 15.0,
+                    "Radius": 15.0,
+                    "BackgroundMargin": 15.0,
+                    "BackgroundPadding": 15.0,
+                    "BackgroundRadius": 15.0,
+                    "ImageSrc": ""
+                },
+                "BlogViewItems": [
+                    {
+                        "BlogViewTitle": "Legal Update:The Satanic Temple V. Indiana",
+                        "BlogViewDescription": "Our reproductive rights lawsuit against the state of Indiana has been halted, and we need to establish standing to file our appeal. The legal question as to whether the state can restrict abortion access for TST members is still unsettled.",
+                        "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/Instagram_Square_10.png?v=1701882768"
+                    },
+                    {
+                        "BlogViewTitle": "AASR Artical highlihts PCP Efforts To Protect Students' Bodily Autonomy",
+                        "BlogViewDescription": "Writer For AASR and Director of The Satanic Temple's Protect Children Project,Eliphaz Costus ,explains the nationwide initiative to tckle widespred abuse in US public schools",
+                        "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/Can_Religious_Beliefs_Protect_Your_Child_From_2.png?v=1700684949"
+                    },
+                    {
+                        "BlogViewTitle": "TST Protect Children Project Visits Dumas high School To Educate On Students Rights",
+                        "BlogViewDescription": "Members of The Satanic Temple's Protect Children Project (PCP) visited Dumas High School in Texas today to engage with students whose beliefs align with the Tenets of The Satanic Temple (TST) and provide information on how they can exempt themselves from corporal punishment and other abusive disciplinary measures",
+                        "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/Instagram_Square_26.png?v=1700275101"
+                    },
+                    {
+                        "BlogViewTitle": "Saucon Vally School District Settels After School Satan Club Ban Lawsuit",
+                        "BlogViewDescription": "The announcement comes in the wake of School Board election losses tied to the Board's 'financially wasteful,ego-driven legal melodramas.'",
+                        "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/Instagram_Square_22.png?v=1700235315"
+                    },
+                    {
+                        "BlogViewTitle": "TST Health First Clinic Graces The Cover of Cosmopolitan Magazine",
+                        "BlogViewDescription": "TST health's inaugural clinic recieved the honor of being featured on the cover of Cosmopolitan magazine's November/December issue, a publication that reaches millions world wide",
+                        "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/Instagram_Square_18.png?v=1700016010"
+                    }
+                ]
+            }
+        },
         {
             "View": "BannerImageView",
             "ImageViewData": {
@@ -253,7 +254,6 @@
                 }
             }
         },
-        
         {
             "View": "BannerImageView",
             "ImageViewData": {
@@ -283,7 +283,8 @@
                     "ImageSrc": ""
                 }
             }
-        },{
+        },
+        {
             "View": "BannerTextView",
             "TextViewData": {
                 "Description": "THE SATANIC TEMPLE MISSION",
@@ -311,7 +312,6 @@
                 }
             }
         },
-        
         {
             "View": "BlogView",
             "BlogViewData": {
@@ -351,145 +351,149 @@
                         "BlogViewTitle": "After School Satan",
                         "BlogViewDescription": "ASSC exists to provide a safe and inclusive alternative to the religious clubs that use threats of eternal damnation to convert school children to their belief system.",
                         "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/campaigns-img1_31079681-53a4-4259-98a0-4702792146ef.jpg?v=1691758173"
-                    },{
+                    },
+                    {
                         "BlogViewTitle": "Religious Reproductive rights",
                         "BlogViewDescription": "Consistent with our tenets that call for bodily autonomy and acting in accordance with best scientific evidence",
                         "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/TST_RRR_8a13936d-b4e7-4bbf-93ef-a3c4a2da1d11.jpg?v=1691758163"
-                    },{
+                    },
+                    {
                         "BlogViewTitle": "Protect Children Project",
                         "BlogViewDescription": "If you are a student whose religious beliefs stand in opposition to being hit or abused by school faculty, the Protect",
                         "BlogViewImagePath": "https://thesatanictemple.com/cdn/shop/files/campaigns-img3_1bf88449-5201-447f-8f0a-9d5795eda74b.jpg?v=1691758174"
                     }
-                ]}},
-                {
-                    "View": "BannerImageView",
-                    "ImageViewData": {
-                        "ImageViewViewType": "ImageViewFull",
-                        "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/card.webp?v=1691775103",
-                        "Title": "",
-                        "Description": "",
-                        "StyleProperties": {
-                            "TitleTextColor": "#000000",
-                            "TitleTextFontName": "",
-                            "TitleTextFontSize": 17.0,
-                            "TitleTextFontWeight": "",
-                            "TitleTextNoOfLines": 4,
-                            "DescriptionTextColor": "#000000",
-                            "DescriptionTextFontName": "",
-                            "DescriptionTextFontSize": 15.0,
-                            "DescriptionTextFontWeight": "",
-                            "DescriptionTextNoOfLines": 4,
-                            "BackgroundColor": "#ffffff",
-                            "Alignment": "",
-                            "Margin": 0.0,
-                            "Padding": 0.0,
-                            "Radius": 0.0,
-                            "BackgroundMargin": 0.0,
-                            "BackgroundPadding": 0.0,
-                            "BackgroundRadius": 0.0,
-                            "ImageSrc": ""
-                        }
-                    }
-                },
-                {
-                    "View": "BannerButtonTextView",
-                    "ButtonViewData": {
-                        "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
-                        "ActionId": "",
-                        "ButtonText": "CHOOSE AND PERSONALIZE CARD",
-                        "ActionHandle": "",
-                        "ButtonViewViewType": "ButtonViewBottom",
-                        "Title": "Get Your Personalized Membership Card.",
-                        "Description": "",
-                        "ButtonBackgroundColor": "#ff0000",
-                        "ButtonFontColor": "#ffffff",
-                        "StyleProperties": {
-                            "TitleTextColor": "#ffffff",
-                            "TitleT  extFontName": "",
-                            "TitleTextFontSize": 17.0,
-                            "TitleTextFontWeight": "",
-                            "TitleTextNoOfLines": 4,
-                            "DescriptionTextColor": "#ffffff",
-                            "DescriptionTextFontName": "",
-                            "DescriptionTextFontSize": 15.0,
-                            "DescriptionTextFontWeight": "",
-                            "DescriptionTextNoOfLines": 4,
-                            "BackgroundColor": "#000000",
-                            "Alignment": "",
-                            "Margin": 0.0,
-                            "Padding": 15.0,
-                            "Radius": 0.0,
-                            "BackgroundMargin": 0.0,
-                            "BackgroundPadding": 0.0,
-                            "BackgroundRadius": 0.0,
-                            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_36_2048x2048_7c74b227-3372-47e0-9b26-72c9317c4a13_800x450.png?v=1691586965"
-                        }
-                    }
-                },
-                {
-                    "View": "BannerImageView",
-                    "ImageViewData": {
-                        "ImageViewViewType": "ImageViewFull",
-                        "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/img.jpg?v=1691778427",
-                        "Title": "",
-                        "Description": "",
-                        "StyleProperties": {
-                            "TitleTextColor": "#000000",
-                            "TitleTextFontName": "",
-                            "TitleTextFontSize": 17.0,
-                            "TitleTextFontWeight": "",
-                            "TitleTextNoOfLines": 4,
-                            "DescriptionTextColor": "",
-                            "DescriptionTextFontName": "",
-                            "DescriptionTextFontSize": 15.0,
-                            "DescriptionTextFontWeight": "",
-                            "DescriptionTextNoOfLines": 4,
-                            "BackgroundColor": "#ffffff",
-                            "Alignment": "",
-                            "Margin":0.0,
-                            "Padding": 0.0,
-                            "Radius": 0.0,
-                            "BackgroundMargin": 0.0,
-                            "BackgroundPadding": 0.0,
-                            "BackgroundRadius": 0.0,
-                            "ImageSrc": ""
-                        }
-                    }
-                },
-                {
-                    "View": "BannerButtonTextView",
-                    "ButtonViewData": {
-                        "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
-                        "ActionId": "",
-                        "ButtonText": "PURCHASE YOUR TICKET",
-                        "ActionHandle": "",
-                        "ButtonViewViewType": "ButtonViewBottom",
-                        "Title": "General Admission gallery tickets",
-                        "Description": "",
-                        "ButtonBackgroundColor": "#ff0000",
-                        "ButtonFontColor": "#ffffff",
-                        "StyleProperties": {
-                            "TitleTextColor": "#ffffff",
-                            "TitleT  extFontName": "",
-                            "TitleTextFontSize": 17.0,
-                            "TitleTextFontWeight": "",
-                            "TitleTextNoOfLines": 4,
-                            "DescriptionTextColor": "#ffffff",
-                            "DescriptionTextFontName": "",
-                            "DescriptionTextFontSize": 15.0,
-                            "DescriptionTextFontWeight": "",
-                            "DescriptionTextNoOfLines": 4,
-                            "BackgroundColor": "#ffffff",
-                            "Alignment": "",
-                            "Margin": 0.0,
-                            "Padding": 15.0,
-                            "Radius": 0.0,
-                            "BackgroundMargin": 0.0,
-                            "BackgroundPadding": 0.0,
-                            "BackgroundRadius": 0.0,
-                            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_36_2048x2048_7c74b227-3372-47e0-9b26-72c9317c4a13_800x450.png?v=1691586965"
-                        }
-                    }
+                ]
+            }
+        },
+        {
+            "View": "BannerImageView",
+            "ImageViewData": {
+                "ImageViewViewType": "ImageViewFull",
+                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/card.webp?v=1691775103",
+                "Title": "",
+                "Description": "",
+                "StyleProperties": {
+                    "TitleTextColor": "#000000",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#000000",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 0.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
                 }
-
-    ]}
+            }
+        },
+        {
+            "View": "BannerButtonTextView",
+            "ButtonViewData": {
+                "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
+                "ActionId": "",
+                "ButtonText": "CHOOSE AND PERSONALIZE CARD",
+                "ActionHandle": "",
+                "ButtonViewViewType": "ButtonViewBottom",
+                "Title": "Get Your Personalized Membership Card.",
+                "Description": "",
+                "ButtonBackgroundColor": "#ff0000",
+                "ButtonFontColor": "#ffffff",
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#000000",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 15.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_36_2048x2048_7c74b227-3372-47e0-9b26-72c9317c4a13_800x450.png?v=1691586965"
+                }
+            }
+        },
+        {
+            "View": "BannerImageView",
+            "ImageViewData": {
+                "ImageViewViewType": "ImageViewFull",
+                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/img.jpg?v=1691778427",
+                "Title": "",
+                "Description": "",
+                "StyleProperties": {
+                    "TitleTextColor": "#000000",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 0.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                }
+            }
+        },
+        {
+            "View": "BannerButtonTextView",
+            "ButtonViewData": {
+                "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
+                "ActionId": "",
+                "ButtonText": "PURCHASE YOUR TICKET",
+                "ActionHandle": "",
+                "ButtonViewViewType": "ButtonViewBottom",
+                "Title": "General Admission gallery tickets",
+                "Description": "",
+                "ButtonBackgroundColor": "#ff0000",
+                "ButtonFontColor": "#ffffff",
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleT  extFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 15.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_36_2048x2048_7c74b227-3372-47e0-9b26-72c9317c4a13_800x450.png?v=1691586965"
+                }
+            }
+        }
+    ]
+}
