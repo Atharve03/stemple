@@ -4,7 +4,7 @@
     "AppBarIcon": "#000000",
     "PageLayout": [
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Title": "THE SATANIC TEMPLE\nMEMBER SERVICES",
                 "Description": "",
@@ -33,7 +33,7 @@
             }
         },
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Description": "The Satanic Good Works (SGW) facilitates charitable activities and provides community support.",
                 "Title": "GOOD WORKS AND SUPPORT",
@@ -62,9 +62,9 @@
             }
         },
         {
-            "View": "FAQ",
+            "View": "FAQView",
             "TextListWithDetailsData": {
-                "ViewType": "expand",
+                "ViewType": "FAQExpandView",
                 "IconSize": 15.0,
                 "IconColor": "#FF0000",
                 "ArrowVisibility": false,
@@ -120,7 +120,7 @@
             }
         },
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Description": "A scholarship program is available to students who exemplify ideals embraced by The Satanic Temple.\nThe Devil’s Advocate Scholarship awards students who champion individualism, free thought, empathy, and other aspects of TST’s ethos to better society.\n*Award subject to eligibility. For more information visit The Devil’s Advocate Scholarship page.",
                 "Title": "Devil’s Advocate Scholarship Award",
@@ -185,9 +185,9 @@
             }
         },
         {
-            "View": "FAQ",
+            "View": "FAQView",
             "TextListWithDetailsData": {
-                "ViewType": "expand",
+                "ViewType": "FAQExpandView",
                 "IconSize": 15.0,
                 "IconColor": "#FF0000",
                 "ArrowVisibility": false,
@@ -238,7 +238,7 @@
             }
         },
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Description": "The Satanic Temple offers services in the defense of students’ rights through the Satanic Representation Campaign (SRC) and the Protect Children Project(PCP).\nThese include legal responses to:",
                 "Title": "DEFENSE OF RELIGIOUS RIGHTS FOR STUDENTS",
@@ -267,7 +267,7 @@
             }
         },
         {
-            "View": "textTile",
+            "View": "TextTileView",
             "textTileData": {
                 "StyleProperties": {
                     "TitleTextColor": "#ffffff",
@@ -328,7 +328,7 @@
             }
         },
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Title": "DEFENSE OF REPRODUCTIVE RIGHTS",
                 "Description": "The Satanic Temple provides its members with religious exemptions from regulations that interfere with bodily autonomy.",
@@ -357,9 +357,9 @@
             }
         },
         {
-            "View": "FAQ",
+            "View": "FAQView",
             "TextListWithDetailsData": {
-                "ViewType": "expand",
+                "ViewType": "FAQExpandView",
                 "IconSize": 15.0,
                 "IconColor": "#FF0000",
                 "ArrowVisibility": false,
@@ -400,7 +400,7 @@
             }
         },
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Description": "Grey Faction(GF) is a campaign dedicated to ending the ongoing Satanic Panic in the mental health field. In addition, they provide educational resources on harmful forms of therapy and warning signs of a bad therapist. Grey Faction offers private watch-party group meetings to spread awareness about mental health in the wake of satanic panic hysteria.",
                 "Title": "MENTAL HEALTH ADVOCACY",
@@ -429,7 +429,7 @@
             }
         },
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Description": "",
                 "Title": "RELIGIOUS ACTIVITIES",
@@ -458,9 +458,9 @@
             }
         },
         {
-            "View": "FAQ",
+            "View": "FAQView",
             "TextListWithDetailsData": {
-                "ViewType": "expand",
+                "ViewType": "FAQExpandView",
                 "IconSize": 15.0,
                 "IconColor": "#FF0000",
                 "ArrowVisibility": false,

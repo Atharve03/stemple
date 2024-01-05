@@ -50,6 +50,7 @@ class PageLayout {
   ProductData? productData;
   TextListWithDetailsData? textListWithDetailsData;
   GridViewData? gridViewData;
+  SocialMediaLinkData? socialMediaLinkData;
 
   PageLayout(
       {this.view,
@@ -64,7 +65,8 @@ class PageLayout {
       this.categoryData,
       this.productData,
       this.textListWithDetailsData,
-      this.gridViewData});
+      this.gridViewData,
+      this.socialMediaLinkData});
 
   PageLayout.fromJson(Map<String, dynamic> json) {
     view = json['View'];
@@ -103,6 +105,9 @@ class PageLayout {
         : null;
     gridViewData = json['GridViewData'] != null
         ? new GridViewData.fromJson(json['GridViewData'])
+        : null;
+    socialMediaLinkData = json['SocialMediaLinkData'] != null
+        ? new SocialMediaLinkData.fromJson(json['SocialMediaLinkData'])
         : null;
   }
 
@@ -144,6 +149,9 @@ class PageLayout {
     }
     if (this.gridViewData != null) {
       data['GridViewData'] = this.gridViewData!.toJson();
+    }
+    if (this.socialMediaLinkData != null) {
+      data['SocialMediaLinkData'] = this.socialMediaLinkData!.toJson();
     }
     return data;
   }

@@ -1,12 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:stemple/helper/ViewType.dart';
 import 'package:stemple/views/slider_view/widget_image.dart';
 
 
 import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
-import '../../modelClass/page_layout_model.dart';
-import '../utils/util.dart';
 import 'widget_image_with_text.dart';
 import 'widget_image_with_text_button.dart';
 
@@ -39,13 +38,13 @@ class _WidgetSliderState extends State<ItgeekWidgetSlider> {
         Util.getColorFromHex(widget.sliderData.sliderIndicatorUnSelectedColor!);
 
     List<Widget> carouselItems = widget.sliderData.sliderItems!.map((item) {
-      if (item.sliderType == "Image") {
+      if (item.sliderType == ViewType.SliderImageView.name) {
         return InkWell(
             onTap: () {
               widget.OnClick(item);
             },
             child: WidgetImage(item));
-      } else if (item.sliderType == "ImageWithText") {
+      } else if (item.sliderType == ViewType.SliderImageWithTextView.name) {
         return InkWell(
             onTap: () {
               widget.OnClick(item);

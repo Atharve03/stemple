@@ -38,6 +38,7 @@ dependencies:
   video_player: ^2.8.1
   dots_indicator: ^3.0.0
   flutter_inappwebview: ^6.0.0
+  flutter_svg: ^2.0.9
 
 dev_dependencies:
   flutter_test:
@@ -65,6 +66,9 @@ flutter:
   assets:
     - assets/json/learn/
     - assets/json/join/
+    - assets/json/advocacy/
+    - assets/json/
+    - assets/svg/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

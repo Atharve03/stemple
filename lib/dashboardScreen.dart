@@ -1,11 +1,12 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:stemple/helper/Views.dart';
 import 'package:stemple/views/banners_view/itgeek_widget_banner_image.dart';
 import 'package:stemple/views/banners_view/itgeek_widget_banner_text.dart';
-import 'package:stemple/views/faq_view/full_view.dart';
 import 'package:stemple/views/faq_view/itgeek_widget_faq.dart';
 import 'package:stemple/views/grid_view/itgeek_widget_grid_view.dart';
+import 'package:stemple/views/itgeek_widget_social_media_link.dart';
 import 'package:stemple/views/textlist_view/itgeek_text_list_view.dart';
 import 'package:stemple/views/web_view/itgeek_webview.dart';
 
@@ -28,8 +29,6 @@ class _DashboardState extends State<Dashboard> {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-
-
         future: rootBundle.loadString("assets/json/learn/dashboard_main.json"),
         builder: (context, snapshot) {
           if (snapshot.hasData) {
@@ -38,82 +37,86 @@ class _DashboardState extends State<Dashboard> {
             PageLayoutModel myList = PageLayoutModel.fromJson(list);
             print("my list is nnnnnnnnnnnnnnnnnnnn ${myList}");
 
-
             return Container(
-        height:MediaQuery.of(context).size.height,
-        width: MediaQuery.of(context).size.width,
+              height: MediaQuery.of(context).size.height,
+              width: MediaQuery.of(context).size.width,
               child: SingleChildScrollView(
                 child: Column(
                     children: myList.pageLayout!.map((element) {
                   // return WidgetFrequentlyAskedQuestions();
-              
-                  if (element.view == "FAQ") {
+
+                  if (element.view == Views.FAQView.name) {
                     return ItgeekWidgetFaq(element.textListWithDetailsData!);
                   }
-                  if (element.view == "WebView") {
+                  if (element.view == Views.WebView.name) {
                     print("mywebbb");
                     return ItgeekWebView(element.webViewData!);
                   }
-                  if (element.view == "GridView") {
+                  if (element.view == Views.GridView.name) {
                     return ItgeekWidgetGridView(element.gridViewData!);
                   }
-              
-                  if (element.view == "textTile") {
+                  if (element.view == Views.SocialMediaLink.name) {
+                    return ItgeekWidgetSocialMediaLink(
+                        element.socialMediaLinkData!);
+                  }
+
+                  if (element.view == Views.TextTileView.name) {
                     return ItgeekWidgetTextTile(element.textTileData!);
                   }
-                  if (element.view == "Sliders") {
+                  if (element.view == Views.SliderView.name) {
                     return ItgeekWidgetSlider(element.sliderData!, (item) {
                       (element.sliderData);
                       print("itemSliders $item");
                     });
                   }
-                  if (element.view == "Category") {
+                  if (element.view == Views.CategoryView.name) {
                     return ItgeekWidgetCategory(element.categoryData!, (item) {
                       (element.categoryData);
                       print("itemCategory $item");
                     });
                   }
-                  if (element.view == "Product") {
+                  if (element.view == Views.ProductView.name) {
                     return ItgeekWidgetPopulorProduct(element.productData!,
                         (item) {
                       (element.productData);
                       print("itemProduct $item");
                     });
                   }
-                  if (element.view == "TextView") {
-                    return ItgeekWidgetBannerText(element.textViewData!, (item) {
+                  if (element.view == Views.TextView.name) {
+                    return ItgeekWidgetBannerText(element.textViewData!,
+                        (item) {
                       (element.textViewData);
                       print("myitemTextView $item");
                     });
                   }
-                  if (element.view == "ImageView") {
+                  if (element.view == Views.ImageView.name) {
                     return ItgeekWidgetBannerImage(element.imageViewData!,
                         (item) {
                       (element.imageViewData);
                       print("itemImageView $item");
                     });
                   }
-                  if (element.view == "DetailButtonView") {
-                    return ItgeekWidgetBannerImageButton(element.buttonViewData!,
-                        (item) {
+                  if (element.view == Views.DetailButtonView.name) {
+                    return ItgeekWidgetBannerImageButton(
+                        element.buttonViewData!, (item) {
                       (element.buttonViewData);
                       print("itemButtonView $item");
                     });
                   }
-                  if (element.view == "VideoView") {
+                  if (element.view == Views.VideoView.name) {
                     return ItgeekWidgetBannerVideo(element.videoViewData!,
                         (item) {
                       (element.videoViewData);
                       print("itemVideoView $item");
                     });
                   }
-                  if (element.view == "BlogView") {
+                  if (element.view == Views.BlogView.name) {
                     return ItgeekWidgetBlogView(element.blogViewData!, (item) {
                       (element.blogViewData!);
                       print("itemBlogView $item");
                     });
                   }
-              
+
                   return SizedBox.shrink();
                 }).toList()),
               ),

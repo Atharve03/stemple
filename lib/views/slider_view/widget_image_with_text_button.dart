@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
-import '../../modelClass/page_layout_model.dart';
-
-import '../utils/util.dart';
 
 class WidgetImageWithTextButton extends StatelessWidget {
   SliderItems sliderItems;

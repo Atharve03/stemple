@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:stemple/helper/ViewType.dart';
 
 import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
-import '../faq_view/full_view.dart';
-import '../utils/util.dart';
+import '../itgeek_widget_full_view.dart';
 
 class ItgeekWidgetBannerImageButton extends StatelessWidget {
   Function(ButtonViewData) OnClick;
@@ -12,7 +12,7 @@ class ItgeekWidgetBannerImageButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (buttonViewData.buttonViewViewType == "Top") {
+    if (buttonViewData.buttonViewViewType == ViewType.ButtonViewTop.name) {
       return InkWell(
           onTap: () {
             OnClick(buttonViewData);

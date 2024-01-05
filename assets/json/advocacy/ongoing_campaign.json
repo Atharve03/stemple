@@ -4,7 +4,7 @@
     "AppBarIcon": "#000000",
     "PageLayout": [
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Description": "",
                 "Title": "ONGOING \n CAMPAIGNS",
@@ -33,9 +33,9 @@
             }
         },
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Full",
+                "ImageViewViewType": "ImageViewFull",
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_Salem_1_56cc04a1-cdfa-4a98-a55a-585ddec38792.png?v=1692795105",
                 "Title": "",
                 "Description": "The Satanic Temple initiates various campaigns in accordance with our mission. TST’s campaigns are responsible for coordinating TST community events and spearheading activism that protect TST members’ religious rights. When necessary, TST takes legal action against parties who do not respect those rights. Information about TST's active campaigns can be found here.",
@@ -66,9 +66,9 @@
 
 
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Full",
+                "ImageViewViewType": "ImageViewFull",
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Religious-Repro-Rights-Logo-White_a6b30312-0384-4825-aaf2-7739a5aada13_400x400.png?v=1692795842",
                 "Title": "",
                 "Description": "",
@@ -97,7 +97,7 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
@@ -135,9 +135,9 @@
 
 
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Full",
+                "ImageViewViewType": "ImageViewFull",
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST-GreyFaction-1080_3c400e7f-7b50-432e-8c71-d21753fe4c2a_352x352.png?v=1692797454",
                 "Title": "",
                 "Description": "",
@@ -166,7 +166,7 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
@@ -204,9 +204,9 @@
 
 
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Full",
+                "ImageViewViewType": "ImageViewFull",
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_Protect_Children_Project_Color_1080_8d608987-b785-4a9b-bb2f-663dfd01c413_352x352.png?v=1692798509",
                 "Title": "",
                 "Description": "",
@@ -235,7 +235,7 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
@@ -273,9 +273,9 @@
 
 
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Full",
+                "ImageViewViewType": "ImageViewFull",
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST-ASSC_148ccd75-10d2-49c9-a9cd-5334000d05c5_352x352.png?v=1692798662",
                 "Title": "",
                 "Description": "",
@@ -304,7 +304,7 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
@@ -341,9 +341,9 @@
         },
 
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Full",
+                "ImageViewViewType": "ImageViewFull",
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_Sober_Faction_Color_A-01_da8889b3-fa77-4122-bb6e-3b841fd4ea29_352x352.png?v=1692798772",
                 "Title": "",
                 "Description": "",
@@ -372,7 +372,7 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
@@ -408,9 +408,9 @@
             }
         },
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Full",
+                "ImageViewViewType": "ImageViewFull",
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_Satanic_Representation_Campiagn_Color_B_c4700ebb-493b-4e75-bbfe-c571f79f4492_352x352.jpg?v=1692798902",
                 "Title": "",
                 "Description": "",
@@ -439,7 +439,7 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
@@ -475,9 +475,9 @@
             }
         },
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Full",
+                "ImageViewViewType": "ImageViewFull",
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST-GOODWORKS_1080_73eae7be-2e3f-48f0-8d4b-7fd9b9a883c1_1080x1080.png?v=1692799009",
                 "Title": "",
                 "Description": "",
@@ -506,7 +506,7 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
@@ -542,9 +542,9 @@
             }
         },
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Full",
+                "ImageViewViewType": "ImageViewFull",
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_CAP_Color_1080_bb339979-2a6e-4a97-8c2b-918d010dd3a9_320x320.png?v=1692799132",
                 "Title": "",
                 "Description": "",
@@ -573,7 +573,7 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",

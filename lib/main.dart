@@ -1,7 +1,5 @@
 import 'package:stemple/dashboardScreen.dart';
 import 'package:flutter/material.dart';
-import 'package:stemple/views/faq.dart';
-
 void main() {
   runApp(const MyApp());
 }

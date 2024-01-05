@@ -1,13 +1,9 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
+import 'package:stemple/helper/ViewType.dart';
 import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
-import '../../modelClass/page_layout_model.dart';
-import '../utils/util.dart';
-import 'full_view.dart';
+import '../itgeek_widget_full_view.dart';
 
 class ItgeekWidgetFaq extends StatefulWidget {
   TextListWithDetailsData frequentlyAskedQuestions;
@@ -66,7 +62,7 @@ class _FAQState extends State<ItgeekWidgetFaq> {
               children: [
                 InkWell(
                   onTap: () {
-                    if (widget.frequentlyAskedQuestions.ViewType == "detail") {
+                    if (widget.frequentlyAskedQuestions.ViewType == ViewType.FAQDetailView.name) {
 // Navigator.push(context, MaterialPageRoute(builder: (context)=>ItgeekWidgetFullView(listQuestionAnswer[index])));
                       Navigator.push(
                           context,

@@ -4,9 +4,7 @@ import 'package:video_player/video_player.dart';
 
 import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
-import '../faq_view/full_view.dart';
-import '../utils/util.dart';
-
+import '../itgeek_widget_full_view.dart';
 class ItgeekWidgetBannerVideo extends StatefulWidget {
   Function(VideoViewData) OnClick;
   VideoViewData videoViewData;

@@ -1,0 +1,71 @@
+{
+    "BackgroundColor": "#000000",
+    "AppBarBackColor": "#000000",
+    "AppBarIcon": "#000000",
+    "PageLayout": [
+        {
+            "View": "SocialMediaLink",
+            "SocialMediaLinkData": {
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 22.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "AspectRatio": 160.0,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#000000",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 30.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                },
+                "SocialMediaLinkItems": [
+                    {
+                        "Text": "Facebook",
+                        "Type": "Facebook",
+                        "link": "",
+                        "IconVisibility": true,
+                        "TextVisibility": true
+                    },
+                    {
+                        "Text": "Instagram",
+                        "Type": "Instagram",
+                        "link": "",
+                        "IconVisibility": true,
+                        "TextVisibility": true
+                    },
+                    {
+                        "Text": "Twitter",
+                        "Type": "Twitter",
+                        "link": "",
+                        "IconVisibility": true,
+                        "TextVisibility": true
+                    },
+                    {
+                        "Text": "Mail",
+                        "Type": "Mail",
+                        "link": "",
+                        "IconVisibility": true,
+                        "TextVisibility": true
+                    },
+                    {
+                        "Text": "TikTok",
+                        "Type": "TikTok",
+                        "link": "",
+                        "IconVisibility": true,
+                        "TextVisibility": true
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dots_indicator/dots_indicator.dart';
+import 'package:stemple/helper/ViewType.dart';
 
 import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
-import '../../modelClass/page_layout_model.dart';
-import '../utils/util.dart';
 import 'itgeek_blog_half_image.dart';
 import 'itgeek_blog_image.dart';
 import 'itgeek_blog_position_text.dart';
@@ -30,13 +29,13 @@ class _WidgetBlogViewState extends State<ItgeekWidgetBlogView> {
       children: [
         CarouselSlider(
           items: widget.blogViewData.blogViewItems!.map((item) {
-            if (widget.blogViewData.blogViewViewType == "View1") {
+            if (widget.blogViewData.blogViewViewType == ViewType.BlogViewHalfImageHalfText.name) {
               return InkWell(
                   onTap: () {
                     widget.onClick(item);
                   },
                   child: ItgeekWidgetBlogHalfImage(widget.blogViewData.styleProperties!,item));
-            } else if (widget.blogViewData.blogViewViewType == "View2") {
+            } else if (widget.blogViewData.blogViewViewType == ViewType.BlogViewFullImage.name) {
               return InkWell(
                   onTap: () {
                     widget.onClick(item);

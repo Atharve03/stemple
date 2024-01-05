@@ -4,7 +4,7 @@
     "AppBarIcon": "#000000",
     "PageLayout": [
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Description": "",
                 "Title": "LEGAL ACTION",
@@ -28,14 +28,14 @@
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/legal-hero_2880x1364_be2884c0-edaf-40f0-9f4e-4717830deda9_960x288.jpg?v=1693837986",
-                    "AspectRatio" : 1.0
+                    "AspectRatio": 1.0
                 }
             }
         },
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Full",
+                "ImageViewViewType": "ImageViewFull",
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/legal-lt-image_ed1e3794-5c51-4e2f-be4a-f9a2b70dae77.jpg?v=1693838188",
                 "Title": "THE SATANIC TEMPLE LAWSUITS",
                 "Description": "The Satanic Temple believes in the necessity of utilizing the courts to protect the rights of our members. The legal process has traditionally served as a vehicle for social change by establishing enduring precedents. If the courts abide by legal precedents, they are compelled to protect our religious rights as Satanists. While it is disappointing when judges fail to adhere to the laws they have sworn to uphold, we nevertheless expose their corrupt biases. In addition, as we have witnessed in the past, the justice system will not allow this kind of unfair treatment to persist indefinitely because it undermines the foundation of the entire legal system. However, this requires perseverance, and TST will continue to fight for the religious rights of our members and seek enduring precedents from the US court system.",
@@ -58,17 +58,17 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 0.0,
                     "BackgroundRadius": 0.0,
-                  "ImageSrc": "",
-                   "AspectRatio" : 1.0
+                    "ImageSrc": "",
+                    "AspectRatio": 1.0
                 }
             }
         },
         {
-            "View": "FAQ",
+            "View": "FAQView",
             "TextListWithDetailsData": {
-                "ViewType":"Expand",
-                "IconSize":15.0,
-                "IconColor":"#000000",
+                "ViewType": "FAQExpandView",
+                "IconSize": 15.0,
+                "IconColor": "#000000",
                 "ArrowVisibility": true,
                 "StyleProperties": {
                     "TitleTextColor": "#0000000",
@@ -89,7 +89,8 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 15.0,
                     "BackgroundRadius": 0.0,
-                   "ImageSrc": "", "AspectRatio" : 1.0
+                    "ImageSrc": "",
+                    "AspectRatio": 1.0
                 },
                 "QuestionAnswer": [
                     {
@@ -127,8 +128,8 @@
                         "Expand": false,
                         "Answer": "When TST member Judy Doe sought to terminate her pregnancy in the state of Missouri, she was faced with legal requirements that contravene her religious beliefs and were not medically necessary. Missouri mandated that she receive literature which asserts that “the life of each human being begins at conception,” and that “[a]bortion will terminate the life of a separate, unique, living human being.” Doe was also required to endure a 72-hour waiting period, designed so that the state’s position on life, which contradicts a prior legal ruling by the Eighth Circuit, will be thoroughly considered before undergoing the procedure.\nTST sued the state of Missouri for imposing its religious doctrine which is contrary to Doe’s deeply-held beliefs. TST believes that decisions regarding one’s health should adhere to the Third and Fifth Tenets, which assert bodily autonomy and decisions based on best scientific evidence. The First Amendment’s Establishment Clause and the state’s Religious Freedom Restoration Act protect Doe’s right to adopt her Satanic theory of when life begins.\nTST argued in their lawsuit that the mandated imposition of religious opinions upon Satanists seeking to terminate a pregnancy violates TST’s deeply-held beliefs of bodily autonomy and scientifically-reasoned personal choice. Forcing Doe to receive religious materials and presumably contemplate them for three days creates an unconstitutional undue burden.\nThe Eighth Circuit\nThe Eighth Circuit Court refused to consider TST’s arguments that the state’s informed consent laws violate the “undue burden” standard established in Planned Parenthood v. Casey and that the government has violated Doe’s right to the free exercise of religion. Although the Court openly acknowledged that those issues were raised, the Court said that those claims were not explicitly alleged in the initial complaint. After a request for a rehearing on June 9th, Missouri once again refused to consider TST’s arguments. After this dismissal, TST appealed the previous decision to the US Supreme Court.\nAdditionally, after Amy Coney Barrett was confirmed as the newest Justice on the US Supreme Court, TST filed a motion asking for the Supreme Court to disqualify her from deciding on TST’s case. TST questioned her ability to remain impartial based on her public statements she has made that condemn the legitimacy of abortion.\nDespite the efforts to rectify Missouri’s injustices, The Supreme Court has chosen not to hear The Satanic Temple’s case.\nComments\nWhile we are disappointed that the Supreme Court has passed on our case, we are nonetheless still empowered to demand that states honor Satanists’ religious rights when receiving reproductive care. This lawsuit’s progress of demonstrating the legal merits of our case is just one step in our fight to obtain reproductive care in accordance with our Tenets."
                     }
+                ]
+            }
+        }
     ]
-    }
 }
-
-        ]}

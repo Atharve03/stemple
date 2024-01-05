@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:stemple/helper/ViewType.dart';
 
 import '../../modelClass/data_model.dart';
 
@@ -49,7 +50,7 @@ class _ItgeekWebViewState extends State<ItgeekWebView> {
 
       // Load content based on the content type
 
-      if (webViewData.contentType == 'html') {
+      if (webViewData.contentType == ViewType.WebviewHtml.name) {
         String htmlContent = '''
                   <html>
                   <head><meta name="viewport" content="width=device-width, initial-scale=${webViewData.scaleSize}"></head>
@@ -58,19 +59,19 @@ class _ItgeekWebViewState extends State<ItgeekWebView> {
                   ''';
 
         String decoded = utf8.decode(base64.decode(webViewData.htmlContent!));
-
+print("decoded$decoded");
         _webViewController.loadData(
           data: decoded,
           mimeType: 'text/html',
           encoding: 'utf8',
         );
         print('my webview2${webViewData.contentType}');
-      } else if (webViewData.contentType == 'link') {
+      } else {
         _webViewController.loadUrl(
             urlRequest: URLRequest(url: WebUri(webViewData.link!)));
       }
     } catch (e) {
-      print('Error loading content: $e');
+      print('my webview Error loading content: $e');
     }
   }
 }

@@ -4,7 +4,7 @@
     "AppBarIcon": "#000000",
     "PageLayout": [
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Description": "",
                 "Title": "TST’S GUIDE TO\nEFFECTIVE PROTEST",
@@ -33,7 +33,7 @@
             }
         },
         {
-            "View": "textTile",
+            "View": "TextTileView",
             "textTileData": {
                 "StyleProperties": {
                     "TitleTextColor": "#000000",

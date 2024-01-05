@@ -4,7 +4,7 @@ import 'package:stemple/helper/util.dart';
 
 import '../../modelClass/data_model.dart';
 
-import '../faq_view/full_view.dart';
+import '../itgeek_widget_full_view.dart';
 
 class ItgeekWidgetBlogHalfImage extends StatefulWidget {
  

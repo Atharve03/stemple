@@ -828,4 +828,66 @@ class GridViewItems {
   }
 }
 
+class SocialMediaLinkData {
+  StyleProperties? styleProperties;
+  List<SocialMediaLinkItems>? socialMediaLinkItems;
 
+  SocialMediaLinkData({this.styleProperties, this.socialMediaLinkItems});
+
+  SocialMediaLinkData.fromJson(Map<String, dynamic> json) {
+    styleProperties = json['StyleProperties'] != null
+        ? new StyleProperties.fromJson(json['StyleProperties'])
+        : null;
+    if (json['SocialMediaLinkItems'] != null) {
+      socialMediaLinkItems = <SocialMediaLinkItems>[];
+      json['SocialMediaLinkItems'].forEach((v) {
+        socialMediaLinkItems!.add(new SocialMediaLinkItems.fromJson(v));
+      });
+    }
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    if (this.styleProperties != null) {
+      data['StyleProperties'] = this.styleProperties!.toJson();
+    }
+    if (this.socialMediaLinkItems != null) {
+      data['SocialMediaLinkItems'] =
+          this.socialMediaLinkItems!.map((v) => v.toJson()).toList();
+    }
+    return data;
+  }
+}
+
+class SocialMediaLinkItems {
+  String? text;
+  String? type;
+  String? link;
+  bool? iconVisibility;
+  bool? textVisibility;
+
+  SocialMediaLinkItems(
+      {this.text,
+      this.type,
+      this.link,
+      this.iconVisibility,
+      this.textVisibility});
+
+  SocialMediaLinkItems.fromJson(Map<String, dynamic> json) {
+    text = json['Text'];
+    type = json['Type'];
+    link = json['link'];
+    iconVisibility = json['IconVisibility'];
+    textVisibility = json['TextVisibility'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['Text'] = this.text;
+    data['Type'] = this.type;
+    data['link'] = this.link;
+    data['IconVisibility'] = this.iconVisibility;
+    data['TextVisibility'] = this.textVisibility;
+    return data;
+  }
+}
