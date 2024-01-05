@@ -72,24 +72,24 @@ class StyleProperties {
   StyleProperties.fromJson(Map<String, dynamic> json) {
     titleTextColor = json['TitleTextColor'];
     titleTextFontName = json['TitleTextFontName'];
-    titleTextFontSize = json['TitleTextFontSize'];
+    titleTextFontSize =  double.parse(json['TitleTextFontSize'].toString());
     titleTextFontWeight = json['TitleTextFontWeight'];
     titleTextNoOfLines = json['TitleTextNoOfLines'];
     descriptionTextColor = json['DescriptionTextColor'];
     descriptionTextFontName = json['DescriptionTextFontName'];
-    descriptionTextFontSize = json['DescriptionTextFontSize'];
+    descriptionTextFontSize =  double.parse(json['DescriptionTextFontSize'].toString());
     descriptionTextFontWeight = json['DescriptionTextFontWeight'];
     descriptionTextNoOfLines = json['DescriptionTextNoOfLines'];
     backgroundColor = json['BackgroundColor'];
     alignment = json['Alignment'];
-    margin = json['Margin'];
-    padding = json['Padding'];
-    radius = json['Radius'];
-    backgroundMargin = json['BackgroundMargin'];
-    backgroundPadding = json['BackgroundPadding'];
-    backgroundRadius = json['BackgroundRadius'];
+    margin =  double.parse(json['Margin'].toString());
+    padding =  double.parse(json['Padding'].toString());
+    radius =  double.parse(json['Radius'].toString());
+    backgroundMargin =  double.parse(json['BackgroundMargin'].toString());
+    backgroundPadding =  double.parse(json['BackgroundPadding'].toString());
+    backgroundRadius =  double.parse(json['BackgroundRadius'].toString());
     imageSrc = json['ImageSrc'];
-    aspectRatio = json['AspectRatio'];
+    aspectRatio =  double.parse(json['AspectRatio'].toString());
   }
 
   Map<String, dynamic> toJson() {
@@ -221,7 +221,7 @@ class WebViewData {
 
   WebViewData.fromJson(Map<String, dynamic> json) {
     contentType = json['ContentType'];
-    scaleSize = json['ScaleSize'];
+    scaleSize =  double.parse(json['ScaleSize'].toString());
     htmlContent = json['HtmlContent'];
     link = json['Link'];
     styleProperties = json['StyleProperties'] != null
@@ -265,10 +265,10 @@ class SliderData {
   SliderData.fromJson(Map<String, dynamic> json) {
     sliderIndicatorSelectedColor = json['SliderIndicatorSelectedColor'];
     sliderIndicatorUnSelectedColor = json['SliderIndicatorUnSelectedColor'];
-    sliderViewPortFraction = json['SliderViewPortFraction'];
+    sliderViewPortFraction =  double.parse(json['SliderViewPortFraction'].toString());
     sliderAutoPlay = json['SliderAutoPlay'];
-    sliderPadding = json['SliderPadding'];
-    sliderAspectRatio = json['SliderAspectRatio'];
+    sliderPadding =  double.parse(json['SliderPadding'].toString());
+    sliderAspectRatio =  double.parse(json['SliderAspectRatio'].toString());
     sliderViewType = json['SliderViewType'];
     if (json['SliderItems'] != null) {
       sliderItems = <SliderItems>[];
@@ -432,11 +432,11 @@ class BlogViewData {
 
   BlogViewData.fromJson(Map<String, dynamic> json) {
     blogViewAutoPlay = json['BlogViewAutoPlay'];
-    blogViewAspectRatio = json['BlogViewAspectRatio'];
+    blogViewAspectRatio =  double.parse(json['BlogViewAspectRatio'].toString());
     blogViewEnableInfiniteScroll = json['BlogViewEnableInfiniteScroll'];
     blogViewAutoPlayAnimationDuration =
         json['BlogViewAutoPlayAnimationDuration'];
-    blogViewViewportFraction = json['BlogViewViewportFraction'];
+    blogViewViewportFraction =  double.parse(json['BlogViewViewportFraction'].toString());
     blogViewViewType = json['BlogViewViewType'];
     blogViewActiveColor = json['BlogViewActiveColor'];
     blogViewColorDots = json['BlogViewColorDots'];
@@ -693,7 +693,7 @@ class ProductItems {
     productImageLink = json['ProductImageLink'];
     productLinkHandle = json['ProductLinkHandle'];
     productLinkId = json['ProductLinkId'];
-    productPrice = json['ProductPrice'];
+    productPrice =  double.parse(json['ProductPrice'].toString());
     productTitleText = json['ProductTitleText'];
   }
 
@@ -725,7 +725,7 @@ String? iconColor;
         : null;
     arrowVisibility = json['ArrowVisibility'];
     ViewType=json['ViewType'];
-    iconSize=json['IconSize'];
+    iconSize =  double.parse(json['IconSize'].toString());
     iconColor=json['IconColor'];
     if (json['QuestionAnswer'] != null) {
       questionAnswer = <QuestionAnswer>[];
