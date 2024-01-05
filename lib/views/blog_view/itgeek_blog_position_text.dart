@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../helper/util.dart';
 import '../../modelClass/data_model.dart';
-import '../itgeek_widget_full_view.dart';
+import '../full_view/itgeek_widget_full_view.dart';
 class ItgeekWidgetBlogPosition extends StatefulWidget {
   BlogViewItems blogViewItems;
 StyleProperties style;

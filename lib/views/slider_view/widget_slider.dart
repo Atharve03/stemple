@@ -1,6 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:stemple/helper/ViewType.dart';
+import 'package:stemple/helper/viewType.dart';
 import 'package:stemple/views/slider_view/widget_image.dart';
 
 

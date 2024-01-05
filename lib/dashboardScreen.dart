@@ -1,12 +1,12 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:stemple/helper/Views.dart';
+import 'package:stemple/helper/views.dart';
 import 'package:stemple/views/banners_view/itgeek_widget_banner_image.dart';
 import 'package:stemple/views/banners_view/itgeek_widget_banner_text.dart';
 import 'package:stemple/views/faq_view/itgeek_widget_faq.dart';
 import 'package:stemple/views/grid_view/itgeek_widget_grid_view.dart';
-import 'package:stemple/views/itgeek_widget_social_media_link.dart';
+import 'package:stemple/views/social_view/itgeek_widget_social_media_link.dart';
 import 'package:stemple/views/textlist_view/itgeek_text_list_view.dart';
 import 'package:stemple/views/web_view/itgeek_webview.dart';
 
@@ -29,7 +29,7 @@ class _DashboardState extends State<Dashboard> {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-        future: rootBundle.loadString("assets/json/learn/media.json"),
+        future: rootBundle.loadString("assets/json/join/start_a_congregation.json"),
         builder: (context, snapshot) {
           if (snapshot.hasData) {
             var list = json.decode(snapshot.data!);

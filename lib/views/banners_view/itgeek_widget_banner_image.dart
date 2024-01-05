@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:stemple/helper/ViewType.dart';
+import 'package:stemple/helper/viewType.dart';
 import 'package:stemple/helper/util.dart';
-import 'package:stemple/views/itgeek_widget_full_view.dart';
+import 'package:stemple/views/full_view/itgeek_widget_full_view.dart';
 
 import '../../modelClass/data_model.dart';
 
@@ -87,7 +87,7 @@ class _FullImageState extends State<FullImage> {
             child: ClipRRect(
                 borderRadius: BorderRadius.circular(
                     widget.imageViewData.styleProperties!.radius!),
-                child: widget.imageViewData.imageSrc!.isNotEmpty
+                child: widget.imageViewData.imageSrc != ""
                     ? Image.network(
                         widget.imageViewData.imageSrc!,
                         fit: BoxFit.cover,

@@ -4,229 +4,231 @@
     {
       "View": "BannerButtonTextView",
       "ButtonViewData": {
-        "ActionType": "PAGE/PRODUCT/CATEOGRY",
-        "ActionId": "",
-        "ButtonText": "BECOME A MEMBER",
-        "ActionHandle": "",
-        "ButtonViewViewType": "ButtonViewBottom",
-        "Title": "JOIN THE SATANIC TEMPLE",
-        "Description": "The Benefits Of Joining Depend On What You Want To Do With Your Membership. Joining On Our Website Will Put You On Our Mailing List So You Can Stay Up-To-Date On Our Activities And Campaigns. If You Want Your Membership To Be Even More Rewarding, Consider Becoming Active In A Congregation Or Contributing To The Mission Of The Satanic Temple In Other Ways. ",
-        "ButtonBackgroundColor": "#FF0000",
-        "ButtonFontColor": "#ffffff",
-        "StyleProperties": {
-          "AspectRatio": 1.0,
-          "TitleTextColor": "#ffffff",
-          "TitleTextFontName": "",
-          "TitleTextFontSize": 17.0,
-          "TitleTextFontWeight": "",
-          "TitleTextNoOfLines": 4,
-          "DescriptionTextColor": "#ffffff",
-          "DescriptionTextFontName": "",
-          "DescriptionTextFontSize": 15.0,
-          "DescriptionTextFontWeight": "",
-          "DescriptionTextNoOfLines": 4,
-          "BackgroundColor": "#000000",
-          "Alignment": "",
-          "Margin": 15.0,
-          "Padding": 15.0,
-          "Radius": 15.0,
-          "BackgroundMargin": 15.0,
-          "BackgroundPadding": 15.0,
-          "BackgroundRadius": 15.0,
-          "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_36_1200x_31eab2b3-bf33-46ca-8473-c37c6d19b174_1200x675.png?v=1692810388"
-        }
+          "ActionType": "PAGE/PRODUCT/CATEOGRY",
+          "ActionId": "",
+          "ButtonText": "BECOME A MEMBER",
+          "ActionHandle": "",
+          "ButtonViewViewType": "ButtonViewBottom",
+          "Title": "JOIN THE SATANIC TEMPLE",
+          "Description": "The Benefits Of Joining Depend On What You Want To Do With Your Membership. Joining On Our Website Will Put You On Our Mailing List So You Can Stay Up-To-Date On Our Activities And Campaigns. If You Want Your Membership To Be Even More Rewarding, Consider Becoming Active In A Congregation Or Contributing To The Mission Of The Satanic Temple In Other Ways. ",
+          "ButtonBackgroundColor": "#FF0000",
+          "ButtonFontColor": "#ffffff",
+          "StyleProperties": {
+              "TitleTextColor": "#ffffff",
+              "TitleTextFontName": "",
+              "TitleTextFontSize": 17.0,
+              "TitleTextFontWeight": "",
+              "TitleTextNoOfLines": 4,
+              "DescriptionTextColor": "#ffffff",
+              "DescriptionTextFontName": "",
+              "DescriptionTextFontSize": 15.0,
+              "DescriptionTextFontWeight": "",
+              "DescriptionTextNoOfLines": 4,
+              "BackgroundColor": "#000000",
+              "Alignment": "",
+              "Margin": 0.0,
+              "Padding": 15.0,
+              "Radius": 15.0,
+              "BackgroundMargin": 0.0,
+              "BackgroundPadding": 15.0,
+              "BackgroundRadius": 0.0,
+              "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_36_1200x_31eab2b3-bf33-46ca-8473-c37c6d19b174_1200x675.png?v=1692810388"
+          }
       }
-    },
-    {
-      "View": "BannerImageView",
-      "TextViewData": {
+  },
+  {
+    "View": "BannerTextView",
+    "TextViewData": {
         "Description": "",
         "Title": "MEMBERSHIP",
         "StyleProperties": {
-          "AspectRatio": 1.0,
-          "TitleTextColor": "#ffffff",
-          "TitleTextFontName": "",
-          "TitleTextFontSize": 17.0,
-          "TitleTextFontWeight": "",
-          "TitleTextNoOfLines": 4,
-          "DescriptionTextColor": "#ffffff",
-          "DescriptionTextFontName": "",
-          "DescriptionTextFontSize": 15.0,
-          "DescriptionTextFontWeight": "",
-          "DescriptionTextNoOfLines": 4,
-          "BackgroundColor": "#ff0000",
-          "Alignment": "",
-          "Margin": 15.0,
-          "Padding": 15.0,
-          "Radius": 15.0,
-          "BackgroundMargin": 15.0,
-          "BackgroundPadding": 15.0,
-          "BackgroundRadius": 15.0,
-          "ImageSrc": ""
+            "TitleTextColor": "#ffffff",
+            "TitleTextFontName": "",
+            "TitleTextFontSize": 17.0,
+            "TitleTextFontWeight": "",
+            "TitleTextNoOfLines": 4,
+            "DescriptionTextColor": "#ffffff",
+            "DescriptionTextFontName": "",
+            "DescriptionTextFontSize": 15.0,
+            "DescriptionTextFontWeight": "",
+            "DescriptionTextNoOfLines": 4,
+            "BackgroundColor": "#ff0000",
+            "Alignment": "",
+            "Margin": 0.0,
+            "Padding": 15.0,
+            "Radius": 15.0,
+            "BackgroundMargin": 0.0,
+            "BackgroundPadding": 15.0,
+            "BackgroundRadius": 0.0,
+            "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_BG_Red_2_2880x1364_b214892d-6984-4f5a-bf2c-e0b648c27e5e.png?v=1692870444"
         }
-      }
-    },
-    {
-      "View": "BannerImageView",
-      "ImageViewData": {
-        "ImageViewViewType": "ImageViewFull",
-        "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/news-satanic-temple-rally-utah-capitol-22-mcancio_52a47a9d-5770-4056-be02-afc9ad7a62c0.jpg?v=1692870503",
-        "ImageViewRadius": 19.0,
-        "ImageViewContainerColor": "#171717",
-        "ImageViewBackgroundColor": "#171717",
-        "ImageViewMargin": 8.0,
-        "ImageViewPadding": 8.0,
-        "ImageViewTextView": {
-          "ImageViewTitleFontSize": 18.0,
-          "ImageViewDescriptionFontSize": 14.0,
-          "ImageViewFontColor": "#ffffff",
-          "ImageViewFontWeight": "normal",
-          "ImageViewFontType": "B",
-          "ImageViewNumberOfLines": 4,
-          "ImageViewBackgroundColor2": "#171717",
-          "ImageViewMargin": 8.0,
-          "ImageViewPadding": 8.0,
-          "ImageViewTitle": "",
-          "ImageViewDescription": ""
-        }
-      }
-    },
-    {
-      "View": "TextTileView",
-      "textTileData": {
-        "StyleProperties": {
-          "AspectRatio": 1.0,
-          "TitleTextColor": "#ddddd",
-          "TitleTextFontName": "",
-          "TitleTextFontSize": 17.0,
-          "TitleTextFontWeight": "",
-          "TitleTextNoOfLines": 4,
-          "DescriptionTextColor": "#ddddd",
-          "DescriptionTextFontName": "",
-          "DescriptionTextFontSize": 15.0,
-          "DescriptionTextFontWeight": "",
-          "DescriptionTextNoOfLines": 4,
-          "BackgroundColor": "#ddddd",
-          "Alignment": "",
-          "Margin": 15.0,
-          "Padding": 15.0,
-          "Radius": 15.0,
-          "BackgroundMargin": 15.0,
-          "BackgroundPadding": 15.0,
-          "BackgroundRadius": 15.0,
-          "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_BG_Red_2_2880x1364_b214892d-6984-4f5a-bf2c-e0b648c27e5e.png?v=1692870444"
-        },
-        "textTileItems": [
-          {
-            "IconData": "-",
-            "Text": "Membership is open to individuals dedicated, in action and/or by identity, to the tenets of The Satanic Temple."
-          },
-          {
-            "IconData": "-",
-            "Text": "Membership is a privilege, subject to termination for failure to uphold the spirit of The Satanic Temple and its tenets."
-          },
-          {
-            "IconData": "-",
-            "Text": "Membership does not grant authority to act as an organizational spokesperson for The Satanic Temple."
-          },
-          {
-            "IconData": "-",
-            "Text": "Membership is free; however, official membership cards can be purchased with a non-refundable $35 fee."
-          }
-        ]
-      }
-    },
-    {
-      "View": "WebView",
-      "WebViewData": {
-        "ContentType": "WebviewHtml",
-        "ScaleSize": 0.8,
-        "HtmlContent": "",
-        "Link": "",
-        "StyleProperties": {
-          "AspectRatio": 1.0,
-          "TitleTextColor": "#ddddd",
-          "TitleTextFontName": "",
-          "TitleTextFontSize": 17.0,
-          "TitleTextFontWeight": "",
-          "TitleTextNoOfLines": 4,
-          "DescriptionTextColor": "#ddddd",
-          "DescriptionTextFontName": "",
-          "DescriptionTextFontSize": 15.0,
-          "DescriptionTextFontWeight": "",
-          "DescriptionTextNoOfLines": 4,
-          "BackgroundColor": "#ddddd",
-          "Alignment": "",
-          "Margin": 15.0,
-          "Padding": 15.0,
-          "Radius": 15.0,
-          "BackgroundMargin": 15.0,
-          "BackgroundPadding": 15.0,
-          "BackgroundRadius": 15.0,
-          "ImageSrc": ""
-        }
-      }
-    },
-    {
-      "View": "BannerImageView",
-      "ImageViewData": {
-        "ImageViewViewType": "ImageViewFull",
-        "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_3_2880x1364_e5eaba56-eee3-4a37-9c98-be7500fa44e0.png?v=1692958177%27",
-        "ImageViewRadius": 19.0,
-        "ImageViewContainerColor": "#171717",
-        "ImageViewBackgroundColor": "#171717",
-        "ImageViewMargin": 8.0,
-        "ImageViewPadding": 8.0,
-        "ImageViewTextView": {
-          "ImageViewTitleFontSize": 18.0,
-          "ImageViewDescriptionFontSize": 14.0,
-          "ImageViewFontColor": "#ffffff",
-          "ImageViewFontWeight": "normal",
-          "ImageViewFontType": "B",
-          "ImageViewNumberOfLines": 4,
-          "ImageViewBackgroundColor2": "#171717",
-          "ImageViewMargin": 8.0,
-          "ImageViewPadding": 8.0,
-          "ImageViewTitle": "",
-          "ImageViewDescription": ""
-        }
-      }
-    },
-    {
-      "View": "BannerButtonTextView",
-      "ButtonViewData": {
-        "ActionType": "PAGE/PRODUCT/CATEOGRY",
-        "ActionId": "",
-        "ButtonText": "Choose and Personalize Card",
-        "ActionHandle": "",
-        "ButtonViewViewType": "ButtonViewBottom",
-        "Title": "ALREADY A MEMBER?",
-        "Description": "Get Your Personalized Membership Card",
-        "ButtonBackgroundColor": "#FF0000",
-        "ButtonFontColor": "#ffffff",
-        "StyleProperties": {
-          "AspectRatio": 1.0,
-          "TitleTextColor": "#ffffff",
-          "TitleTextFontName": "",
-          "TitleTextFontSize": 17.0,
-          "TitleTextFontWeight": "",
-          "TitleTextNoOfLines": 4,
-          "DescriptionTextColor": "#ffffff",
-          "DescriptionTextFontName": "",
-          "DescriptionTextFontSize": 15.0,
-          "DescriptionTextFontWeight": "",
-          "DescriptionTextNoOfLines": 4,
-          "BackgroundColor": "#303d3d",
-          "Alignment": "",
-          "Margin": 15.0,
-          "Padding": 15.0,
-          "Radius": 15.0,
-          "BackgroundMargin": 15.0,
-          "BackgroundPadding": 15.0,
-          "BackgroundRadius": 15.0,
-          "ImageSrc": ""
-        }
-      }
     }
+},
+{
+  "View": "BannerImageView",
+  "ImageViewData": {
+      "ImageViewViewType": "ImageViewFull",
+      "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/news-satanic-temple-rally-utah-capitol-22-mcancio_52a47a9d-5770-4056-be02-afc9ad7a62c0.jpg?v=1692870503",
+      "Title": "",
+      "Description": "",
+      "StyleProperties": {
+        "AspectRatio" : 1.0,
+          "TitleTextColor": "#000000",
+          "TitleTextFontName": "",
+          "TitleTextFontSize": 17.0,
+          "TitleTextFontWeight": "",
+          "TitleTextNoOfLines": 4,
+          "DescriptionTextColor": "#000000",
+          "DescriptionTextFontName": "",
+          "DescriptionTextFontSize": 15.0,
+          "DescriptionTextFontWeight": "",
+          "DescriptionTextNoOfLines": 4,
+          "BackgroundColor": "#ffffff",
+          "Alignment": "",
+          "Margin": 0.0,
+          "Padding": 0.0,
+          "Radius": 0.0,
+          "BackgroundMargin": 0.0,
+          "BackgroundPadding": 0.0,
+          "BackgroundRadius": 0.0,
+          "ImageSrc": ""
+      }
+  }
+},
+    {
+        "View": "TextTileView",
+        "textTileData": {
+            "StyleProperties": {
+                "TitleTextColor": "#ddddd",
+                "TitleTextFontName": "",
+                "TitleTextFontSize": 17.0,
+                "TitleTextFontWeight": "",
+                "TitleTextNoOfLines": 4,
+                "DescriptionTextColor": "#ddddd",
+                "DescriptionTextFontName": "",
+                "DescriptionTextFontSize": 15.0,
+                "DescriptionTextFontWeight": "",
+                "DescriptionTextNoOfLines": 4,
+                "BackgroundColor": "#ddddd",
+                "Alignment": "",
+                "Margin": 0.0,
+                "Padding": 15.0,
+                "Radius": 15.0,
+                "BackgroundMargin": 0.0,
+                "BackgroundPadding": 15.0,
+                "BackgroundRadius": 0.0,
+                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_BG_Red_2_2880x1364_b214892d-6984-4f5a-bf2c-e0b648c27e5e.png?v=1692870444"
+            },
+            "textTileItems": [
+                {
+                    "IconData": "-",
+                    "Text": "Membership is open to individuals dedicated, in action and/or by identity, to the tenets of The Satanic Temple."
+                },{
+                  "IconData": "-",
+                  "Text": "Membership is a privilege, subject to termination for failure to uphold the spirit of The Satanic Temple and its tenets."
+              },{
+                "IconData": "-",
+                "Text": "Membership does not grant authority to act as an organizational spokesperson for The Satanic Temple."
+            },{
+              "IconData": "-",
+              "Text": "Membership is free; however, official membership cards can be purchased with a non-refundable $35 fee."
+          }]}},
+          
+          {
+              "View": "WebView",
+              "WebViewData": {
+                  "ContentType": "WebViewHtml",
+                  "ScaleSize": 0.8,
+                  "HtmlContent": "",
+                  "Link": "",
+                  "StyleProperties": {
+                      "TitleTextColor": "#ddddd",
+                      "TitleTextFontName": "",
+                      "TitleTextFontSize": 17.0,
+                      "TitleTextFontWeight": "",
+                      "TitleTextNoOfLines": 4,
+                      "DescriptionTextColor": "#ddddd",
+                      "DescriptionTextFontName": "",
+                      "DescriptionTextFontSize": 15.0,
+                      "DescriptionTextFontWeight": "",
+                      "DescriptionTextNoOfLines": 4,
+                      "BackgroundColor": "#ddddd",
+                      "Alignment": "",
+                      "Margin": 0.0,
+                      "Padding": 15.0,
+                      "Radius": 15.0,
+                      "BackgroundMargin": 0.0,
+                      "BackgroundPadding": 15.0,
+                      "BackgroundRadius": 0.0,
+                      "ImageSrc": ""
+                  }
+              }
+          },
+          {
+            "View": "BannerImageView",
+            "ImageViewData": {
+                "ImageViewViewType": "ImageViewFull",
+                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_3_2880x1364_e5eaba56-eee3-4a37-9c98-be7500fa44e0.png?v=1692958177%27",
+               "Title": "",
+                "Description": "",
+                "StyleProperties": {
+                  "AspectRatio" : 1.0,
+                    "TitleTextColor": "#000000",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#000000",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#ffffff",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 0.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                }
+            }
+          },
+          {
+            "View": "BannerButtonTextView",
+            "ButtonViewData": {
+                "ActionType": "PAGE/PRODUCT/CATEOGRY",
+                "ActionId": "",
+                "ButtonText": "Choose and Personalize Card",
+                "ActionHandle": "",
+                "ButtonViewViewType": "ButtonViewBottom",
+                "Title": "ALREADY A MEMBER?",
+                "Description": "Get Your Personalized Membership Card",
+                "ButtonBackgroundColor": "#FF0000",
+                "ButtonFontColor": "#ffffff",
+                "StyleProperties": {
+                    "TitleTextColor": "#ffffff",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#303d3d",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 15.0,
+                    "Radius": 15.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 15.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                }
+            }
+        }
   ]
 }

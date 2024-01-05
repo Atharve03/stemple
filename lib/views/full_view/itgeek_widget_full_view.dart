@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../helper/util.dart';
+import '../../helper/util.dart';
 
 
 class ItgeekWidgetFullView extends StatelessWidget {

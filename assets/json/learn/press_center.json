@@ -622,7 +622,7 @@
             }
         },
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Title": "2021",
                 "Description": "",
@@ -831,7 +831,7 @@
             }
         },
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Title": "2020",
                 "Description": "",
@@ -1184,7 +1184,7 @@
             }
         },
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Title": "2019",
                 "Description": "",
