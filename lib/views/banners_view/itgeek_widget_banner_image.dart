@@ -81,22 +81,33 @@ class _FullImageState extends State<FullImage> {
         ),
         width: double.infinity,
         child: Column(children: <Widget>[
-          Padding(
-            padding:
-                EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
+          Container(
+            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
+            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
             child: ClipRRect(
                 borderRadius: BorderRadius.circular(
                     widget.imageViewData.styleProperties!.radius!),
                 child: widget.imageViewData.imageSrc != ""
-                    ? Image.network(
-                        widget.imageViewData.imageSrc!,
-                        fit: BoxFit.cover,
-                        width: double.infinity,
-                      )
+                    ? 
+                    // Image.network(
+                    //     widget.imageViewData.imageSrc!,
+                    //     fit: BoxFit.cover,
+                    //     width: double.infinity,
+                    //   )
+
+                      
+              FadeInImage.assetNetwork(
+                    placeholder: "assets/images/placeholder-image.jpg",
+                    image: widget.imageViewData.imageSrc!,
+                    fit: BoxFit.cover,
+                    width: double.infinity,
+                  )
                     : Container()),
           ),
           widget.imageViewData.title != ""
-              ? Padding(
+              ? Container(
+                
+            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
                   padding: EdgeInsets.all(
                       widget.imageViewData.styleProperties!.padding!),
                   child: Text(
@@ -139,6 +150,8 @@ class _FullImageState extends State<FullImage> {
 
             widget.imageViewData.title != ""
                 ? Container(
+            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
+            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
                     alignment: widget
                                 .imageViewData.styleProperties!.alignment! ==
                             "left"
@@ -147,8 +160,6 @@ class _FullImageState extends State<FullImage> {
                                 "right"
                             ? Alignment.centerRight
                             : Alignment.center,
-                    padding: EdgeInsets.all(
-                        widget.imageViewData.styleProperties!.padding!),
                     child: Text(
                       widget.imageViewData.title!,
                       style: TextStyle(
@@ -169,6 +180,9 @@ class _FullImageState extends State<FullImage> {
                 ? Column(
                     children: [
                       Container(
+                        
+            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
+            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
                         alignment:
                             widget.imageViewData.styleProperties!.alignment! ==
                                     "left"
@@ -178,8 +192,6 @@ class _FullImageState extends State<FullImage> {
                                         "right"
                                     ? Alignment.centerRight
                                     : Alignment.center,
-                        padding: EdgeInsets.all(
-                            widget.imageViewData.styleProperties!.padding!),
                         child: Text.rich(
                           span,
                           overflow: TextOverflow.ellipsis,
@@ -296,19 +308,27 @@ class _HalfImageState extends State<HalfImage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
+            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
+            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
             width: 220,
             height: 220,
-            // margin: EdgeInsets.only( top: 30.0, bottom: 8.0, right: 8.0, left: 4.0),
-            padding: EdgeInsets.only(top: 20.0),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10.0),
-              image: DecorationImage(
-                image: NetworkImage(
-                  widget.imageViewData.imageSrc!,
-                ),
-                fit: BoxFit.cover,
-              ),
-            ),
+            
+            // decoration: BoxDecoration(
+              // borderRadius: BorderRadius.circular(10.0),
+              // image: DecorationImage(
+              //   image: NetworkImage(
+              //     widget.imageViewData.imageSrc!,
+              //   ),
+              //   fit: BoxFit.cover,
+              // ),
+            // ),
+              child: ClipRRect(
+                  borderRadius: BorderRadius.circular(widget.imageViewData.styleProperties!.radius!),
+                  child: FadeInImage.assetNetwork(
+                    placeholder: "assets/images/placeholder-image.jpg",
+                    image: widget.imageViewData.imageSrc!,
+                    fit: BoxFit.cover,
+                  )),
           ),
           Flexible(
             child: Column(
@@ -317,6 +337,8 @@ class _HalfImageState extends State<HalfImage> {
               children: [
                 widget.imageViewData.title != ""
                     ? Container(
+            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
+            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
                         alignment:
                             widget.imageViewData.styleProperties!.alignment! ==
                                     "left"
@@ -361,14 +383,14 @@ class _HalfImageState extends State<HalfImage> {
                   print("cjvgffmdf ${exceeded}");
                   return Expanded(
                     child: Container(
+            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
+            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
                         // height: double.infinity,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(
                               widget.imageViewData.styleProperties!.radius!),
                           color: bgColor.withOpacity(0.5),
                         ),
-                        padding: EdgeInsets.all(
-                            widget.imageViewData.styleProperties!.padding!),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.center,
                           mainAxisAlignment: MainAxisAlignment.center,

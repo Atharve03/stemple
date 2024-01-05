@@ -10,75 +10,44 @@
                 "SliderIndicatorUnSelectedColor": "#bcbcbc",
                 "SliderViewPortFraction": 0.8,
                 "SliderAutoPlay": true,
-                "SliderPadding": 5.0,
-                "SliderAspectRatio" : 1.0,
+                "SliderPadding": 0.0,
+                "SliderAspectRatio": 2.3,
                 "SliderViewType": "Enlarge",
                 "SliderItems": [
                     {
                         "SliderType": "SliderImageView",
-                        "SliderText": "Slider with Image",
-                        "SliderLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "SliderButtonText": "My Button",
+                        "SliderText": "",
+                        "SliderLink": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_22.png?v=1704083495",
+                        "SliderButtonText": "",
                         "SliderButtonColor": "#000000",
-                        "SliderBackgroundColor": "#808080",
+                        "SliderBackgroundColor": "#000000",
                         "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
                         "SliderBannerUID": 1,
                         "SliderButtonClicked": ""
                     },
                     {
-                        "SliderType": "SliderImageWithTextView",
-                        "SliderText": "Slider with Text",
-                        "SliderLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "SliderButtonText": "My Button",
+                        "SliderType": "SliderImageView",
+                        "SliderText": "",
+                        "SliderLink": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_22.png?v=1704083495",
+                        "SliderButtonText": "",
                         "SliderButtonColor": "#000000",
-                        "SliderBackgroundColor": "#808080",
+                        "SliderBackgroundColor": "#000000",
                         "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
                         "SliderBannerUID": 2,
                         "SliderButtonClicked": ""
                     },
                     {
-                        "SliderType": "SliderImageWithButtonTextView",
-                        "SliderText": "Slider with Button",
-                        "SliderLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "SliderButtonText": "My Button",
+                        "SliderType": "SliderImageView",
+                        "SliderText": "",
+                        "SliderLink": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_22.png?v=1704083495",
+                        "SliderButtonText": "",
                         "SliderButtonColor": "#000000",
-                        "SliderBackgroundColor": "#808080",
+                        "SliderBackgroundColor": "#000000",
                         "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
-                        "SliderBannerUID": 1234,
+                        "SliderBannerUID": 3,
                         "SliderButtonClicked": ""
                     }
                 ]
-            }
-        },
-        {
-            "View": "BannerImageView",
-            "ImageViewData": {
-                "ImageViewViewType": "ImageViewFull",
-                "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_22.png?v=1704083495",
-                "Title": "",
-                "Description": "",
-                 "StyleProperties": {
-                    "AspectRatio" : 1.0,
-                    "TitleTextColor": "#ffffff",
-                    "TitleTextFontName": "",
-                    "TitleTextFontSize": 17.0,
-                    "TitleTextFontWeight": "",
-                    "TitleTextNoOfLines": 4,
-                    "DescriptionTextColor": "#ffffff",
-                    "DescriptionTextFontName": "",
-                    "DescriptionTextFontSize": 15.0,
-                    "DescriptionTextFontWeight": "",
-                    "DescriptionTextNoOfLines": 4,
-                    "BackgroundColor": "#000000",
-                    "Alignment": "",
-                    "Margin": 0.0,
-                    "Padding": 15.0,
-                    "Radius": 0.0,
-                    "BackgroundMargin": 0.0,
-                    "BackgroundPadding": 0.0,
-                    "BackgroundRadius": 0.0,
-                    "ImageSrc": ""
-                }
             }
         },
         {
@@ -86,8 +55,8 @@
             "TextViewData": {
                 "Description": "TST has petitioned the state of Texas to allow Satanic Temple members the ability to continue receiving voluntary abortions as part of a religious ritual. Texas’s trigger ban on abortions took effect after the reversal of Roe v. Wade, which prohibited all abortions for any reason, including instances of rape or incest. TST claims that this ban infringes upon its members’ right to practice their religion and requests Texas recognize its members’ religious rights.\nOn September 1, 2021, Texas passed S.B. 8, which prohibited anyone from getting an abortion after a detectable fetal tone. The law also allows citizens to sue people who obtained, performed, or helped to perform an abortion. TST filed a lawsuit against Texas, stating that this law prohibits TST members from performing a religious ritual to remove nonviable fetal tissue up to 24 weeks of pregnancy.  \nThis motion was made prior to the reversal of Roe v. Wade in late June 2022. After the Supreme Court ruling, Texas enforced its“trigger ban” on abortions, whereby abortion procedures became illegal within Texas state lines. TST is requesting an immediate injunction because the law inhibits TST members’ ability to practice their religion freely.\nCLAIMS WE ASSERT\nTST holds that Texas’s abortion ban is inspired by a religious dogma that asserts that life begins at conception, which contravenes TST’s belief that non-viable fetal tissue is part of the pregnant person and is free to be voluntarily removed. TST claims that this law violates the Establishment Clause and Free Exercise Clause of the First Amendment in that it legislates a religious viewpoint that prohibits TST members’ ability to perform their religious practices freely.\nLOOKING BEYOND TEXAS\nWith the reversal of Roe, it becomes even more imperative that we assert our claim that Texas inhibits our members’ access to protect religious reproductive care. However, Texas is not the only state to impede members’ abortion access. Nearly half the country has enforced anti-abortion policies or trigger bans. Texas is only the first of many states in which we must defend our constitutional rights. \nYou can support TST’s mission to protect reproductive rights by donating to our Religious Reproductive Rights campaign. Each donation will go towards legal work in all 50 states to protect TST members’ reproductive care access.",
                 "Title": "TST DEMANDS TEXAS RECOGNIZE RELIGIOUS RIGHT TO PERFORM ABORTION POST-ROE",
-                 "StyleProperties": {
-                    "AspectRatio" : 1.0,
+                "StyleProperties": {
+                    "AspectRatio": 1.0,
                     "TitleTextColor": "#ffffff",
                     "TitleT  extFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -114,7 +83,7 @@
             "View": "BlogView",
             "BlogViewData": {
                 "BlogViewAutoPlay": false,
-                "BlogViewAspectRatio": 0.8,
+                "BlogViewAspectRatio": 1.0,
                 "BlogViewEnableInfiniteScroll": true,
                 "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
                 "BlogViewViewportFraction": 1.0,
@@ -123,8 +92,8 @@
                 "BlogViewColorDots": "#0000FF",
                 "Blog_Handle": "",
                 "BlogFromItem": false,
-                 "StyleProperties": {
-                    "AspectRatio" : 1.0,
+                "StyleProperties": {
+                    "AspectRatio": 1.0,
                     "TitleTextColor": "#9A1515",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -181,8 +150,8 @@
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo1_6471e64c-70b2-4e35-b96f-535948ea8411.jpg?v=1691749190",
                 "Title": "ABORTION ACCESS\nAFTER ROE V. WADE",
                 "Description": "The Satanic Temple is the leading beacon of light in the battle for abortion access.\nTST stands alone because we are the only entity that can assert a religious liberty claim that terminating a pregnancy is a central part of a religious ritual that encourages self-empowerment and affirms bodily autonomy.TST stands alone because we are the only entity that can assert a religious liberty claim that terminating a pregnancy is a central part of a religious ritual that encourages self-empowerment and affirms bodily autonomy.\nThis means that the imposition of waiting periods and mandatory counseling is akin to demanding a waiting period and counseling before one can be baptized or receive communion. Clearly, that would be a violation of religious liberty.\nWhile the SCOTUS decision is clearly a major set back, the Supreme Court has repeatedly affirmed religious rights. The Satanic Temple is currently suing the state of Texas to protect our civil rights. Our Texas claims are untethered to the due process Clause. They are a direct interpretation of the right of conscience in the Free Exercise Clause. We have requested alternative science-based abortion counseling in Minnesota. We will also be suing the FDA for unrestricted religious access to Mifepristone and Misoprostol.",
-                 "StyleProperties": {
-                    "AspectRatio" : 1.0,
+                "StyleProperties": {
+                    "AspectRatio": 1.0,
                     "TitleTextColor": "#ffffff",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -195,12 +164,12 @@
                     "DescriptionTextNoOfLines": 4,
                     "BackgroundColor": "#303d3d",
                     "Alignment": "",
-                    "Margin": 15.0,
-                    "Padding": 15.0,
+                    "Margin": 5.0,
+                    "Padding": 5.0,
                     "Radius": 15.0,
-                    "BackgroundMargin": 15.0,
-                    "BackgroundPadding": 15.0,
-                    "BackgroundRadius": 15.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 0.0,
+                    "BackgroundRadius": 0.0,
                     "ImageSrc": ""
                 }
             }
@@ -212,8 +181,8 @@
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/unnamed_07042216-b33e-439d-983c-c32d13c2b9eb.jpg?v=1691749290",
                 "Title": "",
                 "Description": "",
-                 "StyleProperties": {
-                    "AspectRatio" : 1.0,
+                "StyleProperties": {
+                    "AspectRatio": 1.0,
                     "TitleTextColor": "#ffffff",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -241,8 +210,8 @@
             "TextViewData": {
                 "Description": "THE SATANIC TEMPLE MISSION",
                 "Title": "The mission of The Satanic Temple, a religious organization, is to encourage benevolence and empathy among all people, reject tyrannical authority, advocate practical common sense, oppose injustice, and undertake noble pursuits. The Satanic Temple has publicly confronted hate groups, fought for the abolition of corporal punishment in public schools, applied for equal representation when religious installations are placed on public property",
-                 "StyleProperties": {
-                    "AspectRatio" : 1.0,
+                "StyleProperties": {
+                    "AspectRatio": 1.0,
                     "TitleTextColor": "#ffffff",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -269,7 +238,7 @@
             "View": "BlogView",
             "BlogViewData": {
                 "BlogViewAutoPlay": false,
-                "BlogViewAspectRatio": 0.8,
+                "BlogViewAspectRatio": 0.9,
                 "BlogViewEnableInfiniteScroll": true,
                 "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
                 "BlogViewViewportFraction": 1.0,
@@ -278,8 +247,8 @@
                 "BlogViewColorDots": "#000000",
                 "Blog_Handle": "",
                 "BlogFromItem": false,
-                 "StyleProperties": {
-                    "AspectRatio" : 1.0,
+                "StyleProperties": {
+                    "AspectRatio": 1.0,
                     "TitleTextColor": "#ffffff",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -292,10 +261,10 @@
                     "DescriptionTextNoOfLines": 4,
                     "BackgroundColor": "#303d3d",
                     "Alignment": "",
-                    "Margin": 15.0,
-                    "Padding": 15.0,
+                    "Margin": 5.0,
+                    "Padding": 5.0,
                     "Radius": 0.0,
-                    "BackgroundMargin": 15.0,
+                    "BackgroundMargin": 0.0,
                     "BackgroundPadding": 15.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": ""
@@ -326,8 +295,8 @@
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/card.webp?v=1691775103",
                 "Title": "",
                 "Description": "",
-                 "StyleProperties": {
-                    "AspectRatio" : 1.0,
+                "StyleProperties": {
+                    "AspectRatio": 1.0,
                     "TitleTextColor": "#000000",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -362,8 +331,8 @@
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
                 "ButtonFontColor": "#ffffff",
-                 "StyleProperties": {
-                    "AspectRatio" : 1.0,
+                "StyleProperties": {
+                    "AspectRatio": 1.0,
                     "TitleTextColor": "#ffffff",
                     "TitleT  extFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -393,8 +362,8 @@
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/img.jpg?v=1691778427",
                 "Title": "",
                 "Description": "",
-                 "StyleProperties": {
-                    "AspectRatio" : 1.0,
+                "StyleProperties": {
+                    "AspectRatio": 1.0,
                     "TitleTextColor": "#000000",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
@@ -429,8 +398,8 @@
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
                 "ButtonFontColor": "#ffffff",
-                 "StyleProperties": {
-                    "AspectRatio" : 1.0,
+                "StyleProperties": {
+                    "AspectRatio": 1.0,
                     "TitleTextColor": "#ffffff",
                     "TitleT  extFontName": "",
                     "TitleTextFontSize": 17.0,

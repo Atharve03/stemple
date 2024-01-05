@@ -11,6 +11,7 @@ class WidgetImageWithTextButton extends StatelessWidget {
   Widget build(BuildContext context) {
     Color buttonColor = Util.getColorFromHex(sliderItems.sliderButtonColor!);
     return Container(
+      color: Util.getColorFromHex(sliderItems.sliderBackgroundColor!),
       child: Stack(
         children: [
           // Image.network(

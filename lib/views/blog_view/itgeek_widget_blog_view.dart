@@ -25,64 +25,67 @@ class _WidgetBlogViewState extends State<ItgeekWidgetBlogView> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        CarouselSlider(
-          items: widget.blogViewData.blogViewItems!.map((item) {
-            if (widget.blogViewData.blogViewViewType == ViewType.BlogViewHalfImageHalfText.name) {
-              return InkWell(
-                  onTap: () {
-                    widget.onClick(item);
-                  },
-                  child: ItgeekWidgetBlogHalfImage(widget.blogViewData.styleProperties!,item));
-            } else if (widget.blogViewData.blogViewViewType == ViewType.BlogViewFullImage.name) {
-              return InkWell(
-                  onTap: () {
-                    widget.onClick(item);
-                  },
-                  child: ItgeekWidgetBlog(item,widget.blogViewData.styleProperties!));
-            } else {
-              return InkWell(
-                  onTap: () {
-                    widget.onClick(item);
-                  },
-                  child: ItgeekWidgetBlogPosition(item,widget.blogViewData.styleProperties!));
-            }
-          }).toList(),
-          options: CarouselOptions(
-            // height: 375.0,
-            // enlargeCenterPage: true,
-            autoPlay: widget.blogViewData.blogViewAutoPlay!,
-            aspectRatio: widget.blogViewData.blogViewAspectRatio!,
-            autoPlayCurve: Curves.fastOutSlowIn,
-            enableInfiniteScroll:
-                widget.blogViewData.blogViewEnableInfiniteScroll!,
-            autoPlayAnimationDuration: Duration(milliseconds: 800),
-            viewportFraction: widget.blogViewData.blogViewViewportFraction!.toDouble(),
-            onPageChanged: (index, reason) {
-              setState(() {
-                currentIndex = index;
-                print(currentIndex);
-              });
-            },
+    return Container(
+      color: Util.getColorFromHex(widget.blogViewData.styleProperties!.backgroundColor!),
+      child: Column(
+        children: [
+          CarouselSlider(
+            items: widget.blogViewData.blogViewItems!.map((item) {
+              if (widget.blogViewData.blogViewViewType == ViewType.BlogViewHalfImageHalfText.name) {
+                return InkWell(
+                    onTap: () {
+                      widget.onClick(item);
+                    },
+                    child: ItgeekWidgetBlogHalfImage(widget.blogViewData.styleProperties!,item));
+              } else if (widget.blogViewData.blogViewViewType == ViewType.BlogViewFullImage.name) {
+                return InkWell(
+                    onTap: () {
+                      widget.onClick(item);
+                    },
+                    child: ItgeekWidgetBlog(item,widget.blogViewData.styleProperties!));
+              } else {
+                return InkWell(
+                    onTap: () {
+                      widget.onClick(item);
+                    },
+                    child: ItgeekWidgetBlogPosition(item,widget.blogViewData.styleProperties!));
+              }
+            }).toList(),
+            options: CarouselOptions(
+              // height: 375.0,
+              // enlargeCenterPage: true,
+              autoPlay: widget.blogViewData.blogViewAutoPlay!,
+              aspectRatio: widget.blogViewData.blogViewAspectRatio!,
+              autoPlayCurve: Curves.fastOutSlowIn,
+              enableInfiniteScroll:
+                  widget.blogViewData.blogViewEnableInfiniteScroll!,
+              autoPlayAnimationDuration: Duration(milliseconds: 800),
+              viewportFraction: widget.blogViewData.blogViewViewportFraction!.toDouble(),
+              onPageChanged: (index, reason) {
+                setState(() {
+                  currentIndex = index;
+                  print(currentIndex);
+                });
+              },
+            ),
           ),
-        ),
-        // SizedBox(
-        //   height: 1,
-        // ),
-        DotsIndicator(
-          decorator: DotsDecorator(
-              activeColor: Util.getColorFromHex(
-                  widget.blogViewData.blogViewActiveColor.toString()),
-              color: Util.getColorFromHex(
-                  widget.blogViewData.blogViewColorDots.toString())),
-          //  onTap: (position) =>,
-          dotsCount: widget.blogViewData.blogViewItems!.length,
-
-          position: currentIndex,
-//declare the position to autoplay
-        ),
-      ],
+          // SizedBox(
+          //   height: 1,
+          // ),
+          DotsIndicator(
+            decorator: DotsDecorator(
+                activeColor: Util.getColorFromHex(
+                    widget.blogViewData.blogViewActiveColor.toString()),
+                color: Util.getColorFromHex(
+                    widget.blogViewData.blogViewColorDots.toString())),
+            //  onTap: (position) =>,
+            dotsCount: widget.blogViewData.blogViewItems!.length,
+      
+            position: currentIndex,
+      //declare the position to autoplay
+          ),
+        ],
+      ),
     );
   }
 }

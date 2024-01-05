@@ -26,8 +26,9 @@ class MyDashboard extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Colors.amber,
-          title: const Text("Slider Example"),
+          backgroundColor: Colors.grey.shade900,
+
+          title: const Text("Slider Example", style: TextStyle(color: Colors.white),),
         ),
         body: Container(child: Dashboard()));
   }

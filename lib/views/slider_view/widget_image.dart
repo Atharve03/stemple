@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stemple/helper/util.dart';
 
 import '../../modelClass/data_model.dart';
 import '../../modelClass/page_layout_model.dart';
@@ -11,6 +12,7 @@ class WidgetImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: Util.getColorFromHex(sliderItems.sliderBackgroundColor!),
       // child: Image.network(
       //   sliderItems.sliderLink!,
       //   fit: BoxFit.cover,

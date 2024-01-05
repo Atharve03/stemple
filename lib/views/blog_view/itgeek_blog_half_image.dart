@@ -114,9 +114,9 @@ class _ItgeekWidgetBlogHalfImageState extends State<ItgeekWidgetBlogHalfImage> {
                         textAlign: TextAlign.start,
                       ),
                     ),
-                    SizedBox(
-                      height: 10,
-                    ),
+                    // SizedBox(
+                    //   height: 10,
+                    // ),
                     LayoutBuilder(builder: (context, size) {
                       var span = TextSpan(
                         text: mytext,

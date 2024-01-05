@@ -61,7 +61,7 @@ class _WidgetSliderState extends State<ItgeekWidgetSlider> {
 
     return Container(
         child: Padding(
-      padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
+      padding: EdgeInsets.all(widget.sliderData.sliderPadding!),//, bottom: 8.0),
       child: Stack(
         children: [
           InkWell(

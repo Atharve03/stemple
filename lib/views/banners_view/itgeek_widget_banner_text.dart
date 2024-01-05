@@ -75,7 +75,10 @@ class _TextViewState extends State<TextView> {
                 widget.textViewData.styleProperties!.imageSrc!,
               ),
               fit: BoxFit.cover,
-            )),
+            )
+            
+            ),
+            
         width: double.infinity,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

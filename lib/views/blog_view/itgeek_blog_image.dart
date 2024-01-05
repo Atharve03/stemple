@@ -45,8 +45,8 @@ class _ItgeekWidgetBlogState extends State<ItgeekWidgetBlog> {
     double fontSize =
         widget.style.descriptionTextFontSize!;
     return Container(
-      
-            padding: EdgeInsets.all(10.0),
+            margin: EdgeInsets.all(widget.style.backgroundMargin!),
+            padding: EdgeInsets.all(widget.style.backgroundPadding!),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(widget.style.radius!.toDouble()),
           color: bgColor,
@@ -54,31 +54,40 @@ class _ItgeekWidgetBlogState extends State<ItgeekWidgetBlog> {
         width: double.infinity,
         height: double.infinity,
         child: Column(children: [
-             ClipRRect(
-              borderRadius:
-                  BorderRadius.circular(widget.style.radius!.toDouble()),
-              child: 
-              FadeInImage.assetNetwork(placeholder: "assets/images/placeholder-image.jpg", image: widget.blogViewItems.blogViewImagePath!, fit: BoxFit.cover,)
-
-
-              // Image.network(
-              //   widget.blogViewItems.blogViewImagePath !,
-              //   fit: BoxFit.cover,
-              //   width: double.infinity,
-              // ),
-          ),
+             Container(
+            margin: EdgeInsets.all(widget.style.margin!),
+            padding: EdgeInsets.all(widget.style.padding!),
+               child: ClipRRect(
+                
+                borderRadius:
+                    BorderRadius.circular(widget.style.radius!.toDouble()),
+                child: 
+                FadeInImage.assetNetwork(placeholder: "assets/images/placeholder-image.jpg", image: widget.blogViewItems.blogViewImagePath!, fit: BoxFit.cover,)
+               
+               
+                // Image.network(
+                //   widget.blogViewItems.blogViewImagePath !,
+                //   fit: BoxFit.cover,
+                //   width: double.infinity,
+                // ),
+                         ),
+             ),
           
         // SizedBox(
         //   height: 5,
         // ),
-          Text(
-            widget.blogViewItems.blogViewTitle!,
-            style: TextStyle(
-                fontWeight: FontWeight.w500,
-                fontSize: widget.style.titleTextFontSize,
-                color: Util.getColorFromHex(widget.style.titleTextColor!)),
-            maxLines: 2,
-            textAlign: TextAlign.start,
+          Container(
+            margin: EdgeInsets.all(widget.style.margin!),
+            padding: EdgeInsets.all(widget.style.padding!),
+            child: Text(
+              widget.blogViewItems.blogViewTitle!,
+              style: TextStyle(
+                  fontWeight: FontWeight.w500,
+                  fontSize: widget.style.titleTextFontSize,
+                  color: Util.getColorFromHex(widget.style.titleTextColor!)),
+              maxLines: 2,
+              textAlign: TextAlign.start,
+            ),
           ),
                LayoutBuilder(builder: (context, size) {
                     var span = TextSpan(
@@ -105,6 +114,8 @@ class _ItgeekWidgetBlogState extends State<ItgeekWidgetBlog> {
         return  Column(
           children: [
             Container(
+            margin: EdgeInsets.all(widget.style.margin!),
+            padding: EdgeInsets.all(widget.style.padding!),
                 child: Text.rich(
                span,
                overflow: TextOverflow.ellipsis,
