@@ -4,9 +4,9 @@
     "AppBarIcon": "#000000",
     "PageLayout": [
         {
-    "View": "ImageView",
+    "View": "BannerImageView",
     "ImageViewData": {
-        "ImageViewViewType": "Full",
+        "ImageViewViewType": "ImageViewFull",
         "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/SAMSAC_Homepage_Banners_2ebab9d1-970a-4142-bcfe-b4f9ae20af60.png?v=1696883905",
         "Title": "",
         "Description": "",
@@ -34,13 +34,13 @@
     }
 },
 {
-    "View": "DetailButtonView",
+    "View": "BannerButtonTextView",
     "ButtonViewData": {
         "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
         "ActionId": "",
         "ButtonText": "RED BUTTON",
         "ActionHandle": "",
-        "ButtonViewViewType": "Bottom",
+        "ButtonViewViewType": "ButtonViewBottom",
         "Title": "",
         "Description": "",
         "ButtonBackgroundColor": "#ff0000",
@@ -69,9 +69,9 @@
     }
 },
 {
-    "View": "ImageView",
+    "View": "BannerImageView",
     "ImageViewData": {
-        "ImageViewViewType": "Full",
+        "ImageViewViewType": "FuImageViewFullll",
         "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_22.png?v=1704083495",
         "Title": "",
         "Description": "",
@@ -99,13 +99,13 @@
     }
 },
 {
-    "View": "DetailButtonView",
+    "View": "BannerButtonTextView",
     "ButtonViewData": {
         "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
         "ActionId": "",
         "ButtonText": "Donate",
         "ActionHandle": "",
-        "ButtonViewViewType": "Bottom",
+        "ButtonViewViewType": "ButtonViewBottom",
         "Title": "THE SATANIC\nTEMPLE",
         "Description": "Empathy. Reason. Advocacy.",
         "ButtonBackgroundColor": "#ff0000",
@@ -133,7 +133,7 @@
         }
     }
 },{
-    "View": "TextView",
+    "View": "BannerTextView",
     "TextViewData": {
         "Description": "TST has petitioned the state of Texas to allow Satanic Temple members the ability to continue receiving voluntary abortions as part of a religious ritual. Texas’s trigger ban on abortions took effect after the reversal of Roe v. Wade, which prohibited all abortions for any reason, including instances of rape or incest. TST claims that this ban infringes upon its members’ right to practice their religion and requests Texas recognize its members’ religious rights.\nOn September 1, 2021, Texas passed S.B. 8, which prohibited anyone from getting an abortion after a detectable fetal tone. The law also allows citizens to sue people who obtained, performed, or helped to perform an abortion. TST filed a lawsuit against Texas, stating that this law prohibits TST members from performing a religious ritual to remove nonviable fetal tissue up to 24 weeks of pregnancy.  \nThis motion was made prior to the reversal of Roe v. Wade in late June 2022. After the Supreme Court ruling, Texas enforced its“trigger ban” on abortions, whereby abortion procedures became illegal within Texas state lines. TST is requesting an immediate injunction because the law inhibits TST members’ ability to practice their religion freely.\nCLAIMS WE ASSERT\nTST holds that Texas’s abortion ban is inspired by a religious dogma that asserts that life begins at conception, which contravenes TST’s belief that non-viable fetal tissue is part of the pregnant person and is free to be voluntarily removed. TST claims that this law violates the Establishment Clause and Free Exercise Clause of the First Amendment in that it legislates a religious viewpoint that prohibits TST members’ ability to perform their religious practices freely.\nLOOKING BEYOND TEXAS\nWith the reversal of Roe, it becomes even more imperative that we assert our claim that Texas inhibits our members’ access to protect religious reproductive care. However, Texas is not the only state to impede members’ abortion access. Nearly half the country has enforced anti-abortion policies or trigger bans. Texas is only the first of many states in which we must defend our constitutional rights. \nYou can support TST’s mission to protect reproductive rights by donating to our Religious Reproductive Rights campaign. Each donation will go towards legal work in all 50 states to protect TST members’ reproductive care access.",
         "Title": "TST DEMANDS TEXAS RECOGNIZE RELIGIOUS RIGHT TO PERFORM ABORTION POST-ROE",
@@ -168,7 +168,7 @@
         "BlogViewEnableInfiniteScroll": true,
         "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
         "BlogViewViewportFraction": 1.0,
-        "BlogViewViewType": "View2",
+        "BlogViewViewType": "BlogViewFullImage",
         "BlogViewActiveColor": "#ffbf00",
         "BlogViewColorDots": "#0000FF",
         "Blog_Handle": "",
@@ -224,9 +224,9 @@
         }},
         
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Full",
+                "ImageViewViewType": "ImageViewFull",
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/logo1_6471e64c-70b2-4e35-b96f-535948ea8411.jpg?v=1691749190",
                 "Title": "ABORTION ACCESS\nAFTER ROE V. WADE",
                 "Description": "The Satanic Temple is the leading beacon of light in the battle for abortion access.\nTST stands alone because we are the only entity that can assert a religious liberty claim that terminating a pregnancy is a central part of a religious ritual that encourages self-empowerment and affirms bodily autonomy.TST stands alone because we are the only entity that can assert a religious liberty claim that terminating a pregnancy is a central part of a religious ritual that encourages self-empowerment and affirms bodily autonomy.\nThis means that the imposition of waiting periods and mandatory counseling is akin to demanding a waiting period and counseling before one can be baptized or receive communion. Clearly, that would be a violation of religious liberty.\nWhile the SCOTUS decision is clearly a major set back, the Supreme Court has repeatedly affirmed religious rights. The Satanic Temple is currently suing the state of Texas to protect our civil rights. Our Texas claims are untethered to the due process Clause. They are a direct interpretation of the right of conscience in the Free Exercise Clause. We have requested alternative science-based abortion counseling in Minnesota. We will also be suing the FDA for unrestricted religious access to Mifepristone and Misoprostol.",
@@ -255,9 +255,9 @@
         },
         
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Full",
+                "ImageViewViewType": "ImageViewFull",
                 "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/unnamed_07042216-b33e-439d-983c-c32d13c2b9eb.jpg?v=1691749290",
                 "Title": "",
                 "Description": "",
@@ -284,7 +284,7 @@
                 }
             }
         },{
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Description": "THE SATANIC TEMPLE MISSION",
                 "Title": "The mission of The Satanic Temple, a religious organization, is to encourage benevolence and empathy among all people, reject tyrannical authority, advocate practical common sense, oppose injustice, and undertake noble pursuits. The Satanic Temple has publicly confronted hate groups, fought for the abolition of corporal punishment in public schools, applied for equal representation when religious installations are placed on public property",
@@ -320,7 +320,7 @@
                 "BlogViewEnableInfiniteScroll": true,
                 "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
                 "BlogViewViewportFraction": 1.0,
-                "BlogViewViewType": "View2",
+                "BlogViewViewType": "BlogViewFullImage",
                 "BlogViewActiveColor": "#ffbf00",
                 "BlogViewColorDots": "#000000",
                 "Blog_Handle": "",
@@ -362,9 +362,9 @@
                     }
                 ]}},
                 {
-                    "View": "ImageView",
+                    "View": "BannerImageView",
                     "ImageViewData": {
-                        "ImageViewViewType": "Full",
+                        "ImageViewViewType": "ImageViewFull",
                         "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/card.webp?v=1691775103",
                         "Title": "",
                         "Description": "",
@@ -392,13 +392,13 @@
                     }
                 },
                 {
-                    "View": "DetailButtonView",
+                    "View": "BannerButtonTextView",
                     "ButtonViewData": {
                         "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
                         "ActionId": "",
                         "ButtonText": "CHOOSE AND PERSONALIZE CARD",
                         "ActionHandle": "",
-                        "ButtonViewViewType": "Bottom",
+                        "ButtonViewViewType": "ButtonViewBottom",
                         "Title": "Get Your Personalized Membership Card.",
                         "Description": "",
                         "ButtonBackgroundColor": "#ff0000",
@@ -427,9 +427,9 @@
                     }
                 },
                 {
-                    "View": "ImageView",
+                    "View": "BannerImageView",
                     "ImageViewData": {
-                        "ImageViewViewType": "Full",
+                        "ImageViewViewType": "ImageViewFull",
                         "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/img.jpg?v=1691778427",
                         "Title": "",
                         "Description": "",
@@ -457,13 +457,13 @@
                     }
                 },
                 {
-                    "View": "DetailButtonView",
+                    "View": "BannerButtonTextView",
                     "ButtonViewData": {
                         "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
                         "ActionId": "",
                         "ButtonText": "PURCHASE YOUR TICKET",
                         "ActionHandle": "",
-                        "ButtonViewViewType": "Bottom",
+                        "ButtonViewViewType": "ButtonViewBottom",
                         "Title": "General Admission gallery tickets",
                         "Description": "",
                         "ButtonBackgroundColor": "#ff0000",

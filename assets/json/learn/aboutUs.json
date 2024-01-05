@@ -4,7 +4,7 @@
   "AppBarIcon": "#000000",
   "PageLayout": [
     {
-      "View": "TextView",
+      "View": "BannerTextView",
       "TextViewData": {
         "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
         "Title": "About US",
@@ -33,9 +33,9 @@
       }
     },
     {
-      "View": "ImageView",
+      "View": "BannerImageView",
       "ImageViewData": {
-        "ImageViewViewType": "Half",
+        "ImageViewViewType": "ImageViewHalf",
         "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/The-Satanic-temple_de242aac-3486-4537-b801-ab5e5d10bd9a_1.jpg?v=1694429082",
         "Title": "THE SATANIC TEMPLE",
         "Description": "We have publicly confronted hate groups, fought for the abolition of corporal punishment in public schools, applied for equal representation when religious installations are placed on public property, provided religious exemption and legal protection against laws that unscientifically restrict people's reproductive autonomy, exposed harmful pseudo-scientific practitioners in mental health care, organized clubs alongside other religious after-school clubs in schools besieged by proselytizing organizations, and engaged in other advocacy in accordance with our tenets.",
@@ -64,7 +64,7 @@
       }
     },
     {
-      "View": "TextView",
+      "View": "BannerTextView",
       "TextViewData": {
         "Description": "FUNDAMENTAL TENETS",
         "Title": "THERE ARE SEVEN",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "View": "textTile",
+      "View": "TextTileView",
       "textTileData": {
         "StyleProperties": {
           "AspectRatio" : 1.0,
@@ -150,7 +150,7 @@
       }
     },
     {
-      "View": "TextView",
+      "View": "BannerTextView",
       "TextViewData": {
         "Description": "",
         "Title": "THE SATANIC TEMPLE VS. CHURCH OF SATAN",
@@ -179,9 +179,9 @@
       }
     },
     {
-      "View": "ImageView",
+      "View": "BannerImageView",
       "ImageViewData": {
-        "ImageViewViewType": "Full",
+        "ImageViewViewType": "ImageViewFull",
         "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/statue_5ada61de-0bea-451e-b385-8481106e9d1c.jpg?v=1694177819",
         "Title": "",
         "Description": "The Satanic Temple has become the primary religious Satanic organization in the world with congregations internationally, and a number of high-profile public campaigns designed to preserve and advance secularism and individual liberties. The rise of The Satanic Temple has been met with an increase in commentary regarding what Satanism is as media outlets struggle to grasp how this upstart religion has begun to shift religious liberty debates with claims of equal access.",
@@ -210,9 +210,9 @@
       }
     },
     {
-      "View": "ImageView",
+      "View": "BannerImageView",
       "ImageViewData": {
-        "ImageViewViewType": "Full",
+        "ImageViewViewType": "ImageViewFull",
         "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/church-img-2_9ad7322c-c7ba-427a-89c9-c1af082a10fa.jpg?v=1694177770",
         "Title": "",
         "Description": "With unfortunate regularity - and much to our chagrin - The Satanic Temple is confused with an earlier organization, the Church of Satan, founded by Anton Szandor LaVey in the 1960s. The Church of Satan expresses vehement opposition to the campaigns and activities of The Satanic Temple, asserting themselves as the only “true” arbiters of Satanism, while The Satanic Temple dismisses the Church of Satan as irrelevant and inactive.",

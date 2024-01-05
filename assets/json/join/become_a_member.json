@@ -38,7 +38,7 @@
       }
     },
     {
-      "View": "TextView",
+      "View": "BannerImageView",
       "TextViewData": {
         "Description": "",
         "Title": "MEMBERSHIP",
@@ -67,9 +67,9 @@
       }
     },
     {
-      "View": "ImageView",
+      "View": "BannerImageView",
       "ImageViewData": {
-        "ImageViewViewType": "Full",
+        "ImageViewViewType": "ImageViewFull",
         "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/news-satanic-temple-rally-utah-capitol-22-mcancio_52a47a9d-5770-4056-be02-afc9ad7a62c0.jpg?v=1692870503",
         "ImageViewRadius": 19.0,
         "ImageViewContainerColor": "#171717",
@@ -139,7 +139,7 @@
     {
       "View": "WebView",
       "WebViewData": {
-        "ContentType": "HTML",
+        "ContentType": "WebviewHtml",
         "ScaleSize": 0.8,
         "HtmlContent": "",
         "Link": "",
@@ -168,9 +168,9 @@
       }
     },
     {
-      "View": "ImageView",
+      "View": "BannerImageView",
       "ImageViewData": {
-        "ImageViewViewType": "Full",
+        "ImageViewViewType": "ImageViewFull",
         "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_3_2880x1364_e5eaba56-eee3-4a37-9c98-be7500fa44e0.png?v=1692958177%27",
         "ImageViewRadius": 19.0,
         "ImageViewContainerColor": "#171717",

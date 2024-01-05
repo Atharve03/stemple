@@ -2,7 +2,7 @@
     "BackgroundColor": "#000000",
     "PageLayout": [
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Title": "PRESS CENTER  ",
                 "Description": "",
@@ -31,7 +31,7 @@
             }
         },
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Title": "PRESS RELEASE ARCHIVES",
                 "Description": "",
@@ -55,16 +55,12 @@
                     "BackgroundMargin": 0.0,
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
-<<<<<<< HEAD
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/hero-bg_2880x1364_cbd844df-a621-463a-8715-77153a6edb29_2880x748.jpg?v=1695300481"
-=======
                     "ImageSrc": ""
->>>>>>> 49c698be441f710add95caa4f7de31c3c6dfe232
                 }
             }
         },
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Title": "2023",
                 "Description": "",
@@ -85,11 +81,7 @@
                     "Margin": 0.0,
                     "Padding": 20.0,
                     "Radius": 0.0,
-<<<<<<< HEAD
-                    "BackgroundMargin": 0.0,
-=======
                     "BackgroundMargin": 10.0,
->>>>>>> 49c698be441f710add95caa4f7de31c3c6dfe232
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": ""
@@ -97,13 +89,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "TST Threatens Legal Action if School District Hits Children",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -133,13 +125,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "The Satanic Temple Launches Religious Telehealth Abortion Clinic in New Mexico",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -169,13 +161,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "The Satanic Temple Threatens Legal Action if School District Hits Children, MO",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -205,7 +197,7 @@
             }
         },
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Title": "2022",
                 "Description": "",
@@ -226,11 +218,7 @@
                     "Margin": 0.0,
                     "Padding": 20.0,
                     "Radius": 0.0,
-<<<<<<< HEAD
-                    "BackgroundMargin": 0.0,
-=======
                     "BackgroundMargin": 10.0,
->>>>>>> 49c698be441f710add95caa4f7de31c3c6dfe232
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": ""
@@ -238,13 +226,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "The Satanic Temple Holidays are Officially Recognized by Baltimore County",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -274,13 +262,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "The Satanic Temple Confronts Challenges with So-Called “Charitable Efforts” by Airbnb",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -310,13 +298,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "The Satanic Temple Files New Lawsuit Challenging Texas Abortion Law",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -346,13 +334,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "The Satanic Temple Holds 2nd Annual Bladensburg Satanic Peace Cross Ceremony",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -382,13 +370,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "TST Requests Minnesota Allow Satanic Alternative to Mandatory Pre-Abortion Counseling Document",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -418,13 +406,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "TST is one of the World’s Fastest-Growing Religions with Over 700,000 Members",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -454,13 +442,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "The Satanic Temple is one of the World’s Fastest-Growing Religions with Over 700,000 Members",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -490,13 +478,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "TST PARENT CHAMPIONS RELIGIOUS EXPRESSION IN HAYS, KANSAS SCHOOLS",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -526,13 +514,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "The Satanic Temple Sues Indiana to Protect Members’ Abortion Rights.",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -562,13 +550,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "The Satanic Temple Sues Idaho for Violating Religious Abortion Rights",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -598,13 +586,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "The Satanic Temple Unveils New Release Time Religious Instruction Program",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -655,11 +643,7 @@
                     "Margin": 0.0,
                     "Padding": 20.0,
                     "Radius": 0.0,
-<<<<<<< HEAD
-                    "BackgroundMargin": 0.0,
-=======
                     "BackgroundMargin": 10.0,
->>>>>>> 49c698be441f710add95caa4f7de31c3c6dfe232
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": ""
@@ -667,13 +651,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "TST Declarers Ohio Abortion Law Unconstitutional",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -703,13 +687,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "TST Sues TX for Abortion Restrictions",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -739,13 +723,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Second Annual Devil’s Advocate Scholarship",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -775,13 +759,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Mahanoy Freedom Ritual",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -811,13 +795,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "John S. Hall Performs at TSTHQ",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -868,11 +852,7 @@
                     "Margin": 0.0,
                     "Padding": 20.0,
                     "Radius": 0.0,
-<<<<<<< HEAD
-                    "BackgroundMargin": 0.0,
-=======
                     "BackgroundMargin": 10.0,
->>>>>>> 49c698be441f710add95caa4f7de31c3c6dfe232
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": ""
@@ -880,13 +860,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "TST Appeals Dismissal of MO abortion Lawsuit",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -916,13 +896,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "In God We Trust on Mississippi Flag",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -952,13 +932,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Religious Abortions",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -988,13 +968,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Supreme Court",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -1024,13 +1004,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Billboards Lawsuit",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -1060,13 +1040,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Devil’s Advocate Scholarship",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -1096,13 +1076,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Scholarship Winners",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -1132,13 +1112,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "TST Files A Motion To Disqualify AMY CONEY BARRETT",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -1168,13 +1148,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Billboards in TX and FL",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -1225,11 +1205,7 @@
                     "Margin": 0.0,
                     "Padding": 20.0,
                     "Radius": 0.0,
-<<<<<<< HEAD
-                    "BackgroundMargin": 0.0,
-=======
                     "BackgroundMargin": 10.0,
->>>>>>> 49c698be441f710add95caa4f7de31c3c6dfe232
                     "BackgroundPadding": 20.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": ""
@@ -1237,13 +1213,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "MCAD Boston Allegations",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -1273,13 +1249,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "TST Files Appeal with 8th Circuit Court",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -1309,13 +1285,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "TST Announces ReproRights Rally",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -1345,13 +1321,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Naval Academy",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -1381,13 +1357,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Tax Exempt Status",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",
@@ -1417,13 +1393,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "",
                 "ActionId": "",
                 "ButtonText": "PDF",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Hell House",
                 "Description": "",
                 "ButtonBackgroundColor": "#ff0000",

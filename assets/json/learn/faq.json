@@ -4,9 +4,9 @@
     "AppBarIcon": "#000000",
     "PageLayout": [
         {
-            "View": "FAQ",
+            "View": "FAQView",
             "TextListWithDetailsData": {
-                "ViewType": "expand",
+                "ViewType": "FAQExpandView",
                 "IconSize": 15.0,
                 "IconColor": "#FF0000",
                 "ArrowVisibility": true,

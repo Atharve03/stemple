@@ -4,7 +4,7 @@
     "AppBarIcon": "#000000",
     "PageLayout": [
         {
-            "View": "TextView",
+            "View": "BannerTextView",
             "TextViewData": {
                 "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
                 "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
@@ -33,9 +33,9 @@
             }
         },
         {
-            "View": "ImageView",
+            "View": "BannerImageView",
             "ImageViewData": {
-                "ImageViewViewType": "Half",
+                "ImageViewViewType": "ImageViewHalf",
                 "ImageSrc": "",
                 "Title": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
                 "Description": "The Mission Of The Satanic Temple Is To Encourage Benevolence And Empathy, Reject Tyrannical Authority, Advocate Practical Common Sense, Oppose Injustice, And Undertake Noble Pursuits.",
@@ -64,7 +64,7 @@
             }
         },
         {
-            "View": "textTile",
+            "View": "TextTileView",
             "textTileData": {
                 "StyleProperties": {
                     "AspectRatio": 1.0,
@@ -123,7 +123,7 @@
         {
             "View": "WebView",
             "WebViewData": {
-                "ContentType": "Link",
+                "ContentType": "WebViewLink",
                 "ScaleSize": 0.8,
                 "HtmlContent": "",
                 "Link": "",
@@ -152,7 +152,7 @@
             }
         },
         {
-            "View": "Sliders",
+            "View": "SliderView",
             "SliderData": {
                 "SliderIndicatorSelectedColor": "#ffffff",
                 "SliderIndicatorUnSelectedColor": "#bcbcbc",
@@ -162,7 +162,7 @@
                 "SliderViewType": "Enlarge",
                 "SliderItems": [
                     {
-                        "SliderType": "Image",
+                        "SliderType": "SliderImageView",
                         "SliderText": "Slider with Image",
                         "SliderLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         "SliderButtonText": "My Button",
@@ -173,7 +173,7 @@
                         "SliderButtonClicked": ""
                     },
                     {
-                        "SliderType": "ImageWithText",
+                        "SliderType": "SliderImageWithTextView",
                         "SliderText": "Slider with Text",
                         "SliderLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         "SliderButtonText": "My Button",
@@ -184,7 +184,7 @@
                         "SliderButtonClicked": ""
                     },
                     {
-                        "SliderType": "ImageWithButtonText",
+                        "SliderType": "SliderImageWithButtonTextView",
                         "SliderText": "Slider with Button",
                         "SliderLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         "SliderButtonText": "My Button",
@@ -198,13 +198,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "PAGE/PRODUCT/CATEOGRY",
                 "ActionId": "",
                 "ButtonText": "",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "",
                 "Description": "",
                 "ButtonBackgoundColor": "#ddddd",
@@ -241,7 +241,7 @@
                 "BlogViewEnableInfiniteScroll": true,
                 "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
                 "BlogViewViewportFraction": 1.0,
-                "BlogViewViewType": "View2",
+                "BlogViewViewType": "BlogViewFullImage",
                 "BlogViewActiveColor": "#ffbf00",
                 "BlogViewColorDots": "#0000FF",
                 "Blog_Handle": "",
@@ -288,7 +288,7 @@
             }
         },
         {
-            "View": "VideoView",
+            "View": "BannerVideoView",
             "VideoViewData": {
                 "ActionType": "PAGE/PRODUCT/CATEOGRY",
                 "ActionId": "",
@@ -321,7 +321,7 @@
             }
         },
         {
-            "View": "Category",
+            "View": "CategoryView",
             "CategoryData": {
                 "StyleProperties": {
                     "AspectRatio": 1.0,
@@ -383,7 +383,7 @@
             }
         },
         {
-            "View": "Product",
+            "View": "ProductView",
             "ProductData": {
                 "StyleProperties": {
                     "AspectRatio": 1.0,
@@ -446,9 +446,9 @@
             }
         },
         {
-            "View": "FAQ",
+            "View": "FAQView",
             "TextListWithDetailsData": {
-                "ViewType": "detail",
+                "ViewType": "FAQDetailView",
                 "IconSize": 15.0,
                 "IconColor": "#FF0000",
                 "StyleProperties": {

@@ -2,7 +2,7 @@
   "BackgroundColor": "#000000",
   "PageLayout": [
     {
-      "View": "TextView",
+      "View": "BannerTextView",
       "TextViewData": {
           "Description": "",
           "Title": "START A CONGREGATION",
@@ -31,9 +31,9 @@
       }
     },
     {
-      "View": "ImageView",
+      "View": "BannerImageView",
       "ImageViewData": {
-          "ImageViewViewType": "Full",
+          "ImageViewViewType": "ImageViewFull",
           "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/start-content-bg_2880x1364_40b10178-a2c8-4917-b7ac-33c2ee7bd2db_2000x1095.jpg?v=1693593141",
           "Title": "",
           "Description": "",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "View": "DetailButtonView",
+      "View": "BannerButtonTextView",
       "ButtonViewData": {
           "ActionType": "PAGE/PRODUCT/CATEOGRY",
           "ActionId": "",
@@ -98,7 +98,7 @@
       }
   },
   {
-    "View": "DetailButtonView",
+    "View": "BannerButtonTextView",
     "ButtonViewData": {
         "ActionType": "PAGE/PRODUCT/CATEOGRY",
         "ActionId": "",

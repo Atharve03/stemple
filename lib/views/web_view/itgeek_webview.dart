@@ -50,7 +50,7 @@ class _ItgeekWebViewState extends State<ItgeekWebView> {
 
       // Load content based on the content type
 
-      if (webViewData.contentType == ViewType.WebviewHtml.name) {
+      if (webViewData.contentType == ViewType.WebViewHtml.name) {
         String htmlContent = '''
                   <html>
                   <head><meta name="viewport" content="width=device-width, initial-scale=${webViewData.scaleSize}"></head>

@@ -82,28 +82,28 @@ class _DashboardState extends State<Dashboard> {
                       print("itemProduct $item");
                     });
                   }
-                  if (element.view == Views.TextView.name) {
+                  if (element.view == Views.BannerTextView.name) {
                     return ItgeekWidgetBannerText(element.textViewData!,
                         (item) {
                       (element.textViewData);
                       print("myitemTextView $item");
                     });
                   }
-                  if (element.view == Views.ImageView.name) {
+                  if (element.view == Views.BannerImageView.name) {
                     return ItgeekWidgetBannerImage(element.imageViewData!,
                         (item) {
                       (element.imageViewData);
                       print("itemImageView $item");
                     });
                   }
-                  if (element.view == Views.DetailButtonView.name) {
+                  if (element.view == Views.BannerButtonTextView.name) {
                     return ItgeekWidgetBannerImageButton(
                         element.buttonViewData!, (item) {
                       (element.buttonViewData);
                       print("itemButtonView $item");
                     });
                   }
-                  if (element.view == Views.VideoView.name) {
+                  if (element.view == Views.BannerVideoView.name) {
                     return ItgeekWidgetBannerVideo(element.videoViewData!,
                         (item) {
                       (element.videoViewData);

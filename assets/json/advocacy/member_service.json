@@ -149,13 +149,13 @@
             }
         },
         {
-            "View": "DetailButtonView",
+            "View": "BannerButtonTextView",
             "ButtonViewData": {
                 "ActionType": "PAGE/PRODUCT/CATEOGRY",
                 "ActionId": "",
                 "ButtonText": "ONLINE MEETINGS SCHEDULE",
                 "ActionHandle": "",
-                "ButtonViewViewType": "Bottom",
+                "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Substance Abuse Support",
                 "Description": "Sober Faction(SF) provides weekly peer support meetings for recovery from addictions, as well as other therapeutic and educational outreach services for TST members.",
                 "ButtonBackgroundColor": "#ff0000",

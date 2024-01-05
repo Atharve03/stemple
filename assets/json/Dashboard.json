@@ -2,7 +2,7 @@
   "BackgroundColor": "#000000",
   "PageLayout": [
     {
-      "View": "TextView",
+      "View": "BannerTextView",
       "TextViewData": {
         "TextViewTitle": "ABOUT US",
         "TextViewTitleFontSize": 14,
@@ -21,9 +21,9 @@
       }
     },
     {
-      "View": "ImageView",
+      "View": "BannerImageView",
       "ImageViewData": {
-        "ImageViewViewType": "Half",
+        "ImageViewViewType": "ImageViewHalf",
         "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/The-Satanic-temple_de242aac-3486-4537-b801-ab5e5d10bd9a_1.jpg?v=1694429082",
         "ImageViewRadius": 0,
         "ImageViewContainerColor": "#171717",
@@ -46,7 +46,7 @@
       }
     },
     {
-      "View": "TextView",
+      "View": "BannerTextView",
       "TextViewData": {
         "TextViewTitle": "There are Seven",
         "TextViewTitleFontSize": 20,
@@ -65,7 +65,7 @@
       }
     },
     {
-      "View": "textTile",
+      "View": "TextTileView",
       "textTileData": {
         "ContainerColor": "#ffffff",
         "Margin": 10,
@@ -106,7 +106,7 @@
       }
     },
     {
-      "View": "TextView",
+      "View": "BannerTextView",
       "TextViewData": {
         "TextViewTitle": "THE SATANIC TEMPLE VS. CHURCH OF SATAN",
         "TextViewTitleFontSize": 24,
@@ -125,9 +125,9 @@
       }
     },
     {
-      "View": "ImageView",
+      "View": "BannerImageView",
       "ImageViewData": {
-        "ImageViewViewType": "Full",
+        "ImageViewViewType": "ImageViewFull",
         "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/statue_5ada61de-0bea-451e-b385-8481106e9d1c.jpg?v=1694177819",
         "ImageViewRadius": 19,
         "ImageViewContainerColor": "#171717",
@@ -150,9 +150,9 @@
       }
     },
     {
-      "View": "ImageView",
+      "View": "BannerImageView",
       "ImageViewData": {
-        "ImageViewViewType": "Full",
+        "ImageViewViewType": "ImageViewFull",
         "ImageViewSrc": "https://thesatanictemple.com/cdn/shop/files/church-img-2_9ad7322c-c7ba-427a-89c9-c1af082a10fa.jpg?v=1694177770",
         "ImageViewRadius": 19,
         "ImageViewContainerColor": "#171717",

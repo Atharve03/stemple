@@ -4,7 +4,7 @@
     "AppBarIcon": "#000000",
   "PageLayout": [
     {
-        "View": "TextView",
+        "View": "BannerTextView",
         "TextViewData": {
             "Title": "ACCOUNTS OF TST CAMPAIGNS,\nCONGREGATIONS, AND OTHER GROUPS AND ASSOCIATED LEADERSHIP.",
             "Description": "Fraudulent accounts are a common occurrence on social media.\n\nTST does not recruit or initiate new members.\n\nTST does not ask for personal or financial information through social media.\n\nMembership is, and always has always been, free.",

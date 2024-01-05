@@ -7,8 +7,8 @@ enum ViewType {
   SliderImageView,                //Slider
   SliderImageWithTextView,
   SliderImageWithButtonTextView,
-  WebviewLink,                   //Webview
-  WebviewHtml,
+  WebViewLink,                   //Webview
+  WebViewHtml,
   ButtonViewBottom,                 //Button
   ButtonViewTop,
   FAQDetailView,                 //FAQ

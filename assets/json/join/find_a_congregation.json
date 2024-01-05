@@ -4,7 +4,7 @@
   "AppBarIcon": "#000000",
   "PageLayout": [
     {
-      "View": "TextView",
+      "View": "BannerTextView",
       "TextViewData": {
         "Description": "",
         "Title": "FIND A CONGREGATION",

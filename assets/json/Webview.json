@@ -1,6 +1,6 @@
 {
   "WebViewData": {
-    "ContentType": "link",
+    "ContentType": "WebViewLink",
     "ScaleSize" : 0.8,
     "HtmlContent": "<h1>Hello, Flutter In-App WebView!</h1><p>This is a simple HTML content embedded in a Flutter in-app web view.</p>",
     "BackgroundColor": "#EAEAEA",
