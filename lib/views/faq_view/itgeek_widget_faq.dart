@@ -35,15 +35,15 @@ class _FAQState extends State<ItgeekWidgetFaq> {
     return Container(
         width: double.infinity,
         padding: EdgeInsets.all(widget
-            .frequentlyAskedQuestions.styleProperties!.padding!
+            .frequentlyAskedQuestions.styleProperties!.backgroundPadding!
             .toDouble()),
         margin: EdgeInsets.all(widget
-            .frequentlyAskedQuestions.styleProperties!.margin!
+            .frequentlyAskedQuestions.styleProperties!.backgroundMargin!
             .toDouble()),
         decoration: BoxDecoration(
             color: containerColor,
             borderRadius: BorderRadius.circular(widget
-                .frequentlyAskedQuestions.styleProperties!.radius!
+                .frequentlyAskedQuestions.styleProperties!.backgroundRadius!
                 .toDouble())),
         child: ListView.separated(
           physics: ClampingScrollPhysics(),

@@ -86,7 +86,7 @@ class _ItgeekWidgetBannerVideoState extends State<ItgeekWidgetBannerVideo> {
                 tp.layout(maxWidth: size.maxWidth);
 
                 // whether the text overflowed or not
-                var exceeded = tp.maxLines;
+                var exceeded = tp.didExceedMaxLines;
                 print("cjvgffmdf ${exceeded}");
                 return Column(
                   children: [
@@ -110,8 +110,7 @@ class _ItgeekWidgetBannerVideoState extends State<ItgeekWidgetBannerVideo> {
                             context,
                             MaterialPageRoute(
                                 builder: (context) => ItgeekWidgetFullView(
-                                    widget.videoViewData.styleProperties!
-                                        .imageSrc,
+                                        "",
                                     widget.videoViewData.title!,
                                     widget.videoViewData.description!,
                                     widget.videoViewData.styleProperties!
@@ -134,10 +133,11 @@ class _ItgeekWidgetBannerVideoState extends State<ItgeekWidgetBannerVideo> {
                                         .backgroundColor)));
                       },
                       child: Text(
-                        exceeded != null ? 'Read More' : '',
+                        exceeded ? 'Read More' : '',
                         style: TextStyle(
                           color: Colors.blue,
                           fontWeight: FontWeight.bold,
+                              fontSize: 12
                         ),
                       ),
                     ),

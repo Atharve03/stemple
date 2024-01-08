@@ -6,9 +6,9 @@
     {
       "View": "BannerButtonTextView",
       "ButtonViewData": {
-        "ActionType": "",
-        "ActionId": "",
-        "ButtonText": "VISIT SALEM WEBSITE",
+        "ActionType": "Link",
+        "ActionId": "https://www.salemartgallery.com/",
+        "ButtonText": "SALEM Art Gallery",
         "ActionHandle": "",
         "ButtonViewViewType": "ButtonViewBottom",
         "Title": "VISIT TST",
@@ -26,14 +26,14 @@
           "DescriptionTextFontName": "",
           "DescriptionTextFontSize": 15.0,
           "DescriptionTextFontWeight": "",
-          "DescriptionTextNoOfLines": 4,
+          "DescriptionTextNoOfLines": 6,
           "BackgroundColor": "#171717",
-          "Alignment": "Center",
+          "Alignment": "center",
           "Margin": 0.0,
-          "Padding": 18.0,
+          "Padding": 5.0,
           "Radius": 0.0,
           "BackgroundMargin": 0.0,
-          "BackgroundPadding": 0.0,
+          "BackgroundPadding": 5.0,
           "BackgroundRadius": 0.0,
           "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Copy_of_SM_Fundraiser_Posts_2_3bf9316e-4ee3-4cb6-97dd-5c1dbaec2dd1.png?v=1699912996"
         }
@@ -60,11 +60,11 @@
           "DescriptionTextNoOfLines": 4,
            "BackgroundColor": "#171717",
           "Alignment": "",
-          "Margin": 15.0,
-          "Padding": 15.0,
-          "Radius": 15.0,
+          "Margin": 0.0,
+          "Padding": 5.0,
+          "Radius": 5.0,
           "BackgroundMargin": 0.0,
-          "BackgroundPadding": 15.0,
+          "BackgroundPadding": 5.0,
           "BackgroundRadius": 0.0,
           "ImageSrc": ""
         }
@@ -76,7 +76,7 @@
         "ImageViewViewType": "ImageViewFull",
         "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/visit-image1_1.jpg?v=1693319511",
         "Title": "THE BAPHOMET MONUMENT",
-        "Description": "The First Amendment requires that the US government must treat all religions equally. After a statue of the Ten Commandments was donated to Oklahoma City by State Representative Mike Ritze and placed outside the Oklahoma State Capitol on public grounds, The Satanic Temple offered to donate a religious statue. The TST chose Baphomet, a pagan idol associated with the Knights Templar that was conceived in the 11th century and whose depiction has changed dramatically over time. The best-known representation of Baphomet as a 'Sabbatic Goat' did not appear until 1856 when Eliphas Lévi published Dogmas and Rituals of High Magic. The Satanic Temple has continued the tradition of adapting the image of the mythical figure. The most notable difference is that Baphomet now has a male chest. This was done for practical reasons such that State governments could not reject the statue on the grounds that it could be considered obscene.",
+        "Description": "The First Amendment requires that the US government must treat all religions equally. After a statue of the Ten Commandments was donated to Oklahoma City by State Representative Mike Ritze and placed outside the Oklahoma State Capitol on public grounds, The Satanic Temple offered to donate a religious statue. The TST chose Baphomet, a pagan idol associated with the Knights Templar that was conceived in the 11th century and whose depiction has changed dramatically over time. The best-known representation of Baphomet as a 'Sabbatic Goat' did not appear until 556 when Eliphas Lévi published Dogmas and Rituals of High Magic. The Satanic Temple has continued the tradition of adapting the image of the mythical figure. The most notable difference is that Baphomet now has a male chest. This was done for practical reasons such that State governments could not reject the statue on the grounds that it could be considered obscene.",
         "StyleProperties": {
           "AspectRatio" : 1.0,
          "TitleTextColor": "#ffffff",
@@ -91,11 +91,11 @@
           "DescriptionTextNoOfLines": 4,
            "BackgroundColor": "#171717",
           "Alignment": "",
-          "Margin": 15.0,
-          "Padding": 15.0,
-          "Radius": 15.0,
+          "Margin": 0.0,
+          "Padding": 5.0,
+          "Radius": 5.0,
           "BackgroundMargin": 0.0,
-          "BackgroundPadding": 15.0,
+          "BackgroundPadding": 5.0,
           "BackgroundRadius": 0.0,
           "ImageSrc": ""
         }
@@ -122,11 +122,11 @@
           "DescriptionTextNoOfLines": 4,
            "BackgroundColor": "#171717",
           "Alignment": "",
-          "Margin": 15.0,
-          "Padding": 15.0,
-          "Radius": 15.0,
+          "Margin": 0.0,
+          "Padding": 5.0,
+          "Radius": 5.0,
           "BackgroundMargin": 0.0,
-          "BackgroundPadding": 15.0,
+          "BackgroundPadding": 5.0,
           "BackgroundRadius": 0.0,
           "ImageSrc": ""
         }
@@ -135,8 +135,8 @@
     {
       "View": "BannerButtonTextView",
       "ButtonViewData": {
-        "ActionType": "",
-        "ActionId": "",
+        "ActionType": "Link",
+        "ActionId": "https://www.salemartgallery.com/",
         "ButtonText": "VISIT SALEM WEBSITE",
         "ActionHandle": "",
         "ButtonViewViewType": "ButtonViewBottom",
@@ -157,12 +157,12 @@
           "DescriptionTextFontWeight": "",
           "DescriptionTextNoOfLines": 4,
           "BackgroundColor": "#ffffff",
-          "Alignment": "Center",
+          "Alignment": "center",
           "Margin": 0.0,
-          "Padding": 18.0,
+          "Padding": 5.0,
           "Radius": 0.0,
           "BackgroundMargin": 0.0,
-          "BackgroundPadding": 0.0,
+          "BackgroundPadding": 20.0,
           "BackgroundRadius": 0.0,
           "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Copy_of_SM_Fundraiser_Posts_2_3bf9316e-4ee3-4cb6-97dd-5c1dbaec2dd1.png?v=1699912996"
         }

@@ -4,35 +4,6 @@
     "AppBarIcon": "#000000",
     "PageLayout": [
         {
-            "View": "BannerTextView",
-            "TextViewData": {
-                "Description": "",
-                "Title": "LEGAL ACTION",
-                "StyleProperties": {
-                    "TitleTextColor": "#ffffff",
-                    "TitleT  extFontName": "",
-                    "TitleTextFontSize": 17.0,
-                    "TitleTextFontWeight": "",
-                    "TitleTextNoOfLines": 4,
-                    "DescriptionTextColor": "#ddddd",
-                    "DescriptionTextFontName": "",
-                    "DescriptionTextFontSize": 15.0,
-                    "DescriptionTextFontWeight": "",
-                    "DescriptionTextNoOfLines": 4,
-                    "BackgroundColor": "#000000",
-                    "Alignment": "",
-                    "Margin": 0.0,
-                    "Padding": 20.0,
-                    "Radius": 0.0,
-                    "BackgroundMargin": 0.0,
-                    "BackgroundPadding": 20.0,
-                    "BackgroundRadius": 0.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/legal-hero_2880x1364_be2884c0-edaf-40f0-9f4e-4717830deda9_960x288.jpg?v=1693837986",
-                    "AspectRatio": 1.0
-                }
-            }
-        },
-        {
             "View": "BannerImageView",
             "ImageViewData": {
                 "ImageViewViewType": "ImageViewFull",

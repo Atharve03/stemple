@@ -6,7 +6,6 @@ import 'package:stemple/helper/util.dart';
 import 'package:stemple/modelClass/data_model.dart';
 
 class ItgeekWidgetGridView extends StatelessWidget {
-  // const WidgetGridView({super.key, required this.title});
   GridViewData gridViewData;
   ItgeekWidgetGridView(this.gridViewData);
 
@@ -19,8 +18,6 @@ class ItgeekWidgetGridView extends StatelessWidget {
       margin: EdgeInsets.all(gridViewData.styleProperties!.backgroundMargin!),
       padding: EdgeInsets.all(gridViewData.styleProperties!.backgroundPadding!),
       width: double.infinity,
-      // margin: EdgeInsets.all(30),
-      // padding: EdgeInsets.all(gridViewData.padding!),
 // height: 900,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(
@@ -33,13 +30,15 @@ class ItgeekWidgetGridView extends StatelessWidget {
         itemCount: listItems.length,
         physics: NeverScrollableScrollPhysics(),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, childAspectRatio: 1 / 1.8),
+            crossAxisCount: 2,
+            //childAspectRatio: 1 / 1.8
+            childAspectRatio: gridViewData.styleProperties!.aspectRatio!),
         itemBuilder: (context, index) {
           return Container(
               // height: 380,
               // width: double.infinity,
               margin: EdgeInsets.all(gridViewData.styleProperties!.margin!),
-              // padding: EdgeInsets.all(gridViewData.styleProperties!.padding!),
+              padding: EdgeInsets.all(gridViewData.styleProperties!.padding!),
 
               child: Column(children: [
                 Padding(
@@ -62,6 +61,8 @@ class ItgeekWidgetGridView extends StatelessWidget {
                             gridViewData.styleProperties!.padding!),
                         child: Text(
                           listItems[index].title!,
+                          maxLines: gridViewData.styleProperties!.titleTextNoOfLines,
+                            overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                               color: Util.getColorFromHex(gridViewData
                                   .styleProperties!.titleTextColor!),
@@ -80,6 +81,8 @@ class ItgeekWidgetGridView extends StatelessWidget {
                             gridViewData.styleProperties!.padding!),
                         child: Text(
                           listItems[index].description!,
+                          maxLines: gridViewData.styleProperties!.descriptionTextNoOfLines,
+                            overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                               color: Util.getColorFromHex(gridViewData
                                   .styleProperties!.descriptionTextColor!),

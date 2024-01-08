@@ -4,35 +4,6 @@
   "AppBarIcon": "#000000",
   "PageLayout": [
     {
-      "View": "BannerTextView",
-      "TextViewData": {
-          "Description": "",
-          "Title": "START A CONGREGATION",
-          "StyleProperties": {
-            "AspectRatio" : 1.0,
-              "TitleTextColor": "#ffffff",
-              "TitleTextFontName": "",
-              "TitleTextFontSize": 17.0,
-              "TitleTextFontWeight": "",
-              "TitleTextNoOfLines": 4,
-              "DescriptionTextColor": "#ffffff",
-              "DescriptionTextFontName": "",
-              "DescriptionTextFontSize": 15.0,
-              "DescriptionTextFontWeight": "",
-              "DescriptionTextNoOfLines": 4,
-              "BackgroundColor": "#000000",
-              "Alignment": "",
-              "Margin": 0.0,
-              "Padding": 30.0,
-              "Radius": 0.0,
-              "BackgroundMargin": 0.0,
-              "BackgroundPadding": 30.0,
-              "BackgroundRadius": 0.0,
-              "ImageSrc": ""
-          }
-      }
-    },
-    {
       "View": "BannerImageView",
       "ImageViewData": {
           "ImageViewViewType": "ImageViewFull",
@@ -126,10 +97,10 @@
             "BackgroundColor": "#ffffff",
             "Alignment": "",
             "Margin": 0.0,
-            "Padding": 15.0,
+            "Padding": 5.0,
             "Radius": 0.0,
             "BackgroundMargin": 0.0,
-            "BackgroundPadding": 0.0,
+            "BackgroundPadding": 10.0,
             "BackgroundRadius": 0.0,
             "ImageSrc": ""
         }

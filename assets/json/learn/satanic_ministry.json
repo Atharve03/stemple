@@ -61,10 +61,10 @@
           "BackgroundColor": "#ffffff",
           "Alignment": "Center",
           "Margin": 0.0,
-          "Padding": 18.0,
+          "Padding": 2.0,
           "Radius": 0.0,
           "BackgroundMargin": 0.0,
-          "BackgroundPadding": 0.0,
+          "BackgroundPadding": 10.0,
           "BackgroundRadius": 0.0,
           "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/ministry-w-bg_2880x1364_5c9bf389-4c51-4bd7-ae10-10697333c77c.jpg?v=1693312160"
         }

@@ -20,8 +20,10 @@ class ItgeekWidgetFullView extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(title!, style: TextStyle(color: Util.getColorFromHex(titleTextColor!)),),
-        backgroundColor: Util.getColorFromHex(appBarColor!),
+        // title: Text(title!, style: TextStyle(color: Util.getColorFromHex(titleTextColor!)),),
+        // backgroundColor: Util.getColorFromHex(appBarColor!),
+        title: Text(title!, style: TextStyle(color: Colors.black, fontSize: 18)),        
+        backgroundColor: Colors.white,
       ),
       
       body: SingleChildScrollView(

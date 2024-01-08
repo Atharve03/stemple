@@ -74,6 +74,8 @@ class _FullImageState extends State<FullImage> {
     return Container(
         margin: EdgeInsets.all(
             widget.imageViewData.styleProperties!.backgroundMargin!),
+      padding: EdgeInsets.all(
+          widget.imageViewData.styleProperties!.backgroundPadding!),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(
               widget.imageViewData.styleProperties!.backgroundRadius!),
@@ -82,34 +84,35 @@ class _FullImageState extends State<FullImage> {
         width: double.infinity,
         child: Column(children: <Widget>[
           Container(
-            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
-            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
+            margin:
+                EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
+            padding:
+                EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
             child: ClipRRect(
                 borderRadius: BorderRadius.circular(
                     widget.imageViewData.styleProperties!.radius!),
                 child: widget.imageViewData.imageSrc != ""
-                    ? 
-                    // Image.network(
-                    //     widget.imageViewData.imageSrc!,
-                    //     fit: BoxFit.cover,
-                    //     width: double.infinity,
-                    //   )
-
-                      
-              FadeInImage.assetNetwork(
-                    placeholder: "assets/images/placeholder-image.jpg",
-                    image: widget.imageViewData.imageSrc!,
-                    fit: BoxFit.cover,
-                    width: double.infinity,
-                  )
+                    ? FadeInImage.assetNetwork(
+                        placeholder: "assets/images/placeholder-image.jpg",
+                        image: widget.imageViewData.imageSrc!,
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                      )
                     : Container()),
           ),
           widget.imageViewData.title != ""
               ? Container(
-                
-            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
+                  margin: EdgeInsets.all(
+                      widget.imageViewData.styleProperties!.margin!),
                   padding: EdgeInsets.all(
                       widget.imageViewData.styleProperties!.padding!),
+                  alignment:
+                      widget.imageViewData.styleProperties!.alignment! == "left"
+                          ? Alignment.centerLeft
+                          : widget.imageViewData.styleProperties!.alignment! ==
+                                  "right"
+                              ? Alignment.centerRight
+                              : Alignment.center,
                   child: Text(
                     widget.imageViewData.title!,
                     style: TextStyle(
@@ -122,9 +125,6 @@ class _FullImageState extends State<FullImage> {
                   ),
                 )
               : Container(),
-          // SizedBox(
-          //   height: 5,
-          // ),
           LayoutBuilder(builder: (context, size) {
             var span = TextSpan(
               text: mytext,
@@ -134,9 +134,6 @@ class _FullImageState extends State<FullImage> {
             // Use a textpainter to determine if it will exceed max lines
             var tp = TextPainter(
               maxLines: maxLines,
-              // textAlign: TextAlign.left,
-              // textAlign: widget.imageViewData.styleProperties!.alignment! == "left" ? TextAlign.left : widget.imageViewData.styleProperties!.alignment == "right" ? TextAlign.right : TextAlign.center,
-
               textDirection: TextDirection.ltr,
               text: span,
             );
@@ -145,44 +142,17 @@ class _FullImageState extends State<FullImage> {
             tp.layout(maxWidth: size.maxWidth);
 
             // whether the text overflowed or not
-            var exceeded = tp.maxLines;
+            var exceeded = tp.didExceedMaxLines;
             print("cjvgffmdf ${exceeded}");
-
-            widget.imageViewData.title != ""
-                ? Container(
-            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
-            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
-                    alignment: widget
-                                .imageViewData.styleProperties!.alignment! ==
-                            "left"
-                        ? Alignment.centerLeft
-                        : widget.imageViewData.styleProperties!.alignment! ==
-                                "right"
-                            ? Alignment.centerRight
-                            : Alignment.center,
-                    child: Text(
-                      widget.imageViewData.title!,
-                      style: TextStyle(
-                          color: titleTextColor,
-                          fontWeight: FontWeight.bold,
-                          fontSize: widget.imageViewData.styleProperties!
-                              .titleTextFontSize!),
-                      maxLines: widget
-                          .imageViewData.styleProperties!.titleTextNoOfLines!,
-                    ),
-                  )
-                : Container();
-            // SizedBox(
-            //   height: 5,
-            // );
 
             return widget.imageViewData.description != ""
                 ? Column(
                     children: [
                       Container(
-                        
-            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
-            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
+                        margin: EdgeInsets.all(
+                            widget.imageViewData.styleProperties!.margin!),
+                        padding: EdgeInsets.all(
+                            widget.imageViewData.styleProperties!.padding!),
                         alignment:
                             widget.imageViewData.styleProperties!.alignment! ==
                                     "left"
@@ -234,10 +204,11 @@ class _FullImageState extends State<FullImage> {
                                           .backgroundColor)));
                         },
                         child: Text(
-                          exceeded != null ? 'Read More' : '',
+                          exceeded ? 'Read More' : '',
                           style: TextStyle(
                             color: Colors.blue,
                             fontWeight: FontWeight.bold,
+                            fontSize: 12
                           ),
                         ),
                       ),
@@ -296,39 +267,42 @@ class _HalfImageState extends State<HalfImage> {
     return Container(
       margin: EdgeInsets.all(
           widget.imageViewData.styleProperties!.backgroundMargin!),
+      padding: EdgeInsets.all(
+          widget.imageViewData.styleProperties!.backgroundPadding!),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(
             widget.imageViewData.styleProperties!.backgroundRadius!),
         color: bgColor,
       ),
-      padding: EdgeInsets.all(
-          widget.imageViewData.styleProperties!.backgroundPadding!),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
-            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
-            width: 220,
+            margin:
+                EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
+            padding:
+                EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
+            // width: MediaQuery.of(context).size.width * .04,
             height: 220,
-            
+
             // decoration: BoxDecoration(
-              // borderRadius: BorderRadius.circular(10.0),
-              // image: DecorationImage(
-              //   image: NetworkImage(
-              //     widget.imageViewData.imageSrc!,
-              //   ),
-              //   fit: BoxFit.cover,
-              // ),
+            // borderRadius: BorderRadius.circular(10.0),
+            // image: DecorationImage(
+            //   image: NetworkImage(
+            //     widget.imageViewData.imageSrc!,
+            //   ),
+            //   fit: BoxFit.cover,
             // ),
-              child: ClipRRect(
-                  borderRadius: BorderRadius.circular(widget.imageViewData.styleProperties!.radius!),
-                  child: FadeInImage.assetNetwork(
-                    placeholder: "assets/images/placeholder-image.jpg",
-                    image: widget.imageViewData.imageSrc!,
-                    fit: BoxFit.cover,
-                  )),
+            // ),
+            child: ClipRRect(
+                borderRadius: BorderRadius.circular(
+                    widget.imageViewData.styleProperties!.radius!),
+                child: FadeInImage.assetNetwork(
+                  placeholder: "assets/images/placeholder-image.jpg",
+                  image: widget.imageViewData.imageSrc!,
+                  fit: BoxFit.cover,
+                )),
           ),
           Flexible(
             child: Column(
@@ -337,8 +311,10 @@ class _HalfImageState extends State<HalfImage> {
               children: [
                 widget.imageViewData.title != ""
                     ? Container(
-            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
-            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
+                        margin: EdgeInsets.all(
+                            widget.imageViewData.styleProperties!.margin!),
+                        padding: EdgeInsets.all(
+                            widget.imageViewData.styleProperties!.padding!),
                         alignment:
                             widget.imageViewData.styleProperties!.alignment! ==
                                     "left"
@@ -379,12 +355,14 @@ class _HalfImageState extends State<HalfImage> {
                   tp.layout(maxWidth: size.maxWidth);
 
                   // whether the text overflowed or not
-                  var exceeded = tp.maxLines;
+                  var exceeded = tp.didExceedMaxLines;
                   print("cjvgffmdf ${exceeded}");
                   return Expanded(
                     child: Container(
-            margin: EdgeInsets.all(widget.imageViewData.styleProperties!.margin!),
-            padding: EdgeInsets.all(widget.imageViewData.styleProperties!.padding!),
+                        margin: EdgeInsets.all(
+                            widget.imageViewData.styleProperties!.margin!),
+                        padding: EdgeInsets.all(
+                            widget.imageViewData.styleProperties!.padding!),
                         // height: double.infinity,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(
@@ -465,11 +443,11 @@ class _HalfImageState extends State<HalfImage> {
                                                               .backgroundColor)));
                                         },
                                         child: Text(
-                                          exceeded != null ? 'Read More' : '',
+                                          exceeded ? 'Read More' : '',
                                           style: TextStyle(
-                                            color: Colors.blue,
-                                            fontWeight: FontWeight.bold,
-                                          ),
+                                              color: Colors.blue,
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 12),
                                         ),
                                       ),
                                     ],

@@ -6,35 +6,6 @@
         {
             "View": "BannerTextView",
             "TextViewData": {
-                "Title": "THE SATANIC TEMPLE\nMEMBER SERVICES",
-                "Description": "",
-                "StyleProperties": {
-                    "TitleTextColor": "#ffffff",
-                    "TitleTextFontName": "",
-                    "TitleTextFontSize": 17.0,
-                    "TitleTextFontWeight": "",
-                    "TitleTextNoOfLines": 4,
-                    "DescriptionTextColor": "#ffffff",
-                    "DescriptionTextFontName": "",
-                    "DescriptionTextFontSize": 24.0,
-                    "DescriptionTextFontWeight": "",
-                    "DescriptionTextNoOfLines": 4,
-                    "BackgroundColor": "#000000",
-                    "Alignment": "",
-                    "Margin": 5.0,
-                    "Padding": 5.0,
-                    "Radius": 5.0,
-                    "BackgroundMargin": 0.0,
-                    "BackgroundPadding": 0.0,
-                    "BackgroundRadius": 0.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/header-img_2880x1364_9cd9ae6d-11a1-4ff7-8ced-be037e3c0fc9_800x325.jpg?v=1695722879",
-                    "AspectRatio" : 1.0
-                }
-            }
-        },
-        {
-            "View": "BannerTextView",
-            "TextViewData": {
                 "Description": "The Satanic Good Works (SGW) facilitates charitable activities and provides community support.",
                 "Title": "GOOD WORKS AND SUPPORT",
                 "StyleProperties": {
@@ -151,8 +122,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "PAGE/PRODUCT/CATEOGRY",
-                "ActionId": "",
+                "ActionType": "Link",
+                "ActionId": "https://calendar.google.com/calendar/u/0/embed?src=bpk2gfh27nleg86eb4i2ml37js@group.calendar.google.com&pli=1",
                 "ButtonText": "ONLINE MEETINGS SCHEDULE",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",

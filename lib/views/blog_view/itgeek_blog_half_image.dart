@@ -137,7 +137,7 @@ class _ItgeekWidgetBlogHalfImageState extends State<ItgeekWidgetBlogHalfImage> {
                       tp.layout(maxWidth: size.maxWidth);
 
                       // whether the text overflowed or not
-                      var exceeded = tp.maxLines;
+                      var exceeded = tp.didExceedMaxLines;
                       print("cjvgffmdf ${exceeded}");
                       return Column(
                         children: [
@@ -184,10 +184,11 @@ class _ItgeekWidgetBlogHalfImageState extends State<ItgeekWidgetBlogHalfImage> {
                                               widget.style.backgroundColor)));
                             },
                             child: Text(
-                              exceeded != null ? 'Read More' : '',
+                              exceeded ? 'Read More' : '',
                               style: TextStyle(
                                 color: Colors.blue,
                                 fontWeight: FontWeight.bold,
+                              fontSize: 12
                               ),
                             ),
                           ),

@@ -4,39 +4,10 @@
   "AppBarIcon": "#000000",
   "PageLayout": [
     {
-      "View": "BannerTextView",
-      "TextViewData": {
-        "Description": "",
-        "Title": "FIND A CONGREGATION",
-        "StyleProperties": {
-          "AspectRatio" : 1.0,
-          "TitleTextColor": "#ffffff",
-          "TitleTextFontName": "",
-          "TitleTextFontSize": 17.0,
-          "TitleTextFontWeight": "",
-          "TitleTextNoOfLines": 4,
-          "DescriptionTextColor": "#ffffff",
-          "DescriptionTextFontName": "",
-          "DescriptionTextFontSize": 15.0,
-          "DescriptionTextFontWeight": "",
-          "DescriptionTextNoOfLines": 4,
-          "BackgroundColor": "#000000",
-          "Alignment": "",
-          "Margin": 5.0,
-          "Padding": 25.0,
-          "Radius": 5.0,
-          "BackgroundMargin": 0.0,
-          "BackgroundPadding": 0.0,
-          "BackgroundRadius": 0.0,
-          "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/chapter-hero_2880x1364_0439ba49-eb6f-42fe-9746-66e95e8a4735_1472x384.jpg?v=1693831317"
-        }
-      }
-    },
-    {
       "View": "GridView",
       "GridViewData": {
         "StyleProperties": {
-          "AspectRatio" : 1.0,
+          "AspectRatio" : 0.54,
           "TitleTextColor": "#ffffff",
           "TitleTextFontName": "",
           "TitleTextFontSize": 17.0,

@@ -8,7 +8,7 @@ import 'package:stemple/views/faq_view/itgeek_widget_faq.dart';
 import 'package:stemple/views/grid_view/itgeek_widget_grid_view.dart';
 import 'package:stemple/views/social_view/itgeek_widget_social_media_link.dart';
 import 'package:stemple/views/textlist_view/itgeek_text_list_view.dart';
-import 'package:stemple/views/web_view/itgeek_webview.dart';
+import 'package:stemple/views/web_view/itgeek_widget_webview.dart';
 
 import 'modelClass/page_layout_model.dart';
 import 'views/banners_view/itgeek_widget_banner_video.dart';
@@ -38,6 +38,7 @@ class _DashboardState extends State<Dashboard> {
             print("my list is nnnnnnnnnnnnnnnnnnnn ${myList}");
 
             return Container(
+              color: Colors.black,
               height: MediaQuery.of(context).size.height,
               width: MediaQuery.of(context).size.width,
               child: SingleChildScrollView(
@@ -50,7 +51,7 @@ class _DashboardState extends State<Dashboard> {
                   }
                   if (element.view == Views.WebView.name) {
                     print("mywebbb");
-                    return ItgeekWebView(element.webViewData!);
+                    return ItgeekWidgetWebView(element.webViewData!);
                   }
                   if (element.view == Views.GridView.name) {
                     return ItgeekWidgetGridView(element.gridViewData!);

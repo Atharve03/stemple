@@ -51,14 +51,21 @@
             }
         },
         {
-            "View": "BannerTextView",
-            "TextViewData": {
-                "Description": "TST has petitioned the state of Texas to allow Satanic Temple members the ability to continue receiving voluntary abortions as part of a religious ritual. Texas’s trigger ban on abortions took effect after the reversal of Roe v. Wade, which prohibited all abortions for any reason, including instances of rape or incest. TST claims that this ban infringes upon its members’ right to practice their religion and requests Texas recognize its members’ religious rights.\nOn September 1, 2021, Texas passed S.B. 8, which prohibited anyone from getting an abortion after a detectable fetal tone. The law also allows citizens to sue people who obtained, performed, or helped to perform an abortion. TST filed a lawsuit against Texas, stating that this law prohibits TST members from performing a religious ritual to remove nonviable fetal tissue up to 24 weeks of pregnancy.  \nThis motion was made prior to the reversal of Roe v. Wade in late June 2022. After the Supreme Court ruling, Texas enforced its“trigger ban” on abortions, whereby abortion procedures became illegal within Texas state lines. TST is requesting an immediate injunction because the law inhibits TST members’ ability to practice their religion freely.\nCLAIMS WE ASSERT\nTST holds that Texas’s abortion ban is inspired by a religious dogma that asserts that life begins at conception, which contravenes TST’s belief that non-viable fetal tissue is part of the pregnant person and is free to be voluntarily removed. TST claims that this law violates the Establishment Clause and Free Exercise Clause of the First Amendment in that it legislates a religious viewpoint that prohibits TST members’ ability to perform their religious practices freely.\nLOOKING BEYOND TEXAS\nWith the reversal of Roe, it becomes even more imperative that we assert our claim that Texas inhibits our members’ access to protect religious reproductive care. However, Texas is not the only state to impede members’ abortion access. Nearly half the country has enforced anti-abortion policies or trigger bans. Texas is only the first of many states in which we must defend our constitutional rights. \nYou can support TST’s mission to protect reproductive rights by donating to our Religious Reproductive Rights campaign. Each donation will go towards legal work in all 50 states to protect TST members’ reproductive care access.",
-                "Title": "TST DEMANDS TEXAS RECOGNIZE RELIGIOUS RIGHT TO PERFORM ABORTION POST-ROE",
+            "View": "BannerButtonTextView",
+            "ButtonViewData": {
+                "ActionType": "Html",
+                "ActionId": "donation_view",
+                "ButtonText": "               DONATE NOW               ",
+                "ActionHandle": "",
+                "ButtonViewViewType": "ButtonViewBottom",
+                "Title": "",
+                "Description": "",
+                "ButtonBackgroundColor": "#439490",
+                "ButtonFontColor": "#ffffff",
                 "StyleProperties": {
                     "AspectRatio": 1.0,
                     "TitleTextColor": "#ffffff",
-                    "TitleT  extFontName": "",
+                    "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
                     "TitleTextFontWeight": "",
                     "TitleTextNoOfLines": 4,
@@ -67,13 +74,42 @@
                     "DescriptionTextFontSize": 15.0,
                     "DescriptionTextFontWeight": "",
                     "DescriptionTextNoOfLines": 4,
-                    "BackgroundColor": "#9A1515",
+                    "BackgroundColor": "#ffffff",
                     "Alignment": "",
                     "Margin": 0.0,
-                    "Padding": 15.0,
+                    "Padding": 5.0,
                     "Radius": 0.0,
                     "BackgroundMargin": 0.0,
-                    "BackgroundPadding": 0.0,
+                    "BackgroundPadding": 15.0,
+                    "BackgroundRadius": 0.0,
+                    "ImageSrc": ""
+                }
+            }
+        },
+        {
+            "View": "BannerTextView",
+            "TextViewData": {
+                "Description": "TST has petitioned the state of Texas to allow Satanic Temple members the ability to continue receiving voluntary abortions as part of a religious ritual. Texas’s trigger ban on abortions took effect after the reversal of Roe v. Wade, which prohibited all abortions for any reason, including instances of rape or incest. TST claims that this ban infringes upon its members’ right to practice their religion and requests Texas recognize its members’ religious rights.\nOn September 1, 2021, Texas passed S.B. 8, which prohibited anyone from getting an abortion after a detectable fetal tone. The law also allows citizens to sue people who obtained, performed, or helped to perform an abortion. TST filed a lawsuit against Texas, stating that this law prohibits TST members from performing a religious ritual to remove nonviable fetal tissue up to 24 weeks of pregnancy.  \nThis motion was made prior to the reversal of Roe v. Wade in late June 2022. After the Supreme Court ruling, Texas enforced its“trigger ban” on abortions, whereby abortion procedures became illegal within Texas state lines. TST is requesting an immediate injunction because the law inhibits TST members’ ability to practice their religion freely.\nCLAIMS WE ASSERT\nTST holds that Texas’s abortion ban is inspired by a religious dogma that asserts that life begins at conception, which contravenes TST’s belief that non-viable fetal tissue is part of the pregnant person and is free to be voluntarily removed. TST claims that this law violates the Establishment Clause and Free Exercise Clause of the First Amendment in that it legislates a religious viewpoint that prohibits TST members’ ability to perform their religious practices freely.\nLOOKING BEYOND TEXAS\nWith the reversal of Roe, it becomes even more imperative that we assert our claim that Texas inhibits our members’ access to protect religious reproductive care. However, Texas is not the only state to impede members’ abortion access. Nearly half the country has enforced anti-abortion policies or trigger bans. Texas is only the first of many states in which we must defend our constitutional rights. \nYou can support TST’s mission to protect reproductive rights by donating to our Religious Reproductive Rights campaign. Each donation will go towards legal work in all 50 states to protect TST members’ reproductive care access.",
+                "Title": "TST DEMANDS TEXAS RECOGNIZE RELIGIOUS RIGHT TO PERFORM ABORTION POST-ROE",
+                "StyleProperties": {
+                    "AspectRatio": 1.0,
+                    "TitleTextColor": "#ffffff",
+                    "TitleTextFontName": "",
+                    "TitleTextFontSize": 17.0,
+                    "TitleTextFontWeight": "",
+                    "TitleTextNoOfLines": 4,
+                    "DescriptionTextColor": "#ffffff",
+                    "DescriptionTextFontName": "",
+                    "DescriptionTextFontSize": 15.0,
+                    "DescriptionTextFontWeight": "",
+                    "DescriptionTextNoOfLines": 4,
+                    "BackgroundColor": "#000000",
+                    "Alignment": "",
+                    "Margin": 0.0,
+                    "Padding": 5.0,
+                    "Radius": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 5.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_BG_Red_2_f5ffe150-8d07-4ffc-9bce-a99d81b13f08.png?v=1691673410);"
                 }
@@ -83,7 +119,7 @@
             "View": "BlogView",
             "BlogViewData": {
                 "BlogViewAutoPlay": false,
-                "BlogViewAspectRatio": 1.0,
+                "BlogViewAspectRatio": 0.93,
                 "BlogViewEnableInfiniteScroll": true,
                 "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
                 "BlogViewViewportFraction": 1.0,
@@ -106,11 +142,11 @@
                     "DescriptionTextNoOfLines": 4,
                     "BackgroundColor": "#ffffff",
                     "Alignment": "",
-                    "Margin": 10.0,
-                    "Padding": 0.0,
+                    "Margin": 0.0,
+                    "Padding": 5.0,
                     "Radius": 15.0,
-                    "BackgroundMargin": 10.0,
-                    "BackgroundPadding": 0.0,
+                    "BackgroundMargin": 0.0,
+                    "BackgroundPadding": 5.0,
                     "BackgroundRadius": 15.0,
                     "ImageSrc": ""
                 },
@@ -164,11 +200,11 @@
                     "DescriptionTextNoOfLines": 4,
                     "BackgroundColor": "#303d3d",
                     "Alignment": "",
-                    "Margin": 5.0,
+                    "Margin": 0.0,
                     "Padding": 5.0,
                     "Radius": 15.0,
                     "BackgroundMargin": 0.0,
-                    "BackgroundPadding": 0.0,
+                    "BackgroundPadding": 5.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": ""
                 }
@@ -208,8 +244,8 @@
         {
             "View": "BannerTextView",
             "TextViewData": {
-                "Description": "THE SATANIC TEMPLE MISSION",
-                "Title": "The mission of The Satanic Temple, a religious organization, is to encourage benevolence and empathy among all people, reject tyrannical authority, advocate practical common sense, oppose injustice, and undertake noble pursuits. The Satanic Temple has publicly confronted hate groups, fought for the abolition of corporal punishment in public schools, applied for equal representation when religious installations are placed on public property",
+                "Title": "THE SATANIC TEMPLE MISSION",
+                "Description": "The mission of The Satanic Temple, a religious organization, is to encourage benevolence and empathy among all people, reject tyrannical authority, advocate practical common sense, oppose injustice, and undertake noble pursuits. The Satanic Temple has publicly confronted hate groups, fought for the abolition of corporal punishment in public schools, applied for equal representation when religious installations are placed on public property",
                 "StyleProperties": {
                     "AspectRatio": 1.0,
                     "TitleTextColor": "#ffffff",
@@ -238,7 +274,7 @@
             "View": "BlogView",
             "BlogViewData": {
                 "BlogViewAutoPlay": false,
-                "BlogViewAspectRatio": 0.9,
+                "BlogViewAspectRatio": 0.88,
                 "BlogViewEnableInfiniteScroll": true,
                 "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
                 "BlogViewViewportFraction": 1.0,
@@ -329,12 +365,12 @@
                 "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "Get Your Personalized Membership Card.",
                 "Description": "",
-                "ButtonBackgroundColor": "#ff0000",
+                "ButtonBackgroundColor": "#439490",
                 "ButtonFontColor": "#ffffff",
                 "StyleProperties": {
                     "AspectRatio": 1.0,
                     "TitleTextColor": "#ffffff",
-                    "TitleT  extFontName": "",
+                    "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
                     "TitleTextFontWeight": "",
                     "TitleTextNoOfLines": 4,
@@ -346,10 +382,10 @@
                     "BackgroundColor": "#000000",
                     "Alignment": "",
                     "Margin": 0.0,
-                    "Padding": 15.0,
+                    "Padding": 5.0,
                     "Radius": 0.0,
                     "BackgroundMargin": 0.0,
-                    "BackgroundPadding": 0.0,
+                    "BackgroundPadding": 15.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_36_2048x2048_7c74b227-3372-47e0-9b26-72c9317c4a13_800x450.png?v=1691586965"
                 }
@@ -396,12 +432,12 @@
                 "ButtonViewViewType": "ButtonViewBottom",
                 "Title": "General Admission gallery tickets",
                 "Description": "",
-                "ButtonBackgroundColor": "#ff0000",
+                "ButtonBackgroundColor": "#439490",
                 "ButtonFontColor": "#ffffff",
                 "StyleProperties": {
                     "AspectRatio": 1.0,
                     "TitleTextColor": "#ffffff",
-                    "TitleT  extFontName": "",
+                    "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
                     "TitleTextFontWeight": "",
                     "TitleTextNoOfLines": 4,
@@ -413,10 +449,10 @@
                     "BackgroundColor": "#ffffff",
                     "Alignment": "",
                     "Margin": 0.0,
-                    "Padding": 15.0,
+                    "Padding": 5.0,
                     "Radius": 0.0,
                     "BackgroundMargin": 0.0,
-                    "BackgroundPadding": 0.0,
+                    "BackgroundPadding": 15.0,
                     "BackgroundRadius": 0.0,
                     "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_36_2048x2048_7c74b227-3372-47e0-9b26-72c9317c4a13_800x450.png?v=1691586965"
                 }

@@ -31,5 +31,6 @@ class MyDashboard extends StatelessWidget {
           title: const Text("Slider Example", style: TextStyle(color: Colors.white),),
         ),
         body: Container(child: Dashboard()));
+        // body: ,
   }
 }

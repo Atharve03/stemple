@@ -1,11 +1,32 @@
+
 {
+  "View": "WebView",
   "WebViewData": {
-    "ContentType": "WebViewLink",
-    "ScaleSize" : 0.8,
-    "HtmlContent": "<h1>Hello, Flutter In-App WebView!</h1><p>This is a simple HTML content embedded in a Flutter in-app web view.</p>",
-    "BackgroundColor": "#EAEAEA",
-    "Link": "https://flutter.dev",
-    "Padding" : 0.0,
-    "Margin" : 0.0
+    "ContentType": "WebViewHtml",
+    "ScaleSize": 0.8,
+    "HtmlContent": "",
+    "Link": "",
+    "StyleProperties": {
+      "AspectRatio": 1.0,
+      "TitleTextColor": "#ffffff",
+      "TitleTextFontName": "",
+      "TitleTextFontSize": 18.0,
+      "TitleTextFontWeight": "",
+      "TitleTextNoOfLines": 4,
+      "DescriptionTextColor": "#ffffff",
+      "DescriptionTextFontName": "",
+      "DescriptionTextFontSize": 14.0,
+      "DescriptionTextFontWeight": "",
+      "DescriptionTextNoOfLines": 4,
+      "BackgroundColor": "#171717",
+      "Alignment": "",
+      "Margin": 8.0,
+      "Padding": 8.0,
+      "Radius": 15.0,
+      "BackgroundMargin": 8.0,
+      "BackgroundPadding": 8.0,
+      "BackgroundRadius": 15.0,
+      "ImageSrc": ""
+    }
   }
 }

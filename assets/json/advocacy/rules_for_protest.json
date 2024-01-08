@@ -4,35 +4,6 @@
     "AppBarIcon": "#000000",
     "PageLayout": [
         {
-            "View": "BannerTextView",
-            "TextViewData": {
-                "Description": "",
-                "Title": "TST’S GUIDE TO\nEFFECTIVE PROTEST",
-                "StyleProperties": {
-                    "TitleTextColor": "#ffffff",
-                    "TitleT  extFontName": "",
-                    "TitleTextFontSize": 17.0,
-                    "TitleTextFontWeight": "",
-                    "TitleTextNoOfLines": 4,
-                    "DescriptionTextColor": "#ffffff",
-                    "DescriptionTextFontName": "",
-                    "DescriptionTextFontSize": 15.0,
-                    "DescriptionTextFontWeight": "",
-                    "DescriptionTextNoOfLines": 4,
-                    "BackgroundColor": "#000000",
-                    "Alignment": "",
-                    "Margin": 0.0,
-                    "Padding": 15.0,
-                    "Radius": 0.0,
-                    "BackgroundMargin": 0.0,
-                    "BackgroundPadding": 30.0,
-                    "BackgroundRadius": 0.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_3_1248x384.jpg?v=1693568892",
-                    "AspectRatio" : 1.0
-                }
-            }
-        },
-        {
             "View": "TextTileView",
             "textTileData": {
                 "StyleProperties": {
@@ -48,12 +19,12 @@
                     "DescriptionTextNoOfLines": 4,
                     "BackgroundColor": "#ffffff",
                     "Alignment": "",
-                    "Margin": 15.0,
-                    "Padding": 15.0,
-                    "Radius": 15.0,
-                    "BackgroundMargin": 15.0,
+                    "Margin": 5.0,
+                    "Padding": 5.0,
+                    "Radius": 5.0,
+                    "BackgroundMargin": 5.0,
                     "BackgroundPadding": 15.0,
-                    "BackgroundRadius": 15.0,
+                    "BackgroundRadius": 5.0,
                    "ImageSrc": "",
                    "AspectRatio" : 1.0
                 },

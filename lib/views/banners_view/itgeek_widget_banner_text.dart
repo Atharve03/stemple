@@ -124,8 +124,8 @@ class _TextViewState extends State<TextView> {
               tp.layout(maxWidth: size.maxWidth);
 
               // whether the text overflowed or not
-              var exceeded = tp.maxLines;
-              print("cjvgffmdf ${exceeded}");
+              var exceeded = tp.didExceedMaxLines;
+              print("cjvgffmdf ${exceeded}and${widget.textViewData.title}");
               return widget.textViewData.description != ""
                   ? Column(
                       children: [
@@ -154,8 +154,7 @@ class _TextViewState extends State<TextView> {
                                 context,
                                 MaterialPageRoute(
                                     builder: (context) => ItgeekWidgetFullView(
-                                        widget.textViewData.styleProperties!
-                                            .imageSrc,
+                                        "",
                                         widget.textViewData.title!,
                                         widget.textViewData.description!,
                                         widget.textViewData.styleProperties!
@@ -178,10 +177,12 @@ class _TextViewState extends State<TextView> {
                                             .backgroundColor)));
                           },
                           child: Text(
-                            exceeded != null ? 'Read More' : '',
+                            exceeded ? 'Read More' : '',
+                            // exceeded! > widget.textViewData.styleProperties!.descriptionTextNoOfLines! ? 'Read More' : '',
                             style: TextStyle(
                               color: Colors.blue,
                               fontWeight: FontWeight.bold,
+                              fontSize: 12
                             ),
                           ),
                         ),

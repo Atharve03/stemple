@@ -6,16 +6,16 @@ import 'package:stemple/helper/viewType.dart';
 
 import '../../modelClass/data_model.dart';
 
-class ItgeekWebView extends StatefulWidget {
+class ItgeekWidgetWebView extends StatefulWidget {
   WebViewData data;
 
-  ItgeekWebView(this.data) {}
+  ItgeekWidgetWebView(this.data) {}
 
   @override
-  State<ItgeekWebView> createState() => _ItgeekWebViewState();
+  State<ItgeekWidgetWebView> createState() => _ItgeekWidgetWebViewState();
 }
 
-class _ItgeekWebViewState extends State<ItgeekWebView> {
+class _ItgeekWidgetWebViewState extends State<ItgeekWidgetWebView> {
   late InAppWebViewController _webViewController;
 
   double _height = 1;
@@ -51,12 +51,7 @@ class _ItgeekWebViewState extends State<ItgeekWebView> {
       // Load content based on the content type
 
       if (webViewData.contentType == ViewType.WebViewHtml.name) {
-        String htmlContent = '''
-                  <html>
-                  <head><meta name="viewport" content="width=device-width, initial-scale=${webViewData.scaleSize}"></head>
-                 <body> testdf sdf  </body>
-                  </html>
-                  ''';
+
 
         String decoded = utf8.decode(base64.decode(webViewData.htmlContent!));
 print("decoded$decoded");
