@@ -1,9 +1,10 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:stemple/helper/viewType.dart';
 import 'package:stemple/helper/util.dart';
 import 'package:stemple/views/full_view/itgeek_widget_full_view.dart';
 
-import '../../modelClass/data_model.dart';
+import 'package:stemple/modelClass/data_model.dart';
 
 class ItgeekWidgetBannerImage extends StatelessWidget {
   Function(ImageViewData) OnClick;
@@ -74,8 +75,8 @@ class _FullImageState extends State<FullImage> {
     return Container(
         margin: EdgeInsets.all(
             widget.imageViewData.styleProperties!.backgroundMargin!),
-      padding: EdgeInsets.all(
-          widget.imageViewData.styleProperties!.backgroundPadding!),
+        padding: EdgeInsets.all(
+            widget.imageViewData.styleProperties!.backgroundPadding!),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(
               widget.imageViewData.styleProperties!.backgroundRadius!),
@@ -92,12 +93,20 @@ class _FullImageState extends State<FullImage> {
                 borderRadius: BorderRadius.circular(
                     widget.imageViewData.styleProperties!.radius!),
                 child: widget.imageViewData.imageSrc != ""
-                    ? FadeInImage.assetNetwork(
-                        placeholder: "assets/images/placeholder-image.jpg",
-                        image: widget.imageViewData.imageSrc!,
+                    ? CachedNetworkImage(
                         fit: BoxFit.cover,
                         width: double.infinity,
-                      )
+                        imageUrl: widget.imageViewData.imageSrc!,
+                        placeholder: (context, url) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                              fit: BoxFit.fill,
+                            ),
+                        errorWidget: (context, url, error) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                              fit: BoxFit.fill,
+                            ))
                     : Container()),
           ),
           widget.imageViewData.title != ""
@@ -206,10 +215,9 @@ class _FullImageState extends State<FullImage> {
                         child: Text(
                           exceeded ? 'Read More' : '',
                           style: TextStyle(
-                            color: Colors.blue,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 12
-                          ),
+                              color: Colors.blue,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 12),
                         ),
                       ),
                     ],
@@ -234,6 +242,8 @@ class _HalfImageState extends State<HalfImage> {
 
   @override
   void initState() {
+
+    print("init invoked");
     controller.addListener(() {
       setState(() {
         mytext = controller.text;
@@ -298,14 +308,25 @@ class _HalfImageState extends State<HalfImage> {
             child: ClipRRect(
                 borderRadius: BorderRadius.circular(
                     widget.imageViewData.styleProperties!.radius!),
-                child: FadeInImage.assetNetwork(
-                  placeholder: "assets/images/placeholder-image.jpg",
-                  image: widget.imageViewData.imageSrc!,
-                  fit: BoxFit.cover,
-                )),
+                child:
+                 CachedNetworkImage(
+                        fit: BoxFit.cover,
+                        imageUrl: widget.imageViewData.imageSrc!,
+                        placeholder: (context, url) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                              fit: BoxFit.fill,
+                            ),
+                        errorWidget: (context, url, error) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                              fit: BoxFit.fill,
+                            ))
+                
+                ),
           ),
-          Flexible(
-            child: Column(
+          Flexible(child:
+           Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -357,8 +378,9 @@ class _HalfImageState extends State<HalfImage> {
                   // whether the text overflowed or not
                   var exceeded = tp.didExceedMaxLines;
                   print("cjvgffmdf ${exceeded}");
-                  return Expanded(
-                    child: Container(
+                  return
+                   Expanded(  child: 
+                   Container(
                         margin: EdgeInsets.all(
                             widget.imageViewData.styleProperties!.margin!),
                         padding: EdgeInsets.all(
@@ -454,7 +476,8 @@ class _HalfImageState extends State<HalfImage> {
                                   )
                                 : Container()
                           ],
-                        )),
+                        )
+                        ),
                   );
                 }),
               ],

@@ -1,4 +1,4 @@
-import 'package:stemple/modelClass/data_model.dart';
+import '../../modelClass/data_model.dart';
 
 class PageLayoutModel {
   String? backgroundColor;

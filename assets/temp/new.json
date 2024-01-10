@@ -169,7 +169,7 @@
                         "SliderButtonColor": "#000000",
                         "SliderBackgroundColor": "#808080",
                         "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
-                        "SliderBannerUID": 1,
+                        "SliderBannerUID": "",
                         "SliderButtonClicked": ""
                     },
                     {
@@ -180,7 +180,7 @@
                         "SliderButtonColor": "#000000",
                         "SliderBackgroundColor": "#808080",
                         "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
-                        "SliderBannerUID": 2,
+                        "SliderBannerUID": "",
                         "SliderButtonClicked": ""
                     },
                     {
@@ -191,7 +191,7 @@
                         "SliderButtonColor": "#000000",
                         "SliderBackgroundColor": "#808080",
                         "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
-                        "SliderBannerUID": 1234,
+                        "SliderBannerUID": "",
                         "SliderButtonClicked": ""
                     }
                 ]
@@ -323,19 +323,23 @@
         {
             "View": "CategoryView",
             "CategoryData": {
+                "CategoryViewBackgroundColor": "#bcbcbc",
+                "CategoryAllVisible": true,
+                "CategoryLinkType": "Category",
+                
                 "StyleProperties": {
                     "AspectRatio": 1.0,
-                    "TitleTextColor": "#ddddd",
+                    "TitleTextColor": "#000000",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
                     "TitleTextFontWeight": "",
                     "TitleTextNoOfLines": 4,
-                    "DescriptionTextColor": "#ddddd",
+                    "DescriptionTextColor": "#000000",
                     "DescriptionTextFontName": "",
                     "DescriptionTextFontSize": 15.0,
                     "DescriptionTextFontWeight": "",
                     "DescriptionTextNoOfLines": 4,
-                    "BackgroundColor": "#ddddd",
+                    "BackgroundColor": "#EAEAEA",
                     "Alignment": "",
                     "Margin": 15.0,
                     "Padding": 15.0,
@@ -345,9 +349,6 @@
                     "BackgroundRadius": 15.0,
                     "ImageSrc": ""
                 },
-                "CategoryViewBackgroundColor": "#bcbcbc",
-                "CategoryAllVisible": true,
-                "CategoryLinkType": "Category",
                 "CategoryItems": [
                     {
                         "CategoryImageLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -387,17 +388,17 @@
             "ProductData": {
                 "StyleProperties": {
                     "AspectRatio": 1.0,
-                    "TitleTextColor": "#ddddd",
+                    "TitleTextColor": "#000000",
                     "TitleTextFontName": "",
                     "TitleTextFontSize": 17.0,
                     "TitleTextFontWeight": "",
                     "TitleTextNoOfLines": 4,
-                    "DescriptionTextColor": "#ddddd",
+                    "DescriptionTextColor": "#000000",
                     "DescriptionTextFontName": "",
                     "DescriptionTextFontSize": 15.0,
                     "DescriptionTextFontWeight": "",
                     "DescriptionTextNoOfLines": 4,
-                    "BackgroundColor": "#ddddd",
+                    "BackgroundColor": "#EAEAEA",
                     "Alignment": "",
                     "Margin": 15.0,
                     "Padding": 15.0,

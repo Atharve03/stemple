@@ -1,7 +1,8 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import '../../helper/util.dart';
-import '../../modelClass/data_model.dart';
+import 'package:stemple/helper/util.dart';
+import 'package:stemple/modelClass/data_model.dart';
 import '../full_view/itgeek_widget_full_view.dart';
 class ItgeekWidgetBlogPosition extends StatefulWidget {
   BlogViewItems blogViewItems;
@@ -67,11 +68,18 @@ class _WidgetCallPositionState extends State<ItgeekWidgetBlogPosition> {
              
               child: ClipRRect(
                   borderRadius: BorderRadius.circular(widget.style.radius!),
-                  child: FadeInImage.assetNetwork(
-                    placeholder: "assets/images/placeholder-image.jpg",
-                    image: widget.blogViewItems.blogViewImagePath!,
-                    fit: BoxFit.cover,
-                  )),
+                  child: CachedNetworkImage(
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                        imageUrl: widget.blogViewItems.blogViewImagePath!,
+                        placeholder: (context, url) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                            ),
+                        errorWidget: (context, url, error) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                            ))),
           ),
           Positioned(
             bottom: 20,

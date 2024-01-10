@@ -4,7 +4,9 @@ enum ActionType {
   Product,
   Category,
   Route,
-  Page
+  Page,
+  Email,
+  Contact
 }
 
 // PAGE/PRODUCT/CATEOGRY/LINK

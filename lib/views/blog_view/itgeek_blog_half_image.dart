@@ -1,7 +1,8 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:stemple/helper/util.dart';
 
-import '../../modelClass/data_model.dart';
+import 'package:stemple/modelClass/data_model.dart';
 
 import '../full_view/itgeek_widget_full_view.dart';
 
@@ -39,16 +40,12 @@ class _ItgeekWidgetBlogHalfImageState extends State<ItgeekWidgetBlogHalfImage> {
 
   @override
   Widget build(BuildContext context) {
-    var textColor = Util.getColorFromHex(widget.style.titleTextColor!);
-    // var bgColor = Util.getColorFromHex(blogViewItems.blogViewBackgroundColor!);
-    var descriptionTextColor =
-        Util.getColorFromHex(widget.style.descriptionTextColor!);
     int maxLines = widget.style.descriptionTextNoOfLines!;
     double fontSize = widget.style.descriptionTextFontSize!;
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(widget.style.radius!),
-        color: Util.getColorFromHex(widget.style.backgroundColor!),
+        // color: Util.getColorFromHex(widget.style.backgroundColor!),
       ),
       margin: EdgeInsets.all(widget.style.backgroundMargin!),
       padding: EdgeInsets.all(widget.style.backgroundPadding!),
@@ -75,11 +72,20 @@ class _ItgeekWidgetBlogHalfImageState extends State<ItgeekWidgetBlogHalfImage> {
               // ),
               child: ClipRRect(
                   borderRadius: BorderRadius.circular(widget.style.radius!),
-                  child: FadeInImage.assetNetwork(
-                    placeholder: "assets/images/placeholder-image.jpg",
-                    image: widget.blogViewItems.blogViewImagePath!,
-                    fit: BoxFit.cover,
-                  )),
+                  child:CachedNetworkImage(
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                        imageUrl: widget.blogViewItems.blogViewImagePath!,
+                        placeholder: (context, url) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                              fit: BoxFit.cover,
+                            ),
+                        errorWidget: (context, url, error) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                              fit: BoxFit.cover,
+                            ))),
             ),
           ),
           Positioned(
@@ -89,6 +95,13 @@ class _ItgeekWidgetBlogHalfImageState extends State<ItgeekWidgetBlogHalfImage> {
             right: 0,
             child: Container(
                 decoration: BoxDecoration(
+                  boxShadow: [ 
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.5),
+                      offset: const Offset(0.0, 0.0),
+                      blurRadius: 2.0,
+                      spreadRadius:1.0,
+                    ), ],
                   borderRadius:
                       BorderRadius.circular(widget.style.radius!.toDouble()),
                   color: Util.getColorFromHex(widget.style.backgroundColor!)

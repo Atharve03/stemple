@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:stemple/helper/util.dart';
@@ -47,12 +48,18 @@ class ItgeekWidgetGridView extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(
                         gridViewData.styleProperties!.radius!),
-                    child: FadeInImage.assetNetwork(
-                      placeholder: "assets/images/placeholder-image.jpg",
-                      image: listItems[index].imageSrc!,
-                      fit: BoxFit.cover,
-                      // width: double.infinity,
-                    ),
+                    child: CachedNetworkImage(
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                        imageUrl: listItems[index].imageSrc!,
+                        placeholder: (context, url) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                            ),
+                        errorWidget: (context, url, error) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                            ))
                   ),
                 ),
                 listItems[index].title != ""

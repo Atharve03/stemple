@@ -3,8 +3,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:stemple/helper/viewType.dart';
 
-import '../../helper/util.dart';
-import '../../modelClass/data_model.dart';
+import 'package:stemple/helper/util.dart';
+import 'package:stemple/modelClass/data_model.dart';
 import 'itgeek_blog_half_image.dart';
 import 'itgeek_blog_image.dart';
 import 'itgeek_blog_position_text.dart';

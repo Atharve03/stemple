@@ -6,31 +6,67 @@
     {
       "View": "BannerTextView",
       "TextViewData": {
-        "Title": "CONTACT TST",
-        "Description": "",
+        "Title": "CONTACT THE SHOP",
+        "Description": "We are here to help.\nWe respond to customer inquiries Monday-Friday 9am-5pm EST. And closed major holidays.\nFollow the TST Shop on Instagram to be first to hear about new merch and restocks.\nHelp Center",
         "StyleProperties": {
           "AspectRatio": 1.0,
-          "TitleTextColor": "#ffffff",
+          "TitleTextColor": "#171717",
           "TitleTextFontName": "",
-          "TitleTextFontSize": 24.0,
+          "TitleTextFontSize": 20.0,
           "TitleTextFontWeight": "",
           "TitleTextNoOfLines": 4,
-          "DescriptionTextColor": "#ddddd",
+          "DescriptionTextColor": "#171717",
           "DescriptionTextFontName": "",
-          "DescriptionTextFontSize": 24.0,
+          "DescriptionTextFontSize": 16.0,
           "DescriptionTextFontWeight": "",
           "DescriptionTextNoOfLines": 4,
-          "BackgroundColor": "#171717",
+          "BackgroundColor": "#ffffff",
           "Alignment": "",
-          "Margin": 15.0,
-          "Padding": 15.0,
+          "Margin": 0.0,
+          "Padding": 5.0,
           "Radius": 15.0,
           "BackgroundMargin": 0.0,
           "BackgroundPadding": 8.0,
           "BackgroundRadius": 15.0,
-          "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/effective-banner_2880x1364_10a7b13c-5f7a-49d9-ab9d-32b5e64c6209_1664x512.jpg?v=1694017420"
+          "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/contact-bg_2880x1364_5ea3acc3-14bc-453c-81f4-654ba29fa799.jpg?v=1693922395"
         }
       }
+    },
+    {
+        "View": "BannerButtonTextView",
+        "ButtonViewData": {
+            "ActionType": "Route",
+            "ActionId": "contactFormScreen",
+            "ButtonText": "      Contact      ",
+            "ActionHandle": "",
+            "ButtonViewViewType": "ButtonViewBottom",
+            "Title": "",
+            "Description": "",
+            "ButtonBackgroundColor": "#FF0000",
+            "ButtonFontColor": "#ffffff",
+            "StyleProperties": {
+                "AspectRatio": 1.0,
+                "TitleTextColor": "#ffffff",
+                "TitleTextFontName": "",
+                "TitleTextFontSize": 17.0,
+                "TitleTextFontWeight": "",
+                "TitleTextNoOfLines": 4,
+                "DescriptionTextColor": "#ffffff",
+                "DescriptionTextFontName": "",
+                "DescriptionTextFontSize": 15.0,
+                "DescriptionTextFontWeight": "",
+                "DescriptionTextNoOfLines": 4,
+                "BackgroundColor": "#000000",
+                "Alignment": "",
+                "Margin": 0.0,
+                "Padding": 5.0,
+                "Radius": 15.0,
+                "BackgroundMargin": 0.0,
+                "BackgroundPadding": 15.0,
+                "BackgroundRadius": 0.0,
+                "ImageSrc": ""
+            }
+        }
     }
   ]
 }

@@ -21,30 +21,19 @@
                         "SliderButtonText": "",
                         "SliderButtonColor": "#000000",
                         "SliderBackgroundColor": "#000000",
-                        "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
-                        "SliderBannerUID": 1,
+                        "SliderBannerType": "",
+                        "SliderBannerUID": "",
                         "SliderButtonClicked": ""
                     },
                     {
                         "SliderType": "SliderImageView",
                         "SliderText": "",
-                        "SliderLink": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_22.png?v=1704083495",
+                        "SliderLink": "https://thesatanictemple.com/cdn/shop/files/SAMSAC_Homepage_Banners_2ebab9d1-970a-4142-bcfe-b4f9ae20af60.png?v=1696883905",
                         "SliderButtonText": "",
                         "SliderButtonColor": "#000000",
-                        "SliderBackgroundColor": "#000000",
-                        "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
-                        "SliderBannerUID": 2,
-                        "SliderButtonClicked": ""
-                    },
-                    {
-                        "SliderType": "SliderImageView",
-                        "SliderText": "",
-                        "SliderLink": "https://thesatanictemple.com/cdn/shop/files/Untitled_design_22.png?v=1704083495",
-                        "SliderButtonText": "",
-                        "SliderButtonColor": "#000000",
-                        "SliderBackgroundColor": "#000000",
-                        "SliderBannerType": "Product/Category/Blog/Weblink/Normal",
-                        "SliderBannerUID": 3,
+                        "SliderBackgroundColor": "#009193",
+                        "SliderBannerType": "",
+                        "SliderBannerUID": "",
                         "SliderButtonClicked": ""
                     }
                 ]
@@ -124,8 +113,8 @@
                 "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
                 "BlogViewViewportFraction": 1.0,
                 "BlogViewViewType": "BlogViewHalfImageHalfText",
-                "BlogViewActiveColor": "#ffbf00",
-                "BlogViewColorDots": "#0000FF",
+                "BlogViewActiveColor": "#ffffff",
+                "BlogViewColorDots": "#bcbcbc",
                 "Blog_Handle": "",
                 "BlogFromItem": false,
                 "StyleProperties": {
@@ -260,13 +249,13 @@
                     "DescriptionTextNoOfLines": 4,
                     "BackgroundColor": "#303d3d",
                     "Alignment": "",
-                    "Margin": 5.0,
-                    "Padding": 15.0,
+                    "Margin": 0.0,
+                    "Padding": 5.0,
                     "Radius": 0.0,
                     "BackgroundMargin": 0.0,
-                    "BackgroundPadding": 0.0,
+                    "BackgroundPadding": 5.0,
                     "BackgroundRadius": 0.0,
-                    "ImageSrc": "https://thesatanictemple.com/cdn/shop/files/TST_BG_Wht_4_2880x1364_ae068c6a-467c-4715-b300-4d205548cea5_2880x1364.png?v=1691749247"
+                    "ImageSrc": ""
                 }
             }
         },
@@ -279,8 +268,8 @@
                 "BlogViewAutoPlayAnimationDuration": "Duration(milliseconds: 800)",
                 "BlogViewViewportFraction": 1.0,
                 "BlogViewViewType": "BlogViewFullImage",
-                "BlogViewActiveColor": "#ffbf00",
-                "BlogViewColorDots": "#000000",
+                "BlogViewActiveColor": "#ffffff",
+                "BlogViewColorDots": "#bcbcbc",
                 "Blog_Handle": "",
                 "BlogFromItem": false,
                 "StyleProperties": {
@@ -358,8 +347,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
-                "ActionId": "",
+                "ActionType": "Product",
+                "ActionId": "gid://shopify/Product/140724928539",
                 "ButtonText": "CHOOSE AND PERSONALIZE CARD",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",
@@ -425,8 +414,8 @@
         {
             "View": "BannerButtonTextView",
             "ButtonViewData": {
-                "ActionType": "PAGE/PRODUCT/CATEOGRY/LINK",
-                "ActionId": "",
+                "ActionType": "Product",
+                "ActionId": "gid://shopify/Product/140724928539",
                 "ButtonText": "PURCHASE YOUR TICKET",
                 "ActionHandle": "",
                 "ButtonViewViewType": "ButtonViewBottom",

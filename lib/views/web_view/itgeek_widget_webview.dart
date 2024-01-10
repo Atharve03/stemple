@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:stemple/helper/viewType.dart';
 
-import '../../modelClass/data_model.dart';
+import 'package:stemple/modelClass/data_model.dart';
 
 class ItgeekWidgetWebView extends StatefulWidget {
   WebViewData data;

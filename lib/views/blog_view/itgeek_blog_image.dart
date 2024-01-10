@@ -1,7 +1,8 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
-import '../../helper/util.dart';
-import '../../modelClass/data_model.dart';
+import 'package:stemple/helper/util.dart';
+import 'package:stemple/modelClass/data_model.dart';
 import '../full_view/itgeek_widget_full_view.dart';
 
 class ItgeekWidgetBlog extends StatefulWidget {
@@ -62,8 +63,21 @@ class _ItgeekWidgetBlogState extends State<ItgeekWidgetBlog> {
                 borderRadius:
                     BorderRadius.circular(widget.style.radius!.toDouble()),
                 child: 
-                FadeInImage.assetNetwork(placeholder: "assets/images/placeholder-image.jpg", image: widget.blogViewItems.blogViewImagePath!, fit: BoxFit.cover,)
-               
+
+CachedNetworkImage(
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                        imageUrl: widget.blogViewItems.blogViewImagePath!,
+                        placeholder: (context, url) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                              fit: BoxFit.cover,
+                            ),
+                        errorWidget: (context, url, error) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                              fit: BoxFit.cover,
+                            ))               
                
                 // Image.network(
                 //   widget.blogViewItems.blogViewImagePath !,

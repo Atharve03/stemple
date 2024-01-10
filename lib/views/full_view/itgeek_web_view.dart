@@ -16,9 +16,9 @@ class _ItgeekWebViewState extends State<ItgeekWebView> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text(widget.link!, style: TextStyle(color: Colors.black)),
+          title: Text(widget.link!, style: TextStyle(color: Colors.white)),
           // backgroundColor: Util.getColorFromHex(appBarColor!),
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.black,
         ),
         body: Container(
             color: Colors.white,

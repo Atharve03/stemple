@@ -68,6 +68,26 @@ class _DashboardState extends State<Dashboard> {
                     return ItgeekWidgetSlider(element.sliderData!, (item) {
                       (element.sliderData);
                       print("itemSliders $item");
+
+
+                      if (item.sliderBannerType == "Product") {
+                        print("Slider Type Product");
+
+                      } else if (item.sliderBannerType == "Category") {
+
+                        print("Slider Type Category");
+                      } else if (item.sliderBannerType == "Weblink") {
+                        print("Slider Type Weblink");
+
+                      } else if (item.sliderBannerType == "Blog") {
+                        print("Slider Type Blog");
+
+                      } else {
+                        print("Slider Type Normal");
+
+                      }
+
+
                     });
                   }
                   if (element.view == Views.CategoryView.name) {

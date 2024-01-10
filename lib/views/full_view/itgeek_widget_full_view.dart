@@ -1,5 +1,6 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import '../../helper/util.dart';
+import 'package:stemple/helper/util.dart';
 
 
 class ItgeekWidgetFullView extends StatelessWidget {
@@ -22,8 +23,8 @@ class ItgeekWidgetFullView extends StatelessWidget {
       appBar: AppBar(
         // title: Text(title!, style: TextStyle(color: Util.getColorFromHex(titleTextColor!)),),
         // backgroundColor: Util.getColorFromHex(appBarColor!),
-        title: Text(title!, style: TextStyle(color: Colors.black, fontSize: 18)),        
-        backgroundColor: Colors.white,
+        title: Text(title!, style: TextStyle(color: Colors.white, fontSize: 18)),        
+        backgroundColor: Colors.black,
       ),
       
       body: SingleChildScrollView(
@@ -47,12 +48,18 @@ class ItgeekWidgetFullView extends StatelessWidget {
                 ClipRRect(
                   // borderRadius:
                       // BorderRadius.circular(imageViewData.imageViewRadius!),
-                  child: FadeInImage.assetNetwork(
-                    placeholder: "assets/images/placeholder-image.jpg",
-                    image : imageSrc!,
-                    fit: BoxFit.cover,
-                    width: double.infinity,
-                  ),
+                  child: CachedNetworkImage(
+                        fit: BoxFit.cover,
+                        width: double.infinity,
+                        imageUrl: imageSrc!,
+                        placeholder: (context, url) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                            ),
+                        errorWidget: (context, url, error) => Image.asset(
+                              'assets/images/placeholder-image.jpg',
+                              package: 'jsontoview',
+                            )),
                 ),
               ) : Container(),
               title != ""

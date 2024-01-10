@@ -1,0 +1,50 @@
+
+{
+    "View": "ProductView",
+    "ProductData": {
+        "StyleProperties": {
+            "AspectRatio": 1.0,
+            "TitleTextColor": "#ddddd",
+            "TitleTextFontName": "",
+            "TitleTextFontSize": 17.0,
+            "TitleTextFontWeight": "",
+            "TitleTextNoOfLines": 4,
+            "DescriptionTextColor": "#ddddd",
+            "DescriptionTextFontName": "",
+            "DescriptionTextFontSize": 15.0,
+            "DescriptionTextFontWeight": "",
+            "DescriptionTextNoOfLines": 4,
+            "BackgroundColor": "#ddddd",
+            "Alignment": "",
+            "Margin": 15.0,
+            "Padding": 15.0,
+            "Radius": 15.0,
+            "BackgroundMargin": 15.0,
+            "BackgroundPadding": 15.0,
+            "BackgroundRadius": 15.0,
+            "ImageSrc": ""
+        },
+
+        
+        "ProductViewBackgroundColor": "#bcbcbc",
+        "ProductAllVisible": true,
+        "ProductLinkType": "Product",
+        "CategoryLinkHandle": "Image",
+        "CategoryLinkId": 5,
+        "ShowCategoryProduct": false,
+        
+        
+        
+        
+        
+        "ProductItems": [
+            {
+                "ProductImageLink": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "ProductLinkHandle": "Image",
+                "ProductLinkId": 1,
+                "ProductPrice": 99.0,
+                "ProductTitleText": "T-Shirt"
+            }
+        ]
+    }
+}

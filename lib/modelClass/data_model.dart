@@ -303,7 +303,7 @@ class SliderItems {
   String? sliderButtonColor;
   String? sliderBackgroundColor;
   String? sliderBannerType;
-  int? sliderBannerUID;
+  String? sliderBannerUID;
   String? sliderButtonClicked;
 
   SliderItems(

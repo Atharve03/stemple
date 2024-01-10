@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:stemple/helper/viewType.dart';
-import '../../helper/util.dart';
-import '../../modelClass/data_model.dart';
+import 'package:stemple/helper/util.dart';
+import 'package:stemple/modelClass/data_model.dart';
 import '../full_view/itgeek_widget_full_view.dart';
 
 class ItgeekWidgetFaq extends StatefulWidget {
